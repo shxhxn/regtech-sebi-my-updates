@@ -11,6 +11,7 @@ class Frequency(str, Enum):
     one_time = "one_time"
     ongoing = "ongoing"
     quarterly = "quarterly"
+    half_yearly = "half_yearly"
     annual = "annual"
     event_driven = "event_driven"
     not_specified = "not_specified"
