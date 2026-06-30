@@ -66,6 +66,24 @@ def load_json(name):
 
 # -- Trust & Verification --
 with tab0:
+    summ = load_json("executive_summary.json")
+    if summ:
+        st.markdown("#### Executive Overview")
+        e1, e2, e3, e4 = st.columns(4)
+        e1.metric("Total obligations", summ.get("total_obligations", 0))
+        e2.metric("High / Critical risk", summ.get("high_or_critical_risk", 0))
+        e3.metric("With deadline", summ.get("with_explicit_deadline", 0))
+        e4.metric("Verifiably traceable", f'{summ.get("verifiably_traceable_pct", 0)}%')
+        rb = summ.get("risk_breakdown", {})
+        st.markdown(
+            f'<p class="meta">Risk profile: '
+            f'<span class="pill pill-rem">Critical {rb.get("Critical",0)}</span>&nbsp;'
+            f'<span class="pill pill-mod">High {rb.get("High",0)}</span>&nbsp;'
+            f'<span class="pill" style="background:#eef2ff;color:#1d4ed8;">Medium {rb.get("Medium",0)}</span>&nbsp;'
+            f'<span class="pill pill-ok">Low {rb.get("Low",0)}</span></p>',
+            unsafe_allow_html=True)
+        st.divider()
+
     st.markdown("#### Trust & Verification")
     st.markdown('<p class="meta">Every obligation is independently checked against the source PDF -- not just asserted by the model.</p>', unsafe_allow_html=True)
     obligations, verified = load_best("obligations_2025")
@@ -118,18 +136,32 @@ with tab1:
         st.write("")
         f1,f2,f3 = st.columns([1,1,2])
         freq = f1.selectbox("Frequency", ["All","ongoing","one_time","monthly","quarterly","half_yearly","annual","event_driven","not_specified"])
-        trust_opts = ["All","grounded","partial","flagged"] if verified else ["All"]
-        trust = f2.selectbox("Trust", trust_opts, disabled=not verified)
-        search = f3.text_input("Search")
+        has_risk = any(o.get("risk_band") for o in obligations)
+        risk_opts = ["All","Critical","High","Medium","Low"] if has_risk else ["All"]
+        risk_sel = f2.selectbox("Risk", risk_opts, disabled=not has_risk)
+        depts = sorted({o.get("department") for o in obligations if o.get("department")})
+        dept_sel = f3.selectbox("Department", ["All"] + depts) if depts else "All"
+        search = st.text_input("Search")
         rows = obligations
         if freq != "All": rows = [o for o in rows if o.get("frequency")==freq]
-        if verified and trust != "All": rows = [o for o in rows if o.get("grounding_band")==trust]
+        if has_risk and risk_sel != "All": rows = [o for o in rows if o.get("risk_band")==risk_sel]
+        if dept_sel != "All": rows = [o for o in rows if o.get("department")==dept_sel]
         if search: rows = [o for o in rows if search.lower() in json.dumps(o).lower()]
         st.markdown(f'<p class="meta">{len(rows)} of {len(obligations)} obligations</p>', unsafe_allow_html=True)
         for o in rows:
             with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
+                badges = []
+                if o.get("risk_band"):
+                    rmap = {"Critical":"pill-rem","High":"pill-mod","Medium":"","Low":"pill-ok"}
+                    style = 'style="background:#eef2ff;color:#1d4ed8;"' if o.get("risk_band")=="Medium" else ""
+                    badges.append(f'<span class="pill {rmap.get(o.get("risk_band"),"")}" {style}>{o.get("risk_band")} risk</span>')
+                if o.get("department"):
+                    badges.append(f'<span class="pill" style="background:#f1f5f9;color:#475569;">{o.get("department")}</span>')
                 if verified:
-                    st.markdown(f'<span class="pill pill-{o.get("grounding_band","")}">{o.get("grounding_band","")} - {o.get("grounding_score","")}</span>', unsafe_allow_html=True)
+                    badges.append(f'<span class="pill pill-{o.get("grounding_band","")}">{o.get("grounding_band","")} - {o.get("grounding_score","")}</span>')
+                if badges:
+                    st.markdown(" ".join(badges), unsafe_allow_html=True)
+                    st.write("")
                 a,b = st.columns(2)
                 a.markdown("**Required action**"); a.write(o.get("required_action","-"))
                 b.markdown("**Evidence**"); b.write(o.get("evidence","-"))
