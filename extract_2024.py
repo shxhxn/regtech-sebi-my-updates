@@ -6,11 +6,26 @@ from src.llm import extract_structured
 from src.config import IA_CIRCULAR_2024, EXTRACTION_MODEL, OUTPUT
 
 PROMPT = """You are a SEBI compliance analyst. Below is an excerpt from the SEBI Master Circular
-for Investment Advisers (SEBI/HO/MIRSD-PoD-1/P/CIR/2024/50, dated 21-May-2024).
+for Investment Advisers (SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025).
 
 Extract every distinct regulatory OBLIGATION an Investment Adviser must comply with in this excerpt.
 For each obligation capture the exact source clause number and the verbatim text that states it.
 Do NOT invent obligations not present in the text. If none are present, return an empty list.
+
+CRITICAL EXTRACTION RULES -- follow these strictly:
+1. Extract each distinct requirement as its OWN separate obligation, even if it appears in the
+   same paragraph or sentence cluster as another requirement. Do NOT merge multiple requirements
+   into a single obligation.
+2. Pay special attention to a "shall" sentence immediately followed by a "shall not" sentence in
+   the same paragraph (e.g. "IAs shall accept fees via X. IAs shall not accept cash deposits.") --
+   these are TWO separate obligations, not one.
+3. Each lettered or numbered sub-clause -- (a), (b), (c) or i, ii, iii or step 1, step 2 -- is its
+   own separate obligation, even if closely related to the one before it.
+4. Check footnotes carefully. If a footnote contains its own requirement or deadline (often marked
+   with a superscript number in the text), extract it as a separate obligation with its own
+   source_clause noting it is a footnote.
+5. When in doubt, extract MORE granular obligations rather than merging them -- under-extraction
+   (missing an obligation) is a worse error than over-extraction (a few closely related items).
 
 EXCERPT:
 ---

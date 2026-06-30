@@ -1,0 +1,21 @@
+{
+  "section_label": "Audit publication/reporting, risk profiling for non-individual clients, website requirements, conduct measures (free trials, fees, complaints display), and IAASB/RAASB enlistment",
+  "obligations": [
+    {"id": "gold-01", "title": "Publish adverse audit findings on website", "key_phrase": "publish the adverse findings of audit, if any, along with the action taken thereof"},
+    {"id": "gold-02", "title": "Provide compliance audit report to clients", "key_phrase": "IA shall provide the compliance audit report to its clients"},
+    {"id": "gold-03", "title": "Comply with additional audit requirements from FY2025", "key_phrase": "additional audit requirements under this clause starting with audit report for financial year ending March 31, 2025"},
+    {"id": "gold-04", "title": "Use investment policy for non-individual client risk profiling", "key_phrase": "use the investment policy as approved by board/management team of such non-individual clients"},
+    {"id": "gold-05", "title": "Discretion not to onboard if no investment policy available", "key_phrase": "discretion not to onboard non-individual clients if they are unable to do risk profiling"},
+    {"id": "gold-06", "title": "Maintain a functional website", "key_phrase": "investment adviser shall maintain a functional website, which shall contain the details as may be specified by SEBI"},
+    {"id": "gold-07", "title": "Display specified details prominently across channels", "key_phrase": "shall display the following information prominently on its website, mobile app, printed or electronic materials"},
+    {"id": "gold-08", "title": "Confirm website details to IAASB by June 30, 2025", "key_phrase": "Existing IAs, as on January 8, 2025, shall confirm the details of its website to IAASB latest by June 30, 2025"},
+    {"id": "gold-09", "title": "No free trials for products/services", "key_phrase": "IAs shall not provide free trial for any products/services to prospective clients"},
+    {"id": "gold-10", "title": "No part/advance payments accepted", "key_phrase": "shall not accept part payments (where some part of the fee is paid in advance)"},
+    {"id": "gold-11", "title": "Complete risk profile before giving advice", "key_phrase": "Complete the risk profile of the client based on information provided by the client"},
+    {"id": "gold-12", "title": "Obtain client consent on completed risk profile", "key_phrase": "Obtain consent of the client on completed risk profile either through registered email or physical document"},
+    {"id": "gold-13", "title": "Accept fees only via specified banking channels", "key_phrase": "accept fees strictly by account payee crossed cheques / demand draft or by way of direct credit"},
+    {"id": "gold-14", "title": "No cash deposits accepted for fees", "key_phrase": "IAs shall not accept cash deposits"},
+    {"id": "gold-15", "title": "Display complaints status on homepage monthly", "key_phrase": "display the following information on the homepage (without scrolling) of their website/mobile app"},
+    {"id": "gold-16", "title": "RA/IA applicant must be enlisted with RAASB/IAASB", "key_phrase": "applicant seeking registration as RA and IA is required to be enlisted with RAASB and IAASB respectively"}
+  ]
+}

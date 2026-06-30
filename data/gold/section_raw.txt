@@ -1,0 +1,99 @@
+ and shall also publish the adverse findings of audit, if any,
+along with the action taken thereof on their website. IA shall provide
+the compliance audit report to its clients.
+(e) IAs shall ensure compliance with the additional audit requirements
+under this clause starting with audit report for financial year ending
+March 31, 2025.
+(xv) Risk profiling and suitability for non-individual clients
+(a) Regulations 16 and 17 of the IA Regulations mandate risk profiling
+and suitability for all categories of clients.
+(b) In order to further enhance the risk profiling and encompass suitable
+factors in case of non-individual clients, IA shall use the investment
+policy as approved by board/management team of such non-
+individual clients for risk profiling and suitability analysis.
+(c) The discretion to share the investment policy/relevant excerpts of
+the policy shall lie with the non-individual client. However, IA shall
+have discretion not to onboard non-individual clients if they are
+unable to do risk profiling of the non-individual client in the absence
+of investment policy.
+Page 21 of 94
+(xvi) Requirement of website 11
+In terms of Regulation 19A of IA Regulations, an investment adviser
+shall maintain a functional website, which shall contain the details
+as may be specified by SEBI.
+(xvii) Display of details on website and in other communication channels
+In order to protect the interest of investors and bring more transparency
+in the functioning of the IAs, the IAs shall display the following
+information prominently on its website, mobile app, printed or electronic
+materials, know your client forms, client agreements and other
+correspondences with the clients:
+ Complete name of Investment Adviser as registered with SEBI,
+ Type of Registration-Individual, Non-Individual
+ Registration number, validity of registration,
+ Complete address with telephone numbers,
+ Contact details of the Principal Officer –contact no, email id etc.,
+ Corresponding SEBI regional/local office address.
+11 Existing IAs, as on January 8, 2025, shall confirm the details of its website to
+IAASB latest by June 30, 2025.
+Page 22 of 94
+II. MEASURES TO STRENGTHEN THE CONDUCT OF INVESTMENT
+ADVISERS
+2. Measures to strengthen the conduct of Investment Advisers12
+2.1 Restriction on free trial
+As per the IA Regulations, investment advice can be given after completing
+risk profiling of the client and ensuring suitability of the product. It has come
+to the notice that IAs are providing advice on free trial basis without
+considering risk profile of the client. Hence the IAs shall not provide free trial
+for any products/services to prospective clients. Further, IAs shall not accept
+part payments (where some part of the fee is paid in advance) for any
+product/service.
+2.2 Proper risk profiling and consent of client on risk profiling
+Risk profiling of the client is essential to provide advice on suitable product
+based on various criteria like income, age, securities market experience etc.
+Registered IAs shall provide investment advice only after completing the
+following steps: a. Complete the risk profile of the client based on information
+provided by the client. b. Obtain consent of the client on completed risk
+profile either through registered email or physical document.
+2.3 Receiving fees though banking channel only
+It is observed that the IAs are receiving advisory fee in the form of cash
+deposit in their bank accounts or through payment gateways which does not
+provide proper audit trail of fees received from the clients. To bring
+transparency in dealing with the clients, IAs shall accept fees strictly by
+account payee crossed cheques / demand draft or by way of direct credit
+into their bank account through NEFT/ RTGS/IMPS/UPI. It is clarified that,
+IAs shall not accept cash deposits.
+12 Reference: Circular No. SEBI/HO/IMD/DF1/CIR/P/2019/169 dated December 27, 2019
+Page 23 of 94
+2.4 Display of complaints status on website
+In order to bring more transparency and enable the investors to take
+informed decision regarding availing of advisory services, IAs shall display
+the following information on the homepage (without scrolling) of their
+website/mobile app. The information should be displayed properly using font
+size of 12 or above and made available on monthly basis (within 7 days of
+end of the previous month) in a format as per Annexure C13:
+13 Reference: Circular No. SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/80 dated June 02, 2025
+Page 24 of 94
+III. ADMINISTRATION AND SUPERVISION OF INVESTMENT ADVISERS
+3. Framework for administration and supervision of Research Analysts and
+Investment Advisers14
+Background
+3.1. In terms of Regulation 38A of the ‘SECC Regulations’15 notified on April 26,
+2024, a recognised Stock Exchange may undertake the activities of
+administration and supervision over specified intermediaries on such terms
+and conditions and to such an extent as may be specified. Accordingly, Stock
+Exchange shall now be recognised as RAASB16 and IAASB17 under
+Regulation 14 of the ‘RA Regulations’18 and the IA Regulations for
+administration and supervision of Research Analysts (‘RAs’) and Investment
+Advisers (‘IAs’) respectively. The detailed framework for RAASB and IAASB
+is specified in Annexure D.
+3.2. As per clause (xi) of Regulation 6 of RA Regulations and clause (n) of
+Regulation 6 of IA Regulations, an applicant seeking registration as RA and
+IA is required to be enlisted with RAASB and IAASB respectively. The
+provisions governing enlistment including enlistment of existing RAs/IAs and
+of applicants whose registration applications are under process as on the
+effective date of this circular are specified in the enclosed framework at
+Annexure D.
+Repeal and Savings with respect to the erstwhile IAASB framework
+3.3. From the effective date of the provisions of clause 3, the erstwhile framework
+for administration and supervision of IAs as specified through SEBI circular
+number SEBI/HO/IMD/IMD-I/DOF1/P/CIR/2021/579 dated June 18, 2021
