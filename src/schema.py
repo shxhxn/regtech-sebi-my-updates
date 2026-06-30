@@ -10,6 +10,7 @@ class IntermediaryType(str, Enum):
 class Frequency(str, Enum):
     one_time = "one_time"
     ongoing = "ongoing"
+    monthly = "monthly"
     quarterly = "quarterly"
     half_yearly = "half_yearly"
     annual = "annual"
