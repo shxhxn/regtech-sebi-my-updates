@@ -1,0 +1,56 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-06-30T04:44:05.672056+00:00",
+    "event_type": "extraction_2025",
+    "details": {
+      "obligation_count": 198,
+      "grounded": 192,
+      "flagged_for_review": 1,
+      "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+    },
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "086fa6cf390a5ef8d3617e287f3971142cca5d3524aed0b43124fc6881219521"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-06-30T05:43:02.509219+00:00",
+    "event_type": "operations_register_built",
+    "details": {
+      "register_rows": 198
+    },
+    "prev_hash": "086fa6cf390a5ef8d3617e287f3971142cca5d3524aed0b43124fc6881219521",
+    "hash": "a9ca4d5e9c94f71ea04313ad50e9c1f5a787dce7fbfa9d993d436e2ab1cade9b"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-06-30T05:43:02.511201+00:00",
+    "event_type": "executable_rules_built",
+    "details": {
+      "rule_count": 198
+    },
+    "prev_hash": "a9ca4d5e9c94f71ea04313ad50e9c1f5a787dce7fbfa9d993d436e2ab1cade9b",
+    "hash": "2b45918cf40707401a7008338add3ed47da5e944a6cf8037244d4d4b518bac37"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-06-30T05:59:56.736029+00:00",
+    "event_type": "sebi_monitor_change_detected",
+    "details": {
+      "changes": [
+        {
+          "category": "Investment Advisers",
+          "new_date": "Feb 06, 2026",
+          "new_url": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-investment-advisers_99569.html"
+        },
+        {
+          "category": "Stock Brokers",
+          "new_date": "Jun 17, 2025",
+          "new_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-stock-brokers_94623.html"
+        }
+      ]
+    },
+    "prev_hash": "2b45918cf40707401a7008338add3ed47da5e944a6cf8037244d4d4b518bac37",
+    "hash": "88de04c706e035c21ee505475576ddd4ac551132ddbacd8416559ab38bf5aa0e"
+  }
+]

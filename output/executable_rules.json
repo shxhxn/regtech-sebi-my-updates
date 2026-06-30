@@ -1,0 +1,2976 @@
+[
+  {
+    "rule_id": "rule-ia-redressal-01",
+    "obligation_id": "ia-redressal-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Investor complaint",
+    "required_action": "Redress investor grievances through SCORES and ODR platforms",
+    "required_evidence": "Record of complaint resolution",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "6",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-kyc-01",
+    "obligation_id": "ia-kyc-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Onboarding new client",
+    "required_action": "Follow KYC norms",
+    "required_evidence": "KYC documents",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "20",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-aml-01",
+    "obligation_id": "ia-aml-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing operations",
+    "required_action": "Follow AML and CFT obligations",
+    "required_evidence": "AML and CFT policies and procedures",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "18",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-reporting-01",
+    "obligation_id": "ia-reporting-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Quarterly/Annually",
+    "required_action": "Submit periodic reports",
+    "required_evidence": "Submitted reports",
+    "frequency": "quarterly",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "27",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-segregation-01",
+    "obligation_id": "ia-segregation-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing advisory or distribution services",
+    "required_action": "Adopt compliance and monitoring process for client level segregation",
+    "required_evidence": "Records of client level segregation",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 22(5) of the IA Regulations",
+    "source_circular": "SEBI/HO/IMD/DF1/CIR/P/2020/182 dated September 23, 2020 and SEBI/HO/MIRSD/ MIRSD-PoD-1/P/CIR/2025/003 dated January 08, 2025"
+  },
+  {
+    "rule_id": "rule-ia-client-eligibility-01",
+    "obligation_id": "ia-client-eligibility-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When onboarding a new client",
+    "required_action": "Make option to avail either advisory services or distribution services available to the client",
+    "required_evidence": "Records of client eligibility determination",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(b) A new client will be eligible to avail either advisory or distribution services within the group/family of IA",
+    "source_circular": "SEBI/HO/IMD/DF1/CIR/P/2020/182 dated September 23, 2020 and SEBI/HO/MIRSD/ MIRSD-PoD-1/P/CIR/2025/003 dated January 08, 2025"
+  },
+  {
+    "rule_id": "rule-ia-client-discretion-01",
+    "obligation_id": "ia-client-discretion-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When applying client level segregation",
+    "required_action": "Allow clients to continue holding assets prior to segregation",
+    "required_evidence": "Records of client asset holdings",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(d) The client shall have discretion to continue holding assets prior to the applicability of this segregation under the existing advisory/distribution arrangement",
+    "source_circular": "SEBI/HO/IMD/DF1/CIR/P/2020/182 dated September 23, 2020 and SEBI/HO/MIRSD/ MIRSD-PoD-1/P/CIR/2025/003 dated January 08, 2025"
+  },
+  {
+    "rule_id": "rule-ia-pan-record-01",
+    "obligation_id": "ia-pan-record-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When onboarding a new client",
+    "required_action": "Use PAN as control record for client identification and segregation",
+    "required_evidence": "Records of client PAN",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(e) Permanent Account Number (PAN) of each client shall be the control record for identification and client level segregation",
+    "source_circular": "SEBI/HO/IMD/DF1/CIR/P/2020/182 dated September 23, 2020 and SEBI/HO/MIRSD/ MIRSD-PoD-1/P/CIR/2025/003 dated January 08, 2025"
+  },
+  {
+    "rule_id": "rule-ia-direct-plans-01",
+    "obligation_id": "ia-direct-plans-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When advising clients on investment products",
+    "required_action": "Advise direct plans (non-commission based) of products",
+    "required_evidence": "Record of advice provided to clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(h)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-agreement-01",
+    "obligation_id": "ia-agreement-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advisory services to clients",
+    "required_action": "Enter into an investment advisory agreement with clients",
+    "required_evidence": "Copy of the agreement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-mitc-01",
+    "obligation_id": "ia-mitc-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When entering into an investment advisory agreement",
+    "required_action": "Incorporate MITC into the agreement",
+    "required_evidence": "Copy of the agreement with MITC",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(c)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-client-consent-01",
+    "obligation_id": "ia-client-consent-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When entering into an investment advisory agreement",
+    "required_action": "Obtain client consent to the agreement",
+    "required_evidence": "Record of client consent",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(d)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-annual-certificate-01",
+    "obligation_id": "ia-annual-certificate-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Annually",
+    "required_action": "Obtain an annual certificate from an auditor",
+    "required_evidence": "Annual certificate from an auditor",
+    "frequency": "annual",
+    "deadline_rule": "within 6 months of the end of the financial year",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(i)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-charge-01",
+    "obligation_id": "ia-fee-charge-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Client signs agreement",
+    "required_action": "Charge fees from client",
+    "required_evidence": "Record of fee payment",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(g)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-limit-01",
+    "obligation_id": "ia-fee-limit-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Charging fees from clients",
+    "required_action": "Comply with fee limits",
+    "required_evidence": "Record of fee payment",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-aua-documentation-01",
+    "obligation_id": "ia-aua-documentation-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Charging fees based on AUA",
+    "required_action": "Provide supporting documents for AUA",
+    "required_evidence": "Supporting documents like demat statements, unit statements etc.",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(e)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-pre-existing-arrangement-01",
+    "obligation_id": "ia-pre-existing-arrangement-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Charging fees based on AUA",
+    "required_action": "Deduct pre-existing arrangements from AUA",
+    "required_evidence": "Record of AUA calculation",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(f)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-advance-01",
+    "obligation_id": "ia-fee-advance-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Client agreement",
+    "required_action": "Charge fees in advance, not exceeding one year",
+    "required_evidence": "Client agreement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(h)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-refund-01",
+    "obligation_id": "ia-fee-refund-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Premature termination of IA services",
+    "required_action": "Refund fees for unexpired period",
+    "required_evidence": "Refund receipt",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(h)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-breakage-01",
+    "obligation_id": "ia-fee-breakage-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Premature termination of IA services",
+    "required_action": "Retain breakage fee, not exceeding one-quarter fee",
+    "required_evidence": "Breakage fee receipt",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(h)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-deposit-requirement-01",
+    "obligation_id": "ia-deposit-requirement-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Number of clients",
+    "required_action": "Maintain deposit as per SEBI requirements",
+    "required_evidence": "Deposit receipt",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(iv)(a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-deposit-maintenance-01",
+    "obligation_id": "ia-deposit-maintenance-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Deposit requirement",
+    "required_action": "Maintain deposit with scheduled bank",
+    "required_evidence": "Deposit receipt",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(iv)(b)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-deposit-revision-01",
+    "obligation_id": "ia-deposit-revision-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Change in number of clients",
+    "required_action": "Revise deposit amount",
+    "required_evidence": "Revised deposit receipt",
+    "frequency": "event_driven",
+    "deadline_rule": "30th April of the subsequent financial year",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(iv)(c)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-qualification-01",
+    "obligation_id": "ia-qualification-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Existing as on September 30, 2020",
+    "required_action": "Comply with the enhanced qualification and experience requirement within the specified time period",
+    "required_evidence": "Certificate of qualification and experience",
+    "frequency": "one_time",
+    "deadline_rule": "within five years i.e. up to September 30, 2025",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 7 of the IA Regulations",
+    "source_circular": "SEBI (Investment Advisers) (Amendment) Regulations, 2020"
+  },
+  {
+    "rule_id": "rule-ia-registration-01",
+    "obligation_id": "ia-registration-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Number of clients exceeds three hundred or fee collected exceeds three crore rupees",
+    "required_action": "Apply for in-principle registration as non-individual investment adviser",
+    "required_evidence": "Application for in-principle registration",
+    "frequency": "event_driven",
+    "deadline_rule": "within the specified time limit",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 13(e) of the IA Regulations",
+    "source_circular": "SEBI Master Circular for Investment Advisers"
+  },
+  {
+    "rule_id": "rule-ia-transition-01",
+    "obligation_id": "ia-transition-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Application for in-principle registration as non-individual investment adviser",
+    "required_action": "Complete the transition process",
+    "required_evidence": "Confirmation of transition completion",
+    "frequency": "event_driven",
+    "deadline_rule": "within three months",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Para (d) of clause (vi)",
+    "source_circular": "SEBI Master Circular for Investment Advisers"
+  },
+  {
+    "rule_id": "rule-ia-client-service-01",
+    "obligation_id": "ia-client-service-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "During transition to non-individual IA",
+    "required_action": "Continue servicing existing clients",
+    "required_evidence": "Records of ongoing client service",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(e)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-ra-segregation-01",
+    "obligation_id": "ia-ra-segregation-01",
+    "applies_to": [
+      "investment_adviser",
+      "research_analyst"
+    ],
+    "trigger": "Dual registration as IA and RA",
+    "required_action": "Segregate investment advisory and research services",
+    "required_evidence": "Documentation of segregation of services",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(vii)(a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-ra-arms-length-01",
+    "obligation_id": "ia-ra-arms-length-01",
+    "applies_to": [
+      "investment_adviser",
+      "research_analyst"
+    ],
+    "trigger": "Dual registration as IA and RA",
+    "required_action": "Maintain arms-length relationship between IA and RA activities",
+    "required_evidence": "Undertaking stating maintenance of arms-length relationship",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(vii)(b)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-part-time-eligibility-01",
+    "obligation_id": "ia-part-time-eligibility-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Application for part-time IA registration",
+    "required_action": "Meet eligibility criteria",
+    "required_evidence": "Documentation of eligibility",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(viii)(a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-part-time-undertaking-01",
+    "obligation_id": "ia-part-time-undertaking-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Application for part-time IA registration",
+    "required_action": "Provide undertaking",
+    "required_evidence": "Undertaking document",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(viii)(d)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-arms-length-01",
+    "obligation_id": "ia-arms-length-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Engagement in investment advisory activity and other activities",
+    "required_action": "Maintain arms-length relationship",
+    "required_evidence": "Undertaking stating maintenance of arms-length relationship",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "undisclosed",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-disclaimer-01",
+    "obligation_id": "ia-disclaimer-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Providing services not under SEBI purview",
+    "required_action": "Provide disclaimer",
+    "required_evidence": "Disclaimer on invoices or service documents",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "e",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-conflict-disclosure-01",
+    "obligation_id": "ia-conflict-disclosure-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Engagement in other activities",
+    "required_action": "Disclose nature of other activities and ensure no conflict of interest",
+    "required_evidence": "Disclosure document or client agreement",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "f",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-principal-officer-01",
+    "obligation_id": "ia-principal-officer-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Non-individual investment adviser",
+    "required_action": "Designate a principal officer",
+    "required_evidence": "Record of principal officer designation",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 2(1)(s) of IA Regulations",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-llp-registration-01",
+    "obligation_id": "ia-llp-registration-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "No partner meets minimum qualification and certification requirements",
+    "required_action": "Register as a limited liability partnership",
+    "required_evidence": "Registration certificate",
+    "frequency": "one_time",
+    "deadline_rule": "September 30, 2025",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(ix)(b)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-compliance-officer-01",
+    "obligation_id": "ia-compliance-officer-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Non-individual investment adviser",
+    "required_action": "Appoint an independent professional as compliance officer",
+    "required_evidence": "Record of compliance officer appointment",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 20 of the IA Regulations",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-disclosure-01",
+    "obligation_id": "ia-disclosure-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Providing investment advice on non-SEBI products",
+    "required_action": "Make disclosure and obtain declaration and undertaking from clients",
+    "required_evidence": "Record of disclosure and client declaration/undertaking",
+    "frequency": "one_time",
+    "deadline_rule": "July 31, 2025 for existing clients",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Page 18 of 94",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-ai-disclosure-01",
+    "obligation_id": "ia-ai-disclosure-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Using AI tools for investment advice",
+    "required_action": "Disclose AI tool usage to clients",
+    "required_evidence": "Record of disclosure to clients",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 18(9) of the IA Regulations",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-ai-responsibility-01",
+    "obligation_id": "ia-ai-responsibility-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Using AI tools for investment advice",
+    "required_action": "Ensure security, confidentiality, and integrity of client data",
+    "required_evidence": "Records of AI tool usage and data protection measures",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 15(14) of the IA Regulations",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-record-keeping-01",
+    "obligation_id": "ia-record-keeping-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Interacting with clients",
+    "required_action": "Maintain records of interactions",
+    "required_evidence": "Records of interactions with clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 19(1) of the IA Regulations",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-implementation-recording-01",
+    "obligation_id": "ia-implementation-recording-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Providing implementation/execution services to advisory clients",
+    "required_action": "Maintain call recording of every consent for implementation/execution",
+    "required_evidence": "Call recordings",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "B",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-audit-01",
+    "obligation_id": "ia-audit-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "End of each financial year",
+    "required_action": "Conduct annual audit",
+    "required_evidence": "Audit report",
+    "frequency": "annual",
+    "deadline_rule": "Within six months from the end of each financial year",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(xiv) Audit (a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-audit-report-01",
+    "obligation_id": "ia-audit-report-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Completion of annual audit",
+    "required_action": "Submit audit report to IAASB/SEBI",
+    "required_evidence": "Audit report submission confirmation",
+    "frequency": "annual",
+    "deadline_rule": "Within one month from the date of the audit report",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(xiv) Audit (c) (i)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-adverse-findings-01",
+    "obligation_id": "ia-adverse-findings-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Identification of adverse findings during audit",
+    "required_action": "Submit adverse findings to IAASB/SEBI",
+    "required_evidence": "Adverse findings submission confirmation",
+    "frequency": "event_driven",
+    "deadline_rule": "Within one month from the date of the audit report",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(xiv) Audit (c) (ii)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-audit-report-publishing-01",
+    "obligation_id": "ia-audit-report-publishing-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Completion of annual audit",
+    "required_action": "Publish audit report on website",
+    "required_evidence": "Audit report published on website",
+    "frequency": "annual",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(xiv) Audit (d)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-risk-profiling-01",
+    "obligation_id": "ia-risk-profiling-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Onboarding of non-individual clients",
+    "required_action": "Conduct risk profiling and suitability analysis",
+    "required_evidence": "Risk profiling and suitability analysis records",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(xv) Risk profiling and suitability for non-individual clients (b)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-website-requirement-01",
+    "obligation_id": "ia-website-requirement-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Registration as an investment adviser",
+    "required_action": "Maintain a functional website with specified details",
+    "required_evidence": "Functional website with specified details",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(xvi) Requirement of website 11",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-website-details-01",
+    "obligation_id": "ia-website-details-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Registration as an investment adviser",
+    "required_action": "Display specified information on the website, mobile app, and other communication channels",
+    "required_evidence": "Specified information displayed on the website, mobile app, and other communication channels",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(xvii) Display of details on website and in other communication channels",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-free-trial-01",
+    "obligation_id": "ia-no-free-trial-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Prospective clients",
+    "required_action": "Not provide free trial for any products/services",
+    "required_evidence": "No free trial provided to prospective clients",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "2.1 Restriction on free trial",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-risk-profiling-consent-01",
+    "obligation_id": "ia-risk-profiling-consent-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Client risk profiling",
+    "required_action": "Obtain consent of the client on completed risk profile",
+    "required_evidence": "Record of client consent",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "2.2 Proper risk profiling and consent of client on risk profiling",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-receipt-banking-channel-01",
+    "obligation_id": "ia-fee-receipt-banking-channel-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Receipt of advisory fees",
+    "required_action": "Receive advisory fees through banking channels only",
+    "required_evidence": "Record of fees received through banking channels",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "2.3 Receiving fees though banking channel only",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-acceptance-01",
+    "obligation_id": "ia-fee-acceptance-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Receipt of fees from clients",
+    "required_action": "Accept fees through approved channels",
+    "required_evidence": "Record of payment receipts",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Para before 2.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94 dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-complaints-status-01",
+    "obligation_id": "ia-complaints-status-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Receipt of complaints from clients",
+    "required_action": "Display complaints status on website",
+    "required_evidence": "Website screenshot",
+    "frequency": "ongoing",
+    "deadline_rule": "within 7 days of end of the previous month",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "2.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94 dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-enlistment-01",
+    "obligation_id": "ia-enlistment-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Registration as Investment Adviser",
+    "required_action": "Enlist with IAASB",
+    "required_evidence": "Enlistment certificate",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "3.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94 dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-admin-fee-01",
+    "obligation_id": "ia-admin-fee-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Registration/Renewal",
+    "required_action": "Pay administrative fees as specified by RAASB/IAASB",
+    "required_evidence": "Payment receipt",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-SEC-3/P/CIR/2024/34 dated May 2, 2024"
+  },
+  {
+    "rule_id": "rule-ia-investor-charter-01",
+    "obligation_id": "ia-investor-charter-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All clients (existing and new)",
+    "required_action": "Disclose Investor Charter on website, mobile app, and provide a copy during client on-boarding",
+    "required_evidence": "Record of disclosure on website, mobile app, and client on-boarding documents",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "7.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-investor-grievance-redressal-01",
+    "obligation_id": "ia-investor-grievance-redressal-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Monthly",
+    "required_action": "Disclose complaints and redressal data on website and mobile app by 7th of succeeding month",
+    "required_evidence": "Record of disclosure on website and mobile app",
+    "frequency": "ongoing",
+    "deadline_rule": "7th of succeeding month",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "7.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-change-in-control-01",
+    "obligation_id": "ia-change-in-control-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Change in control",
+    "required_action": "Obtain prior approval from SEBI",
+    "required_evidence": "Record of prior approval from SEBI",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "8.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-prior-approval-01",
+    "obligation_id": "ia-prior-approval-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Change in control",
+    "required_action": "Make an online application to SEBI for prior approval",
+    "required_evidence": "Copy of approval letter from SEBI",
+    "frequency": "event_driven",
+    "deadline_rule": "within six months from the date of approval",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 15(11) of the IA Regulations, 8.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-prior-approval-02",
+    "obligation_id": "ia-prior-approval-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Change in control",
+    "required_action": "Provide information and declarations as specified in 8.2.ii",
+    "required_evidence": "Copy of online application and supporting documents",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "8.2.ii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-prior-approval-03",
+    "obligation_id": "ia-prior-approval-03",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Grant of prior approval by SEBI",
+    "required_action": "Inform all existing investors about the proposed change prior to effecting the same",
+    "required_evidence": "Record of notification to existing investors",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "8.2.ii.g.ii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-prior-approval-04",
+    "obligation_id": "ia-prior-approval-04",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Change in control",
+    "required_action": "Comply with the fit and proper person criteria as specified in Schedule II of Securities and Exchange Board of India (Intermediaries) Regulations, 2008",
+    "required_evidence": "Declaration cum undertaking as specified in Annexure G",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "8.2.ii.g.iii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-prior-approval-05",
+    "obligation_id": "ia-prior-approval-05",
+    "applies_to": [
+      "investment_adviser",
+      "stock_broker"
+    ],
+    "trigger": "Change in control",
+    "required_action": "Obtain approval/NOC from all the stock exchanges/clearing corporations/depositories where the incumbent is a member/depository participant",
+    "required_evidence": "Self-attested copy of approval/NOC from stock exchanges/clearing corporations/depositories",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "8.2.h",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-change-in-control-02",
+    "obligation_id": "ia-change-in-control-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "NCLT order",
+    "required_action": "Submit online application with required documents",
+    "required_evidence": "SEBI approval letter",
+    "frequency": "event_driven",
+    "deadline_rule": "within 15 days from the date of order of NCLT",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "8.3.iv",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-change-in-control-03",
+    "obligation_id": "ia-change-in-control-03",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Proposed change in control",
+    "required_action": "File application with SEBI",
+    "required_evidence": "SEBI acknowledgement letter",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "8.3.i",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-control-transfer-01",
+    "obligation_id": "ia-control-transfer-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Transfer of shareholding in a proprietary firm",
+    "required_action": "Obtain prior approval and fresh registration",
+    "required_evidence": "Approval letter and fresh registration certificate",
+    "frequency": "event_driven",
+    "deadline_rule": "within the timeframe specified by SEBI",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "9.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-control-transfer-02",
+    "obligation_id": "ia-control-transfer-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Transfer of ownership interest in a partnership firm with two partners",
+    "required_action": "Obtain prior approval and fresh registration",
+    "required_evidence": "Approval letter and fresh registration certificate",
+    "frequency": "event_driven",
+    "deadline_rule": "within the timeframe specified by SEBI",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "9.3(a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fit-and-proper-01",
+    "obligation_id": "ia-fit-and-proper-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Incoming entities/shareholders becoming part of controlling interest",
+    "required_action": "Ensure incoming entities/shareholders satisfy fit and proper person criteria",
+    "required_evidence": "Documentation of fit and proper person criteria satisfaction",
+    "frequency": "event_driven",
+    "deadline_rule": "prior to the incoming entities/shareholders becoming part of controlling interest",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "9.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-code-01",
+    "obligation_id": "ia-advertisement-code-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of advertisements",
+    "required_action": "Ensure compliance with the advertisement code",
+    "required_evidence": "Documentation of advertisement code compliance",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "10.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-01",
+    "obligation_id": "ia-advertisement-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of advertisement",
+    "required_action": "Include all forms of communications in advertisement",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "i",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-02",
+    "obligation_id": "ia-advertisement-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of advertisement",
+    "required_action": "Include specific information in advertisement",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "b.i",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-03",
+    "obligation_id": "ia-advertisement-03",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of advertisement",
+    "required_action": "Ensure accuracy and completeness of information in advertisement",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "b.ii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-04",
+    "obligation_id": "ia-advertisement-04",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of advertisement",
+    "required_action": "Include standard warning in advertisement",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "b.iii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-05",
+    "obligation_id": "ia-advertisement-05",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of audio-visual media based advertisement",
+    "required_action": "Ensure standard warning is audible in audio-visual media based advertisements",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "b.iv",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-06",
+    "obligation_id": "ia-advertisement-06",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of non-English advertisement",
+    "required_action": "Ensure standard warning is accurately translated in non-English advertisements",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "b.v",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-07",
+    "obligation_id": "ia-advertisement-07",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of certain advertisements",
+    "required_action": "Provide official website hyperlink in certain advertisements",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "b.vi",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-08",
+    "obligation_id": "ia-advertisement-08",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Issuance of certain advertisements",
+    "required_action": "Include disclaimer in certain advertisements",
+    "required_evidence": "Record of advertisement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "b.vii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2023/52 dated April 06, 2023"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-disclaimer-01",
+    "obligation_id": "ia-advertisement-disclaimer-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements and client communications",
+    "required_action": "Include the specified disclaimer",
+    "required_evidence": "Advertisement or communication records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "viii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-01",
+    "obligation_id": "ia-advertisement-prohibition-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not contain prohibited content",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-02",
+    "obligation_id": "ia-advertisement-prohibition-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not contain false or misleading statements",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: ii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-03",
+    "obligation_id": "ia-advertisement-prohibition-03",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not contain misleading testimonials",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: iii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-04",
+    "obligation_id": "ia-advertisement-prohibition-04",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not contain statements that may mislead investors",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: iv",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-05",
+    "obligation_id": "ia-advertisement-prohibition-05",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not contain statements likely to be misunderstood",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: v",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-06",
+    "obligation_id": "ia-advertisement-prohibition-06",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not contain exploitative statements",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: vi",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-07",
+    "obligation_id": "ia-advertisement-prohibition-07",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not contain exaggerated or inconsistent statements",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: vii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-08",
+    "obligation_id": "ia-advertisement-prohibition-08",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not use technical or complex language",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: viii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-09",
+    "obligation_id": "ia-advertisement-prohibition-09",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not reference free reports or services unless they are actually free",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: ix",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-10",
+    "obligation_id": "ia-advertisement-prohibition-10",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not guarantee returns",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: x",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-11",
+    "obligation_id": "ia-advertisement-prohibition-11",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not imply assured returns",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-12",
+    "obligation_id": "ia-advertisement-prohibition-12",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not discredit other advertisements or intermediaries",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: xi",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-13",
+    "obligation_id": "ia-advertisement-prohibition-13",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not reference past performance unless verified by PaRRVA",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: xii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-14",
+    "obligation_id": "ia-advertisement-prohibition-14",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not use superlative terms",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: xiii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-prohibition-15",
+    "obligation_id": "ia-advertisement-prohibition-15",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Ensure advertisements do not use the SEBI logo",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "c. Prohibitions in the advertisement: xiv",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-approval-01",
+    "obligation_id": "ia-advertisement-approval-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "All advertisements",
+    "required_action": "Obtain prior approval from SEBI recognized supervisory body",
+    "required_evidence": "Approval records",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "d. Other compliances/requirements: i",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-suspension-01",
+    "obligation_id": "ia-suspension-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Suspension by SEBI or SEBI recognized supervisory body",
+    "required_action": "Do not issue advertisements during suspension",
+    "required_evidence": "Suspension records",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "d. Other compliances/requirements: ii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-games-01",
+    "obligation_id": "ia-games-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "none",
+    "required_action": "not engage in games or schemes",
+    "required_evidence": "record of games or schemes participated in",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "iii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-retention-01",
+    "obligation_id": "ia-advertisement-retention-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "issuance of advertisement",
+    "required_action": "retain a copy of the advertisement",
+    "required_evidence": "copy of advertisement",
+    "frequency": "event_driven",
+    "deadline_rule": "five years from issuance",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "v",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-brand-name-01",
+    "obligation_id": "ia-brand-name-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "none",
+    "required_action": "display IA information",
+    "required_evidence": "IA information displayed on required materials",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "10.2.i",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-sebi-logo-01",
+    "obligation_id": "ia-sebi-logo-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "none",
+    "required_action": "not use SEBI logo",
+    "required_evidence": "absence of SEBI logo on materials",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "10.2.iv",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-internal-code-01",
+    "obligation_id": "ia-internal-code-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "none",
+    "required_action": "establish internal code of conduct",
+    "required_evidence": "internal code of conduct document",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "12.i",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-employee-guidance-01",
+    "obligation_id": "ia-employee-guidance-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "none",
+    "required_action": "guide employees on unauthenticated news",
+    "required_evidence": "employee guidance document",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "12.ii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-rumour-control-01",
+    "obligation_id": "ia-rumour-control-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "employees accessing client/industry information",
+    "required_action": "restrict access to blogs/chat forums/messenger sites",
+    "required_evidence": "logs of usage",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "iii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-approval-requirement-01",
+    "obligation_id": "ia-approval-requirement-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "employees receiving market-related news",
+    "required_action": "forward news only after Compliance Officer approval",
+    "required_evidence": "record of approval",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "v",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-outsourcing-restriction-01",
+    "obligation_id": "ia-outsourcing-restriction-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "considering outsourcing activities",
+    "required_action": "do not outsource core business activities and compliance functions",
+    "required_evidence": "record of outsourcing agreements",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "13.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fiu-reporting-01",
+    "obligation_id": "ia-fiu-reporting-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "suspicious transaction detection",
+    "required_action": "report to FIU",
+    "required_evidence": "record of reporting",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "13.6",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-kyc-compliance-01",
+    "obligation_id": "ia-kyc-compliance-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "onboarding new clients",
+    "required_action": "comply with KYC regulations",
+    "required_evidence": "record of KYC compliance",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "13.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-log-maintenance-01",
+    "obligation_id": "ia-log-maintenance-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "usage of blog/chat forum/messenger sites",
+    "required_action": "maintain logs",
+    "required_evidence": "logs of usage",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "iv",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-suspicious-transaction-reporting-01",
+    "obligation_id": "ia-suspicious-transaction-reporting-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "suspicious transactions",
+    "required_action": "report to FIU or other competent authorities",
+    "required_evidence": "record of report submission",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "l",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-centralized-fee-collection-01",
+    "obligation_id": "ia-centralized-fee-collection-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "fee collection from clients",
+    "required_action": "encourage clients to use the centralized fee collection mechanism",
+    "required_evidence": "record of client communication",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "15.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-POD-1/P/CIR/2024/120"
+  },
+  {
+    "rule_id": "rule-ia-conflict-01",
+    "obligation_id": "ia-conflict-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Adhere to guidelines",
+    "required_evidence": "Documentation of adherence to guidelines",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-internal-policies-01",
+    "obligation_id": "ia-internal-policies-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Establish internal policies and procedures",
+    "required_evidence": "Documentation of internal policies and procedures",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.i",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-high-standards-01",
+    "obligation_id": "ia-high-standards-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Maintain high standards of integrity",
+    "required_evidence": "Documentation of integrity maintenance",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.ii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fair-treatment-01",
+    "obligation_id": "ia-fair-treatment-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Ensure fair treatment of clients",
+    "required_evidence": "Documentation of fair treatment",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.iii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-client-interest-01",
+    "obligation_id": "ia-client-interest-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Prioritize client interest",
+    "required_evidence": "Documentation of prioritization of client interest",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.iv",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-reduce-conflict-01",
+    "obligation_id": "ia-reduce-conflict-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Reduce opportunities for conflict",
+    "required_evidence": "Documentation of conflict reduction measures",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.vi",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-restrict-transactions-01",
+    "obligation_id": "ia-restrict-transactions-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "While handling a mandate",
+    "required_action": "Place restrictions on transactions",
+    "required_evidence": "Documentation of transaction restrictions",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.vii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-dealing-01",
+    "obligation_id": "ia-no-dealing-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Not deal in securities with material non-published information",
+    "required_evidence": "Documentation of non-dealing with material non-published information",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.viii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-communication-01",
+    "obligation_id": "ia-no-communication-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Not communicate material non-published information",
+    "required_evidence": "Documentation of non-communication of material non-published information",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.ix",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-manipulation-01",
+    "obligation_id": "ia-no-manipulation-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Not contribute to market manipulation",
+    "required_evidence": "Documentation of non-manipulation",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.x",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-incentive-01",
+    "obligation_id": "ia-no-incentive-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Not have incentive structure that encourages sale of unsuitable products",
+    "required_evidence": "Documentation of suitable incentive structure",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.xi",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-sharing-01",
+    "obligation_id": "ia-no-sharing-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Not share client information for personal interest",
+    "required_evidence": "Documentation of non-sharing of client information",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16.4.xii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-data-access-01",
+    "obligation_id": "ia-data-access-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Access to securities market data",
+    "required_action": "Make data available free of charge",
+    "required_evidence": "Documentation of data access policies",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "17.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-association-01",
+    "obligation_id": "ia-association-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Association with certain persons",
+    "required_action": "Refer to the circulars",
+    "required_evidence": "Record of referral to the circulars",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "21",
+    "source_circular": "SEBI/HO/MIRSD/ MIRSD-PoD-1/P/CIR/2024/143 dated October 22, 2024"
+  },
+  {
+    "rule_id": "rule-ia-accreditation-01",
+    "obligation_id": "ia-accreditation-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Accreditation to investors",
+    "required_action": "Refer to the circulars",
+    "required_evidence": "Record of referral to the circulars",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "22",
+    "source_circular": "SEBI/HO/IMD/IMD-I/DF9/P/CIR/2021/620 dated August 26, 2021"
+  },
+  {
+    "rule_id": "rule-ia-parrva-01",
+    "obligation_id": "ia-parrva-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Recognition and operationalization of PaRRVA",
+    "required_action": "Comply with the regulations",
+    "required_evidence": "Record of compliance with the regulations",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "23",
+    "source_circular": "Regulation 16D and 16E of the Securities and Exchange Board of India (Intermediaries) Regulations, 2008"
+  },
+  {
+    "rule_id": "rule-ia-mitra-01",
+    "obligation_id": "ia-mitra-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Service platform for investors to trace inactive and unclaimed Mutual Fund folios",
+    "required_action": "Refer to circular no. SEBI/HO/IMD/IMD-SEC-3/P/CIR/2025/15",
+    "required_evidence": "Record of referral to the circular",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "None",
+    "source_circular": "SEBI/HO/IMD/IMD-SEC-3/P/CIR/2025/15"
+  },
+  {
+    "rule_id": "rule-ia-cscrf-01",
+    "obligation_id": "ia-cscrf-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Cybersecurity and Cyber Resilience",
+    "required_action": "Adopt and implement the Cybersecurity and Cyber Resilience Framework",
+    "required_evidence": "Record of adoption and implementation of the framework",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "None",
+    "source_circular": "SEBI/HO/ITD-1/ITD_CSC_EXT/P/CIR/2024/113"
+  },
+  {
+    "rule_id": "rule-ia-annual-audit-01",
+    "obligation_id": "ia-annual-audit-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "End of each financial year",
+    "required_action": "Conduct audit and submit report",
+    "required_evidence": "Audit report",
+    "frequency": "annual",
+    "deadline_rule": "Within six months from the end of each financial year and submit report within one month from the date of the audit report but not later than October 31st of each year",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 19(3) of the IA Regulations",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-agreement-terms-01",
+    "obligation_id": "ia-agreement-terms-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Before providing investment advisory services",
+    "required_action": "Include terms and conditions in the agreement",
+    "required_evidence": "Investment Advisory Agreement",
+    "frequency": "one_time",
+    "deadline_rule": "Before providing services",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 19(1)(d) of the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-no-assured-returns-01",
+    "obligation_id": "ia-no-assured-returns-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advisory services",
+    "required_action": "Not imply assured returns or risk-free investment advice",
+    "required_evidence": "Investment advice and marketing materials",
+    "frequency": "ongoing",
+    "deadline_rule": "null",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "ANNEXURE A, 2.b",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-fee-disclosure-01",
+    "obligation_id": "ia-fee-disclosure-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Before providing investment advisory services",
+    "required_action": "Disclose fees to the client",
+    "required_evidence": "Investment Advisory Agreement",
+    "frequency": "one_time",
+    "deadline_rule": "Before providing services",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "ANNEXURE A, 2.c and 2.d",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-act-in-fiduciary-capacity",
+    "obligation_id": "ia-act-in-fiduciary-capacity",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Act in a fiduciary capacity towards clients",
+    "required_evidence": "Records of client interactions and advice provided",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "3. Scope of services",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-comply-with-regulations",
+    "obligation_id": "ia-comply-with-regulations",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Comply with the regulations and its amendments",
+    "required_evidence": "Records of compliance with regulations",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4. Functions of the Investment Adviser, a) Terms of compliance",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-maintain-records",
+    "obligation_id": "ia-maintain-records",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "For each client",
+    "required_action": "Maintain client-wise KYC, risk assessment, analysis reports, and other records",
+    "required_evidence": "Client-wise records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4. Functions of the Investment Adviser, e) Maintenance of records",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-risk-assessment",
+    "obligation_id": "ia-risk-assessment",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "For each client",
+    "required_action": "Conduct risk assessment including risk capacity and risk aversion",
+    "required_evidence": "Records of risk assessment for each client",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4. Functions of the Investment Adviser, c) Risk assessment procedure of client",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-provide-reports",
+    "obligation_id": "ia-provide-reports",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "For each client",
+    "required_action": "Provide reports to clients on potential and current investments",
+    "required_evidence": "Records of reports provided to clients",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4. Functions of the Investment Adviser, d) Providing reports to clients",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-abide-by-code-of-conduct",
+    "obligation_id": "ia-abide-by-code-of-conduct",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Abide by the Code of Conduct",
+    "required_evidence": "Records of compliance with the Code of Conduct",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4. Functions of the Investment Adviser, g) Undertaking to abide by the Code of Conduct",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-comply-with-audit-requirements",
+    "obligation_id": "ia-comply-with-audit-requirements",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "As specified in the regulations",
+    "required_action": "Comply with audit requirements",
+    "required_evidence": "Records of audit compliance",
+    "frequency": "annual",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4. Functions of the Investment Adviser, f) Provisions regarding audit",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-comply-with-eligibility-criteria",
+    "obligation_id": "ia-comply-with-eligibility-criteria",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Comply with eligibility criteria",
+    "required_evidence": "Records of compliance with eligibility criteria",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4. Functions of the Investment Adviser, b) Compliance with the eligibility criteria",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-termination-notice-01",
+    "obligation_id": "ia-termination-notice-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Voluntary termination of the agreement",
+    "required_action": "Provide 30 days prior written notice to the client",
+    "required_evidence": "Record of written notice provided to the client",
+    "frequency": "event_driven",
+    "deadline_rule": "within 30 days",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "9. Termination",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-arms-length-relationship-01",
+    "obligation_id": "ia-arms-length-relationship-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Engagement with related parties",
+    "required_action": "Maintain arms-length relationship and disclose conflicts",
+    "required_evidence": "Record of disclosures and arms-length relationship maintenance",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "11. Relationship with related parties",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-distribution-services-01",
+    "obligation_id": "ia-no-distribution-services-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Engagement with advisory clients",
+    "required_action": "Not provide distribution services",
+    "required_evidence": "Record of non-provision of distribution services",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "12. Investment Adviser engaged in other activities",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-power-of-attorney-01",
+    "obligation_id": "ia-no-power-of-attorney-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Engagement with the client",
+    "required_action": "Not seek Power of Attorney",
+    "required_evidence": "Record of non-seek of Power of Attorney",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "14. No right to seek Power of Attorney",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-poA-01",
+    "obligation_id": "ia-no-poA-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Clearly declare that it shall not seek any power of attorney or authorizations from its clients",
+    "required_evidence": "Client agreement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "14",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-no-conflict-01",
+    "obligation_id": "ia-no-conflict-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When a conflict of interest arises",
+    "required_action": "Disclose all conflicts of interest and not derive any direct or indirect benefit out of the client\u2019s securities/investment products",
+    "required_evidence": "Client agreement and disclosure documents",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "15",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-maintenance-accounts-01",
+    "obligation_id": "ia-maintenance-accounts-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Maintain client accounts and data as mandated under the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013",
+    "required_evidence": "Client accounts and data records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "16",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-payment-mode-01",
+    "obligation_id": "ia-fee-payment-mode-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Specify that the payment of fees shall be through a mode which shows traceability of funds",
+    "required_evidence": "Client agreement and fee schedule",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "17",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-liability-01",
+    "obligation_id": "ia-liability-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Clearly state that the Investment Adviser shall not incur any liability by reason of any loss, which a client may suffer by reason of any depletion in the value of the assets under advice",
+    "required_evidence": "Client agreement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "18",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-representations-01",
+    "obligation_id": "ia-representations-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Make adequate and appropriate representations about qualifications of the adviser, principal officer, persons associated with the investment advice, receipt of all applicable approvals and consents",
+    "required_evidence": "Client agreement and representation documents",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "19",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-death-disability-01",
+    "obligation_id": "ia-death-disability-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Incorporate provisions in relation to continuation / termination of the advisory service in event of client's death / disability, succession, nomination, representation etc.",
+    "required_evidence": "Client agreement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "20",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-death-disability-02",
+    "obligation_id": "ia-death-disability-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Appoint one of its legal heirs, executor, trustee, administrator of estate of the deceased as the person-in-charge in the event of investment adviser\u2019s death / disability",
+    "required_evidence": "Client agreement and appointment documents",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "21",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-client-protection-01",
+    "obligation_id": "ia-client-protection-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "IA's death or disability",
+    "required_action": "Appoint an Obligor to take charge and protect client interest",
+    "required_evidence": "Agreement with Obligor",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "d",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-dispute-resolution-01",
+    "obligation_id": "ia-dispute-resolution-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Dispute with client",
+    "required_action": "Establish a dispute resolution mechanism, including arbitration",
+    "required_evidence": "Dispute resolution policy",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "22",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-grievance-redressal-01",
+    "obligation_id": "ia-grievance-redressal-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Client grievance",
+    "required_action": "Resolve client grievance within SEBI-specified timelines",
+    "required_evidence": "Grievance redressal record",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "23",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-return-guarantee-prohibition-01",
+    "obligation_id": "ia-return-guarantee-prohibition-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Client investment advice",
+    "required_action": "Not guarantee returns, accuracy, or risk-free investments",
+    "required_evidence": "Investment advice records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "ANNEXURE B, 2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-prohibited-schemes-01",
+    "obligation_id": "ia-prohibited-schemes-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Client investment advice",
+    "required_action": "Not offer assured, guaranteed, or fixed return schemes",
+    "required_evidence": "Investment advice records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "ANNEXURE B, 3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-cybersecurity-01",
+    "obligation_id": "ia-cybersecurity-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing",
+    "required_action": "Adopt a CSCRF",
+    "required_evidence": "CSCRF documents",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "25",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-client-identification-01",
+    "obligation_id": "ia-client-identification-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Onboarding of new clients or existing clients wishing to take advisory or distribution services",
+    "required_action": "Use PAN of each client as the control record for identification and client level segregation",
+    "required_evidence": "Records of client PAN and segregation of advisory and distribution activities",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Guidelines for Investment Advisers, (e)",
+    "source_circular": "SEBI/HO/IMD/DF1/CIR/P/2020/182 dated September 23, 2020 and SEBI/HO/MIRSD/ MIRSD-PoD-1/P/CIR/2025/003 dated January 08, 2025"
+  },
+  {
+    "rule_id": "rule-ia-family-client-01",
+    "obligation_id": "ia-family-client-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Onboarding of new clients or existing clients wishing to take advisory or distribution services",
+    "required_action": "Reckon 'family of client' as a single client and use PAN of all members in 'family of client' jointly and severally as the control record",
+    "required_evidence": "Records of client PAN and segregation of advisory and distribution activities",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Guidelines for Investment Advisers, (f)",
+    "source_circular": "SEBI/HO/IMD/DF1/CIR/P/2020/182 dated September 23, 2020 and SEBI/HO/MIRSD/ MIRSD-PoD-1/P/CIR/2025/003 dated January 08, 2025"
+  },
+  {
+    "rule_id": "rule-ia-fee-mode-01",
+    "obligation_id": "ia-fee-mode-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Onboarding of new clients or change of fee mode",
+    "required_action": "Charge fees in accordance with SEBI regulations",
+    "required_evidence": "Records of fee payments",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "Regulation 15A",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-aua-demonstration-01",
+    "obligation_id": "ia-aua-demonstration-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Charging fees based on AUA",
+    "required_action": "Demonstrate AUA with supporting documents",
+    "required_evidence": "Supporting documents like demat statements, unit statements etc.",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(e)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-agreement-signature-01",
+    "obligation_id": "ia-agreement-signature-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Onboarding of new clients",
+    "required_action": "Obtain client signature on agreement",
+    "required_evidence": "Copy of signed agreement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(g)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-inform-existing-clients-01",
+    "obligation_id": "ia-inform-existing-clients-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Existing clients as on February 17, 2025",
+    "required_action": "Inform existing clients about MITC",
+    "required_evidence": "Records of communication with existing clients",
+    "frequency": "one_time",
+    "deadline_rule": "June 30, 2025",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "6",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-fee-advance-02",
+    "obligation_id": "ia-fee-advance-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Agreement with client to charge fees in advance",
+    "required_action": "Charge advance fees not exceeding one year",
+    "required_evidence": "Record of fee agreement",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "(h)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-client-limit-01",
+    "obligation_id": "ia-client-limit-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Failure to get registration as non-individual IA",
+    "required_action": "Comply with applicable client limits and fee collection",
+    "required_evidence": "Records of client count and fee collection",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "e",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-ra-undertaking-01",
+    "obligation_id": "ia-ra-undertaking-01",
+    "applies_to": [
+      "investment_adviser",
+      "research_analyst"
+    ],
+    "trigger": "Registration as both investment adviser and research analyst",
+    "required_action": "Provide an undertaking stating segregation of services",
+    "required_evidence": "Undertaking document",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "vii(b)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025"
+  },
+  {
+    "rule_id": "rule-ia-consents-and-permissions-01",
+    "obligation_id": "ia-consents-and-permissions-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Undertaking any actions in relation to the securities or investment product",
+    "required_action": "Take all consents and permissions from the client",
+    "required_evidence": "Record of consents and permissions obtained from the client",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "13. Representation to client",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-terms-fees-01",
+    "obligation_id": "ia-terms-fees-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "always",
+    "required_action": "provide specific details on fees",
+    "required_evidence": "agreement with client",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "17",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-representations-covenants-01",
+    "obligation_id": "ia-representations-covenants-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "always",
+    "required_action": "make representations and covenants",
+    "required_evidence": "agreement with client",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "19",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-death-disability-client-01",
+    "obligation_id": "ia-death-disability-client-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "event_driven",
+    "required_action": "have provisions for client death or disability",
+    "required_evidence": "agreement with client",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "20",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-death-disability-ia-01",
+    "obligation_id": "ia-death-disability-ia-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "event_driven",
+    "required_action": "appoint Obligor",
+    "required_evidence": "agreement with client",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "21",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-trade-consent-01",
+    "obligation_id": "ia-trade-consent-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Before executing a trade",
+    "required_action": "Obtain client's specific and positive consent",
+    "required_evidence": "Client consent record",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advance-fee-01",
+    "obligation_id": "ia-advance-fee-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When receiving advance fees from clients",
+    "required_action": "Do not exceed the stipulated period and refund proportionate fees for unexpired periods",
+    "required_evidence": "Fee payment records and refund documents",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "7",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-client-info-01",
+    "obligation_id": "ia-client-info-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advisory services",
+    "required_action": "Collect client's financial information",
+    "required_evidence": "Client information records",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "9",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-impersonation-complaints-01",
+    "obligation_id": "ia-impersonation-complaints-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Impersonation related complaints",
+    "required_action": "Close complaints after following due process",
+    "required_evidence": "Record of closed complaints",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "None",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-post-registration-02",
+    "obligation_id": "ia-post-registration-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Change in control or other details",
+    "required_action": "Submit post-registration application to SEBI",
+    "required_evidence": "Acknowledgement from SEBI",
+    "frequency": "event_driven",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "SEBI Proposed RAASB/IAASB: 2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-annual-compliance-audit-03",
+    "obligation_id": "ia-annual-compliance-audit-03",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Annual audit",
+    "required_action": "Submit Annual Compliance Audit Report to RAASB/IAASB",
+    "required_evidence": "Audit report",
+    "frequency": "annual",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "3. Supervision of RAs/IAs: 9",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-periodical-reports-04",
+    "obligation_id": "ia-periodical-reports-04",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Periodic reporting",
+    "required_action": "Submit periodical reports to SEBI",
+    "required_evidence": "Report submission acknowledgement",
+    "frequency": "not_specified",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "7. Submission of periodical reports to SEBI",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-enlistment-02",
+    "obligation_id": "ia-enlistment-02",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Existing registration as a Research Analyst",
+    "required_action": "Be deemed enlisted with RAASB",
+    "required_evidence": "Registration confirmation from SEBI",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4.2(i)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-enlistment-03",
+    "obligation_id": "ia-enlistment-03",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Existing registration as an Investment Adviser and membership with BASL",
+    "required_action": "Be deemed enlisted with IAASB",
+    "required_evidence": "Registration confirmation from SEBI and membership confirmation from BASL",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4.2(i)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-enlistment-04",
+    "obligation_id": "ia-enlistment-04",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Submission of new application for registration as an Investment Adviser",
+    "required_action": "Enlist with RAASB/IAASB",
+    "required_evidence": "Enlistment confirmation from RAASB/IAASB",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "4.2(iv)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-periodic-reporting-01",
+    "obligation_id": "ia-periodic-reporting-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Registration as an Investment Adviser",
+    "required_action": "Submit periodic reports",
+    "required_evidence": "Record of submitted reports",
+    "frequency": "not_specified",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "7.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-complaint-disclosure-01",
+    "obligation_id": "ia-complaint-disclosure-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing",
+    "required_action": "Disclose complaint status on website",
+    "required_evidence": "Website disclosure",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "B",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-registration-disclosure-01",
+    "obligation_id": "ia-registration-disclosure-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing",
+    "required_action": "Disclose registration details on website",
+    "required_evidence": "Website disclosure",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "B",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-employee-qualification-01",
+    "obligation_id": "ia-employee-qualification-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing",
+    "required_action": "Employ only qualified and certified employees",
+    "required_evidence": "Employee qualification records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "B",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-client-interaction-01",
+    "obligation_id": "ia-client-interaction-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing",
+    "required_action": "Maintain records of client interactions",
+    "required_evidence": "Client interaction records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "B",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-advertisement-compliance-01",
+    "obligation_id": "ia-advertisement-compliance-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing",
+    "required_action": "Ensure advertisements comply with the Advertisement Code",
+    "required_evidence": "Advertisement records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "B",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-non-discrimination-01",
+    "obligation_id": "ia-non-discrimination-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "Ongoing",
+    "required_action": "Not discriminate among clients",
+    "required_evidence": "Client service records",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "B",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-onboarding-01",
+    "obligation_id": "ia-onboarding-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When a new client is acquired",
+    "required_action": "Share agreement copy and complete KYC",
+    "required_evidence": "Record of agreement copy shared and KYC completed",
+    "frequency": "one_time",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-conflict-of-interest-01",
+    "obligation_id": "ia-conflict-of-interest-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Disclose any conflict of interest",
+    "required_evidence": "Record of conflict of interest disclosed to clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-artificial-intelligence-01",
+    "obligation_id": "ia-artificial-intelligence-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Disclose the extent of use of Artificial Intelligence tools",
+    "required_evidence": "Record of Artificial Intelligence tool disclosure to clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-investment-advice-01",
+    "obligation_id": "ia-investment-advice-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Provide investment advice based on risk-profiling and suitability",
+    "required_evidence": "Record of investment advice provided to clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-honesty-and-integrity-01",
+    "obligation_id": "ia-honesty-and-integrity-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Treat all advisory clients with honesty and integrity",
+    "required_evidence": "Record of honest and integrity-based interactions with clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-material-facts-01",
+    "obligation_id": "ia-material-facts-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice",
+    "required_action": "Make adequate disclosure of material facts",
+    "required_evidence": "Record of material facts disclosed to clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-complex-products-01",
+    "obligation_id": "ia-complex-products-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing investment advice for complex products",
+    "required_action": "Provide clear guidance and adequate caution notice",
+    "required_evidence": "Record of guidance and caution notice provided to clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-confidentiality-01",
+    "obligation_id": "ia-confidentiality-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "At all times",
+    "required_action": "Ensure confidentiality of client information",
+    "required_evidence": "Record of confidentiality measures in place",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  },
+  {
+    "rule_id": "rule-ia-timelines-01",
+    "obligation_id": "ia-timelines-01",
+    "applies_to": [
+      "investment_adviser"
+    ],
+    "trigger": "When providing services to clients",
+    "required_action": "Disclose timelines for various services",
+    "required_evidence": "Record of timelines disclosed to clients",
+    "frequency": "ongoing",
+    "deadline_rule": "not time-bound",
+    "on_breach": "flag_for_compliance_review",
+    "source_clause": "C",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
+  }
+]

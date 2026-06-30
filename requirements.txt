@@ -1,5 +1,5 @@
-anthropic
-pydantic
-pdfplumber
-python-dotenv
 streamlit
+pydantic
+rapidfuzz
+beautifulsoup4
+requests
