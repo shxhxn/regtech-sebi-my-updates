@@ -23,10 +23,10 @@ h1,h2,h3,h4,h5 { color:#0f172a; font-weight:600; letter-spacing:-0.015em; }
 .verbatim { background:#f8fafc; border:1px solid #e7ebf0; border-left:3px solid #94a3b8; padding:12px 16px; border-radius:8px; color:#475569; font-size:0.88rem; line-height:1.55; margin-top:8px; }
 .clause { font-family:ui-monospace,Menlo,monospace; background:#eef2ff; color:#1d4ed8; padding:1px 7px; border-radius:5px; font-size:0.82rem; }
 .pill { font-size:0.72rem; font-weight:600; padding:2px 9px; border-radius:999px; }
-.pill-new { background:#ecfdf5; color:#047857; } .pill-mod { background:#fffbeb; color:#b45309; } .pill-rem { background:#fef2f2; color:#b91c1c; }
-.pill-grounded { background:#ecfdf5; color:#047857; } .pill-partial { background:#fffbeb; color:#b45309; } .pill-flagged { background:#fef2f2; color:#b91c1c; }
-.pill-ok { background:#ecfdf5; color:#047857; } .pill-bad { background:#fef2f2; color:#b91c1c; }
-.big-stat { font-size:2.6rem; font-weight:700; color:#047857; line-height:1; }
+.pill-new { background:#eff6ff; color:#1d4ed8; } .pill-mod { background:#fffbeb; color:#b45309; } .pill-rem { background:#fef2f2; color:#b91c1c; }
+.pill-grounded { background:#eff6ff; color:#1d4ed8; } .pill-partial { background:#fffbeb; color:#b45309; } .pill-flagged { background:#fef2f2; color:#b91c1c; }
+.pill-ok { background:#eff6ff; color:#1d4ed8; } .pill-bad { background:#fef2f2; color:#b91c1c; }
+.big-stat { font-size:2.6rem; font-weight:700; color:#1d4ed8; line-height:1; }
 .big-stat-sub { color:#64748b; font-size:0.85rem; margin-top:4px; }
 .mono { font-family:ui-monospace,Menlo,monospace; font-size:0.8rem; color:#475569; }
 </style>
@@ -39,14 +39,14 @@ with st.sidebar:
     st.markdown("**About**")
     st.markdown('<p class="meta">Extracts source-cited obligations from SEBI circulars, independently verifies each one, tracks fulfilment, detects changes between versions, and maintains a tamper-evident audit trail.</p>', unsafe_allow_html=True)
     st.divider()
-    st.markdown('<p class="meta">Llama 3.3 70B · Pydantic · rapidfuzz · sentence-transformers</p>', unsafe_allow_html=True)
+    st.markdown('<p class="meta">Self-hosted LLM via Ollama · Pydantic · rapidfuzz · sentence-transformers</p>', unsafe_allow_html=True)
 
 st.markdown("## SEBI Regulatory Compiler")
 st.markdown('<p class="meta" style="margin-top:-12px;">Agentic RegTech Compliance · Securities Market TechSprint 2026</p>', unsafe_allow_html=True)
 st.write("")
 
-tab0, tab1, tab2, tab3, tab4, tab5 = st.tabs(
-    ["Trust & Verification", "Obligations", "Change Impact", "Gap Detection", "Operations", "Audit Trail"])
+tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
+    ["Trust & Verification", "Obligations", "Change Impact", "Gap Detection", "Operations", "Audit Trail", "Compliance Calendar", "Compliance Register"])
 
 def esc(v):
     return html.escape(str(v)) if v not in (None, "") else "-"
@@ -63,6 +63,19 @@ def load_best(name):
 def load_json(name):
     p = OUTPUT / name
     return json.load(open(p)) if p.exists() else None
+
+def risk_badge(o):
+    """Same risk-pill pattern as the Obligations tab, reused for consistency."""
+    if not o.get("risk_band"):
+        return ""
+    rmap = {"Critical": "pill-rem", "High": "pill-mod", "Medium": "", "Low": "pill-ok"}
+    style = 'style="background:#eef2ff;color:#1d4ed8;"' if o.get("risk_band") == "Medium" else ""
+    return f'<span class="pill {rmap.get(o.get("risk_band"),"")}" {style}>{o.get("risk_band")} risk</span>'
+
+def freq_badge(o):
+    if not o.get("frequency"):
+        return ""
+    return f'<span class="pill" style="background:#f1f5f9;color:#475569;">{o.get("frequency")}</span>'
 
 # -- Trust & Verification --
 with tab0:
@@ -172,6 +185,7 @@ with tab1:
 # -- Change Impact --
 with tab2:
     st.markdown("#### Change Impact - 2024 to 2025")
+    st.markdown('<p class="meta">What changed in the new circular, and exactly what it now requires you to do.</p>', unsafe_allow_html=True)
     r = load_json("change_impact_report.json")
     if not r:
         st.info("No change report yet. Run extract_2024.py, then diff_engine.py, then refresh.")
@@ -183,27 +197,49 @@ with tab2:
         if "modified_via_semantic_match" in s:
             cols[5].metric("Via semantic match", s["modified_via_semantic_match"], help="Obligations recognized as the same despite a changed ID or reworded text")
         st.write("")
+
         if r["added"]:
-            st.markdown(f'<h5><span class="pill pill-new">New</span>&nbsp;&nbsp;{s["added"]} added in 2025</h5>', unsafe_allow_html=True)
+            st.markdown(f'<h5><span class="pill pill-new">New</span>&nbsp;&nbsp;{s["added"]} obligation(s) added in 2025</h5>', unsafe_allow_html=True)
             for o in r["added"]:
-                with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
-                    st.write(o.get("required_action","-"))
+                title = o.get("title") or (o.get("required_action") or "")[:60]
+                with st.expander(f"{o['obligation_id']}   .   {title}"):
+                    badges = " ".join(b for b in [risk_badge(o), freq_badge(o)] if b)
+                    if badges:
+                        st.markdown(badges, unsafe_allow_html=True)
+                        st.write("")
+                    st.markdown(f"**{o.get('required_action','-')}**")
+                    if o.get("deadline"):
+                        st.markdown(f'<p class="meta">Deadline: {esc(o.get("deadline"))}</p>', unsafe_allow_html=True)
+                    if o.get("source_clause"):
+                        st.markdown(f'Source: <span class="clause">{esc(o.get("source_clause"))}</span>', unsafe_allow_html=True)
+                    if o.get("verbatim_text"):
+                        st.markdown(f'<div class="verbatim">{esc(o.get("verbatim_text"))}</div>', unsafe_allow_html=True)
+
         if r["modified"]:
-            st.markdown(f'<h5><span class="pill pill-mod">Modified</span>&nbsp;&nbsp;{s["modified"]} changed</h5>', unsafe_allow_html=True)
+            st.write("")
+            st.markdown(f'<h5><span class="pill pill-mod">Modified</span>&nbsp;&nbsp;{s["modified"]} obligation(s) changed</h5>', unsafe_allow_html=True)
             for o in r["modified"]:
-                label = f"{o['obligation_id']}   .   {o['title']}"
+                label = f"{o['obligation_id']}   .   {o.get('title','')}"
                 if o.get("match_type") == "semantic":
                     label += f"   (matched via semantic similarity, {o.get('semantic_similarity')})"
                 with st.expander(label):
+                    badges = " ".join(b for b in [risk_badge(o), freq_badge(o)] if b)
+                    if badges:
+                        st.markdown(badges, unsafe_allow_html=True)
+                        st.write("")
                     for field, ch in o["changes"].items():
-                        st.markdown(f"**{field}**")
-                        st.markdown(f'<p class="meta">Before -- {esc(ch.get("before"))}</p>', unsafe_allow_html=True)
-                        st.markdown(f'<p style="color:#047857;">After -- {esc(ch.get("after"))}</p>', unsafe_allow_html=True)
+                        st.markdown(f"**{field.replace('_',' ').title()}**")
+                        st.markdown(f'<p class="meta">Before &nbsp;&middot;&nbsp; {esc(ch.get("before"))}</p>', unsafe_allow_html=True)
+                        st.markdown(f'<p style="color:#1d4ed8;">After &nbsp;&middot;&nbsp; {esc(ch.get("after"))}</p>', unsafe_allow_html=True)
+
         if r["removed"]:
+            st.write("")
             st.markdown(f'<h5><span class="pill pill-rem">Removed</span>&nbsp;&nbsp;{s["removed"]} no longer present</h5>', unsafe_allow_html=True)
             for o in r["removed"]:
-                with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
-                    st.write(o.get("required_action","-"))
+                with st.expander(f"{o['obligation_id']}   .   {o.get('title','')}"):
+                    st.markdown(f"No longer required: **{o.get('required_action','-')}**")
+                    if o.get("source_clause"):
+                        st.markdown(f'Was: <span class="clause">{esc(o.get("source_clause"))}</span>', unsafe_allow_html=True)
 
 # -- Gap Detection --
 with tab3:
@@ -283,3 +319,158 @@ with tab5:
             with st.expander(f"[{e['index']}] {e['timestamp'][:19]}   .   {e['event_type']}"):
                 st.json(e["details"])
                 st.markdown(f'<p class="mono">hash: {e["hash"][:32]}...</p>', unsafe_allow_html=True)
+
+# -- Compliance Calendar --
+with tab6:
+    st.markdown("#### Compliance Calendar")
+    st.markdown('<p class="meta">Your obligations organised by when they come due -- the recurring filing rhythm, the event-triggered deadlines, and the continuous duties.</p>', unsafe_allow_html=True)
+    obligations, verified = load_best("obligations_2025")
+    if obligations is None:
+        st.info("No obligations yet. Run extract_full.py, then refresh.")
+    else:
+        RECURRING = ["monthly", "quarterly", "half_yearly", "annual"]
+        recurring = [o for o in obligations if o.get("frequency") in RECURRING]
+        event = [o for o in obligations if o.get("frequency") == "event_driven"]
+        ongoing = [o for o in obligations if o.get("frequency") == "ongoing"]
+        onetime = [o for o in obligations if o.get("frequency") == "one_time"]
+        with_dl = [o for o in obligations if o.get("deadline")]
+
+        m1, m2, m3, m4 = st.columns(4)
+        m1.metric("Recurring", len(recurring))
+        m2.metric("Event-driven", len(event))
+        m3.metric("Ongoing duties", len(ongoing))
+        m4.metric("With explicit deadline", len(with_dl))
+
+        st.markdown('<p class="meta">SEBI deadlines are mostly relative to a trigger ("within 30 days of ...") rather than fixed dates, so this view organises by cadence and shows each stated time limit, rather than projecting exact calendar dates.</p>', unsafe_allow_html=True)
+        st.divider()
+
+        view = st.radio("View", ["All", "Recurring", "Event-driven", "Ongoing", "One-time"], horizontal=True)
+
+        risk_rank = {"Critical": 0, "High": 1, "Medium": 2, "Low": 3}
+        def by_risk(items):
+            return sorted(items, key=lambda o: risk_rank.get(o.get("risk_band"), 9))
+
+        def render_ob(o, show_trigger=False):
+            with st.expander(f"{o['obligation_id']}   .   {o.get('title','')}"):
+                badges = " ".join(b for b in [risk_badge(o), freq_badge(o)] if b)
+                if badges:
+                    st.markdown(badges, unsafe_allow_html=True)
+                    st.write("")
+                st.markdown(f"**{o.get('required_action','-')}**")
+                if show_trigger and o.get("trigger"):
+                    st.markdown(f'<p class="meta">Triggered when: {esc(o.get("trigger"))}</p>', unsafe_allow_html=True)
+                if o.get("deadline"):
+                    st.markdown(f'<p class="meta">Time limit: {esc(o.get("deadline"))}</p>', unsafe_allow_html=True)
+                if o.get("source_clause"):
+                    st.markdown(f'Source: <span class="clause">{esc(o.get("source_clause"))}</span>', unsafe_allow_html=True)
+
+        period_labels = {"monthly": "Monthly", "quarterly": "Quarterly", "half_yearly": "Half-yearly", "annual": "Annual"}
+
+        if view in ("All", "Recurring") and recurring:
+            st.markdown('<h5>Recurring obligations</h5>', unsafe_allow_html=True)
+            for period in RECURRING:
+                group = by_risk([o for o in recurring if o.get("frequency") == period])
+                if group:
+                    st.markdown(f'<p class="meta" style="margin-top:10px;"><b>{period_labels[period]}</b> &middot; {len(group)} obligation(s)</p>', unsafe_allow_html=True)
+                    for o in group:
+                        render_ob(o)
+
+        if view in ("All", "Event-driven") and event:
+            st.write("")
+            st.markdown('<h5>Event-driven obligations</h5>', unsafe_allow_html=True)
+            st.markdown('<p class="meta">Triggered by a specific event -- the clock starts when the event happens.</p>', unsafe_allow_html=True)
+            for o in by_risk(event):
+                render_ob(o, show_trigger=True)
+
+        if view in ("All", "Ongoing") and ongoing:
+            st.write("")
+            st.markdown('<h5>Ongoing duties</h5>', unsafe_allow_html=True)
+            st.markdown('<p class="meta">Continuous obligations with no single deadline -- they must hold true at all times.</p>', unsafe_allow_html=True)
+            for o in by_risk(ongoing):
+                render_ob(o)
+
+        if view in ("All", "One-time") and onetime:
+            st.write("")
+            st.markdown('<h5>One-time obligations</h5>', unsafe_allow_html=True)
+            for o in by_risk(onetime):
+                render_ob(o)
+
+        shown_any = (
+            (view in ("All", "Recurring") and recurring)
+            or (view in ("All", "Event-driven") and event)
+            or (view in ("All", "Ongoing") and ongoing)
+            or (view in ("All", "One-time") and onetime)
+        )
+        if not shown_any:
+            st.info("No obligations in this view.")
+
+# -- Compliance Register (Features 3 + 4) --
+with tab7:
+    st.markdown("#### Compliance Register")
+    st.markdown('<p class="meta">Filter to the obligations that bind your firm, then track and save where you stand on each one -- your live, audit-ready compliance posture.</p>', unsafe_allow_html=True)
+    obligations, verified = load_best("obligations_2025")
+    if obligations is None:
+        st.info("No obligations yet. Run extract_full.py, then refresh.")
+    else:
+        firm_labels = {
+            "investment_adviser": "Investment Adviser",
+            "stock_broker": "Stock Broker",
+            "research_analyst": "Research Analyst",
+        }
+        STATUSES = ["Not started", "In progress", "Compliant", "N/A"]
+
+        # Seed each obligation's saved status into session_state once, before any
+        # status widget is created (robust Streamlit persistence pattern).
+        saved = load_json("compliance_status.json") or {}
+        for o in obligations:
+            k = f"status_{o['obligation_id']}"
+            if k not in st.session_state:
+                st.session_state[k] = saved.get(o["obligation_id"], "Not started")
+
+        # Feature 4 -- applicability filter
+        firm = st.selectbox(
+            "Your firm type",
+            ["All"] + list(firm_labels.keys()),
+            format_func=lambda k: "All firm types" if k == "All" else firm_labels.get(k, k),
+        )
+        if firm == "All":
+            applicable = obligations
+        else:
+            applicable = [o for o in obligations if firm in (o.get("applies_to") or [])]
+
+        # Feature 3 -- compliance posture (reads the latest status from session_state)
+        counts = {s: 0 for s in STATUSES}
+        for o in applicable:
+            s = st.session_state.get(f"status_{o['obligation_id']}", "Not started")
+            counts[s] = counts.get(s, 0) + 1
+        scored = len(applicable) - counts["N/A"]
+        pct = int(round(100 * counts["Compliant"] / scored)) if scored else 0
+
+        m1, m2, m3, m4 = st.columns(4)
+        m1.metric("Applies to you", len(applicable))
+        m2.metric("Compliant", counts["Compliant"])
+        m3.metric("In progress", counts["In progress"])
+        m4.metric("Not started", counts["Not started"])
+        st.progress(pct, text=f"{pct}% of applicable obligations marked compliant")
+
+        if st.button("Save progress"):
+            out = {o["obligation_id"]: st.session_state.get(f"status_{o['obligation_id']}", "Not started") for o in obligations}
+            with open(OUTPUT / "compliance_status.json", "w") as f:
+                json.dump(out, f, indent=2)
+            st.success("Saved to output/compliance_status.json")
+
+        st.divider()
+
+        for o in applicable:
+            oid = o["obligation_id"]
+            with st.expander(f"{oid}   .   {o.get('title','')}"):
+                badges = " ".join(b for b in [risk_badge(o), freq_badge(o)] if b)
+                for at in (o.get("applies_to") or []):
+                    badges += f' <span class="pill" style="background:#eef2ff;color:#1d4ed8;">{firm_labels.get(at, at)}</span>'
+                if badges.strip():
+                    st.markdown(badges, unsafe_allow_html=True)
+                    st.write("")
+                st.markdown(f"**{o.get('required_action','-')}**")
+                st.selectbox("Status", STATUSES, key=f"status_{oid}")
+                if o.get("source_clause"):
+                    st.markdown(f'Source: <span class="clause">{esc(o.get("source_clause"))}</span>', unsafe_allow_html=True)

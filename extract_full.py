@@ -6,6 +6,11 @@ from src.schema import ObligationList
 from src.llm import extract_structured
 from src.config import IA_CIRCULAR_2025, EXTRACTION_MODEL, OUTPUT
 
+# Process this many chunks per run, then stop so the Mac can cool between batches.
+# 53 chunks / 14 is about 4 runs. Lower it if it still runs too hot; raise it to
+# finish in fewer runs.
+CHUNKS_PER_RUN = 14
+
 PROMPT = """You are a SEBI compliance analyst. Below is an excerpt from the SEBI Master Circular
 for Investment Advisers (SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94, dated 27-Jun-2025).
 
@@ -53,7 +58,7 @@ def main():
             existing = json.load(f)
         seen_ids = {ob["obligation_id"] for ob in existing}
         all_obligations = existing
-        print(f"Resuming — {len(all_obligations)} obligations already saved")
+        print(f"Resuming -- {len(all_obligations)} obligations already saved")
     else:
         all_obligations = []
         seen_ids = set()
@@ -71,10 +76,18 @@ def main():
     full_text = pdf_to_text(IA_CIRCULAR_2025)
     chunks = chunk_text(full_text)
     print(f"Total chunks: {len(chunks)}, processing from chunk {start_chunk + 1}")
+    print(f"This run will process up to {CHUNKS_PER_RUN} chunks, then stop so the Mac can cool.\n")
+
+    processed_this_run = 0
+    last_done = start_chunk
+    failed_chunks = []
 
     for i, chunk in enumerate(chunks):
         if i < start_chunk:
             continue
+        if processed_this_run >= CHUNKS_PER_RUN:
+            break
+        processed_this_run += 1
 
         print(f"Processing chunk {i+1}/{len(chunks)}...", end=" ", flush=True)
         try:
@@ -90,25 +103,30 @@ def main():
                     all_obligations.append(ob.model_dump())
                     new += 1
             print(f"found {len(result.obligations)}, added {new} new")
-
-            # Save progress after every chunk
-            with open(out_path, "w") as f:
-                json.dump(all_obligations, f, indent=2)
-            with open(progress_path, "w") as f:
-                json.dump({"next_chunk": i + 1}, f)
-
         except Exception as e:
-            err = str(e)
-            if "429" in err:
-                print(f"RATE LIMIT hit — stopping here. Run again tomorrow to resume.")
-                break
-            else:
-                print(f"ERROR: {e}")
+            print(f"ERROR: {e}")
+            failed_chunks.append(i + 1)
+
+        # Save after EVERY chunk (success or error) so resume is always accurate
+        with open(out_path, "w") as f:
+            json.dump(all_obligations, f, indent=2)
+        with open(progress_path, "w") as f:
+            json.dump({"next_chunk": i + 1}, f)
+        last_done = i + 1
 
         time.sleep(2)
 
-    print(f"\nDone. Total unique obligations: {len(all_obligations)}")
+    remaining = len(chunks) - last_done
+    print()
+    if remaining > 0:
+        print(f"Batch complete -- {last_done}/{len(chunks)} chunks done, {remaining} remaining.")
+        print(f"Let the Mac cool for a few minutes, then run  python extract_full.py  again to continue.")
+    else:
+        print(f"All {len(chunks)} chunks complete!")
+    print(f"Total unique obligations so far: {len(all_obligations)}")
     print(f"Saved to: {out_path}")
+    if failed_chunks:
+        print(f"Chunks that errored and were skipped (can re-run later): {failed_chunks}")
 
 if __name__ == "__main__":
     main()
