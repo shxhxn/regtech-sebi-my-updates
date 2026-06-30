@@ -25,8 +25,10 @@ h1,h2,h3,h4,h5 { color:#0f172a; font-weight:600; letter-spacing:-0.015em; }
 .pill { font-size:0.72rem; font-weight:600; padding:2px 9px; border-radius:999px; }
 .pill-new { background:#ecfdf5; color:#047857; } .pill-mod { background:#fffbeb; color:#b45309; } .pill-rem { background:#fef2f2; color:#b91c1c; }
 .pill-grounded { background:#ecfdf5; color:#047857; } .pill-partial { background:#fffbeb; color:#b45309; } .pill-flagged { background:#fef2f2; color:#b91c1c; }
+.pill-ok { background:#ecfdf5; color:#047857; } .pill-bad { background:#fef2f2; color:#b91c1c; }
 .big-stat { font-size:2.6rem; font-weight:700; color:#047857; line-height:1; }
 .big-stat-sub { color:#64748b; font-size:0.85rem; margin-top:4px; }
+.mono { font-family:ui-monospace,Menlo,monospace; font-size:0.8rem; color:#475569; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -35,21 +37,21 @@ with st.sidebar:
     st.markdown('<p class="meta">Track 2 · Agentic Compliance</p>', unsafe_allow_html=True)
     st.divider()
     st.markdown("**About**")
-    st.markdown('<p class="meta">Extracts source-cited obligations from SEBI circulars, independently verifies each one against the source text, detects what changes between versions, and flags compliance gaps.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="meta">Extracts source-cited obligations from SEBI circulars, independently verifies each one, tracks fulfilment, detects changes between versions, and maintains a tamper-evident audit trail.</p>', unsafe_allow_html=True)
     st.divider()
-    st.markdown('<p class="meta">Llama 3.3 70B · Pydantic · rapidfuzz</p>', unsafe_allow_html=True)
+    st.markdown('<p class="meta">Llama 3.3 70B · Pydantic · rapidfuzz · sentence-transformers</p>', unsafe_allow_html=True)
 
 st.markdown("## SEBI Regulatory Compiler")
 st.markdown('<p class="meta" style="margin-top:-12px;">Agentic RegTech Compliance · Securities Market TechSprint 2026</p>', unsafe_allow_html=True)
 st.write("")
 
-tab0, tab1, tab2, tab3 = st.tabs(["Trust & Verification", "Obligations", "Change Impact", "Gap Detection"])
+tab0, tab1, tab2, tab3, tab4, tab5 = st.tabs(
+    ["Trust & Verification", "Obligations", "Change Impact", "Gap Detection", "Operations", "Audit Trail"])
 
 def esc(v):
-    return html.escape(str(v)) if v not in (None, "") else "—"
+    return html.escape(str(v)) if v not in (None, "") else "-"
 
 def load_best(name):
-    """Prefer the verified file (has grounding/confidence) if it exists, else fall back."""
     vpath = OUTPUT / f"{name}_verified.json"
     ppath = OUTPUT / f"{name}.json"
     if vpath.exists():
@@ -58,11 +60,14 @@ def load_best(name):
         return json.load(open(ppath)), False
     return None, False
 
+def load_json(name):
+    p = OUTPUT / name
+    return json.load(open(p)) if p.exists() else None
+
 # -- Trust & Verification --
 with tab0:
     st.markdown("#### Trust & Verification")
     st.markdown('<p class="meta">Every obligation is independently checked against the source PDF -- not just asserted by the model.</p>', unsafe_allow_html=True)
-
     obligations, verified = load_best("obligations_2025")
     if obligations is None:
         st.info("No obligations yet. Run extract_full.py, then verify.py, then refresh.")
@@ -74,7 +79,6 @@ with tab0:
         partial = sum(1 for o in obligations if o.get("grounding_band") == "partial")
         flagged = sum(1 for o in obligations if o.get("grounding_band") == "flagged")
         traceable_pct = round(100 * (grounded + partial) / n, 1) if n else 0
-
         c1, c2 = st.columns([1, 2])
         with c1:
             st.markdown(f'<div class="big-stat">{traceable_pct}%</div>', unsafe_allow_html=True)
@@ -82,36 +86,23 @@ with tab0:
         with c2:
             st.write("")
             a, b, cc = st.columns(3)
-            a.metric("Grounded", grounded, help="Verbatim text matches the source PDF exactly (allowing for spacing/formatting)")
-            b.metric("Partial", partial, help="Substantially present in the source, minor wording variance")
-            cc.metric("Flagged for review", flagged, help="Could not be confidently matched to the source text")
-
+            a.metric("Grounded", grounded)
+            b.metric("Partial", partial)
+            cc.metric("Flagged for review", flagged)
         st.write("")
         st.markdown("##### How this works")
-        st.markdown(
-            '<p class="meta">After extraction, every obligation\'s <code>verbatim_text</code> is checked against '
-            'the actual source PDF using exact, despaced, and fuzzy matching. This is deterministic Python -- no AI '
-            'involved in the check itself -- so it independently catches anything the model may have misquoted or '
-            'invented. Obligations are also scored on completeness and clause quality to produce a confidence band.</p>',
-            unsafe_allow_html=True)
-
+        st.markdown('<p class="meta">After extraction, every obligation\'s <code>verbatim_text</code> is checked against the actual source PDF using exact, despaced, and fuzzy matching -- deterministic Python, no AI in the check itself.</p>', unsafe_allow_html=True)
         if flagged:
             st.write("")
             st.markdown(f"##### Flagged for human review ({flagged})")
             for o in obligations:
                 if o.get("grounding_band") == "flagged":
                     with st.expander(f"{o['obligation_id']}   .   {o['title']}   .   score {o.get('grounding_score')}"):
-                        st.markdown(f'<span class="pill pill-flagged">Score {o.get("grounding_score")}</span>', unsafe_allow_html=True)
-                        st.markdown("**Claimed verbatim text:**")
                         st.markdown(f'<div class="verbatim">{esc(o.get("verbatim_text"))}</div>', unsafe_allow_html=True)
-                        st.markdown(f'<p class="meta" style="margin-top:8px;">Source clause: <span class="clause">{esc(o.get("source_clause"))}</span></p>', unsafe_allow_html=True)
-        else:
-            st.success("No obligations flagged in this run.")
 
 # -- Obligations --
 with tab1:
     st.markdown("#### 2025 Obligation Graph")
-    st.markdown('<p class="meta">Master Circular for Investment Advisers - SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94</p>', unsafe_allow_html=True)
     obligations, verified = load_best("obligations_2025")
     if obligations is None:
         st.info("No obligations yet. Run extract_full.py, then refresh.")
@@ -138,42 +129,44 @@ with tab1:
         for o in rows:
             with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
                 if verified:
-                    st.markdown(f'<span class="pill pill-{o.get("grounding_band","")}">{o.get("grounding_band","")} - {o.get("grounding_score","")}</span>&nbsp;&nbsp;<span class="meta">confidence: {o.get("confidence","")}% ({o.get("confidence_band","")})</span>', unsafe_allow_html=True)
-                    st.write("")
+                    st.markdown(f'<span class="pill pill-{o.get("grounding_band","")}">{o.get("grounding_band","")} - {o.get("grounding_score","")}</span>', unsafe_allow_html=True)
                 a,b = st.columns(2)
                 a.markdown("**Required action**"); a.write(o.get("required_action","-"))
                 b.markdown("**Evidence**"); b.write(o.get("evidence","-"))
-                st.markdown(f'<p class="meta">Frequency: {esc(o.get("frequency"))} &nbsp;.&nbsp; Deadline: {esc(o.get("deadline"))}</p>', unsafe_allow_html=True)
-                st.markdown(f'<p class="meta">Trigger: {esc(o.get("trigger"))}</p>', unsafe_allow_html=True)
+                st.markdown(f'<p class="meta">Frequency: {esc(o.get("frequency"))} . Deadline: {esc(o.get("deadline"))}</p>', unsafe_allow_html=True)
                 st.markdown(f'Source: <span class="clause">{esc(o.get("source_clause"))}</span>', unsafe_allow_html=True)
                 st.markdown(f'<div class="verbatim">{esc(o.get("verbatim_text"))}</div>', unsafe_allow_html=True)
 
 # -- Change Impact --
 with tab2:
     st.markdown("#### Change Impact - 2024 to 2025")
-    rp = OUTPUT / "change_impact_report.json"
-    if not rp.exists():
+    r = load_json("change_impact_report.json")
+    if not r:
         st.info("No change report yet. Run extract_2024.py, then diff_engine.py, then refresh.")
     else:
-        r = json.load(open(rp)); s = r["summary"]
-        c1,c2,c3,c4,c5 = st.columns(5)
-        c1.metric("2024", s["total_2024"]); c2.metric("2025", s["total_2025"])
-        c3.metric("New", s["added"]); c4.metric("Modified", s["modified"]); c5.metric("Removed", s["removed"])
+        s = r["summary"]
+        cols = st.columns(6) if "modified_via_semantic_match" in s else st.columns(5)
+        cols[0].metric("2024", s["total_2024"]); cols[1].metric("2025", s["total_2025"])
+        cols[2].metric("New", s["added"]); cols[3].metric("Modified", s["modified"]); cols[4].metric("Removed", s["removed"])
+        if "modified_via_semantic_match" in s:
+            cols[5].metric("Via semantic match", s["modified_via_semantic_match"], help="Obligations recognized as the same despite a changed ID or reworded text")
         st.write("")
         if r["added"]:
             st.markdown(f'<h5><span class="pill pill-new">New</span>&nbsp;&nbsp;{s["added"]} added in 2025</h5>', unsafe_allow_html=True)
             for o in r["added"]:
                 with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
                     st.write(o.get("required_action","-"))
-                    st.markdown(f'<div class="verbatim">{esc(o.get("verbatim_text"))}</div>', unsafe_allow_html=True)
         if r["modified"]:
             st.markdown(f'<h5><span class="pill pill-mod">Modified</span>&nbsp;&nbsp;{s["modified"]} changed</h5>', unsafe_allow_html=True)
             for o in r["modified"]:
-                with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
+                label = f"{o['obligation_id']}   .   {o['title']}"
+                if o.get("match_type") == "semantic":
+                    label += f"   (matched via semantic similarity, {o.get('semantic_similarity')})"
+                with st.expander(label):
                     for field, ch in o["changes"].items():
                         st.markdown(f"**{field}**")
-                        st.markdown(f'<p class="meta">Before -- {esc(ch["before"])}</p>', unsafe_allow_html=True)
-                        st.markdown(f'<p style="color:#047857;">After -- {esc(ch["after"])}</p>', unsafe_allow_html=True)
+                        st.markdown(f'<p class="meta">Before -- {esc(ch.get("before"))}</p>', unsafe_allow_html=True)
+                        st.markdown(f'<p style="color:#047857;">After -- {esc(ch.get("after"))}</p>', unsafe_allow_html=True)
         if r["removed"]:
             st.markdown(f'<h5><span class="pill pill-rem">Removed</span>&nbsp;&nbsp;{s["removed"]} no longer present</h5>', unsafe_allow_html=True)
             for o in r["removed"]:
@@ -183,26 +176,78 @@ with tab2:
 # -- Gap Detection --
 with tab3:
     st.markdown("#### Gap Detection")
-    st.markdown('<p class="meta">Obligations with missing evidence or undefined timing</p>', unsafe_allow_html=True)
     obligations, verified = load_best("obligations_2025")
     if obligations is None:
-        st.info("No obligations yet. Run extract_full.py, then refresh.")
+        st.info("No obligations yet.")
     else:
         no_ev = [o for o in obligations if not o.get("evidence") or o.get("evidence")=="N/A"]
         no_dl = [o for o in obligations if o.get("frequency") in ["one_time","event_driven"] and not o.get("deadline")]
         c1,c2 = st.columns(2)
         c1.metric("Missing evidence", len(no_ev))
         c2.metric("Triggered, no deadline", len(no_dl))
-        st.write("")
         if no_ev:
             st.markdown(f"##### Missing evidence ({len(no_ev)})")
             for o in no_ev:
                 with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
                     st.write(o.get("required_action","-"))
-                    st.markdown(f'Source: <span class="clause">{esc(o.get("source_clause"))}</span>', unsafe_allow_html=True)
         if no_dl:
             st.markdown(f"##### Triggered with no deadline ({len(no_dl)})")
             for o in no_dl:
                 with st.expander(f"{o['obligation_id']}   .   {o['title']}"):
-                    st.markdown(f'<p class="meta">Trigger: {esc(o.get("trigger"))}</p>', unsafe_allow_html=True)
                     st.write(o.get("required_action","-"))
+
+# -- Operations --
+with tab4:
+    st.markdown("#### Operations")
+    st.markdown('<p class="meta">Compliance register, executable rules, and calendar -- turning the obligation graph into a working compliance system.</p>', unsafe_allow_html=True)
+    register = load_json("compliance_register.json")
+    rules = load_json("executable_rules.json")
+    calendar = load_json("compliance_calendar.json")
+    if not register:
+        st.info("Not built yet. Run: python operations.py")
+    else:
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Register entries", len(register))
+        c2.metric("Executable rules", len(rules) if rules else 0)
+        c3.metric("Calendar buckets", len(calendar) if calendar else 0)
+        st.write("")
+        st.markdown("##### Compliance calendar")
+        if calendar:
+            for freq, items in calendar.items():
+                with st.expander(f"{freq}   .   {len(items)} obligation(s)"):
+                    for it in items[:30]:
+                        dl = f" -- due {it['deadline']}" if it.get("deadline") else ""
+                        st.markdown(f'<p class="meta">{esc(it["obligation_id"])}: {esc(it["title"])}{dl}</p>', unsafe_allow_html=True)
+        st.write("")
+        st.markdown("##### Sample executable rule")
+        if rules:
+            st.json(rules[0])
+        st.write("")
+        st.markdown("##### Register status overview")
+        statuses = {}
+        for r_ in register:
+            statuses[r_["status"]] = statuses.get(r_["status"], 0) + 1
+        st.write(statuses)
+
+# -- Audit Trail --
+with tab5:
+    st.markdown("#### Audit Trail")
+    st.markdown('<p class="meta">A hash-chained, tamper-evident log of every pipeline run. Altering any past entry breaks the chain from that point forward.</p>', unsafe_allow_html=True)
+    log = load_json("audit_log.json")
+    if not log:
+        st.info("No audit log yet. Run: python build_audit_log.py")
+    else:
+        from src.audit_log import verify_chain
+        valid, broken_at = verify_chain()
+        c1, c2 = st.columns(2)
+        c1.metric("Events logged", len(log))
+        with c2:
+            if valid:
+                st.markdown('<span class="pill pill-ok">Chain verified intact</span>', unsafe_allow_html=True)
+            else:
+                st.markdown(f'<span class="pill pill-bad">Tampering detected at index {broken_at}</span>', unsafe_allow_html=True)
+        st.write("")
+        for e in reversed(log):
+            with st.expander(f"[{e['index']}] {e['timestamp'][:19]}   .   {e['event_type']}"):
+                st.json(e["details"])
+                st.markdown(f'<p class="mono">hash: {e["hash"][:32]}...</p>', unsafe_allow_html=True)
