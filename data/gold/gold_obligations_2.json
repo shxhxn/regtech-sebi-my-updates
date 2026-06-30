@@ -1,0 +1,19 @@
+{
+  "section_label": "Annexure A -- mandatory terms for the IA-client advisory agreement, plus the annual audit report deadline",
+  "obligations": [
+    {"id": "gold2-01", "title": "Submit annual audit report and adverse findings by Oct 31 deadline", "key_phrase": "not later than October 31st of each year for the previous financial year"},
+    {"id": "gold2-02", "title": "Ensure required terms and conditions incorporated in IA-client agreement", "key_phrase": "Investment Adviser shall ensure that the following terms and conditions are incorporated in the Investment Advisory Agreement"},
+    {"id": "gold2-03", "title": "No advice or fee charged until agreement signed", "key_phrase": "Investment Adviser shall neither render any investment advice nor charge any fee until the client has signed this agreement"},
+    {"id": "gold2-04", "title": "No managing client funds or securities", "key_phrase": "Investment Adviser shall not manage funds and securities on behalf of the client"},
+    {"id": "gold2-05", "title": "No implying assured or guaranteed returns", "key_phrase": "shall not, in the course of performing its services to the client, hold out any investment advice implying any assured returns"},
+    {"id": "gold2-06", "title": "Agreement must specify fees charged to client", "key_phrase": "Fees charged to the client. (to be specifically mentioned here)"},
+    {"id": "gold2-07", "title": "Act in fiduciary capacity towards clients at all times", "key_phrase": "The Investment Adviser shall act in a fiduciary capacity towards its clients at all times"},
+    {"id": "gold2-08", "title": "Maintain specified client and advice records", "key_phrase": "Maintenance of records i.e. client-wise KYC, risk assessment, analysis reports of investment advice and suitability"},
+    {"id": "gold2-09", "title": "Undertaking to abide by Code of Conduct (Third Schedule)", "key_phrase": "Undertaking to abide by the Code of Conduct as specified in the Third Schedule"},
+    {"id": "gold2-10", "title": "Undertaking to recommend direct implementation of advice", "key_phrase": "undertaking from the investment adviser to recommend direct implementation of advice i.e. through direct schemes/direct codes"},
+    {"id": "gold2-11", "title": "Agreement must include risk factors statement", "key_phrase": "detailed statement of risks associated with each type of investment covering the standard risks"},
+    {"id": "gold2-12", "title": "Agreement must specify validity and renewal terms", "key_phrase": "Minimum period if any, and provision for renewal, if any, along with terms and conditions for such renewal"},
+    {"id": "gold2-13", "title": "Agreement amendment requires mutual written consent", "key_phrase": "agreement may be amended by mutual written consent of the parties"},
+    {"id": "gold2-14", "title": "Agreement must specify termination conditions including SEBI cancellation", "key_phrase": "Suspension/ Cancellation of registration of Investment Adviser by SEBI"}
+  ]
+}

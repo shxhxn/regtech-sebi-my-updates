@@ -1,30 +1,23 @@
 """
-Gold-standard accuracy benchmark.
+Gold-standard accuracy benchmark. Supports multiple labeled sections so you
+can re-score section 1 later (e.g. to prove a prompt fix improved recall)
+without losing it when you label a second or third section.
 
-HOW TO USE:
-1. Run `python dump_section.py` (no args) to see the document length and a preview.
-2. Pick a clean section (e.g. one numbered clause/topic) and run:
-       python dump_section.py <start_char> <end_char>
-   This saves that section to data/gold/section_raw.txt and prints a preview.
-3. Read data/gold/section_raw.txt yourself and write down EVERY obligation a
-   compliance officer would identify in it. Put them in data/gold/gold_obligations.json
-   using the template (each entry needs an id, a short title, and a key_phrase --
-   a distinctive 5-12 word snippet that should appear in the obligation if it was
-   correctly extracted).
-4. Run `python benchmark.py` to get precision, recall, and F1 for that section,
-   plus a list of any system extractions in scope that don't match your gold list
-   (review these by hand -- they are either real misses in your gold list, or
-   genuine false positives).
+USAGE:
+  python benchmark.py          -> scores data/gold/section_raw.txt + gold_obligations.json
+  python benchmark.py _2       -> scores data/gold/section_raw_2.txt + gold_obligations_2.json
 """
 import json
 import re
+import sys
 from pathlib import Path
 from rapidfuzz import fuzz
 from src.config import OUTPUT
 
 GOLD_DIR = Path("data/gold")
-SECTION_PATH = GOLD_DIR / "section_raw.txt"
-GOLD_PATH = GOLD_DIR / "gold_obligations.json"
+SUFFIX = sys.argv[1] if len(sys.argv) > 1 else ""
+SECTION_PATH = GOLD_DIR / f"section_raw{SUFFIX}.txt"
+GOLD_PATH = GOLD_DIR / f"gold_obligations{SUFFIX}.json"
 
 def normalize(t):
     if not t:
@@ -53,26 +46,23 @@ def find_match(key_phrase, candidates):
 
 def main():
     GOLD_DIR.mkdir(parents=True, exist_ok=True)
+    print(f"Scoring section: {SECTION_PATH.name}  /  {GOLD_PATH.name}\n")
 
     if not SECTION_PATH.exists():
-        print("No section selected yet.")
-        print("Run: python dump_section.py            (to see document length)")
-        print("Then: python dump_section.py <start> <end>   (to select + save a section)")
+        print(f"No section saved yet at {SECTION_PATH}.")
+        print(f"Run: python dump_section.py <start> <end> {SUFFIX}")
         return
 
     if not GOLD_PATH.exists():
         template = {
             "section_label": "DESCRIBE WHICH CLAUSE/TOPIC THIS SECTION COVERS",
             "obligations": [
-                {"id": "gold-01", "title": "Short title of obligation 1",
-                 "key_phrase": "5-12 distinctive words that should appear in the extracted verbatim text"},
-                {"id": "gold-02", "title": "Short title of obligation 2",
-                 "key_phrase": "another distinctive phrase from the section"}
+                {"id": "gold-01", "title": "Short title", "key_phrase": "5-12 distinctive words from the text"}
             ]
         }
         json.dump(template, open(GOLD_PATH, "w"), indent=2)
         print(f"No gold file yet -- created a template at {GOLD_PATH}")
-        print("Open it, read data/gold/section_raw.txt, and fill in every real obligation. Then re-run this script.")
+        print(f"Open it, read {SECTION_PATH}, and fill in every real obligation. Then re-run.")
         return
 
     section_text = open(SECTION_PATH).read()
@@ -98,7 +88,7 @@ def main():
             print(f"  MATCH  [{g['id']}] {g['title']}  ->  {m}")
         else:
             fn_list.append(g)
-            print(f"  MISS   [{g['id']}] {g['title']}   <-- system did not extract this (false negative)")
+            print(f"  MISS   [{g['id']}] {g['title']}   <-- false negative")
 
     fp_list = [o for o in in_scope_obs if o["obligation_id"] not in matched_ids]
 
@@ -115,8 +105,6 @@ def main():
 
     if fp_list:
         print(f"\n--- {len(fp_list)} extra extraction(s) in scope not matched to your gold list ---")
-        print("Review each: if it's a real obligation you missed labeling, add it to gold_obligations.json")
-        print("and re-run. If it's genuinely wrong/hallucinated, it's a true false positive.\n")
         for o in fp_list:
             print(f"  [{o['obligation_id']}] {o.get('title','')}")
             print(f"     {o.get('verbatim_text','')[:140]}")
