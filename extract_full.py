@@ -48,11 +48,20 @@ def chunk_text(text: str, chunk_size: int = 3000, overlap: int = 200):
         start += chunk_size - overlap
     return chunks
 
+def _record_failed_chunk(n):
+    """Persist failed chunk numbers across runs/batches so a failure is never
+    silently lost in scrollback -- recover_chunks.py reads this file."""
+    fc_path = OUTPUT / "failed_chunks.json"
+    existing = json.load(open(fc_path)) if fc_path.exists() else []
+    if n not in existing:
+        existing.append(n)
+    with open(fc_path, "w") as f:
+        json.dump(sorted(existing), f)
+
 def main():
     OUTPUT.mkdir(exist_ok=True)
     out_path = OUTPUT / "obligations_2025.json"
 
-    # Load existing obligations if resuming
     if out_path.exists():
         with open(out_path) as f:
             existing = json.load(f)
@@ -63,7 +72,6 @@ def main():
         all_obligations = []
         seen_ids = set()
 
-    # Load progress tracker
     progress_path = OUTPUT / "progress.json"
     if progress_path.exists():
         with open(progress_path) as f:
@@ -106,8 +114,8 @@ def main():
         except Exception as e:
             print(f"ERROR: {e}")
             failed_chunks.append(i + 1)
+            _record_failed_chunk(i + 1)
 
-        # Save after EVERY chunk (success or error) so resume is always accurate
         with open(out_path, "w") as f:
             json.dump(all_obligations, f, indent=2)
         with open(progress_path, "w") as f:
@@ -126,7 +134,8 @@ def main():
     print(f"Total unique obligations so far: {len(all_obligations)}")
     print(f"Saved to: {out_path}")
     if failed_chunks:
-        print(f"Chunks that errored and were skipped (can re-run later): {failed_chunks}")
+        print(f"Chunks that errored and were skipped this run: {failed_chunks}")
+        print(f"Once all batches are done, run  python recover_chunks.py  to patch these in.")
 
 if __name__ == "__main__":
     main()

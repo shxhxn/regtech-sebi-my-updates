@@ -11,11 +11,46 @@ from datetime import datetime
 from pathlib import Path
 from src.config import OUTPUT
 
+# Deterministic, keyword-based risk scoring -- same "no AI in the check itself"
+# philosophy as the grounding verifier: explainable and reproducible, every
+# obligation's band traces back to a specific reason, not a black-box score.
+# A real compliance/legal team would refine these weights; this is a
+# reasonable, defensible starting point, not a definitive regulatory opinion.
+CRITICAL_KEYWORDS = [
+    "shall not", "prohibited", "penalty", "suspension", "cancellation",
+    "fraud", "mis-sell", "misselling", "client fund", "client money",
+    "segregat", "misappropriat", "money laundering", "insider trading",
+]
+HIGH_KEYWORDS = [
+    "disclos", "risk profil", "fee", "conflict of interest", "grievance",
+    "advertisement", "misleading", "suitability", "kyc", "consent",
+]
+
+def score_risk(ob):
+    """Critical/High: content-based, from keywords signalling enforcement
+    teeth or client-harm potential. Medium: has a real deadline or recurring
+    cadence but no red-flag content. Low: everything else (mostly
+    administrative/record-keeping duties)."""
+    text = " ".join([
+        ob.get("required_action") or "",
+        ob.get("verbatim_text") or "",
+        ob.get("trigger") or "",
+        ob.get("title") or "",
+    ]).lower()
+
+    if any(k in text for k in CRITICAL_KEYWORDS):
+        return "Critical"
+    if any(k in text for k in HIGH_KEYWORDS):
+        return "High"
+    if ob.get("deadline") or ob.get("frequency") in ("monthly", "quarterly", "half_yearly", "annual", "event_driven"):
+        return "Medium"
+    return "Low"
+
 def load_obligations():
     path = OUTPUT / "obligations_2025_verified.json"
     if not path.exists():
         path = OUTPUT / "obligations_2025.json"
-    return json.load(open(path))
+    return path, json.load(open(path))
 
 def build_register(obligations):
     """One row per obligation: status, owner, evidence, audit fields.
@@ -34,7 +69,8 @@ def build_register(obligations):
             "frequency": ob.get("frequency"),
             "deadline": ob.get("deadline"),
             "source_clause": ob.get("source_clause"),
-            "confidence_band": ob.get("confidence_band", "Unverified"),
+            "risk_band": ob.get("risk_band"),
+            "confidence_band": ob.get("grounding_band", "Unverified"),
         })
     return register
 
@@ -72,13 +108,20 @@ def build_calendar(obligations):
             "title": ob["title"],
             "deadline": ob.get("deadline"),
         })
-    # order from most to least frequent for readability
     order = ["monthly", "quarterly", "half_yearly", "annual", "event_driven", "one_time", "ongoing", "not_specified"]
     return {k: buckets[k] for k in order if k in buckets}
 
 def main():
-    obligations = load_obligations()
-    print(f"Loaded {len(obligations)} obligations.\n")
+    src_path, obligations = load_obligations()
+    print(f"Loaded {len(obligations)} obligations from {src_path.name}.\n")
+
+    # Score risk and write it directly onto each obligation, persisted back to
+    # the same file we loaded from. The dashboard reads risk_band straight off
+    # the obligation records (not from the register JSON) -- this write-back
+    # is what actually makes the risk badges and distribution bar appear.
+    for ob in obligations:
+        ob["risk_band"] = score_risk(ob)
+    json.dump(obligations, open(src_path, "w"), indent=2)
 
     register = build_register(obligations)
     rules = build_executable_rules(obligations)
@@ -89,6 +132,12 @@ def main():
     json.dump(rules, open(OUTPUT / "executable_rules.json", "w"), indent=2)
     json.dump(calendar, open(OUTPUT / "compliance_calendar.json", "w"), indent=2)
 
+    risk_counts = {}
+    for ob in obligations:
+        risk_counts[ob["risk_band"]] = risk_counts.get(ob["risk_band"], 0) + 1
+
+    print(f"Risk scored          : {dict(sorted(risk_counts.items()))}")
+    print(f"                      -> written back into {src_path.name}")
     print(f"Compliance register : {len(register)} rows  -> output/compliance_register.json")
     print(f"Executable rules     : {len(rules)} rules  -> output/executable_rules.json")
     print(f"Calendar buckets     : {list(calendar.keys())}")

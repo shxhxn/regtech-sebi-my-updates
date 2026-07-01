@@ -1,656 +1,828 @@
 {
-  "quarterly": [
+  "monthly": [
     {
-      "obligation_id": "ia-reporting-01",
-      "title": "Periodic Reporting",
+      "obligation_id": "ia-complaints-status-01",
+      "title": "Display Complaints Status on Website",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-complaint-disclosure-01",
+      "title": "Disclose Complaint Data Monthly",
+      "deadline": null
+    }
+  ],
+  "half_yearly": [
+    {
+      "obligation_id": "ia-complaint-redress-02",
+      "title": "Report Compliance with SEBI Circular",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-periodic-reporting-01",
+      "title": "Submit periodic reports for half-yearly periods",
+      "deadline": "within 30 days from the end of the respective half-yearly period"
+    },
+    {
+      "obligation_id": "ia-compliance-undertaking-01",
+      "title": "Submit undertaking on compliance with SEBI circulars",
       "deadline": null
     }
   ],
   "annual": [
     {
-      "obligation_id": "ia-annual-certificate-01",
-      "title": "Obtain Annual Certificate",
-      "deadline": "within 6 months of the end of the financial year"
+      "obligation_id": "ia-deposit-maintenance-01",
+      "title": "Maintain Deposit Based on Number of Clients",
+      "deadline": null
     },
     {
-      "obligation_id": "ia-audit-01",
-      "title": "Conduct Annual Audit",
-      "deadline": "Within six months from the end of each financial year"
+      "obligation_id": "ia-deposit-maintenance-03",
+      "title": "Review Deposit Requirements Periodically",
+      "deadline": null
     },
     {
-      "obligation_id": "ia-audit-report-01",
-      "title": "Submit Audit Report to IAASB/SEBI",
-      "deadline": "Within one month from the date of the audit report"
+      "obligation_id": "ia-seg-02",
+      "title": "Identify Dependent Family Members",
+      "deadline": null
     },
     {
-      "obligation_id": "ia-audit-report-publishing-01",
-      "title": "Publish Audit Report on Website",
+      "obligation_id": "ia-seg-04",
+      "title": "Annual Auditor Certificate for Segregation Compliance",
       "deadline": null
     },
     {
       "obligation_id": "ia-annual-audit-01",
-      "title": "Conduct Annual Audit",
-      "deadline": "Within six months from the end of each financial year and submit report within one month from the date of the audit report but not later than October 31st of each year"
-    },
-    {
-      "obligation_id": "ia-comply-with-audit-requirements",
-      "title": "Comply with Audit Requirements",
+      "title": "Conduct Annual Audit for Compliance with IA Regulations and Circulars",
       "deadline": null
     },
     {
-      "obligation_id": "ia-annual-compliance-audit-03",
-      "title": "Annual Compliance Audit Report",
+      "obligation_id": "ia-audit-report-submission-01",
+      "title": "Submit Annual Compliance Audit Report to IAASB/SEBI",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-audit-report-publishing-01",
+      "title": "Publish Annual Compliance Audit Report and Adverse Findings on Website",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-audit-report-adverse-findings-01",
+      "title": "Submit Adverse Findings of Audit to IAASB/SEBI",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-certificate-of-compliance-01",
+      "title": "Obtain Annual Certificate of Compliance from ICAI/ICSI/ICMAI or Auditor",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-audit-report-publishing-02",
+      "title": "Publish Annual Compliance Audit Report on Website",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-audit-report-client-provision-01",
+      "title": "Provide Annual Compliance Audit Report to Clients",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-audit-report-adverse-findings-publishing-01",
+      "title": "Publish Adverse Findings and Action Taken Thereof on Website",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-audit-report-adverse-findings-submission-02",
+      "title": "Submit Adverse Findings and Action Taken Thereof to IAASB/SEBI",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-audit-01",
+      "title": "Annual Audit of Compliance with IA Regulations",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-registration-disclosure-01",
+      "title": "Disclose Registration Details",
       "deadline": null
     }
   ],
   "event_driven": [
     {
-      "obligation_id": "ia-redressal-01",
-      "title": "Redressal of Investor Grievances",
+      "obligation_id": "ia-fees-charging-03",
+      "title": "Change Fee Mode Flexibility",
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-eligibility-01",
-      "title": "Determine Client Eligibility for Advisory or Distribution Services",
+      "obligation_id": "ia-disclosure-03",
+      "title": "Disclose extent of AI tool usage",
       "deadline": null
     },
     {
-      "obligation_id": "ia-fee-refund-01",
-      "title": "Fee Refund",
+      "obligation_id": "ia-disclosure-04",
+      "title": "Provide initial and additional disclosures regarding AI tool usage",
       "deadline": null
     },
     {
-      "obligation_id": "ia-fee-breakage-01",
-      "title": "Fee Breakage",
+      "obligation_id": "ia-advertisement-supervisory-approval-01",
+      "title": "Obtain Prior Approval for Advertisements from Supervisory Body",
       "deadline": null
     },
     {
-      "obligation_id": "ia-deposit-revision-01",
-      "title": "Deposit Revision",
-      "deadline": "30th April of the subsequent financial year"
-    },
-    {
-      "obligation_id": "ia-registration-01",
-      "title": "Apply for In-Principle Registration as Non-Individual Investment Adviser",
-      "deadline": "within the specified time limit"
-    },
-    {
-      "obligation_id": "ia-transition-01",
-      "title": "Complete Transition Process",
-      "deadline": "within three months"
-    },
-    {
-      "obligation_id": "ia-adverse-findings-01",
-      "title": "Submit Adverse Findings to IAASB/SEBI",
-      "deadline": "Within one month from the date of the audit report"
-    },
-    {
-      "obligation_id": "ia-risk-profiling-01",
-      "title": "Conduct Risk Profiling and Suitability for Non-Individual Clients",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-change-in-control-01",
-      "title": "Obtain Prior Approval for Change in Control",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-prior-approval-01",
-      "title": "Obtain Prior Approval for Change in Control",
-      "deadline": "within six months from the date of approval"
-    },
-    {
-      "obligation_id": "ia-prior-approval-02",
-      "title": "Provide Information and Declarations for Prior Approval",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-prior-approval-03",
-      "title": "Inform Existing Investors about Change in Control",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-prior-approval-04",
-      "title": "Comply with Fit and Proper Person Criteria",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-prior-approval-05",
-      "title": "Obtain Approval/NOC from Stock Exchanges/Clearing Corporations/Depositories",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-change-in-control-02",
-      "title": "Submit online application for final approval",
-      "deadline": "within 15 days from the date of order of NCLT"
-    },
-    {
-      "obligation_id": "ia-change-in-control-03",
-      "title": "File application with SEBI prior to filing with NCLT",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-control-transfer-01",
-      "title": "Obtain prior approval for transfer of shareholding in proprietary firm",
-      "deadline": "within the timeframe specified by SEBI"
-    },
-    {
-      "obligation_id": "ia-control-transfer-02",
-      "title": "Obtain prior approval for transfer of ownership interest in partnership firm with two partners",
-      "deadline": "within the timeframe specified by SEBI"
-    },
-    {
-      "obligation_id": "ia-fit-and-proper-01",
-      "title": "Ensure incoming entities/shareholders satisfy fit and proper person criteria",
-      "deadline": "prior to the incoming entities/shareholders becoming part of controlling interest"
-    },
-    {
-      "obligation_id": "ia-advertisement-approval-01",
-      "title": "Prior Approval for Advertisements",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-suspension-01",
-      "title": "Suspension of Investment Adviser",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-retention-01",
-      "title": "Retain copy of advertisements",
-      "deadline": "five years from issuance"
-    },
-    {
-      "obligation_id": "ia-approval-requirement-01",
-      "title": "Compliance Officer Approval Requirement",
+      "obligation_id": "ia-advertisement-suspension-compliance-01",
+      "title": "Comply with Suspension Orders During Period of Suspension",
       "deadline": null
     },
     {
       "obligation_id": "ia-fiu-reporting-01",
-      "title": "FIU Reporting Requirement",
+      "title": "Reporting Suspicious Transactions/Reports to FIU",
       "deadline": null
     },
     {
-      "obligation_id": "ia-suspicious-transaction-reporting-01",
-      "title": "Reporting Suspicious Transactions",
+      "obligation_id": "ia-client-reports-01",
+      "title": "Providing Reports to Clients",
       "deadline": null
     },
     {
-      "obligation_id": "ia-restrict-transactions-01",
-      "title": "Place Restrictions on Transactions",
+      "obligation_id": "ia-grievance-resolution-01",
+      "title": "Grievance Resolution Process",
       "deadline": null
     },
     {
-      "obligation_id": "ia-risk-assessment",
-      "title": "Conduct Risk Assessment",
+      "obligation_id": "ia-complaint-redressal-investment-adviser",
+      "title": "Redress client complaints within 21 days",
       "deadline": null
     },
     {
-      "obligation_id": "ia-provide-reports",
-      "title": "Provide Reports to Clients",
+      "obligation_id": "ia-complaint-redressal-scores",
+      "title": "Redress client complaints through SCORES system",
       "deadline": null
     },
     {
-      "obligation_id": "ia-termination-notice-01",
-      "title": "Provide 30 days prior written notice for voluntary termination",
-      "deadline": "within 30 days"
-    },
-    {
-      "obligation_id": "ia-no-conflict-01",
-      "title": "Disclose Conflicts of Interest",
+      "obligation_id": "ia-complaint-redressal-iaasb",
+      "title": "Redress client complaints through IAASB first review",
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-protection-01",
-      "title": "Protect client interest in case of IA's death/disability",
+      "obligation_id": "ia-complaint-redressal-sebi",
+      "title": "Redress client complaints through SEBI second review",
       "deadline": null
     },
     {
-      "obligation_id": "ia-grievance-redressal-01",
-      "title": "Resolve client grievances within timelines",
+      "obligation_id": "ia-complaint-redressal-email",
+      "title": "Redress client complaints via designated email ID",
       "deadline": null
     },
     {
-      "obligation_id": "ia-consents-and-permissions-01",
-      "title": "Take all consents and permissions from the client",
+      "obligation_id": "ia-complaint-redressal-smartodr",
+      "title": "Redress client complaints through SMARTODR platform",
       "deadline": null
     },
     {
-      "obligation_id": "ia-trade-consent-01",
-      "title": "Client Consent for Trades",
+      "obligation_id": "ia-redressal-authorities-01",
+      "title": "Approach appropriate authorities for redressal of doubts/grievances",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advance-fee-01",
-      "title": "Advance Fee Payment",
+      "obligation_id": "ia-redressal-01",
+      "title": "Approach Authorities for Redressal of Doubts/Grievances",
       "deadline": null
     },
     {
-      "obligation_id": "ia-impersonation-complaints-01",
-      "title": "Close Impersonation Related Complaints",
+      "obligation_id": "ia-inform-existing-clients-change-management-01",
+      "title": "Inform Existing Clients About Change in Management",
       "deadline": null
     },
     {
-      "obligation_id": "ia-post-registration-02",
-      "title": "Post-Registration Applications",
+      "obligation_id": "ia-testing-backup-facilities-03",
+      "title": "Periodic Testing of Backup Facilities",
       "deadline": null
     }
   ],
   "one_time": [
     {
-      "obligation_id": "ia-kyc-01",
-      "title": "Know Your Client (KYC) Norms",
+      "obligation_id": "ia-fee-charging-02",
+      "title": "Charge Fees for a Maximum of One Year in Advance",
       "deadline": null
     },
     {
-      "obligation_id": "ia-agreement-01",
-      "title": "Enter into Investment Advisory Agreement",
+      "obligation_id": "ia-fee-charging-03",
+      "title": "Refund Unexpired Fees Upon Premature Termination",
       "deadline": null
     },
     {
-      "obligation_id": "ia-mitc-01",
-      "title": "Incorporate MITC into Agreement",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-client-consent-01",
-      "title": "Obtain Client Consent",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-fee-advance-01",
-      "title": "Fee Advance Limit",
+      "obligation_id": "ia-deposit-maintenance-04",
+      "title": "Compliance with Deposit Requirement by Existing IAs",
       "deadline": null
     },
     {
       "obligation_id": "ia-qualification-01",
-      "title": "Meet Qualification and Certification Requirement",
-      "deadline": "within five years i.e. up to September 30, 2025"
-    },
-    {
-      "obligation_id": "ia-ra-arms-length-01",
-      "title": "Maintain arms-length relationship between IA and RA activities",
+      "title": "Comply with Enhanced Qualification and Experience Requirement",
       "deadline": null
     },
     {
-      "obligation_id": "ia-part-time-eligibility-01",
-      "title": "Meet eligibility criteria for part-time IA registration",
+      "obligation_id": "ia-qualification-02",
+      "title": "Comply with Revised Qualification Criteria",
       "deadline": null
     },
     {
-      "obligation_id": "ia-part-time-undertaking-01",
-      "title": "Provide undertaking for part-time IA registration",
+      "obligation_id": "ia-registration-01",
+      "title": "Apply for In-Principle Registration as Non-Individual Investment Advisor",
       "deadline": null
     },
     {
-      "obligation_id": "ia-principal-officer-01",
-      "title": "Designation of Principal Officer",
+      "obligation_id": "ia-registration-02",
+      "title": "Submit Application and Required Documents",
       "deadline": null
     },
     {
-      "obligation_id": "ia-llp-registration-01",
-      "title": "Registration as Limited Liability Partnership",
-      "deadline": "September 30, 2025"
+      "obligation_id": "ia-registration-04",
+      "title": "Complete Transition Process within Three Months",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disclaimer-01",
+      "title": "Provide prominent disclaimer for part-time IAs",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-registration-explanation-01",
+      "title": "Provide clarity on eligibility for part-time registration",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-registration-exclusion-01",
+      "title": "Identify ineligible persons for part-time registration",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-registration-requirement-01",
+      "title": "Determine the need to register as a part-time IA",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-partnership-01",
+      "title": "Designate Principal Officer for Partnership Firms",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-partnership-02",
+      "title": "Apply for Registration Change by September 30, 2025",
+      "deadline": null
     },
     {
       "obligation_id": "ia-compliance-officer-01",
-      "title": "Appointment of Compliance Officer",
+      "title": "Appoint Independent Professional as Compliance Officer",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-compliance-officer-02",
+      "title": "Submit Undertaking for Monitoring Compliance",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-compliance-officer-03",
+      "title": "Certifications Required for Compliance Officer",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-discretion-share-policy-01",
+      "title": "Discretion to Share Investment Policy with Non-Individual Clients",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-website-confirmation-01",
+      "title": "Confirm Website Details to IAASB by June 30, 2025",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-seg-01",
+      "title": "Segregate Family of Clients",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-seg-05",
+      "title": "Waiver for Institutional Clients and Accredited Investors",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-seg-07",
+      "title": "Investment Advisory Agreement with Client",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-seg-08",
+      "title": "Include MITC in Investment Advisory Agreement",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-seg-09",
+      "title": "Client Consent for Agreement",
       "deadline": null
     },
     {
       "obligation_id": "ia-disclosure-01",
-      "title": "Disclosure for Non-SEBI Products",
-      "deadline": "July 31, 2025 for existing clients"
-    },
-    {
-      "obligation_id": "ia-ai-disclosure-01",
-      "title": "Disclosure of AI Tool Usage",
+      "title": "Disclose and obtain client declaration for non-SEBI products/services",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-free-trial-01",
-      "title": "No Free Trial for Products/Services",
+      "obligation_id": "ia-disclosure-02",
+      "title": "Ensure compliance by existing clients as on January 8, 2025",
       "deadline": null
     },
     {
-      "obligation_id": "ia-risk-profiling-consent-01",
-      "title": "Obtain Consent for Risk Profiling",
+      "obligation_id": "ia-sebi-approval-01",
+      "title": "Obtain SEBI Approval for Change in Control",
       "deadline": null
     },
     {
-      "obligation_id": "ia-fee-receipt-banking-channel-01",
-      "title": "Receive Fees through Banking Channel",
+      "obligation_id": "ia-change-control-01",
+      "title": "Obtain prior approval for change in control",
       "deadline": null
     },
     {
-      "obligation_id": "ia-fee-acceptance-01",
-      "title": "Accept fees through approved channels",
+      "obligation_id": "ia-change-control-02",
+      "title": "Provide detailed information for online application",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-change-control-03",
+      "title": "Obtain approval from stock exchanges/clearing corporations/depositories",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-change-control-04",
+      "title": "File application within six months",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-change-control-approval-01",
+      "title": "Obtain prior approval for change in control from SEBI",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-change-control-in-principle-approval-01",
+      "title": "Obtain in-principle approval from SEBI for change in control",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-shareholding-transfer-immediate-relatives-01",
+      "title": "Transfer shareholdings among immediate relatives without change in control",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-fit-and-proper-01",
+      "title": "Fit and Proper Person Criteria for Incoming Entities/Shareholders",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-notice-and-dissemination-01",
+      "title": "Notice and Dissemination by IAASB/RAASB",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-conflict-of-interest-02",
+      "title": "Define Conflict of Interest Policies and Procedures",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-agreement-01",
+      "title": "Incorporate Terms and Conditions in Investment Advisory Agreement",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-agreement-consent-01",
+      "title": "Client Consent for Services",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-agreement-declaration-01",
+      "title": "Investment Adviser Declaration in Agreement",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-agreement-fees-01",
+      "title": "Specify Fees in Agreement",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-agreement-fees-charged-01",
+      "title": "Specify Fees Charged in Agreement",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-termination-01",
+      "title": "Provide termination notice for voluntary agreement termination",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-termination-02",
+      "title": "Provide option for termination in case of certificate suspension",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-amendments-01",
+      "title": "Provide details on implications of amendments and termination",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-related-parties-01",
+      "title": "Declare independent relationship with related parties",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-no-power-of-attorney-01",
+      "title": "Decline right to seek Power of Attorney",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-fees-details-01",
+      "title": "Provide Specific Details on Fees",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-liability-statement-01",
+      "title": "Include Liability Statement in Agreement",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-death-disability-provisions-01",
+      "title": "Provisions for Client's Death or Disability",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-death-disability-obligor-01",
+      "title": "Appoint Obligor for Death or Disability",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-person-in-charge-01",
+      "title": "Identify and appoint a person-in-charge in case of death/disability",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-severability-clause-01",
+      "title": "Ensure severability of agreement provisions",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-force-majeure-clause-01",
+      "title": "Include force majeure clause in agreement",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-no-guaranteed-returns-01",
+      "title": "Disclose that no guaranteed returns are offered",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-share-financial-info-01",
+      "title": "Share Financial Information with Client",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-registration-certification-01",
+      "title": "Registration and Certification",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-no-login-credentials-request-01",
+      "title": "No Request for Login Credentials or OTPs",
       "deadline": null
     },
     {
       "obligation_id": "ia-enlistment-01",
-      "title": "Enlistment with IAASB",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-admin-fee-01",
-      "title": "Pay Administrative Fees",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-investor-charter-01",
-      "title": "Bring Investor Charter to Client Notice",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-01",
-      "title": "Include all forms of communications in advertisement",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-02",
-      "title": "Include specific information in advertisement",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-03",
-      "title": "Ensure accuracy and completeness of information in advertisement",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-04",
-      "title": "Include standard warning in advertisement",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-05",
-      "title": "Ensure standard warning is audible in audio-visual media based advertisements",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-06",
-      "title": "Ensure standard warning is accurately translated in non-English advertisements",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-07",
-      "title": "Provide official website hyperlink in certain advertisements",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-advertisement-08",
-      "title": "Include disclaimer in certain advertisements",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-internal-code-01",
-      "title": "Establish internal code of conduct",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-employee-guidance-01",
-      "title": "Guide employees on unauthenticated news",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-outsourcing-restriction-01",
-      "title": "Outsourcing Restriction",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-internal-policies-01",
-      "title": "Establish Internal Policies and Procedures",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-association-01",
-      "title": "Association with Certain Persons",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-accreditation-01",
-      "title": "Accreditation to Investors",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-parrva-01",
-      "title": "Recognition and Operationalization of PaRRVA",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-mitra-01",
-      "title": "Refer to MITRA Circular",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-agreement-terms-01",
-      "title": "Include Terms and Conditions in Agreement",
-      "deadline": "Before providing services"
-    },
-    {
-      "obligation_id": "ia-fee-disclosure-01",
-      "title": "Disclose Fees",
-      "deadline": "Before providing services"
-    },
-    {
-      "obligation_id": "ia-no-poA-01",
-      "title": "Not Seek Power of Attorney",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-fee-payment-mode-01",
-      "title": "Specify Fee Payment Mode",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-liability-01",
-      "title": "State Liability",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-representations-01",
-      "title": "Make Representations",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-death-disability-01",
-      "title": "Plan for Death or Disability of Client",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-death-disability-02",
-      "title": "Plan for Death or Disability of Investment Adviser",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-dispute-resolution-01",
-      "title": "Establish dispute resolution mechanism",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-agreement-signature-01",
-      "title": "Obtain Client Signature on Agreement",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-inform-existing-clients-01",
-      "title": "Inform Existing Clients about MITC",
-      "deadline": "June 30, 2025"
-    },
-    {
-      "obligation_id": "ia-fee-advance-02",
-      "title": "Charge advance fees not exceeding one year",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-ra-undertaking-01",
-      "title": "Provide undertaking for segregation of services",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-terms-fees-01",
-      "title": "Terms of Fees and Billing",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-representations-covenants-01",
-      "title": "Representations and Covenants",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-death-disability-client-01",
-      "title": "Death or Disability of Client",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-death-disability-ia-01",
-      "title": "Death or Disability of Investment Adviser",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-client-info-01",
-      "title": "Client Information Collection",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-enlistment-02",
-      "title": "Enlistment with RAASB for Existing RAs",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-enlistment-03",
-      "title": "Enlistment with IAASB for Existing IAs",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-enlistment-04",
-      "title": "Enlistment with RAASB/IAASB for New Applicants",
+      "title": "Enlistment of RAs/IAs with RAASB/IAASB",
       "deadline": null
     },
     {
       "obligation_id": "ia-onboarding-01",
-      "title": "Onboarding of Clients",
+      "title": "Sharing of agreement copy during onboarding",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-onboarding-02",
+      "title": "Completion of KYC during onboarding",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disclosure-full-business-details",
+      "title": "Full disclosure about business and affiliations to clients",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disclosure-risk-profile",
+      "title": "Disclosure of risk profile to clients",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disclosure-conflict-of-interest",
+      "title": "Disclosure of conflicts of interest in advisory activities",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disclosure-artificial-intelligence-use",
+      "title": "Disclosure of use of AI tools in advisory services",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disclose-material-facts",
+      "title": "Disclosure of material facts to investors",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disclose-complex-high-risk-products",
+      "title": "Provide clear guidance and caution for complex high-risk products",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-payments-01",
+      "title": "Make payments through banking channels only",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-clear-terms-01",
+      "title": "Ensure terms and conditions are in writing",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-guaranteed-return-disclosure-01",
+      "title": "Inform SEBI about Assured or Guaranteed Returns",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-right-to-exit-01",
+      "title": "Right to Exit Service of an Investment Adviser",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-right-to-clarification-01",
+      "title": "Right to Seek Clarifications and Guidance on Advice",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-right-to-feedback-01",
+      "title": "Right to Provide Feedback",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-no-binding-clause-01",
+      "title": "Not Bound by Contravening Clauses",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-fall-for-stock-tips-01",
+      "title": "Do Not Fall for Stock Tips",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-provide-funds-01",
+      "title": "Do Not Provide Funds to Investment Adviser",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-assured-return-promise-01",
+      "title": "Do Not Fall for Assured Return Promises",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-luring-advertisements-01",
+      "title": "Do Not Fall Prey to Luring Advertisements",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-transactions-phone-calls-01",
+      "title": "Do Not Do Transactions Based on Phone Calls",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-take-decisions-repeated-messages-01",
+      "title": "Do Not Take Decisions Based on Repeated Messages",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-take-discount-incentives-01",
+      "title": "Do Not Take Limited Period Discount or Incentives",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-rush-investments-risk-appetite-01",
+      "title": "Do Not Rush into Investments Mismatching Risk Appetite and Goals",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-dont-share-login-credentials-01",
+      "title": "Do Not Share Login Credentials of Trading, Demat or Bank Accounts",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-criminal-complaint-01",
+      "title": "No Criminal Complaints or Information Filed",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-charge-sheet-pending-01",
+      "title": "No Charge Sheet Filed Against Adviser",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-order-restraint-prohibition-debarment-01",
+      "title": "No Order of Restraint, Prohibition or Debarment",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-recovery-proceedings-pending-01",
+      "title": "No Recovery Proceedings Initiated Against Adviser",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-order-conviction-pending-01",
+      "title": "No Order of Conviction for Moral Turpitude",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-winding-up-proceedings-pending-01",
+      "title": "No Winding Up Proceedings Initiated or Order Passed",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-declared-insolvent-01",
+      "title": "Not Declared Insolvent",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-unsound-mind-declared-01",
+      "title": "Not Found to Be of Unsound Mind",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-wilful-defaulter-categorized-01",
+      "title": "Not Categorized as Wilful Defaulter",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-fugitive-economic-offender-declared-01",
+      "title": "Not Declared Fugitive Economic Offender",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-not-fit-and-proper-person-01",
+      "title": "Not Declared Not Fit and Proper Person by SEBI",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-no-notice-show-cause-issued-01",
+      "title": "No Notice to Show Cause Issued in Last One Year",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-risk-assessment-factors-01",
+      "title": "Consider Factors for Risk Assessment",
       "deadline": null
     }
   ],
   "ongoing": [
     {
-      "obligation_id": "ia-aml-01",
-      "title": "Anti-Money Laundering (AML) Standards",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-segregation-01",
+      "obligation_id": "ia-seg-advisory-dist-01",
       "title": "Client Level Segregation of Advisory and Distribution Activities",
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-discretion-01",
-      "title": "Respect Client Discretion for Holding Assets",
+      "obligation_id": "ia-guidance-01",
+      "title": "Provide Guidance on Centralised Fee Collection Mechanism",
       "deadline": null
     },
     {
-      "obligation_id": "ia-pan-record-01",
-      "title": "Maintain PAN Records for Client Identification",
+      "obligation_id": "ia-additional-terms-01",
+      "title": "Include Additional Terms and Conditions",
       "deadline": null
     },
     {
-      "obligation_id": "ia-direct-plans-01",
-      "title": "Advise Direct Plans",
+      "obligation_id": "ia-client-agreement-signature-01",
+      "title": "Ensure Client Signature Before Providing Advice or Charging Fees",
       "deadline": null
     },
     {
-      "obligation_id": "ia-fee-charge-01",
-      "title": "Charge Fees Only After Agreement",
+      "obligation_id": "ia-fees-charging-01",
+      "title": "Charge Fees According to Specified Modes",
       "deadline": null
     },
     {
-      "obligation_id": "ia-fee-limit-01",
-      "title": "Comply with Fee Limits",
+      "obligation_id": "ia-fees-charging-02",
+      "title": "Revised Fixed Fee Mode Limit",
       "deadline": null
     },
     {
-      "obligation_id": "ia-aua-documentation-01",
-      "title": "Demonstrate AUA with Supporting Documents",
+      "obligation_id": "ia-fees-charging-04",
+      "title": "Do Not Include Statutory Charges in Fee Limits",
       "deadline": null
     },
     {
-      "obligation_id": "ia-pre-existing-arrangement-01",
-      "title": "Deduct Pre-Existing Arrangements from AUA",
+      "obligation_id": "ia-fees-charging-05",
+      "title": "Deduct Pre-existing Distribution Arrangements from AUA",
       "deadline": null
     },
     {
-      "obligation_id": "ia-deposit-requirement-01",
-      "title": "Deposit Requirement",
+      "obligation_id": "ia-investment-advice-scope-01",
+      "title": "Scope of Investment Advice Under SEBI Regulations",
       "deadline": null
     },
     {
-      "obligation_id": "ia-deposit-maintenance-01",
-      "title": "Deposit Maintenance",
+      "obligation_id": "ia-fee-charging-01",
+      "title": "Charge Fees Based on Net Asset Value",
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-service-01",
-      "title": "Continue servicing existing clients during transition",
+      "obligation_id": "ia-fee-charging-04",
+      "title": "Limit and Mode of Fees for Non-Individual Clients and Accredited Investors",
       "deadline": null
     },
     {
-      "obligation_id": "ia-ra-segregation-01",
-      "title": "Segregate investment advisory and research services",
+      "obligation_id": "ia-deposit-maintenance-02",
+      "title": "Deposit Maintenance with Scheduled Bank and Lien",
       "deadline": null
     },
     {
-      "obligation_id": "ia-arms-length-01",
-      "title": "Maintain Arms-Length Relationship",
+      "obligation_id": "ia-registration-03",
+      "title": "Comply with Number of Clients Limit",
       "deadline": null
     },
     {
-      "obligation_id": "ia-disclaimer-01",
-      "title": "Provide Disclaimer for Non-SEBI Services",
+      "obligation_id": "ia-disclose-conflict-01",
+      "title": "Disclose nature of other activities and ensure no conflict of interest",
       "deadline": null
     },
     {
-      "obligation_id": "ia-conflict-disclosure-01",
-      "title": "Disclose Conflict of Interest",
+      "obligation_id": "ia-investment-advice-scope",
+      "title": "Scope of Investment Advice",
       "deadline": null
     },
     {
-      "obligation_id": "ia-ai-responsibility-01",
-      "title": "Responsibility for AI Tool Usage",
+      "obligation_id": "ia-risk-profiling-01",
+      "title": "Use Approved Investment Policy for Non-Individual Clients",
       "deadline": null
     },
     {
-      "obligation_id": "ia-record-keeping-01",
-      "title": "Record Keeping",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-implementation-recording-01",
-      "title": "Maintain Call Recording for Implementation/Execution Consent",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-website-requirement-01",
+      "obligation_id": "ia-website-maintenance-01",
       "title": "Maintain a Functional Website",
       "deadline": null
     },
     {
-      "obligation_id": "ia-website-details-01",
-      "title": "Display Specified Information on Website",
+      "obligation_id": "ia-display-details-website-01",
+      "title": "Display Required Details on Website and Other Communication Channels",
       "deadline": null
     },
     {
-      "obligation_id": "ia-complaints-status-01",
-      "title": "Display complaints status on website",
-      "deadline": "within 7 days of end of the previous month"
+      "obligation_id": "ia-restriction-free-trial-01",
+      "title": "Restriction on Free Trial for Products/Services",
+      "deadline": null
     },
     {
-      "obligation_id": "ia-investor-grievance-redressal-01",
-      "title": "Disclose Complaints and Redressal Data",
-      "deadline": "7th of succeeding month"
+      "obligation_id": "ia-proper-risk-profiling-01",
+      "title": "Proper Risk Profiling and Client Consent",
+      "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-code-01",
-      "title": "Ensure compliance with the advertisement code",
+      "obligation_id": "ia-receiving-fees-banking-channel-01",
+      "title": "Receive Fees Only Through Banking Channel",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-fees-receipt-01",
+      "title": "Accept Fees via Specific Methods Only",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-seg-03",
+      "title": "Advise Direct Plans Only",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-responsibility-01",
+      "title": "Ensure security and confidentiality of client data using AI tools",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-records-maintenance-01",
+      "title": "Maintain records of interactions with all clients",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-call-recording-01",
+      "title": "Maintain Call Recording of Client Consents for Implementation/Execution",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-records-retention-01",
+      "title": "Maintain Records for Five Years or Until Dispute Resolution",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-complaint-redress-01",
+      "title": "Display Grievance Redress Mechanism",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-investor-charter-01",
+      "title": "Display Investor Charter to Clients",
       "deadline": null
     },
     {
@@ -659,122 +831,97 @@
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-01",
-      "title": "Prohibitions in Advertisements",
+      "obligation_id": "ia-advertisement-prohibitions-01",
+      "title": "Prohibit Certain Statements in Advertisements",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-02",
-      "title": "False or Misleading Statements in Advertisements",
+      "obligation_id": "ia-advertisement-suspension-01",
+      "title": "Prohibition on Advertising During Suspension",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-03",
-      "title": "Misleading Testimonials in Advertisements",
+      "obligation_id": "ia-no-games-01",
+      "title": "Prohibition on Engaging in Prize Distribution Games",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-04",
-      "title": "Statements that May Mislead Investors in Advertisements",
+      "obligation_id": "ia-advertisement-retention-01",
+      "title": "Retention of Advertisement Copies",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-05",
-      "title": "Statements Likely to be Misunderstood in Advertisements",
+      "obligation_id": "ia-brand-name-transparency-01",
+      "title": "Transparency in Brand Name Usage",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-06",
-      "title": "Exploitative Statements in Advertisements",
+      "obligation_id": "ia-no-sebi-logo-01",
+      "title": "Prohibition on Using SEBI Logo",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-07",
-      "title": "Exaggerated or Inconsistent Statements in Advertisements",
+      "obligation_id": "ia-mutual-fund-scheme-access-01",
+      "title": "Access to Mutual Fund Schemes Through Stock Exchange Infrastructure",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-08",
-      "title": "Technical or Complex Language in Advertisements",
+      "obligation_id": "ia-unverified-news-control-01",
+      "title": "Prohibition on Circulating Unverified Information",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-09",
-      "title": "Reference to Free Reports or Services in Advertisements",
+      "obligation_id": "ia-no-rumors-01",
+      "title": "Prohibition on Encouraging Rumours or Unverified Information",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-10",
-      "title": "Guarantees of Returns in Advertisements",
+      "obligation_id": "ia-blogs-chat-forums-01",
+      "title": "Restriction on Access to Blogs/Chat Forums/Messenger Sites",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-11",
-      "title": "Implying Assured Returns in Advertisements",
+      "obligation_id": "ia-logs-maintenance-01",
+      "title": "Maintenance of Logs for Usage of Blogs/Chat Forums/Messenger Sites",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-12",
-      "title": "Discrediting Other Advertisements or Intermediaries in Advertisements",
+      "obligation_id": "ia-news-forwarding-01",
+      "title": "Forwarding Market Related News After Approval",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-13",
-      "title": "Reference to Past Performance in Advertisements",
+      "obligation_id": "ia-compliance-officer-liability-01",
+      "title": "Compliance Officer Liability for Breach of Duty",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-14",
-      "title": "Use of Superlative Terms in Advertisements",
+      "obligation_id": "ia-outsourcing-principles-01",
+      "title": "Principles for Outsourcing Activities",
       "deadline": null
     },
     {
-      "obligation_id": "ia-advertisement-prohibition-15",
-      "title": "Use of SEBI Logo in Advertisements",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-games-01",
-      "title": "Not engage in games or schemes",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-brand-name-01",
-      "title": "Display IA information",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-sebi-logo-01",
-      "title": "Not use SEBI logo",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-rumour-control-01",
-      "title": "Prevent Rumour Circulation",
+      "obligation_id": "ia-no-core-outsourcing-01",
+      "title": "Prohibition on Outsourcing Core Business Activities and Compliance Functions",
       "deadline": null
     },
     {
       "obligation_id": "ia-kyc-compliance-01",
-      "title": "KYC Compliance Requirement",
+      "title": "Compliance with KYC Requirements",
       "deadline": null
     },
     {
-      "obligation_id": "ia-log-maintenance-01",
-      "title": "Log Maintenance Requirement",
+      "obligation_id": "ia-report-suspicious-01",
+      "title": "Reporting Suspicious Transactions",
       "deadline": null
     },
     {
-      "obligation_id": "ia-centralized-fee-collection-01",
-      "title": "Encouraging Clients to Use Centralized Fee Collection Mechanism",
-      "deadline": null
-    },
-    {
-      "obligation_id": "ia-conflict-01",
+      "obligation_id": "ia-conflict-of-interest-01",
       "title": "Adhere to Conflict of Interest Guidelines",
       "deadline": null
     },
     {
-      "obligation_id": "ia-high-standards-01",
+      "obligation_id": "ia-integrity-01",
       "title": "Maintain High Standards of Integrity",
       "deadline": null
     },
@@ -784,220 +931,430 @@
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-interest-01",
+      "obligation_id": "ia-client-interest-first-01",
       "title": "Prioritize Client Interest",
       "deadline": null
     },
     {
-      "obligation_id": "ia-reduce-conflict-01",
-      "title": "Reduce Opportunities for Conflict",
+      "obligation_id": "ia-information-barriers-01",
+      "title": "Implement Information Barriers",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-dealing-01",
-      "title": "Not Deal in Securities with Material Non-Published Information",
+      "obligation_id": "ia-no-dealing-with-mnip-01",
+      "title": "Avoid Dealing with Material Non-Published Information",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-communication-01",
-      "title": "Not Communicate Material Non-Published Information",
+      "obligation_id": "ia-no-disclosure-mnip-01",
+      "title": "Avoid Disclosing Material Non-Published Information",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-manipulation-01",
-      "title": "Not Contribute to Market Manipulation",
+      "obligation_id": "ia-market-manipulation-01",
+      "title": "Avoid Market Manipulation",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-incentive-01",
-      "title": "Not Have Incentive Structure that Encourages Sale of Unsuitable Products",
+      "obligation_id": "ia-risk-profile-mismatch-01",
+      "title": "Avoid Incentive Structures Encouraging Unsuitable Products",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-sharing-01",
-      "title": "Not Share Client Information for Personal Interest",
+      "obligation_id": "ia-client-information-sharing-01",
+      "title": "Prohibit Sharing Client Information for Personal Gain",
       "deadline": null
     },
     {
       "obligation_id": "ia-data-access-01",
-      "title": "Provide Free Access to Securities Market Data",
+      "title": "Ensure free access to data for users",
       "deadline": null
     },
     {
-      "obligation_id": "ia-cscrf-01",
-      "title": "Adopt Cybersecurity and Cyber Resilience Framework",
+      "obligation_id": "ia-data-access-02",
+      "title": "Identify and disclose chargeable data",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-assured-returns-01",
-      "title": "Not Imply Assured Returns",
-      "deadline": "null"
-    },
-    {
-      "obligation_id": "ia-act-in-fiduciary-capacity",
-      "title": "Act in Fiduciary Capacity",
+      "obligation_id": "ia-aml-compliance-01",
+      "title": "Comply with AML and CFT standards",
       "deadline": null
     },
     {
-      "obligation_id": "ia-comply-with-regulations",
-      "title": "Comply with Investment Adviser Regulations",
+      "obligation_id": "ia-data-sharing-01",
+      "title": "Comply with norms for sharing real-time price data",
       "deadline": null
     },
     {
-      "obligation_id": "ia-maintain-records",
-      "title": "Maintain Records",
+      "obligation_id": "ia-advertisement-01",
+      "title": "Include all forms of communications in advertisement",
       "deadline": null
     },
     {
-      "obligation_id": "ia-abide-by-code-of-conduct",
-      "title": "Abide by Code of Conduct",
+      "obligation_id": "ia-advertisement-02",
+      "title": "Specify applicable forms of communication in advertisement code",
       "deadline": null
     },
     {
-      "obligation_id": "ia-comply-with-eligibility-criteria",
-      "title": "Comply with Eligibility Criteria",
+      "obligation_id": "ia-compliance-01",
+      "title": "Compliance with SEBI Regulations and Amendments",
       "deadline": null
     },
     {
-      "obligation_id": "ia-arms-length-relationship-01",
-      "title": "Maintain arms-length relationship with related parties",
+      "obligation_id": "ia-eligibility-01",
+      "title": "Compliance with Eligibility Criteria",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-distribution-services-01",
-      "title": "Not provide distribution services to advisory clients",
+      "obligation_id": "ia-risk-assessment-01",
+      "title": "Risk Assessment of Clients",
       "deadline": null
     },
     {
-      "obligation_id": "ia-no-power-of-attorney-01",
-      "title": "Not seek Power of Attorney from the client",
+      "obligation_id": "ia-record-keeping-01",
+      "title": "Record Keeping",
       "deadline": null
     },
     {
-      "obligation_id": "ia-maintenance-accounts-01",
+      "obligation_id": "ia-code-of-conduct-01",
+      "title": "Code of Conduct Compliance",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-other-activities-individual-01",
+      "title": "Maintain arm's length relationship in other activities (individuals)",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-other-activities-individual-02",
+      "title": "Not provide distribution services (individuals)",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-other-activities-individual-03",
+      "title": "Not provide investment advisory services to clients receiving distribution from family members (individuals)",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-other-activities-non-individual-01",
+      "title": "Not provide distribution or investment advisory services (non-individuals)",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-client-consents-01",
+      "title": "Ensure all consents before undertaking actions related to securities or investment product advised by IA",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-no-action-01",
+      "title": "No Action in Relation to Securities or Investment Products",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-maintain-accounts-confidentiality-01",
       "title": "Maintain Client Accounts and Data",
       "deadline": null
     },
     {
-      "obligation_id": "ia-return-guarantee-prohibition-01",
-      "title": "Not guarantee returns to clients",
+      "obligation_id": "ia-fees-payment-mode-01",
+      "title": "Payment of Fees Through Traceable Mode",
       "deadline": null
     },
     {
-      "obligation_id": "ia-prohibited-schemes-01",
-      "title": "Not offer prohibited schemes to clients",
+      "obligation_id": "ia-representations-covenants-01",
+      "title": "Make Adequate Representations and Covenants",
       "deadline": null
     },
     {
-      "obligation_id": "ia-cybersecurity-01",
-      "title": "Cybersecurity and Cyber Resilience",
+      "obligation_id": "ia-dispute-resolution-01",
+      "title": "Set up mechanisms for dispute resolution including arbitration",
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-identification-01",
-      "title": "Client Identification and Segregation",
+      "obligation_id": "ia-grievance-redressal-01",
+      "title": "Resolve client grievances within specified timelines",
       "deadline": null
     },
     {
-      "obligation_id": "ia-family-client-01",
-      "title": "Family of Client",
+      "obligation_id": "ia-fee-payment-01",
+      "title": "Accept fees only through specified methods and not accept funds or securities on behalf of clients",
       "deadline": null
     },
     {
-      "obligation_id": "ia-fee-mode-01",
-      "title": "Charge Fees in Specified Manner",
+      "obligation_id": "ia-no-assured-schemes-01",
+      "title": "Prohibit offering assured/guaranteed/fixed return schemes",
       "deadline": null
     },
     {
-      "obligation_id": "ia-aua-demonstration-01",
-      "title": "Demonstrate AUA with Supporting Documents",
+      "obligation_id": "ia-investment-advisory-services-only-01",
+      "title": "Limit services to investment advisory related securities",
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-limit-01",
-      "title": "Comply with client limits and fee collection",
+      "obligation_id": "ia-sebi-purview-01",
+      "title": "Investment Advice Purview",
       "deadline": null
     },
     {
-      "obligation_id": "ia-complaint-disclosure-01",
-      "title": "Disclose complaint status on website",
+      "obligation_id": "ia-client-consent-01",
+      "title": "Client Consent for Trades",
       "deadline": null
     },
     {
-      "obligation_id": "ia-registration-disclosure-01",
-      "title": "Disclose registration details on website",
+      "obligation_id": "ia-client-contact-details-update-01",
+      "title": "Client Contact Details Update",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-kyc-01",
+      "title": "Maintain KYC Records",
       "deadline": null
     },
     {
       "obligation_id": "ia-employee-qualification-01",
-      "title": "Employ only qualified and certified employees",
+      "title": "Employ Qualified Employees",
       "deadline": null
     },
     {
-      "obligation_id": "ia-client-interaction-01",
-      "title": "Maintain records of client interactions",
+      "obligation_id": "ia-client-interaction-records-01",
+      "title": "Maintain Interaction Records",
       "deadline": null
     },
     {
       "obligation_id": "ia-advertisement-compliance-01",
-      "title": "Ensure advertisements comply with the Advertisement Code",
+      "title": "Comply with Advertisement Code",
       "deadline": null
     },
     {
-      "obligation_id": "ia-non-discrimination-01",
-      "title": "Not discriminate among clients",
+      "obligation_id": "ia-service-discrimination-01",
+      "title": "Non-Discriminatory Services",
       "deadline": null
     },
     {
-      "obligation_id": "ia-conflict-of-interest-01",
-      "title": "Conflict of Interest Disclosure",
+      "obligation_id": "ia-disclosure-no-access-to-client-accounts",
+      "title": "No access to client accounts or holdings for offering advice",
       "deadline": null
     },
     {
-      "obligation_id": "ia-artificial-intelligence-01",
-      "title": "Artificial Intelligence Disclosure",
+      "obligation_id": "ia-advice-based-on-risk-profiling",
+      "title": "Provide advice based on risk profiling and suitability",
       "deadline": null
     },
     {
-      "obligation_id": "ia-investment-advice-01",
-      "title": "Investment Advice",
+      "obligation_id": "ia-treat-clients-honestly-and-integrity",
+      "title": "Treat all advisory clients with honesty and integrity",
       "deadline": null
     },
     {
-      "obligation_id": "ia-honesty-and-integrity-01",
-      "title": "Honesty and Integrity",
+      "obligation_id": "ia-confidentiality-of-client-information",
+      "title": "Ensure confidentiality of client information",
       "deadline": null
     },
     {
-      "obligation_id": "ia-material-facts-01",
-      "title": "Material Facts Disclosure",
+      "obligation_id": "ia-disclose-service-timelines",
+      "title": "Disclose service timelines and ensure adherence",
       "deadline": null
     },
     {
-      "obligation_id": "ia-complex-products-01",
-      "title": "Complex Products Guidance",
+      "obligation_id": "ia-complaint-redressal-physical",
+      "title": "Redress client complaints via physical address",
       "deadline": null
     },
     {
-      "obligation_id": "ia-confidentiality-01",
-      "title": "Confidentiality",
+      "obligation_id": "ia-transaction-vigilance-01",
+      "title": "Be vigilant during transactions",
       "deadline": null
     },
     {
-      "obligation_id": "ia-timelines-01",
-      "title": "Timelines Disclosure",
+      "obligation_id": "ia-vigilance-01",
+      "title": "Be Vigilant in Transactions",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-no-change-board-directors-01",
+      "title": "No Change in Board of Directors Until Prior Approval Granted",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-comprehensive-outsourcing-policy-01",
+      "title": "Comprehensive Outsourcing Policy",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-policy-review-01",
+      "title": "Regular Review of Outsourcing Policy",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-arm-length-distance-01",
+      "title": "Maintain Arm's Length Distance with Related Parties",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-central-record-keeping-01",
+      "title": "Centralized Record Keeping",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-records-01",
+      "title": "Maintain and Update Records",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-fulfill-obligations-01",
+      "title": "Ensure Fulfillment of Obligations",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-liability-01",
+      "title": "Full Liability for Outsourced Activities",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-loss-redressal-01",
+      "title": "Redress Losses Incurred by Investors",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-access-01",
+      "title": "Access to Outsourced Facilities/Premises/Data",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-supervision-01",
+      "title": "Not Impair Supervision/Inspection",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-due-diligence-01",
+      "title": "Conduct Due Diligence",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-due-diligence-care-01",
+      "title": "Exercise Due Care, Skill, and Diligence",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-due-diligence-assessment-01",
+      "title": "Assess Third Party\u2019s Resources, Compatibility, Reputation, Concentration, and Foreign Environment",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-01",
+      "title": "Governing Outsourcing Arrangements by Written Contract",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-02",
+      "title": "Clear Definition of Outsourced Activities",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-03",
+      "title": "Mutual Rights, Obligations, and Responsibilities",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-04",
+      "title": "Liability for Unsatisfactory Performance",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-05",
+      "title": "Continuous Monitoring and Assessment",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-06",
+      "title": "Sub-contracting Provisions",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-07",
+      "title": "Confidentiality Clauses",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-08",
+      "title": "IT Security and Contingency Plans",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-09",
+      "title": "Preservation of Documents and Data",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-10",
+      "title": "Dispute Resolution Mechanisms",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-11",
+      "title": "Termination Provisions",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-12",
+      "title": "Country Risk Management",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-contingency-plan-01",
+      "title": "Establish and Maintain Contingency Plans",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-disaster-recovery-02",
+      "title": "Develop Disaster Recovery Plans",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-confidentiality-04",
+      "title": "Protect Confidential Information",
       "deadline": null
     }
   ],
   "not_specified": [
     {
-      "obligation_id": "ia-periodical-reports-04",
-      "title": "Periodical Reports",
+      "obligation_id": "ia-qualification-certification-01",
+      "title": "Enhanced Qualification and Experience Requirement",
       "deadline": null
     },
     {
-      "obligation_id": "ia-periodic-reporting-01",
-      "title": "Submission of Periodic Reports",
+      "obligation_id": "ia-segregation-01",
+      "title": "Maintain Arms-Length Relationship Between IA and RA Activities",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-seg-06",
+      "title": "Stock Broking Not Considered as Distribution Activity",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-fee-charging-05",
+      "title": "Fee Limits Exclusion for Non-Individual Clients",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-fee-charging-06",
+      "title": "Advance Fee Collection",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-refund-policy-01",
+      "title": "Refund Policy for Premature Termination",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-payment-methods-01",
+      "title": "Payment Methods for Fees",
+      "deadline": null
+    },
+    {
+      "obligation_id": "ia-outsource-policy-01",
+      "title": "Establish Outsourcing Policy",
       "deadline": null
     }
   ]

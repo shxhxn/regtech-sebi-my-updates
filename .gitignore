@@ -1,6 +1,12 @@
 .env
+.env.save
 venv/
 __pycache__/
 data/raw/
-output/
-.env.save
+output/progress.json
+output/progress_2024.json
+output/failed_chunks.json
+output/failed_chunks_2024.json
+output/demo_extraction.json
+output/known_circulars.json
+output/archive_*/
