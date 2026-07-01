@@ -230,7 +230,7 @@ with tab_overview:
 
 # -- What's Due --
 with tab_due:
-    st.markdown("#### What's due")
+    st.markdown("#### What's Due")
     st.markdown('<p class="meta">Your obligations organised by when they come due -- the recurring filing rhythm, the event-triggered deadlines, and the continuous duties.</p>', unsafe_allow_html=True)
     obligations, verified = load_best("obligations_2025")
     if obligations is None:
@@ -315,7 +315,7 @@ with tab_due:
 
 # -- What Changed --
 with tab_changed:
-    st.markdown("#### What changed - 2024 to 2025")
+    st.markdown("#### What Changed - 2024 to 2025")
     st.markdown('<p class="meta">What changed in the new circular, and exactly what it now requires you to do.</p>', unsafe_allow_html=True)
     r = load_json("change_impact_report.json")
     if not r:
@@ -399,7 +399,7 @@ with tab_changed:
 
 # -- My Register (Features 3+4, with Gap Detection folded in) --
 with tab_register:
-    st.markdown("#### My register")
+    st.markdown("#### My Register")
     st.markdown('<p class="meta">Filter to the obligations that bind your firm, track where you stand on each one, and see what still needs attention.</p>', unsafe_allow_html=True)
     obligations, verified = load_best("obligations_2025")
     if obligations is None:
@@ -486,7 +486,7 @@ with tab_register:
 
 # -- All Obligations --
 with tab_all:
-    st.markdown("#### All obligations")
+    st.markdown("#### All Obligations")
     st.markdown('<p class="meta">The complete 2025 obligation graph -- browse, search, and filter by any dimension. For your day-to-day view, use My Register.</p>', unsafe_allow_html=True)
     obligations, verified = load_best("obligations_2025")
     if obligations is None:
@@ -538,7 +538,7 @@ with tab_all:
 
 # -- Pipeline Operations --
 with tab_ops:
-    st.markdown("#### Pipeline operations")
+    st.markdown("#### Pipeline Operations")
     st.markdown('<p class="meta">Compliance register and executable rules -- the machine-checkable core the rest of this dashboard is built on. See What\'s Due for the calendar view.</p>', unsafe_allow_html=True)
     register = load_json("compliance_register.json")
     rules = load_json("executable_rules.json")
@@ -554,9 +554,11 @@ with tab_ops:
             st.json(rules[0])
         st.write("")
         st.markdown("##### Register status overview")
+        saved_status = load_json("compliance_status.json") or {}
         statuses = {}
         for r_ in register:
-            statuses[r_["status"]] = statuses.get(r_["status"], 0) + 1
+            live_status = saved_status.get(r_["obligation_id"], "Not started")
+            statuses[live_status] = statuses.get(live_status, 0) + 1
         st.write(statuses)
 
 # -- Trust & Audit --
@@ -573,7 +575,7 @@ with tab_trust:
             if band:
                 rb[band] = rb.get(band, 0) + 1
 
-        st.markdown("#### Executive overview")
+        st.markdown("#### Executive Overview")
         e1, e2, e3, e4 = st.columns(4)
         e1.metric("Total obligations", n_summ)
         e2.metric("High / Critical risk", high_or_critical)
@@ -589,7 +591,7 @@ with tab_trust:
         st.divider()
 
 
-    st.markdown("#### Trust & verification")
+    st.markdown("#### Trust & Verification")
     st.markdown('<p class="meta">Every obligation is independently checked against the source PDF -- not just asserted by the model.</p>', unsafe_allow_html=True)
     obligations, verified = load_best("obligations_2025")
     if obligations is None:
@@ -625,7 +627,7 @@ with tab_trust:
                         st.markdown(f'<div class="verbatim">{esc(o.get("verbatim_text"))}</div>', unsafe_allow_html=True)
 
     st.divider()
-    st.markdown("#### Audit trail")
+    st.markdown("#### Audit Trail")
     st.markdown('<p class="meta">A hash-chained, tamper-evident log of every pipeline run. Altering any past entry breaks the chain from that point forward.</p>', unsafe_allow_html=True)
     log = load_json("audit_log.json")
     if not log:

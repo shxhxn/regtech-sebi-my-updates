@@ -1,14 +1,24 @@
 import json
 import ollama
+from src.config import EXTRACTION_MODEL
 
-# Raised from 90s. At ~15 tokens/sec, obligation-dense chunks legitimately need
-# 100-170s just to write out all their JSON. The 90s cap was killing exactly the
-# chunks that matter most (the ones with many obligations) -- that is why the
-# last run produced 38 instead of ~198.
+# 300s (not Ollama's default). At roughly 15 tokens/sec, an obligation-dense
+# chunk can legitimately need 100-170s just to write out all its JSON. A
+# tighter timeout disproportionately kills the densest chunks -- i.e. the
+# ones with the most obligations -- which silently undercounts the final
+# total rather than raising an obvious error. Always err high here.
 REQUEST_TIMEOUT_SECONDS = 300
 
 
-def extract_structured(prompt: str, schema_model, model: str = "qwen2.5:14b"):
+def extract_structured(prompt: str, schema_model, model: str = EXTRACTION_MODEL):
+    """
+    model defaults to config.EXTRACTION_MODEL (single source of truth) instead
+    of a hardcoded string. Previously this defaulted to "qwen2.5:14b" -- the
+    model that caused unrecoverable hangs during batch runs -- so any call
+    site that forgot to pass model= explicitly would silently get the model
+    known to be unsafe for sustained work. Now there's one place (config.py)
+    that decides which model the whole pipeline uses.
+    """
     schema = schema_model.model_json_schema()
     full_prompt = (
         prompt

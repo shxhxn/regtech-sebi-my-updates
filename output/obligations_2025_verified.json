@@ -18,8 +18,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.9,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-guidance-01",
@@ -40,8 +39,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-additional-terms-01",
@@ -62,8 +60,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 78.5,
-    "confidence_band": "Medium",
-    "risk_band": "Low"
+    "confidence_band": "Medium"
   },
   {
     "obligation_id": "ia-client-agreement-signature-01",
@@ -84,8 +81,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-charging-01",
@@ -106,8 +102,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-charging-02",
@@ -128,8 +123,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-charging-03",
@@ -150,8 +144,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-charging-04",
@@ -172,8 +165,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-charging-05",
@@ -194,8 +186,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-investment-advice-scope-01",
@@ -216,8 +207,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fee-charging-01",
@@ -238,8 +228,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fee-charging-02",
@@ -260,8 +249,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.8,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fee-charging-03",
@@ -282,8 +270,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fee-charging-04",
@@ -304,8 +291,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.5,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-deposit-maintenance-01",
@@ -326,8 +312,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-deposit-maintenance-02",
@@ -348,8 +333,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-deposit-maintenance-03",
@@ -370,8 +354,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 82.7,
-    "confidence_band": "Medium",
-    "risk_band": "Medium"
+    "confidence_band": "Medium"
   },
   {
     "obligation_id": "ia-deposit-maintenance-04",
@@ -392,8 +375,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-qualification-certification-01",
@@ -414,8 +396,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-qualification-01",
@@ -436,8 +417,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-qualification-02",
@@ -458,8 +438,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 92.5,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-01",
@@ -480,8 +459,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-02",
@@ -502,8 +480,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-03",
@@ -524,8 +501,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-04",
@@ -546,8 +522,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-segregation-01",
@@ -568,8 +543,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclaimer-01",
@@ -590,8 +564,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclose-conflict-01",
@@ -612,8 +585,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-explanation-01",
@@ -634,8 +606,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-exclusion-01",
@@ -656,8 +627,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-requirement-01",
@@ -678,8 +648,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-partnership-01",
@@ -700,8 +669,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-partnership-02",
@@ -722,8 +690,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-compliance-officer-01",
@@ -744,8 +711,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-compliance-officer-02",
@@ -766,8 +732,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-compliance-officer-03",
@@ -788,8 +753,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 97.9,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-investment-advice-scope",
@@ -810,8 +774,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.4,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-risk-profiling-01",
@@ -832,8 +795,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-discretion-share-policy-01",
@@ -854,8 +816,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-website-maintenance-01",
@@ -876,8 +837,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 90.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-display-details-website-01",
@@ -898,8 +858,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 90.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-website-confirmation-01",
@@ -920,8 +879,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-restriction-free-trial-01",
@@ -942,8 +900,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 96.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-proper-risk-profiling-01",
@@ -964,8 +921,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 96.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-receiving-fees-banking-channel-01",
@@ -986,8 +942,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 96.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-receipt-01",
@@ -1008,8 +963,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaints-status-01",
@@ -1030,8 +984,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-01",
@@ -1052,8 +1005,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-02",
@@ -1074,8 +1026,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-03",
@@ -1096,8 +1047,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.4,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-04",
@@ -1118,8 +1068,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-05",
@@ -1140,8 +1089,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-06",
@@ -1162,8 +1110,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-07",
@@ -1184,8 +1131,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-08",
@@ -1206,8 +1152,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-seg-09",
@@ -1228,8 +1173,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.2,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-01",
@@ -1250,8 +1194,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-02",
@@ -1272,8 +1215,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-responsibility-01",
@@ -1294,8 +1236,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-03",
@@ -1316,8 +1257,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-04",
@@ -1338,8 +1278,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-records-maintenance-01",
@@ -1360,8 +1299,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-call-recording-01",
@@ -1382,8 +1320,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-records-retention-01",
@@ -1404,8 +1341,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-annual-audit-01",
@@ -1426,8 +1362,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.2,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-report-submission-01",
@@ -1448,8 +1383,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 86.1,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-report-publishing-01",
@@ -1470,8 +1404,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-report-adverse-findings-01",
@@ -1492,8 +1425,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 92.5,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-certificate-of-compliance-01",
@@ -1514,8 +1446,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.4,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-report-publishing-02",
@@ -1536,8 +1467,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-report-client-provision-01",
@@ -1558,8 +1488,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-report-adverse-findings-publishing-01",
@@ -1580,8 +1509,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-report-adverse-findings-submission-02",
@@ -1602,8 +1530,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 92.5,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redress-01",
@@ -1624,8 +1551,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redress-02",
@@ -1646,8 +1572,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-investor-charter-01",
@@ -1668,8 +1593,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-disclosure-01",
@@ -1690,8 +1614,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-sebi-approval-01",
@@ -1712,8 +1635,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-change-control-01",
@@ -1734,8 +1656,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-change-control-02",
@@ -1756,8 +1677,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.3,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-change-control-03",
@@ -1778,8 +1698,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-change-control-04",
@@ -1800,8 +1719,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-change-control-approval-01",
@@ -1822,8 +1740,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-change-control-in-principle-approval-01",
@@ -1844,8 +1761,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-shareholding-transfer-immediate-relatives-01",
@@ -1866,8 +1782,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fit-and-proper-01",
@@ -1888,8 +1803,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-notice-and-dissemination-01",
@@ -1910,8 +1824,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 96.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-disclaimer-01",
@@ -1932,8 +1845,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.2,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-prohibitions-01",
@@ -1954,8 +1866,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 93.7,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-supervisory-approval-01",
@@ -1976,8 +1887,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-suspension-compliance-01",
@@ -1998,8 +1908,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-suspension-01",
@@ -2020,8 +1929,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-games-01",
@@ -2042,8 +1950,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-retention-01",
@@ -2064,8 +1971,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-brand-name-transparency-01",
@@ -2086,8 +1992,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 93.4,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-sebi-logo-01",
@@ -2108,8 +2013,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 82.7,
-    "confidence_band": "Medium",
-    "risk_band": "Critical"
+    "confidence_band": "Medium"
   },
   {
     "obligation_id": "ia-mutual-fund-scheme-access-01",
@@ -2130,8 +2034,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-unverified-news-control-01",
@@ -2152,8 +2055,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-rumors-01",
@@ -2174,8 +2076,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 92.1,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-blogs-chat-forums-01",
@@ -2196,8 +2097,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 92.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-logs-maintenance-01",
@@ -2218,8 +2118,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-news-forwarding-01",
@@ -2240,8 +2139,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-compliance-officer-liability-01",
@@ -2262,8 +2160,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 92.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsourcing-principles-01",
@@ -2284,8 +2181,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-core-outsourcing-01",
@@ -2306,8 +2202,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-kyc-compliance-01",
@@ -2328,8 +2223,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fiu-reporting-01",
@@ -2350,8 +2244,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-report-suspicious-01",
@@ -2372,8 +2265,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-conflict-of-interest-01",
@@ -2394,8 +2286,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-conflict-of-interest-02",
@@ -2416,8 +2307,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-integrity-01",
@@ -2438,8 +2328,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 85.3,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fair-treatment-01",
@@ -2460,8 +2349,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 85.3,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-client-interest-first-01",
@@ -2482,8 +2370,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 89.9,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-information-barriers-01",
@@ -2504,8 +2391,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 90.4,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-dealing-with-mnip-01",
@@ -2526,8 +2412,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 83.8,
-    "confidence_band": "Medium",
-    "risk_band": "Low"
+    "confidence_band": "Medium"
   },
   {
     "obligation_id": "ia-no-disclosure-mnip-01",
@@ -2548,8 +2433,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 86.1,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-market-manipulation-01",
@@ -2570,8 +2454,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 89.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-risk-profile-mismatch-01",
@@ -2592,8 +2475,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 86.2,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-client-information-sharing-01",
@@ -2614,8 +2496,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 89.7,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-data-access-01",
@@ -2636,8 +2517,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-data-access-02",
@@ -2658,8 +2538,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-aml-compliance-01",
@@ -2680,8 +2559,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-data-sharing-01",
@@ -2702,8 +2580,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-01",
@@ -2724,8 +2601,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-02",
@@ -2746,8 +2622,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 94.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-periodic-reporting-01",
@@ -2768,8 +2643,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.4,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-compliance-undertaking-01",
@@ -2790,8 +2664,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.1,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-audit-01",
@@ -2812,8 +2685,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-agreement-01",
@@ -2834,8 +2706,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-agreement-consent-01",
@@ -2856,8 +2727,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-agreement-declaration-01",
@@ -2878,8 +2748,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-agreement-fees-01",
@@ -2900,8 +2769,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-agreement-fees-charged-01",
@@ -2922,8 +2790,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-compliance-01",
@@ -2944,8 +2811,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-eligibility-01",
@@ -2966,8 +2832,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-risk-assessment-01",
@@ -2988,8 +2853,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-client-reports-01",
@@ -3010,8 +2874,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-record-keeping-01",
@@ -3032,8 +2895,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-code-of-conduct-01",
@@ -3054,8 +2916,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-termination-01",
@@ -3076,8 +2937,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-termination-02",
@@ -3098,8 +2958,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-amendments-01",
@@ -3120,8 +2979,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-related-parties-01",
@@ -3142,8 +3000,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-other-activities-individual-01",
@@ -3164,8 +3021,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-other-activities-individual-02",
@@ -3186,8 +3042,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-other-activities-individual-03",
@@ -3208,8 +3063,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-other-activities-non-individual-01",
@@ -3230,8 +3084,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-client-consents-01",
@@ -3252,8 +3105,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-power-of-attorney-01",
@@ -3274,8 +3126,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-action-01",
@@ -3296,8 +3147,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.3,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-maintain-accounts-confidentiality-01",
@@ -3318,8 +3168,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-details-01",
@@ -3340,8 +3189,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 88.7,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fees-payment-mode-01",
@@ -3362,8 +3210,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-liability-statement-01",
@@ -3384,8 +3231,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-representations-covenants-01",
@@ -3406,8 +3252,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-death-disability-provisions-01",
@@ -3428,8 +3273,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-death-disability-obligor-01",
@@ -3450,8 +3294,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 97.2,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-person-in-charge-01",
@@ -3472,8 +3315,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dispute-resolution-01",
@@ -3494,8 +3336,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-grievance-redressal-01",
@@ -3516,8 +3357,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-severability-clause-01",
@@ -3538,8 +3378,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-force-majeure-clause-01",
@@ -3560,8 +3399,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fee-payment-01",
@@ -3582,8 +3420,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-guaranteed-returns-01",
@@ -3604,8 +3441,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-assured-schemes-01",
@@ -3626,8 +3462,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-investment-advisory-services-only-01",
@@ -3648,8 +3483,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-sebi-purview-01",
@@ -3670,8 +3504,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-client-consent-01",
@@ -3692,8 +3525,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fee-charging-05",
@@ -3714,8 +3546,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fee-charging-06",
@@ -3736,8 +3567,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-refund-policy-01",
@@ -3758,8 +3588,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-payment-methods-01",
@@ -3780,8 +3609,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-share-financial-info-01",
@@ -3802,8 +3630,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-grievance-resolution-01",
@@ -3824,8 +3651,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.2,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-certification-01",
@@ -3846,8 +3672,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-client-contact-details-update-01",
@@ -3868,8 +3693,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-login-credentials-request-01",
@@ -3890,8 +3714,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-enlistment-01",
@@ -3912,8 +3735,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-kyc-01",
@@ -3934,8 +3756,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-registration-disclosure-01",
@@ -3956,8 +3777,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-employee-qualification-01",
@@ -3978,8 +3798,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-client-interaction-records-01",
@@ -4000,8 +3819,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advertisement-compliance-01",
@@ -4022,8 +3840,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-service-discrimination-01",
@@ -4044,8 +3861,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-onboarding-01",
@@ -4066,8 +3882,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-onboarding-02",
@@ -4088,8 +3903,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-full-business-details",
@@ -4110,8 +3924,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-no-access-to-client-accounts",
@@ -4132,8 +3945,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-risk-profile",
@@ -4154,8 +3966,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-conflict-of-interest",
@@ -4176,8 +3987,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclosure-artificial-intelligence-use",
@@ -4198,8 +4008,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-advice-based-on-risk-profiling",
@@ -4220,8 +4029,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.4,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-treat-clients-honestly-and-integrity",
@@ -4242,8 +4050,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.8,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclose-material-facts",
@@ -4264,8 +4071,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclose-complex-high-risk-products",
@@ -4286,8 +4092,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-confidentiality-of-client-information",
@@ -4308,8 +4113,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.7,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disclose-service-timelines",
@@ -4330,8 +4134,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.5,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redressal-investment-adviser",
@@ -4352,8 +4155,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redressal-scores",
@@ -4374,8 +4176,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redressal-iaasb",
@@ -4396,8 +4197,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redressal-sebi",
@@ -4418,8 +4218,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redressal-email",
@@ -4440,8 +4239,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redressal-smartodr",
@@ -4462,8 +4260,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-complaint-redressal-physical",
@@ -4484,8 +4281,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-payments-01",
@@ -4506,8 +4302,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-clear-terms-01",
@@ -4528,8 +4323,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-transaction-vigilance-01",
@@ -4550,8 +4344,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-redressal-authorities-01",
@@ -4572,8 +4365,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.2,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-vigilance-01",
@@ -4594,8 +4386,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-redressal-01",
@@ -4616,8 +4407,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-guaranteed-return-disclosure-01",
@@ -4638,8 +4428,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-right-to-exit-01",
@@ -4660,8 +4449,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-right-to-clarification-01",
@@ -4682,8 +4470,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-right-to-feedback-01",
@@ -4704,8 +4491,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-binding-clause-01",
@@ -4726,8 +4512,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-fall-for-stock-tips-01",
@@ -4748,8 +4533,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-provide-funds-01",
@@ -4770,8 +4554,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-assured-return-promise-01",
@@ -4792,8 +4575,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-luring-advertisements-01",
@@ -4814,8 +4596,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-transactions-phone-calls-01",
@@ -4836,8 +4617,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-take-decisions-repeated-messages-01",
@@ -4858,8 +4638,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-take-discount-incentives-01",
@@ -4880,8 +4659,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.7,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-rush-investments-risk-appetite-01",
@@ -4902,8 +4680,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-dont-share-login-credentials-01",
@@ -4924,8 +4701,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-criminal-complaint-01",
@@ -4946,8 +4722,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-charge-sheet-pending-01",
@@ -4968,8 +4743,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-order-restraint-prohibition-debarment-01",
@@ -4990,8 +4764,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-recovery-proceedings-pending-01",
@@ -5012,8 +4785,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-order-conviction-pending-01",
@@ -5034,8 +4806,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-winding-up-proceedings-pending-01",
@@ -5056,8 +4827,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-declared-insolvent-01",
@@ -5078,8 +4848,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-unsound-mind-declared-01",
@@ -5100,8 +4869,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-wilful-defaulter-categorized-01",
@@ -5122,8 +4890,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fugitive-economic-offender-declared-01",
@@ -5144,8 +4911,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.4,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-not-fit-and-proper-person-01",
@@ -5166,8 +4932,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-notice-show-cause-issued-01",
@@ -5188,8 +4953,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-no-change-board-directors-01",
@@ -5210,8 +4974,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-inform-existing-clients-change-management-01",
@@ -5232,8 +4995,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-comprehensive-outsourcing-policy-01",
@@ -5254,8 +5016,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 99.5,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-policy-01",
@@ -5276,8 +5037,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.2,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-policy-review-01",
@@ -5298,8 +5058,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-risk-assessment-factors-01",
@@ -5320,8 +5079,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-arm-length-distance-01",
@@ -5342,8 +5100,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-central-record-keeping-01",
@@ -5364,8 +5121,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-records-01",
@@ -5386,8 +5142,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "partial",
     "confidence": 86.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-fulfill-obligations-01",
@@ -5408,8 +5163,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-liability-01",
@@ -5430,8 +5184,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-loss-redressal-01",
@@ -5452,8 +5205,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 97.4,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-access-01",
@@ -5474,8 +5226,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-supervision-01",
@@ -5496,8 +5247,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-due-diligence-01",
@@ -5518,8 +5268,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-due-diligence-care-01",
@@ -5540,8 +5289,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-due-diligence-assessment-01",
@@ -5562,8 +5310,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 95.1,
-    "confidence_band": "High",
-    "risk_band": "High"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-01",
@@ -5584,8 +5331,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.2,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-02",
@@ -5606,8 +5352,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-03",
@@ -5628,8 +5373,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-04",
@@ -5650,8 +5394,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-05",
@@ -5672,8 +5415,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-06",
@@ -5694,8 +5436,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-07",
@@ -5716,8 +5457,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.2,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-08",
@@ -5738,8 +5478,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-09",
@@ -5760,8 +5499,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-10",
@@ -5782,8 +5520,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-11",
@@ -5804,8 +5541,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-outsource-12",
@@ -5826,8 +5562,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-contingency-plan-01",
@@ -5848,8 +5583,7 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 96.8,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-disaster-recovery-02",
@@ -5870,8 +5604,7 @@
     "grounding_method": "exact",
     "grounding_band": "grounded",
     "confidence": 100.0,
-    "confidence_band": "High",
-    "risk_band": "Low"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-testing-backup-facilities-03",
@@ -5892,8 +5625,7 @@
     "grounding_method": "exact_despaced",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Medium"
+    "confidence_band": "High"
   },
   {
     "obligation_id": "ia-confidentiality-04",
@@ -5914,7 +5646,6 @@
     "grounding_method": "fuzzy",
     "grounding_band": "grounded",
     "confidence": 98.6,
-    "confidence_band": "High",
-    "risk_band": "Critical"
+    "confidence_band": "High"
   }
 ]
