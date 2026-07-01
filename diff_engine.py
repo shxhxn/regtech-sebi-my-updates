@@ -1,5 +1,16 @@
 import json
+from rapidfuzz import fuzz
 from src.config import OUTPUT
+
+# Text fields get paraphrase tolerance -- two independent extraction runs will
+# naturally reword identical source text slightly differently, and that noise
+# shouldn't masquerade as a real regulatory change. Structured fields don't
+# get this tolerance: a frequency or deadline difference IS the signal, full stop.
+TEXT_FIELDS = {"title", "summary", "required_action", "evidence", "verbatim_text"}
+TEXT_SIMILARITY_THRESHOLD = 92  # rapidfuzz ratio (0-100); below this = genuinely different wording
+
+def _normalize(t):
+    return " ".join((t or "").lower().split())
 
 def load_obligations(path) -> dict:
     with open(path) as f:
@@ -9,8 +20,17 @@ def load_obligations(path) -> dict:
 def field_changes(old_ob, new_ob):
     changes = {}
     for field in ["title", "summary", "required_action", "evidence", "frequency", "deadline", "verbatim_text"]:
-        if old_ob.get(field) != new_ob.get(field):
-            changes[field] = {"before": old_ob.get(field), "after": new_ob.get(field)}
+        old_v, new_v = old_ob.get(field), new_ob.get(field)
+        if field in TEXT_FIELDS:
+            if _normalize(old_v) == _normalize(new_v):
+                continue
+            sim = fuzz.ratio(_normalize(old_v), _normalize(new_v)) if (old_v and new_v) else 0
+            if sim >= TEXT_SIMILARITY_THRESHOLD:
+                continue  # near-identical wording -- not treated as a real change
+        else:
+            if old_v == new_v:
+                continue
+        changes[field] = {"before": old_v, "after": new_v}
     return changes
 
 def diff_obligations(old: dict, new: dict, use_semantic=True, sem_threshold=0.72):
@@ -44,14 +64,17 @@ def diff_obligations(old: dict, new: dict, use_semantic=True, sem_threshold=0.72
 
             for old_ob, new_ob, score in sem_matches:
                 changes = field_changes(old_ob, new_ob)
-                changes["obligation_id"] = {"before": old_ob["obligation_id"], "after": new_ob["obligation_id"]}
-                modified.append({
-                    "obligation_id": new_ob["obligation_id"],
-                    "title": new_ob["title"],
-                    "match_type": "semantic",
-                    "semantic_similarity": round(score, 3),
-                    "changes": changes
-                })
+                if changes:
+                    changes["obligation_id"] = {"before": old_ob["obligation_id"], "after": new_ob["obligation_id"]}
+                    modified.append({
+                        "obligation_id": new_ob["obligation_id"],
+                        "title": new_ob["title"],
+                        "match_type": "semantic",
+                        "semantic_similarity": round(score, 3),
+                        "changes": changes
+                    })
+                else:
+                    unchanged.append(new_ob["obligation_id"])
                 added_ids.discard(new_ob["obligation_id"])
                 removed_ids.discard(old_ob["obligation_id"])
                 renamed_count += 1

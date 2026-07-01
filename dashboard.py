@@ -161,10 +161,11 @@ with tab_overview:
     if obligations is None:
         st.info("No obligations yet. Run extract_full.py, then refresh -- your snapshot will appear here.")
     else:
-        summ = load_json("executive_summary.json")
         n = len(obligations)
         has_risk = any(o.get("risk_band") for o in obligations)
         urgent = sum(1 for o in obligations if o.get("risk_band") in ("Critical", "High"))
+        traceable = sum(1 for o in obligations if o.get("grounding_band") in ("grounded", "partial"))
+        traceable_pct = round(100 * traceable / n, 1) if n else None
 
         saved = load_json("compliance_status.json") or {}
         statuses = [saved.get(o["obligation_id"], "Not started") for o in obligations]
@@ -180,7 +181,7 @@ with tab_overview:
             + stat_card("doc", n, "Total obligations", "#eff6ff", "#1d4ed8")
             + stat_card("alert", urgent if has_risk else "-", "Critical / High risk", "#fef2f2", "#b91c1c")
             + stat_card("check", f"{compliant}/{n}", "Marked compliant", "#eff6ff", "#1d4ed8")
-            + stat_card("shield", f'{summ.get("verifiably_traceable_pct")}%' if summ else "-", "Source-traceable", "#eff6ff", "#1d4ed8")
+            + stat_card("shield", f'{traceable_pct}%' if traceable_pct is not None else "-", "Source-traceable", "#eff6ff", "#1d4ed8")
             + '</div>'
         )
         st.markdown(cards, unsafe_allow_html=True)
@@ -538,15 +539,24 @@ with tab_ops:
 
 # -- Trust & Audit --
 with tab_trust:
-    summ = load_json("executive_summary.json")
-    if summ:
+    obligations_for_summary, _ = load_best("obligations_2025")
+    if obligations_for_summary:
+        n_summ = len(obligations_for_summary)
+        traceable_summ = sum(1 for o in obligations_for_summary if o.get("grounding_band") in ("grounded", "partial"))
+        with_deadline = sum(1 for o in obligations_for_summary if o.get("deadline"))
+        high_or_critical = sum(1 for o in obligations_for_summary if o.get("risk_band") in ("Critical", "High"))
+        rb = {}
+        for o in obligations_for_summary:
+            band = o.get("risk_band")
+            if band:
+                rb[band] = rb.get(band, 0) + 1
+
         st.markdown("#### Executive overview")
         e1, e2, e3, e4 = st.columns(4)
-        e1.metric("Total obligations", summ.get("total_obligations", 0))
-        e2.metric("High / Critical risk", summ.get("high_or_critical_risk", 0))
-        e3.metric("With deadline", summ.get("with_explicit_deadline", 0))
-        e4.metric("Verifiably traceable", f'{summ.get("verifiably_traceable_pct", 0)}%')
-        rb = summ.get("risk_breakdown", {})
+        e1.metric("Total obligations", n_summ)
+        e2.metric("High / Critical risk", high_or_critical)
+        e3.metric("With deadline", with_deadline)
+        e4.metric("Verifiably traceable", f'{round(100*traceable_summ/n_summ, 1) if n_summ else 0}%')
         st.markdown(
             f'<p class="meta">Risk profile: '
             f'<span class="pill pill-rem">Critical {rb.get("Critical",0)}</span>&nbsp;'
@@ -555,6 +565,7 @@ with tab_trust:
             f'<span class="pill pill-neutral">Low {rb.get("Low",0)}</span></p>',
             unsafe_allow_html=True)
         st.divider()
+
 
     st.markdown("#### Trust & verification")
     st.markdown('<p class="meta">Every obligation is independently checked against the source PDF -- not just asserted by the model.</p>', unsafe_allow_html=True)
