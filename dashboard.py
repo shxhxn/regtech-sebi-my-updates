@@ -322,11 +322,17 @@ with tab_changed:
         st.info("No change report yet. Run extract_2024.py, then diff_engine.py, then refresh.")
     else:
         s = r["summary"]
-        cols = st.columns(6) if "modified_via_semantic_match" in s else st.columns(5)
+        has_reworded = "reworded" in s
+        n_cols = 7 if has_reworded and "modified_via_semantic_match" in s else (6 if has_reworded else 5)
+        cols = st.columns(n_cols)
         cols[0].metric("2024", s["total_2024"]); cols[1].metric("2025", s["total_2025"])
         cols[2].metric("New", s["added"]); cols[3].metric("Modified", s["modified"]); cols[4].metric("Removed", s["removed"])
+        next_col = 5
+        if has_reworded:
+            cols[next_col].metric("Reworded", s["reworded"], help="Regulation unchanged -- only our generated summary/evidence text was independently regenerated")
+            next_col += 1
         if "modified_via_semantic_match" in s:
-            cols[5].metric("Via semantic match", s["modified_via_semantic_match"], help="Obligations recognized as the same despite a changed ID or reworded text")
+            cols[next_col].metric("Via semantic match", s["modified_via_semantic_match"], help="Obligations recognized as the same despite a changed ID or reworded text")
         st.write("")
 
         if r["added"]:
@@ -349,7 +355,8 @@ with tab_changed:
 
         if r["modified"]:
             st.write("")
-            st.markdown(f'<h5><span class="pill pill-mod">Modified</span>&nbsp;&nbsp;{s["modified"]} obligation(s) changed</h5>', unsafe_allow_html=True)
+            st.markdown(f'<h5><span class="pill pill-mod">Modified</span>&nbsp;&nbsp;{s["modified"]} obligation(s) genuinely changed</h5>', unsafe_allow_html=True)
+            st.markdown('<p class="meta">The source clause text itself, or its frequency/deadline, changed -- this needs a look.</p>', unsafe_allow_html=True)
             for o in r["modified"]:
                 label = o.get('title','')
                 if o.get("match_type") == "semantic":
@@ -364,6 +371,21 @@ with tab_changed:
                         st.markdown(f"**{field.replace('_',' ').title()}**")
                         st.markdown(f'<p class="meta">Before &nbsp;&middot;&nbsp; {esc(ch.get("before"))}</p>', unsafe_allow_html=True)
                         st.markdown(f'<p style="color:#1d4ed8;">After &nbsp;&middot;&nbsp; {esc(ch.get("after"))}</p>', unsafe_allow_html=True)
+
+        if r.get("reworded"):
+            st.write("")
+            st.markdown(f'<h5><span class="pill pill-neutral">Reworded</span>&nbsp;&nbsp;{s.get("reworded",0)} obligation(s) unchanged in substance</h5>', unsafe_allow_html=True)
+            st.markdown('<p class="meta">The actual regulatory text is confirmed the same -- only our own generated summary/evidence wording came out differently between the two independent extraction runs. Nothing to act on.</p>', unsafe_allow_html=True)
+            for o in r["reworded"]:
+                label = o.get('title','')
+                if o.get("match_type") == "semantic":
+                    label += f"   (matched via semantic similarity, {o.get('semantic_similarity')})"
+                with st.expander(label):
+                    st.markdown(f'<p class="mono">{esc(o["obligation_id"])}</p>', unsafe_allow_html=True)
+                    for field, ch in o["changes"].items():
+                        st.markdown(f"**{field.replace('_',' ').title()}**")
+                        st.markdown(f'<p class="meta">Before &nbsp;&middot;&nbsp; {esc(ch.get("before"))}</p>', unsafe_allow_html=True)
+                        st.markdown(f'<p class="meta">After &nbsp;&middot;&nbsp; {esc(ch.get("after"))}</p>', unsafe_allow_html=True)
 
         if r["removed"]:
             st.write("")
