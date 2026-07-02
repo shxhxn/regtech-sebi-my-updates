@@ -19,7 +19,7 @@
     "grounding_band": "grounded",
     "confidence": 99.9,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -43,7 +43,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -67,7 +67,7 @@
     "grounding_band": "partial",
     "confidence": 78.5,
     "confidence_band": "Medium",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -91,7 +91,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -115,7 +115,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -139,7 +139,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -163,7 +163,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -187,7 +187,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -211,7 +211,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -235,7 +235,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -259,7 +259,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -283,7 +283,7 @@
     "grounding_band": "grounded",
     "confidence": 99.8,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -307,7 +307,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -331,7 +331,7 @@
     "grounding_band": "grounded",
     "confidence": 96.5,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -355,7 +355,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Finance"
   },
@@ -379,7 +379,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -403,7 +403,7 @@
     "grounding_band": "partial",
     "confidence": 82.7,
     "confidence_band": "Medium",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Finance"
   },
@@ -427,7 +427,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -475,7 +475,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -499,7 +499,7 @@
     "grounding_band": "partial",
     "confidence": 92.5,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -523,7 +523,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -547,7 +547,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -571,7 +571,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -595,7 +595,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -619,7 +619,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Critical",
     "risk_points": 0,
     "department": "Legal"
   },
@@ -643,7 +643,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -667,7 +667,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -691,7 +691,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -715,7 +715,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -739,7 +739,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -763,7 +763,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -787,7 +787,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -811,7 +811,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -835,7 +835,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -859,7 +859,7 @@
     "grounding_band": "grounded",
     "confidence": 97.9,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -883,7 +883,7 @@
     "grounding_band": "grounded",
     "confidence": 99.4,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -907,7 +907,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Client Onboarding"
   },
@@ -931,7 +931,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Client Onboarding"
   },
@@ -955,7 +955,7 @@
     "grounding_band": "grounded",
     "confidence": 90.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -979,7 +979,7 @@
     "grounding_band": "grounded",
     "confidence": 90.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -1003,7 +1003,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1027,7 +1027,7 @@
     "grounding_band": "grounded",
     "confidence": 96.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -1051,7 +1051,7 @@
     "grounding_band": "grounded",
     "confidence": 96.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1075,7 +1075,7 @@
     "grounding_band": "grounded",
     "confidence": 96.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -1099,7 +1099,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -1123,7 +1123,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Technology/InfoSec"
   },
@@ -1147,7 +1147,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1171,7 +1171,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "General Compliance"
   },
@@ -1195,7 +1195,7 @@
     "grounding_band": "grounded",
     "confidence": 96.4,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1219,7 +1219,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Critical",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1243,7 +1243,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -1291,7 +1291,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -1315,7 +1315,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -1339,7 +1339,7 @@
     "grounding_band": "grounded",
     "confidence": 99.2,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -1363,7 +1363,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -1387,7 +1387,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1411,7 +1411,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -1435,7 +1435,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -1459,7 +1459,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -1483,7 +1483,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1507,7 +1507,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1531,7 +1531,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1555,7 +1555,7 @@
     "grounding_band": "grounded",
     "confidence": 99.2,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1579,7 +1579,7 @@
     "grounding_band": "partial",
     "confidence": 86.1,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1603,7 +1603,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1627,7 +1627,7 @@
     "grounding_band": "partial",
     "confidence": 92.5,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1651,7 +1651,7 @@
     "grounding_band": "grounded",
     "confidence": 98.4,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Critical",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1675,7 +1675,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1699,7 +1699,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1723,7 +1723,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1747,7 +1747,7 @@
     "grounding_band": "partial",
     "confidence": 92.5,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1771,7 +1771,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -1795,7 +1795,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -1819,7 +1819,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -1843,7 +1843,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "High",
     "risk_points": 0,
     "department": "Technology/InfoSec"
   },
@@ -1867,7 +1867,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -1891,7 +1891,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1915,7 +1915,7 @@
     "grounding_band": "grounded",
     "confidence": 96.3,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -1939,7 +1939,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -1963,7 +1963,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -1987,7 +1987,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2011,7 +2011,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2059,7 +2059,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2083,7 +2083,7 @@
     "grounding_band": "grounded",
     "confidence": 96.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2107,7 +2107,7 @@
     "grounding_band": "grounded",
     "confidence": 98.2,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2131,7 +2131,7 @@
     "grounding_band": "grounded",
     "confidence": 93.7,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2155,7 +2155,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2227,7 +2227,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2251,7 +2251,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2275,7 +2275,7 @@
     "grounding_band": "grounded",
     "confidence": 93.4,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2299,7 +2299,7 @@
     "grounding_band": "partial",
     "confidence": 82.7,
     "confidence_band": "Medium",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2323,7 +2323,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2347,7 +2347,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2371,7 +2371,7 @@
     "grounding_band": "grounded",
     "confidence": 92.1,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2395,7 +2395,7 @@
     "grounding_band": "grounded",
     "confidence": 92.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -2419,7 +2419,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2443,7 +2443,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2467,7 +2467,7 @@
     "grounding_band": "grounded",
     "confidence": 92.6,
     "confidence_band": "High",
-    "risk_band": "Critical",
+    "risk_band": "Low",
     "risk_points": 3,
     "department": "Compliance/Audit"
   },
@@ -2491,7 +2491,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2515,7 +2515,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2539,7 +2539,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2587,7 +2587,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2611,7 +2611,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2635,7 +2635,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Critical",
+    "risk_band": "High",
     "risk_points": 3,
     "department": "Compliance/Audit"
   },
@@ -2659,7 +2659,7 @@
     "grounding_band": "partial",
     "confidence": 85.3,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2683,7 +2683,7 @@
     "grounding_band": "partial",
     "confidence": 85.3,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -2707,7 +2707,7 @@
     "grounding_band": "partial",
     "confidence": 89.9,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2731,7 +2731,7 @@
     "grounding_band": "partial",
     "confidence": 90.4,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -2755,7 +2755,7 @@
     "grounding_band": "partial",
     "confidence": 83.8,
     "confidence_band": "Medium",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2779,7 +2779,7 @@
     "grounding_band": "partial",
     "confidence": 86.1,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2803,7 +2803,7 @@
     "grounding_band": "partial",
     "confidence": 89.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2827,7 +2827,7 @@
     "grounding_band": "partial",
     "confidence": 86.2,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2851,7 +2851,7 @@
     "grounding_band": "partial",
     "confidence": 89.7,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2875,7 +2875,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -2899,7 +2899,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -2923,7 +2923,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2947,7 +2947,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2971,7 +2971,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -2995,7 +2995,7 @@
     "grounding_band": "grounded",
     "confidence": 94.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3043,7 +3043,7 @@
     "grounding_band": "grounded",
     "confidence": 96.1,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -3067,7 +3067,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Medium",
     "risk_points": 0,
     "department": "Compliance/Audit"
   },
@@ -3091,7 +3091,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3115,7 +3115,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3139,7 +3139,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -3163,7 +3163,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -3187,7 +3187,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -3211,7 +3211,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3235,7 +3235,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3259,7 +3259,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3307,7 +3307,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3331,7 +3331,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3355,7 +3355,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3403,7 +3403,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -3427,7 +3427,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -3451,7 +3451,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -3475,7 +3475,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -3499,7 +3499,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -3523,7 +3523,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -3547,7 +3547,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3571,7 +3571,7 @@
     "grounding_band": "grounded",
     "confidence": 96.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -3595,7 +3595,7 @@
     "grounding_band": "grounded",
     "confidence": 99.3,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -3619,7 +3619,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3643,7 +3643,7 @@
     "grounding_band": "partial",
     "confidence": 88.7,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -3667,7 +3667,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -3691,7 +3691,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3715,7 +3715,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3739,7 +3739,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3763,7 +3763,7 @@
     "grounding_band": "grounded",
     "confidence": 97.2,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3787,7 +3787,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3811,7 +3811,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3835,7 +3835,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -3859,7 +3859,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3907,7 +3907,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -3931,7 +3931,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3955,7 +3955,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -3979,7 +3979,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -4003,7 +4003,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -4027,7 +4027,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -4051,7 +4051,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "High",
     "risk_points": 0,
     "department": "Finance"
   },
@@ -4075,7 +4075,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Critical",
     "risk_points": 0,
     "department": "Finance"
   },
@@ -4099,7 +4099,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "High",
     "risk_points": 0,
     "department": "Finance"
   },
@@ -4123,7 +4123,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "High",
     "risk_points": 0,
     "department": "Finance"
   },
@@ -4147,7 +4147,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4171,7 +4171,7 @@
     "grounding_band": "grounded",
     "confidence": 98.2,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -4195,7 +4195,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4219,7 +4219,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4243,7 +4243,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -4267,7 +4267,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4291,7 +4291,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Client Onboarding"
   },
@@ -4315,7 +4315,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "High",
     "risk_points": 0,
     "department": "Technology/InfoSec"
   },
@@ -4339,7 +4339,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4363,7 +4363,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4387,7 +4387,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4411,7 +4411,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4435,7 +4435,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4459,7 +4459,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Client Onboarding"
   },
@@ -4483,7 +4483,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4507,7 +4507,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4531,7 +4531,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4555,7 +4555,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4579,7 +4579,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4603,7 +4603,7 @@
     "grounding_band": "grounded",
     "confidence": 99.4,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Client Onboarding"
   },
@@ -4627,7 +4627,7 @@
     "grounding_band": "grounded",
     "confidence": 98.8,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4651,7 +4651,7 @@
     "grounding_band": "grounded",
     "confidence": 99.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -4675,7 +4675,7 @@
     "grounding_band": "grounded",
     "confidence": 99.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4699,7 +4699,7 @@
     "grounding_band": "grounded",
     "confidence": 99.7,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -4723,7 +4723,7 @@
     "grounding_band": "grounded",
     "confidence": 99.5,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4747,7 +4747,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4771,7 +4771,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -4795,7 +4795,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4819,7 +4819,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4843,7 +4843,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4867,7 +4867,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -4891,7 +4891,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4915,7 +4915,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -4939,7 +4939,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -4963,7 +4963,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -4987,7 +4987,7 @@
     "grounding_band": "grounded",
     "confidence": 99.2,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -5011,7 +5011,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5035,7 +5035,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5059,7 +5059,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5083,7 +5083,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5107,7 +5107,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5131,7 +5131,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -5155,7 +5155,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5179,7 +5179,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5203,7 +5203,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5227,7 +5227,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5251,7 +5251,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5275,7 +5275,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5299,7 +5299,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5323,7 +5323,7 @@
     "grounding_band": "grounded",
     "confidence": 98.7,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5347,7 +5347,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5371,7 +5371,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Finance"
   },
@@ -5395,7 +5395,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Investor Relations"
   },
@@ -5419,7 +5419,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5443,7 +5443,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Critical",
+    "risk_band": "Low",
     "risk_points": 3,
     "department": "General Compliance"
   },
@@ -5467,7 +5467,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5491,7 +5491,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5515,7 +5515,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5539,7 +5539,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5563,7 +5563,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5587,7 +5587,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5611,7 +5611,7 @@
     "grounding_band": "grounded",
     "confidence": 96.4,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5635,7 +5635,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5659,7 +5659,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -5683,7 +5683,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5731,7 +5731,7 @@
     "grounding_band": "grounded",
     "confidence": 99.5,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5755,7 +5755,7 @@
     "grounding_band": "grounded",
     "confidence": 98.2,
     "confidence_band": "High",
-    "risk_band": "Low",
+    "risk_band": "Critical",
     "risk_points": 0,
     "department": "General Compliance"
   },
@@ -5779,7 +5779,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5803,7 +5803,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -5827,7 +5827,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5851,7 +5851,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5875,7 +5875,7 @@
     "grounding_band": "partial",
     "confidence": 86.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5899,7 +5899,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -5923,7 +5923,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Critical",
+    "risk_band": "Low",
     "risk_points": 3,
     "department": "Legal"
   },
@@ -5971,7 +5971,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -5995,7 +5995,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -6019,7 +6019,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -6043,7 +6043,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -6067,7 +6067,7 @@
     "grounding_band": "grounded",
     "confidence": 95.1,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "High",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -6091,7 +6091,7 @@
     "grounding_band": "grounded",
     "confidence": 98.2,
     "confidence_band": "High",
-    "risk_band": "Critical",
+    "risk_band": "Low",
     "risk_points": 3,
     "department": "General Compliance"
   },
@@ -6115,7 +6115,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Critical",
+    "risk_band": "Low",
     "risk_points": 3,
     "department": "General Compliance"
   },
@@ -6139,7 +6139,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -6163,7 +6163,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -6187,7 +6187,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -6211,7 +6211,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -6235,7 +6235,7 @@
     "grounding_band": "grounded",
     "confidence": 96.2,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -6259,7 +6259,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -6283,7 +6283,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Technology/InfoSec"
   },
@@ -6307,7 +6307,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -6331,7 +6331,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -6355,7 +6355,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Legal"
   },
@@ -6379,7 +6379,7 @@
     "grounding_band": "grounded",
     "confidence": 96.8,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "Compliance/Audit"
   },
@@ -6403,7 +6403,7 @@
     "grounding_band": "grounded",
     "confidence": 100.0,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Low",
     "risk_points": 1,
     "department": "General Compliance"
   },
@@ -6451,7 +6451,7 @@
     "grounding_band": "grounded",
     "confidence": 98.6,
     "confidence_band": "High",
-    "risk_band": "Medium",
+    "risk_band": "Critical",
     "risk_points": 1,
     "department": "Compliance/Audit"
   }
