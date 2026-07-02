@@ -1,0 +1,1298 @@
+[
+  {
+    "obligation_id": "sb-margin-collection-01",
+    "title": "Collection and Reporting of Margins by Trading Member (TM)/Clearing Member (CM) in Cash Segment",
+    "summary": "Collect and report margins from clients trading in the cash segment.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Trading in the cash segment",
+    "required_action": "Collect and report margins as per SEBI guidelines.",
+    "evidence": "Records of margin collection and reporting.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "Para 40",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Collection and reporting of margins by Trading Member (TM) /Clearing Member (CM) in Cash Segment."
+  },
+  {
+    "obligation_id": "sb-margin-segregation-01",
+    "title": "Segregation and Monitoring of Collateral at Client Level",
+    "summary": "Segregate and monitor collateral provided by clients.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Clients providing collateral for margin trading or other purposes.",
+    "required_action": "Segregate and monitor the collateral as per SEBI guidelines.",
+    "evidence": "Records of segregation and monitoring of collateral.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "Para 42",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Margin obligation to be given by way of Pledge/ Re-pledge in the Depository System"
+  },
+  {
+    "obligation_id": "sb-cyber-security-01",
+    "title": "Cyber Security and Cyber Resilience Framework for Stock Brokers",
+    "summary": "Implement a cyber security and resilience framework.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Operating as a stock broker.",
+    "required_action": "Develop and implement a robust cyber security and resilience framework.",
+    "evidence": "Documentation of the implemented cyber security measures.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "Para 62",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Cyber Security and Cyber resilience framework for Stock Brokers."
+  },
+  {
+    "obligation_id": "sb-software-testing-01",
+    "title": "Testing of Software Used in or Related to Trading and Risk Management",
+    "summary": "Test software used in trading and risk management.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Using software for trading and risk management.",
+    "required_action": "Conduct thorough testing of the software as per SEBI guidelines.",
+    "evidence": "Documentation of software testing processes and results.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "Para 60",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Testing of Software used in or related to Trading and Risk Management"
+  },
+  {
+    "obligation_id": "sb-electronic-trading-systems-01",
+    "title": "Framework to Address Technical Glitches in Electronic Trading Systems",
+    "summary": "Develop a framework to address technical glitches in electronic trading systems.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Operating an electronic trading system.",
+    "required_action": "Develop and implement a framework to address technical glitches.",
+    "evidence": "Documentation of the implemented framework.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "Para 65",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Framework to address the \u2018technical glitches\u2019 in Stock Brokers\u2019 Electronic Trading Systems"
+  },
+  {
+    "obligation_id": "sb-antecedents-check-01",
+    "title": "Verification of Antecedents for Stock Broker Registration",
+    "summary": "Stock Exchanges must verify the antecedents of applicants before granting membership and submit a declaration to SEBI.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Applicant seeking registration as a stock broker with SEBI",
+    "required_action": "Verification of applicant's antecedents and submission of a declaration to SEBI",
+    "evidence": "Declaration submitted by Stock Exchanges",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "1.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"Stock Exchanges shall verify the antecedents of the applicant before granting admission as a member of Stock Exchange and also submit a declaration at the time of forwarding the applications for registration with SEBI, to the effect that the member has not been convicted of any offence involving fraud or dishonesty.\""
+  },
+  {
+    "obligation_id": "sb-individual-to-corporate-01",
+    "title": "Temporary Trading Permission for Individual Members during Corporatisation Process",
+    "summary": "Individual members may trade in their individual name while the corporate member is being registered by SEBI.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Corporatisation of an individual stock broker membership",
+    "required_action": "Allowing temporary trading under individual name until registration as a corporate member is granted",
+    "evidence": "No specific evidence required, but records of transactions during this period should be maintained.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "2.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"In case of corporatisation of individual membership, the individual member may trade in his individual name pending registration of the corporate member by SEBI.\""
+  },
+  {
+    "obligation_id": "sb-individual-to-corporate-02",
+    "title": "Prohibition on Trading for Corporate Members Acquiring Individual Membership Cards",
+    "summary": "Corporate members cannot trade if they acquire membership through purchase of an individual member's card until SEBI registration is granted.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Acquisition of stock broker membership by a corporate entity through purchase of an individual member's card",
+    "required_action": "Prohibition on trading activities for the acquired membership until SEBI registration is granted",
+    "evidence": "No specific evidence required, but records of application and acquisition process should be maintained.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "2.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"In case the corporate member acquires the membership through purchase of membership card of an individual member, the corporate member shall not be entitled to trade because of the provisions of Section 12 of the Securities and Exchange Board of India Act, 1992 (hereinafter referred to as \u201cSEBI Act 1992\u201d), till registration is granted to the corporate member by SEBI.\""
+  },
+  {
+    "obligation_id": "sb-registration-application-01",
+    "title": "Submission of Registration Application for Stock Brokers",
+    "summary": "Stock Exchanges must recommend and submit a registration application in Form A, Schedule I of the Stock Brokers Regulations 1992.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Application for registration as a stock broker with SEBI",
+    "required_action": "Submission of registration application in Form A along with additional information as per Annexure-1",
+    "evidence": "Registration application and supporting documents submitted to SEBI",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "3.1, 3.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"a Stock Broker has to apply in Form A, Schedule I of the aforesaid Regulations, duly recommended by the Stock Exchange of which he is a member, for registration as a Stock Broker by SEBI. While forwarding the applications in Form A, Stock Exchanges shall ensure that additional information as per the format at Annexure-1 is also submitted along with the application for all the cases sent for registration.\""
+  },
+  {
+    "obligation_id": "sb-application-information-update-01",
+    "title": "Updating Information for Stock Broker Registration Applications",
+    "summary": "Stock Exchanges must ensure that information and documents enclosed in applications are up-to-date to facilitate informed decision-making by SEBI.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Submission of registration application or other relevant application for stock brokers with SEBI",
+    "required_action": "Updating information and ensuring that all documents are current before submission",
+    "evidence": "Up-to-date application documents and supporting records maintained by Stock Exchanges",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "4.2, 4.2.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"Such information can undergo a change within a very short period of time. It has been observed that in many cases information/documents enclosed along with the applications are outdated for SEBI to take any cognizance of the same. In order to improve the standard of information flow so as to enable SEBI to take an informed decision while processing applications, the following norms may be adhered to: a. Stock Exchanges shall ensure that the following documents which are forwarded by the Exchanges along with registration application are up-to-date and accurate.\""
+  },
+  {
+    "obligation_id": "sb-doc-age-01",
+    "title": "Ensure documents are not more than three months old",
+    "summary": "Stock Exchanges must ensure that certain documents submitted with registration applications are up to date.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Submission of a registration application for stock brokers",
+    "required_action": "Ensure the following documents are not more than three months old: Form A, Additional Information Form, Undertakings furnished by the Applicant.",
+    "evidence": "Copies of the relevant documents with dates of submission marked.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "4.2.1.a.i-iii",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Exchanges shall ensure that the following documents which are forwarded by the Exchanges along with registration applications are not more than three months old from the date of forwarding of the application. i. Form A ii. Additional Information Form iii. Undertakings furnished by the Applicant"
+  },
+  {
+    "obligation_id": "sb-name-change-01",
+    "title": "Ensure change of name applications include relevant information",
+    "summary": "Stock Exchanges must ensure that all necessary information is provided with change of name applications.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Submission of a change of name application for stock brokers",
+    "required_action": "Ensure the application includes information from the Exchange regarding whether the change in name is accompanied by or associated with changes in majority shareholding, management, or control.",
+    "evidence": "Copies of the relevant applications and supporting documents.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "4.2.2.a",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Exchanges shall ensure that change of name applications should be accompanied by information from the Exchange as to whether the change in name is accompanied by / associated with change in majority shareholding / management / control. Applications not accompanied with such information from the Exchange would be returned to the concerned exchanges."
+  },
+  {
+    "obligation_id": "sb-name-change-02",
+    "title": "Instruct member brokers on compliance",
+    "summary": "Stock Exchanges must instruct their member brokers to comply with certain requirements.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Submission of a change of name application for stock brokers",
+    "required_action": "Ensure that applications forwarded to SEBI strictly adhere with the above time schedules/documents, failing which the applications would be returned to the concerned Exchange.",
+    "evidence": "Internal records of instructions and compliance checks.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "4.2.2.b",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Exchanges shall instruct all the member brokers of the exchange to comply with the above instructions and ensure that applications forwarded to SEBI strictly adhere with the above time schedules / documents failing which the applications would be returned to the concerned Exchange."
+  },
+  {
+    "obligation_id": "sb-fee-continuity-01",
+    "title": "Ensure eligibility for fee continuity benefit",
+    "summary": "Stock Exchanges must ensure that corporate entities formed from partnership membership cards meet certain criteria to avail of fee continuity benefits.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Conversion of a partnership firm into a corporate entity",
+    "required_action": "Ensure all erstwhile partners are whole-time directors in the new corporate entity and hold at least 40% of the paid-up equity capital for three years.",
+    "evidence": "Documentation showing the status of erstwhile partners as whole-time directors and their shareholding details.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "4.3.1, 4.3.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "In order to get benefit of clause I (4) of Schedule III of the Stock Brokers Regulations 1992, all erstwhile partner(s) should be whole-time directors in the corporate entity so formed, and the whole-time director shall individually (in case there is one whole-time director) or jointly (in case there are more than one whole-time directors) have to hold at least 40% of the paid up equity capital of the corporate entity formed for a period of at least three years from the date of such conversion. In case of Exchanges which do not grant membership to the partnership firms, but permit individual members to form partnerships, each of the erstwhile member partner, now whole-time director of the corporate entity, will have to individually or jointly hold at least 40% of the paid-up capital of the corporate entity so formed for a period of at least three years from the date of such conversion."
+  },
+  {
+    "obligation_id": "sb-merger-application-01",
+    "title": "Apply for registration after merger",
+    "summary": "Stock Exchanges must apply for new registration when corporate broking firms merge.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Merger of two or more corporate broking firms",
+    "required_action": "Apply afresh for registration and pay the registration fees, even if the extinguishing entity has a pre-existing SEBI registration.",
+    "evidence": "Registration application and payment receipt.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "5.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "When two or more corporate broking firms merge leading to creation of a new entity, the SEBI registration granted to the extinguishing entity does not automatically devolve upon the emerging entity and the new entity has to fulfil the eligibility criteria and apply afresh for registration and pay the registration fees."
+  },
+  {
+    "obligation_id": "sb-merger-trading-permission-01",
+    "title": "Obtain trading permission within 45 days after merger",
+    "summary": "Stock Exchanges must obtain trading permission from SEBI within a specified period after the merger.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Merger of two or more corporate broking firms",
+    "required_action": "Apply to SEBI at the earliest and give an undertaking to be liable for the act of the extinguishing entity, with applications made not later than 30 days after registration by the Registrar of Companies.",
+    "evidence": "Application documents and undertaking agreement.",
+    "frequency": "event_driven",
+    "deadline": null,
+    "source_clause": "5.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The emerging entity may be allowed to trade on the registration of the extinguishing entity for a period of say 45 days. However, the emerging entity should apply to SEBI at the earliest and give an undertaking to be liable for the act of the extinguishing entity and such applications in any case should be made not later than 30 days of the registration granted by the Registrar of companies to the"
+  },
+  {
+    "obligation_id": "sb-merger-permission-01",
+    "title": "Seek Prior Permission from SEBI for Merger Scheme",
+    "summary": "Stock Brokers must seek prior permission from SEBI through the Stock Exchange before filing an application with the High Court for a scheme of merger or amalgamation.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Filing an application for merger before the High Court",
+    "required_action": "Approach SEBI through the Stock Exchange for obtaining prior permission to the scheme of merger/amalgamation, providing all necessary details of the proposal.",
+    "evidence": "Certificate of registration from SEBI and records of communication with SEBI regarding the merger application.",
+    "frequency": "event_driven",
+    "deadline": null,
+    "source_clause": "Para 5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Therefore, you are advised that as soon as the application for merger is filed before the High Court, the extinguishing broking entity should approach SEBI through the Stock Exchange for obtaining prior permission, to the scheme of merger/ amalgamation giving all necessary details of the proposal."
+  },
+  {
+    "obligation_id": "sb-single-registration-01",
+    "title": "Obtain Single Registration with Any Stock Exchange/Clearing Corporation",
+    "summary": "Stock Brokers must obtain a single registration certificate from SEBI through any Stock Exchange or Clearing Corporation for operating in multiple exchanges.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Desiring to register as a stock broker or clearing member with any Stock Exchange or Clearing Corporation",
+    "required_action": "Apply to SEBI through the respective Stock Exchange or Clearing Corporation and obtain one certificate of registration.",
+    "evidence": "Certificate of registration from SEBI and records of application submission.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "Para 7.2.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "If a new entity desires to register as a stock broker or clearing member with any Stock Exchange or Clearing Corporation, as the case may be, then the entity shall apply to SEBI through the respective Stock Exchange or Clearing Corporation in the manner prescribed in the Stock Brokers Regulations 1992. The entity shall be issued one certificate of registration, irrespective of the Stock Exchange(s)/Clearing Corporation(s)."
+  },
+  {
+    "obligation_id": "sb-registration-01",
+    "title": "Register with SEBI as a Stock Broker",
+    "summary": "Apply for registration with SEBI if not already registered.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Not registered with SEBI as a stock broker.",
+    "required_action": "Submit an application to SEBI for registration.",
+    "evidence": "Certificate of Registration from SEBI.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "7.2.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The entity shall be issued one certificate of registration, irrespective of the Stock Exchange(s)/ Clearing Corporation(s) or number of segment(s)."
+  },
+  {
+    "obligation_id": "sb-registration-02",
+    "title": "Apply for Approval to Operate on Other Exchanges/Corporations",
+    "summary": "Submit an application to operate on other Stock Exchanges or Clearing Corporations.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Operating on a new Stock Exchange or Clearing Corporation after initial registration.",
+    "required_action": "Apply for approval from the concerned Stock Exchange or Clearing Corporation as per the procedure prescribed in the Stock Brokers Regulations 1992.",
+    "evidence": "Approval letter from the Stock Exchange/ Clearing Corporation.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "7.2.2, 7.2.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "If the entity is already registered with SEBI as a stock broker with any Stock Exchange, then for operating on any other Stock Exchange(s) or any Clearing Corporation, the entity can directly apply for approval to the concerned Stock Exchange or Clearing Corporation, as per the procedure prescribed in the Stock Brokers Regulations 1992 for registration. The Stock Exchange/ Clearing Corporation shall report to SEBI about such grant of approval. Similarly, if any entity is already registered with SEBI as a clearing member in any Clearing Corporation, then for operating in any other Clearing Corporation(s) or any Stock Exchange, the entity shall follow the procedure as prescribed in para 7.2.2 above."
+  },
+  {
+    "obligation_id": "sb-fees-01",
+    "title": "Pay Fees to SEBI and Other Bodies",
+    "summary": "Pay fees applicable for each segment approved by the Stock Exchange or Clearing Corporation.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Operating in any segment(s) or additional segment(s).",
+    "required_action": "Pay fees as per Schedule V of the Stock Brokers Regulations 1992 and Schedule to the Stock Brokers Regulations 1992.",
+    "evidence": "Payment receipts for the fees paid.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "7.2.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Fees shall be applicable for all the stock brokers, self-clearing members and clearing members as per Schedule V of the Stock Brokers Regulations 1992. As per current requirement, the entity shall continue to be liable to pay fees for each segment approved by the Stock Exchange or Clearing Corporation, as per the Schedule to the Stock Brokers Regulations 1992."
+  },
+  {
+    "obligation_id": "sb-diligence-01",
+    "title": "Comply with Fit and Proper Criteria",
+    "summary": "Ensure that all relevant eligibility requirements are met.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Applying for approval to operate in a new segment or additional segment.",
+    "required_action": "Meet the Fit and Proper Criteria as defined in the Intermediaries Regulations 2008, take corrective steps if deficiencies are observed, and ensure recovery of all pending fees/dues.",
+    "evidence": "Documentation showing compliance with Fit and Proper Criteria, details of corrective actions taken, and proof of fee recovery.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "7.3.1-7.3.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The applicant, its directors, proprietor, partners and associates satisfy the Fit and Proper Criteria as defined in the Securities and Exchange Board of India (Intermediaries) Regulations, 2008 (hereinafter referred to as \u201cIntermediaries Regulations 2008\u201d); The applicant has taken satisfactory corrective steps to rectify the deficiencies or irregularities observed in the past in actions initiated/taken by SEBI/ Stock Exchanges(s) or other regulators. The Stock Exchange or Clearing Corporation may also seek details whether the Board of the applicant is satisfied about the steps taken; and Recovery of all pending fees/ dues payable to SEBI, Stock Exchange and Clearing Corporation."
+  },
+  {
+    "obligation_id": "sb-net-worth-01",
+    "title": "Maintain Minimum Net Worth",
+    "summary": "Stock brokers must maintain a minimum net worth as specified by the Stock Brokers Regulations 1992.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Being a member of a commodity derivatives exchange",
+    "required_action": "Ensure that the minimum net worth is computed in accordance with the regulations.",
+    "evidence": "Documentation showing computation and maintenance of minimum net worth.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "8.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The minimum net worth specified for members of commodity derivatives exchanges, shall have to be computed as prescribed in the Stock Brokers Regulations 1992."
+  },
+  {
+    "obligation_id": "sb-business-qualification-01",
+    "title": "Qualification for Business in Commodity Derivatives",
+    "summary": "Stock brokers are not disqualified from engaging in business related to commodity derivatives.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Engaging in business activities related to commodity derivatives",
+    "required_action": "Ensure that the business is conducted without disqualification under specified rules.",
+    "evidence": "Documentation showing compliance with relevant rules and regulations.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "8.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"Business in goods related to the underlying\" and/or \"business in connection with or incidental to or consequential to trades in commodity derivatives\", by a member of a Stock Exchange, would not be disqualified under Rule 8(1)(f) and Rule 8(3)(f) of the SCRR 1957."
+  },
+  {
+    "obligation_id": "sb-integration-01",
+    "title": "Integrate Broking Activities Across Markets",
+    "summary": "Stock brokers can integrate their broking activities across equity and commodity derivatives markets under a single entity.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Engaging in integrated broking activities",
+    "required_action": "Ensure that the integration is done through a single registration mechanism.",
+    "evidence": "Documentation showing compliance with the single registration process and permissions from relevant exchanges/clearing corporations.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "9.2, 9.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"A stock broker can deal in commodity derivatives and other securities under a single entity, thereby facilitating ease of doing business.\\nPrior approval from SEBI will be required to be obtained by the stock broker only in cases where integration leads to change in control of the stock broker/clearing member."
+  },
+  {
+    "obligation_id": "sb-client-account-transfer-01",
+    "title": "Transfer Client Accounts Between Brokers",
+    "summary": "Stock brokers can transfer client accounts between each other with client consent.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Transferring a client account to another broker",
+    "required_action": "Obtain express consent from the client and continue with existing documentation.",
+    "evidence": "Client consent form and updated documentation reflecting the transfer.",
+    "frequency": "event_driven",
+    "deadline": null,
+    "source_clause": "9.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"Further, to facilitate integration between stock brokers, it is clarified that client account may be transferred from one stock broker to the other stock broker, by taking the express consent of the client through a verifiable mode of communication and thereby continuing with the existing set of documentation in respect of broker client relationship."
+  },
+  {
+    "obligation_id": "sb-uniform-membership-01",
+    "title": "Uniform Membership Structure Across Segments",
+    "summary": "Stock brokers can operate in any segment under a single registration number.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Operating in multiple segments",
+    "required_action": "Ensure compliance with the uniform membership structure as per SEBI's mechanism of single registration.",
+    "evidence": "Single registration certificate and documentation showing operation across segments.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "10.2, 10.2.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"SEBI has implemented the mechanism of single registration, whereby a registered TM /CM can operate in any segment of the recognized Stock Exchange / Clearing Corporation under the single registration number granted by SEBI.\\nIn order to implement uniform membership structure across equity cash and derivatives segments, following course of action is provided:"
+  },
+  {
+    "obligation_id": "sb-tie-up-01",
+    "title": "Tie-Up Requirement for Non-Compliant Stock Brokers",
+    "summary": "Stock Brokers who fail to meet the net-worth requirement by September 30, 2019 must tie up with a CM/PCM for clearing and settlement of their trades.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Not registered as SCM/CM in derivatives segment and operating in cash segment",
+    "required_action": "Tie up with a CM/PCM by September 30, 2019 for clearing and settlement of trades.",
+    "evidence": "Documentation proving the tie-up agreement with a CM/PCM.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "10.2.3.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "- Existing Stock Brokers in cash segment who are not registered as SCM / CM in derivatives segment shall continue as SCM in cash segment with effect from April 01, 2019. However, - (b) Existing Stock Brokers in cash segment who fail to meet the net-worth requirement for SCM / CM on or before September 30, 2019 shall continue to trade as Trading Member in cash segment provided that they shall tie up with a CM / PCM for clearing and settlement of their trades on or before September 30, 2019."
+  },
+  {
+    "obligation_id": "sb-online-registration-01",
+    "title": "Online Registration through SEBI Intermediary Portal",
+    "summary": "Stock Brokers must submit all registration applications online via the SEBI Intermediary Portal.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Applying for registration or other requests",
+    "required_action": "Submit all applications through the SEBI Intermediary Portal only.",
+    "evidence": "Confirmation of submission via the portal and any required documents submitted in physical form as per records.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "11.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "- All applications for registration / surrender / other requests shall be made through SEBI Intermediary Portal only. The application in respect of stock brokers and depository participants shall continue to be made through the Stock Exchanges and Depositories respectively."
+  },
+  {
+    "obligation_id": "sb-doc-submission-01",
+    "title": "Submission of Physical Documents for Registration",
+    "summary": "Stock Brokers must submit relevant documents such as declarations/undertakings in physical form only for records without impacting the online processing.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Applying for registration or other requests",
+    "required_action": "Submit relevant documents in physical form only for records.",
+    "evidence": "Physical copies of submitted documents.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "11.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "- The applicants will be separately required to submit relevant documents viz. declarations / undertakings, in physical form, only for records without impacting the online processing of applications for registration."
+  },
+  {
+    "obligation_id": "sb-hard-copy-preservation-01",
+    "title": "Preservation and Availability of Hard Copies",
+    "summary": "Stock Brokers must preserve hard copies of applications made through Stock Exchanges/Depositories and make them available to SEBI as required.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Applying for registration or other requests via Stock Exchanges/Depositories",
+    "required_action": "Preserve hard copies of applications made through Stock Exchanges/Depositories and make them available to SEBI as required.",
+    "evidence": "Physical copies of preserved documents.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "11.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "- Where applications are made through the Stock Exchanges / Depositories, the hard copy of the applications made by their members shall be preserved by them and shall be made available to SEBI, as and when called for."
+  },
+  {
+    "obligation_id": "sb-registration-transfer-01",
+    "title": "Register Transferee with New Registration Number",
+    "summary": "Stock Brokers must register transferees with a new registration number if the business is transferred through regulatory or non-regulatory processes.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Business transfer through regulatory or non-regulatory process",
+    "required_action": "Register transferee with SEBI and obtain a new registration number different from the transferor\u2019s.",
+    "evidence": "Certificate of registration issued by SEBI to the transferee.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "Para 12.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"SEBI shall issue new registration number to transferee different from transferor\u2019s registration number in the following scenario: Business is transferred through regulatory process (pursuant to merger/amalgamation/corporate restructuring by way of order of primary regulator/government/NCLT, etc.) or non-regulatory process (as per private agreement/MOU pursuant to commercial dealing/private arrangement) irrespective of transferor continues to exist or ceases to exist after the said transfer.\""
+  },
+  {
+    "obligation_id": "sb-registration-change-control-01",
+    "title": "Obtain Prior Approval and Fresh Registration for Change in Control",
+    "summary": "Stock Brokers must obtain prior approval and fresh registration from SEBI when there is a change in control through both regulatory and non-regulatory processes.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Change in control through regulatory or non-regulatory process",
+    "required_action": "Obtain prior approval and fresh registration from SEBI.",
+    "evidence": "Approval letter from SEBI and updated certificate of registration.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "Para 12.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"In case of change in control pursuant to both regulatory process and non-regulatory process, prior approval and fresh registration shall be obtained.\""
+  },
+  {
+    "obligation_id": "sb-registration-surrender-transferor-complete-01",
+    "title": "Surrender Certificate of Registration on Complete Transfer by Transferor",
+    "summary": "Stock Brokers must surrender their certificate of registration if they complete the transfer of their business.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Complete transfer of business by transferor",
+    "required_action": "Surrender the certificate of registration to SEBI.",
+    "evidence": "Certificate of surrender issued by SEBI.",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "Para 12.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"In case of complete transfer of business by transferor, it shall surrender its certificate of registration.\""
+  },
+  {
+    "obligation_id": "sb-registration-surrender-transferor-partial-01",
+    "title": "Retain Certificate of Registration on Partial Transfer by Transferor",
+    "summary": "Stock Brokers can continue to hold their certificate of registration if they only partially transfer their business.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Partial transfer of business by transferor",
+    "required_action": "Continue holding the certificate of registration.",
+    "evidence": "Certificate of registration issued by SEBI.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "Para 12.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "\"In case of partial transfer of business by transferor, it can continue to hold certificate of registration.\""
+  },
+  {
+    "obligation_id": "sb-inspection-policy-formulation-01",
+    "title": "Formulate Annual Inspection Policy for Members",
+    "summary": "Stock Brokers must formulate an annual inspection policy in consultation with SEBI and follow up on the inspections.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Annual inspection of members by Stock Exchanges or Clearing Corporations",
+    "required_action": "Formulate a policy for annual inspection of their members, covering various kinds of risks to investors and market at large.",
+    "evidence": "Policy document approved by SEBI.",
+    "frequency": "annual",
+    "deadline": null,
+    "source_clause": "Para 13.1.1",
+    "source_circular": "SEBI/HO/MIRSD/DOR/CIR/P/2021/46, dated March 26, 2021",
+    "verbatim_text": "\"The Stock Exchange or the Clearing Corporation, as the case may be, shall, in consultation with SEBI, formulate a policy for annual inspection of their members in various segments and follow up action thereon. The policy shall also cover various kinds of risks posed to the investors and market at large on account of the activities/business conduct of their members.\""
+  },
+  {
+    "obligation_id": "sb-inspection-policy-sharing-01",
+    "title": "Establish Information Sharing Mechanism for Inspection Outcomes",
+    "summary": "Stock Brokers must establish an information sharing mechanism with other Stock Exchanges on the outcomes of inspections.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Annual inspection of members by Stock Exchanges or Clearing Corporations",
+    "required_action": "Establish an information sharing mechanism for important outcomes of inspections among exchanges holding multiple memberships.",
+    "evidence": "Agreement document with other exchanges.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "Para 13.1.2",
+    "source_circular": "SEBI/HO/MIRSD/DOR/CIR/P/2021/46, dated March 26, 2021",
+    "verbatim_text": "\"The Stock Exchange or the Clearing Corporation, as the case may be, shall conduct inspection of their members in various segments in terms of the above policy and in case of members who hold multiple memberships of the exchanges, the Stock Exchanges shall establish an information sharing mechanism with one another on the important outcome of inspection in order to improve the effectiveness of supervision.\""
+  },
+  {
+    "obligation_id": "sb-inspection-compliance-efficacy-01",
+    "title": "Inspect Compliance and Efficacy of Investor Grievance Redressal Mechanism",
+    "summary": "Stock Brokers must inspect compliance with relevant provisions, rules, regulations, and circulars issued by SEBI and Stock Exchanges/ Clearing Corporations.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Annual inspection of members by Stock Exchanges or Clearing Corporations",
+    "required_action": "Conduct inspections to cover compliance with relevant provisions, rules, regulations, and circulars issued by SEBI and Stock Exchanges/ Clearing Corporations.",
+    "evidence": "Inspection report documenting findings.",
+    "frequency": "annual",
+    "deadline": null,
+    "source_clause": "Para 13.1.3(a)",
+    "source_circular": "SEBI/HO/MIRSD/DOR/CIR/P/2021/46, dated March 26, 2021",
+    "verbatim_text": "\"The inspection shall cover: a. Compliance with the relevant provisions of the Act, Rules and Regulations made there under, Rules and Regulation of the Stock Exchange / Clearing Corporation and the circulars issued by SEBI and Stock Exchanges / Clearing Corporations from time to time,\""
+  },
+  {
+    "obligation_id": "sb-inspection-grievance-mechanism-01",
+    "title": "Inspect Efficacy of Investor Grievance Redressal Mechanism",
+    "summary": "Stock Brokers must inspect the efficacy of their investor grievance redressal mechanism and discharge of obligations towards clients.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Annual inspection of members by Stock Exchanges or Clearing Corporations",
+    "required_action": "Conduct inspections to cover the efficacy of the investor grievance redressal mechanism and discharge of obligations towards clients for the preceding one year.",
+    "evidence": "Inspection report documenting findings.",
+    "frequency": "annual",
+    "deadline": null,
+    "source_clause": "Para 13.1.3(b)",
+    "source_circular": "SEBI/HO/MIRSD/DOR/CIR/P/2021/46, dated March 26, 2021",
+    "verbatim_text": "\"b. Efficacy of the investor grievance redressal mechanism and discharge of various obligations towards clients, for the preceding one year unless a longer period is warranted in the circumstances.\""
+  },
+  {
+    "obligation_id": "sb-internal-audit-01",
+    "title": "Carry out half-yearly internal audit",
+    "summary": "Conduct a complete internal audit on a half yearly basis by an independent qualified professional.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Half yearly period",
+    "required_action": "Carry out complete internal audit",
+    "evidence": "Audit report submitted to the member's Board of Directors/Proprietor/Partners and forwarded to Stock Exchange/Clearing Corporation.",
+    "frequency": "half_yearly",
+    "deadline": null,
+    "source_clause": "13.2.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The member shall carry out complete internal audit on a half yearly basis by an independent qualified Chartered Accountant, Company Secretary or Cost and Management Accountant who is in practice and does not have any conflict of interest."
+  },
+  {
+    "obligation_id": "sb-internal-audit-compliance-01",
+    "title": "Ensure compliance with SEBI regulations during internal audit",
+    "summary": "During the internal audit, ensure that all provisions of SEBI Act, 1992, SCRA 1956, Intermediaries Regulations 2008, Stock Brokers Regulations 1992, and other relevant circulars are being followed.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Half yearly period",
+    "required_action": "Ensure compliance with SEBI regulations during internal audit",
+    "evidence": "Audit report submitted to the member's Board of Directors/Proprietor/Partners and forwarded to Stock Exchange/Clearing Corporation.",
+    "frequency": "half_yearly",
+    "deadline": null,
+    "source_clause": "13.2.2(a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "a. the existence, scope and efficiency of the internal control system, compliance with the provisions of the SEBI Act, 1992, Securities Contracts (Regulation) Act 1956 (hereinafter referred to as \u201cSCRA 1956\u201d), Intermediaries Regulations 2008, Stock Brokers Regulations 1992, circulars issued by SEBI from time to time, Bye Laws and Regulations and circulars issued by the Stock Exchange / Clearing Corporation,"
+  },
+  {
+    "obligation_id": "sb-internal-audit-data-security-01",
+    "title": "Ensure data security during internal audit",
+    "summary": "During the internal audit, ensure that data security measures are in place and effective.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Half yearly period",
+    "required_action": "Ensure data security measures are in place and effective",
+    "evidence": "Audit report submitted to the member's Board of Directors/Proprietor/Partners and forwarded to Stock Exchange/Clearing Corporation.",
+    "frequency": "half_yearly",
+    "deadline": null,
+    "source_clause": "13.2.2(c)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "c. data security and insurance in respect of operations,"
+  },
+  {
+    "obligation_id": "sb-internal-audit-grievance-mechanism-01",
+    "title": "Ensure efficacy of grievance redressal mechanism during internal audit",
+    "summary": "During the internal audit, ensure that the investor grievance redressal mechanism is effective and all obligations towards clients are being discharged.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Half yearly period",
+    "required_action": "Ensure efficacy of grievance redressal mechanism and discharge of client obligations",
+    "evidence": "Audit report submitted to the member's Board of Directors/Proprietor/Partners and forwarded to Stock Exchange/Clearing Corporation.",
+    "frequency": "half_yearly",
+    "deadline": null,
+    "source_clause": "13.2.2(d)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "d. efficacy of the investor grievance redressal mechanism and discharge of various obligations towards clients."
+  },
+  {
+    "obligation_id": "sb-follow-up-action-01",
+    "title": "Initiate follow up action on inspection findings within six months",
+    "summary": "Within six months from the conclusion of the inspection, initiate all necessary remedial, penal and disciplinary actions.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Conclusion of inspection",
+    "required_action": "Initiate follow up action within six months",
+    "evidence": "Details of actions taken reported to SEBI.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "13.1.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The Stock Exchange or the Clearing Corporation, as the case may be, shall initiate all the follow up action \u2013 remedial, penal and disciplinary - required on inspection findings, within six months from the conclusion of the inspection."
+  },
+  {
+    "obligation_id": "sb-audit-report-submission-01",
+    "title": "Submit audit report to Stock Exchange/Clearing Corporation",
+    "summary": "Submit the internal audit report along with comments to the respective Stock Exchange/Clearing Corporation within two months from the end of the half year period.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "End of half yearly period",
+    "required_action": "Submit audit report and comments to Stock Exchange/Clearing Corporation",
+    "evidence": "Audit report submitted with comments.",
+    "frequency": "half_yearly",
+    "deadline": null,
+    "source_clause": "13.2.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The internal auditor shall submit the audit report to the member, who shall place it before its Board of Directors/Proprietor/Partners and shall forward the same along with para-wise comments to the respective Stock Exchange/ Clearing Corporation within two months from the end of the half year period."
+  },
+  {
+    "obligation_id": "sb-follow-up-analysis-01",
+    "title": "Analyze audit reports received from members",
+    "summary": "Analyze the internal audit reports submitted by members and take appropriate follow up action.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Receipt of audit report",
+    "required_action": "Analyze audit reports and take appropriate follow up action",
+    "evidence": "Details of actions taken reported to SEBI.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "13.2.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The Stock Exchange/Clearing Corporation shall analyze the audit reports so received and take appropriate follow up action."
+  },
+  {
+    "obligation_id": "sb-defaulter-notification-01",
+    "title": "Notify other exchanges/corporations of defaulter status within six months",
+    "summary": "Within six months from the end of the half year period, notify all other Stock Exchanges/Clearing Corporations about a member declared as defaulter.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Declaration of defaulter status",
+    "required_action": "Notify other exchanges/corporations within six months",
+    "evidence": "Details of actions taken reported to SEBI.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "13.3.2, 13.3.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "13.3.2. Immediately on receipt of the information about default of a member, the Stock Exchange / Clearing Corporation shall declare the said member defaulter on all its segments. 13.3.3. The Stock Exchanges / Clearing"
+  },
+  {
+    "obligation_id": "sb-annual-inspection-01",
+    "title": "Annual Inspection of Stock Brokers",
+    "summary": "Stock Exchanges/Clearing Corporations shall conduct annual inspections of stock brokers based on specific criteria.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Based on the selection criteria specified in the circular",
+    "required_action": "Conduct an inspection as per the defined criteria",
+    "evidence": "Inspection report or findings document",
+    "frequency": "annual",
+    "deadline": null,
+    "source_clause": "14.2, 14.3, 14.4, 14.5, 14.6, 14.7, 14.8",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The criteria for selection of members for annual inspection are as follows: (14.2.1) Stock Brokers servicing investors, getting disabled on account of funds shortages on more than three times in a month shall be inspected irrespective of the fact of when they were last inspected. (14.2.2) Stock Brokers servicing investors, having overnight disablement on account of margin shortage for more than two days shall be inspected irrespective of the fact of when they were last inspected. (14.2.3) Top twenty-five stock brokers paying high and recurring penalties for non-reporting or short reporting of margin/Client Code modification/CTCL mismatch fines or any other similar high risk compliance issue shall be inspected irrespective of when they were last inspected. (14.2.4) Top twenty-five stock brokers in terms of investor complaints and arbitration cases filed by investors shall be inspected irrespective of the fact of when they were last inspected. (14.2.5) Stock Brokers having adverse observations in the internal audit report on high risk issues like wrong reporting of margins, transfer of trades, pledging of client securities, dealing with unregistered intermediaries etc., shall be inspected irrespective of the fact of when they were last inspected. (14.2.6) Subsidiaries of Regional Stock Exchanges shall be inspected every year. (14.2.7) Stock Exchange shall frame internal policy for selection of stock brokers for inspection based on inputs/alerts from Risk Based Supervision."
+  },
+  {
+    "obligation_id": "sb-inspection-01",
+    "title": "Annual Inspection of Stock Brokers",
+    "summary": "Stock Exchanges shall inspect stock brokers annually.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Every year",
+    "required_action": "Conduct annual inspection of stock brokers.",
+    "evidence": "Inspection report and findings documented by the Stock Exchange.",
+    "frequency": "annual",
+    "deadline": null,
+    "source_clause": "14.2.7",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Exchange shall frame internal policy for selection of stock brokers for inspection based on inputs/alerts from Risk Based Supervision."
+  },
+  {
+    "obligation_id": "sb-inspection-02",
+    "title": "Special Purpose/Limited Inspections of Stock Brokers",
+    "summary": "Stock Exchanges shall conduct special purpose or limited inspections when triggered by specific events.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Patterns found during investor complaint resolution, complaints on specific malpractices, or references from various authorities.",
+    "required_action": "Conduct inspections based on triggers mentioned above.",
+    "evidence": "Inspection report and findings documented by the Stock Exchange.",
+    "frequency": "event_driven",
+    "deadline": null,
+    "source_clause": "14.2.8",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Besides the above, the special purpose/limited inspections shall be carried out based on any triggers like patterns found during investor complaint resolution/Arbitration, complaints on specific malpractices of a broker or references from various authorities. The inspection shall be irrespective of the fact of when the last inspection was carried out."
+  },
+  {
+    "obligation_id": "sb-inspection-03",
+    "title": "Random Inspections of Stock Brokers",
+    "summary": "Stock Exchanges shall conduct random inspections of stock brokers.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Not specified, but as a part of the overall inspection policy.",
+    "required_action": "Conduct random inspections of stock brokers.",
+    "evidence": "Inspection report and findings documented by the Stock Exchange.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "14.2.9",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Apart from the above few stock brokers shall be selected by the Stock Exchanges on a random basis for inspection."
+  },
+  {
+    "obligation_id": "sb-inspection-04",
+    "title": "Inspections of Stock Brokers Undertaking Clearing Activities",
+    "summary": "Stock Exchanges shall inspect stock brokers undertaking clearing activities.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "When the stock broker is undertaking clearing for other stock brokers.",
+    "required_action": "Conduct inspections of such stock brokers.",
+    "evidence": "Inspection report and findings documented by the Stock Exchange.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "14.2.10, 14.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Brokers who do not fall under any of the above category shall be inspected by the Stock Exchanges at least once in three years. Inspections of Professional Clearing Members shall be conducted by Clearing Corporations once in two years. Inspections of stock brokers for all segments and also for clearing activity if the stock broker is undertaking clearing for other stock brokers."
+  },
+  {
+    "obligation_id": "cc-inspection-01",
+    "title": "Inspections of Professional Clearing Members by Clearing Corporations",
+    "summary": "Clearing Corporations shall inspect professional clearing members once in two years.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Every two years for professional clearing members.",
+    "required_action": "Conduct inspections of professional clearing members.",
+    "evidence": "Inspection report and findings documented by the Clearing Corporation.",
+    "frequency": "half_yearly",
+    "deadline": null,
+    "source_clause": "14.2.12",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Inspections of Professional Clearing Members shall be conducted by Clearing Corporations once in two years."
+  },
+  {
+    "obligation_id": "cc-inspection-02",
+    "title": "Joint Inspections of Stock Brokers",
+    "summary": "Stock Exchanges and Clearing Corporations may conduct joint inspections of stock brokers.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "At the discretion of SEBI, Stock Exchanges, or Clearing Corporations.",
+    "required_action": "Conduct joint inspections if desired by SEBI, Stock Exchanges, or Clearing Corporations.",
+    "evidence": "Inspection report and findings documented jointly by the Stock Exchange and Clearing Corporation.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "14.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "If Stock Exchanges and Clearing Corporations so desire, they can conduct joint inspections of stock brokers. Where Clearing Corporation has not been set up, Stock Exchange shall inspect all activities of stock brokers including activity of clearing for other stock brokers."
+  },
+  {
+    "obligation_id": "se-supervision-01",
+    "title": "Continuous Risk Assessment and Policy Review",
+    "summary": "Stock Exchanges/Clearing Corporations should continuously assess risks and review/revise the policy of annual inspection.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "As and when required, in consultation with SEBI.",
+    "required_action": "Conduct continuous risk assessment and review/revisions to the inspection policy.",
+    "evidence": "Risk assessment report and revised inspection policy document.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "14.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The Stock Exchanges/Clearing Corporations are advised to continuously assess the risks posed by their members and review/revise the policy of annual inspection, as and when required, in consultation with SEBI."
+  },
+  {
+    "obligation_id": "se-info-sharing-01",
+    "title": "Information Sharing Mechanism for Stock Brokers Holding Multiple Memberships",
+    "summary": "Stock Exchanges shall establish an information sharing mechanism among themselves regarding the inspection outcomes of stock brokers holding multiple memberships.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "For stock brokers holding multiple memberships with exchanges.",
+    "required_action": "Establish and maintain an information sharing mechanism.",
+    "evidence": "Information sharing reports and records.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "14.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The Stock Exchanges shall establish an information sharing mechanism with one another on the important outcome of inspection of members who hold multiple memberships of the exchanges in order to improve the effectiveness of supervision and shall also bring cases of repetitive and / or serious violations to the notice of SEBI."
+  },
+  {
+    "obligation_id": "sb-naming-01",
+    "title": "Uniform Nomenclature for Bank and Demat Accounts",
+    "summary": "Stock Brokers are required to follow a uniform nomenclature for naming/tagging bank and demat accounts.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Not specified, but as part of the guidelines issued by SEBI.",
+    "required_action": "Adopt and use a uniform nomenclature for bank and demat accounts.",
+    "evidence": "Documentation showing compliance with the adopted nomenclature.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "15.1.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95, dated September 26, 2016; SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/64, dated June 22, 2017",
+    "verbatim_text": "Uniform nomenclature to be followed by stock brokers for Naming/Tagging of Bank and Demat Accounts and the reporting of such accounts to the Stock Exchanges/Depositories."
+  },
+  {
+    "obligation_id": "sb-fund-monitoring-01",
+    "title": "Monitoring Clients' Funds with Stock Exchanges",
+    "summary": "Stock Exchanges shall monitor clients' funds lying with stock brokers.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Not specified, but as part of the guidelines issued by SEBI.",
+    "required_action": "Implement a monitoring system for clients' funds.",
+    "evidence": "Monitoring reports and records.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.1.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95, dated September 26, 2016; SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/64, dated June 22, 2017",
+    "verbatim_text": "Monitoring of Clients\u2019 Funds lying with the stock broker by the Stock Exchanges, through a sophisticated alerting and reconciliation"
+  },
+  {
+    "obligation_id": "sb-financial-strength-monitoring-01",
+    "title": "Monitoring Financial Strength by Stock Exchanges",
+    "summary": "Stock brokers must be monitored by stock exchanges to detect signs of financial deterioration.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Monitoring of Financial Strength of Stock Brokers by Stock Exchanges",
+    "required_action": "Detection of any signs of deteriorating financial health and taking preemptive and remedial measures.",
+    "evidence": "Internal Audit Reports, financial statements, and other relevant documents.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "15.1.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/64, SEBI/HO/MIRSD/MIRSD2/CIR/PB/2017/107, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/123",
+    "verbatim_text": "15.1.4 Monitoring of Financial Strength of Stock Brokers by Stock Exchanges so as to detect any signs of deteriorating financial health of stock brokers and serve as an early warning system to take preemptive and remedial measures."
+  },
+  {
+    "obligation_id": "sb-uniform-penal-action-01",
+    "title": "Uniform Penal Action for Non-Compliance",
+    "summary": "Stock brokers must face uniform penal action in case of non-compliance with specified requirements.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Non-compliance with specified requirements",
+    "required_action": "Imposition of uniform penal action by Stock Exchanges/Depositories.",
+    "evidence": "Penal action records and reports.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "15.1.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/64, SEBI/HO/MIRSD/MIRSD2/CIR/PB/2017/107, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/123",
+    "verbatim_text": "15.1.5 Imposition of uniform penal action on stock brokers/depository participants by the Stock Exchanges/Depositories in the event of non-compliance with specified requirements."
+  },
+  {
+    "obligation_id": "sb-client-funds-uploading-01",
+    "title": "Uploading Client's Funds and Securities Balances",
+    "summary": "Stock brokers must upload client's funds and securities balances to Stock Exchange System for transparency.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Client transactions",
+    "required_action": "Uploading of client's funds and securities balances to the Stock Exchange System and transmission to clients.",
+    "evidence": "Transaction records, reports from the Stock Exchange System.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.1.6 a)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/64, SEBI/HO/MIRSD/MIRSD2/CIR/PB/2017/107, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/123",
+    "verbatim_text": "a) Uploading client's funds and securities balances by Stock Brokers to Stock Exchange System and onwards transmission of the same to the clients for better transparency."
+  },
+  {
+    "obligation_id": "sb-running-account-settlement-01",
+    "title": "Clarification on Running Account Settlement",
+    "summary": "Stock brokers must clarify running account settlement procedures.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Client transactions",
+    "required_action": "Clarification of running account settlement procedures.",
+    "evidence": "Internal policies and procedures documents, client communication records.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "15.1.6 b)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/64, SEBI/HO/MIRSD/MIRSD2/CIR/PB/2017/107, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/123",
+    "verbatim_text": "b) Clarification on Running Account Settlement"
+  },
+  {
+    "obligation_id": "sb-director-pan-details-provision-01",
+    "title": "Providing PAN Details of Directors and KMPs",
+    "summary": "Stock brokers must provide PAN details of directors, key management personnel, and dealers to Stock Exchanges.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Change in director or KMP details",
+    "required_action": "Providing PAN details of directors, key management personnel, and dealers to Stock Exchanges and updating the same if there are any changes.",
+    "evidence": "PAN card copies, records of submission to Stock Exchanges.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.1.6 c)",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/64, SEBI/HO/MIRSD/MIRSD2/CIR/PB/2017/107, SEBI/HO/MIRSD/MIRSD2/CIR/P/2017/123",
+    "verbatim_text": "c) Providing PAN details of Directors, Key Management Personnel and Dealers, to Stock Exchanges and any change thereof."
+  },
+  {
+    "obligation_id": "sb-account-naming-01",
+    "title": "Naming Bank and Demat Accounts",
+    "summary": "Stock brokers must name their bank and demat accounts appropriately.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Maintenance of bank and demat accounts",
+    "required_action": "Appropriate nomenclature for bank/demat accounts to reflect the purpose for which those accounts are being maintained.",
+    "evidence": "Bank account statements, demat account records.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.3.1, 15.3.2, 15.3.2.1, 15.3.2.2, 15.3.2.3, 15.3.2.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-DPIEA/P/CIR/2022/83, SEBI/HO/MIRSD/MIRSD-PoD-1/P/CIR/2022/153, SEBI/HO/MIRSD/MIRSD-PoD-1/P/CIR/2023/187",
+    "verbatim_text": "15.3.1 Bank accounts and Demat accounts maintained by all stock brokers shall have appropriate nomenclature to reflect the purpose for which those bank/demat accounts are being maintained. 15.3.2.1 Up Streaming Client Nodal Bank Account (USCNBA): SB/CM shall receive clients\u2019 funds in USCNBA. The nomenclature for such accounts shall be \u201cName of the SB/CM \u2013 USCNB account\u201d. 15.3.2.2 Down Streaming Client Nodal Bank Account (DSCNBA): Payment to clients shall be done only from DSCNBA account. The nomenclature for such accounts shall be \u201cName of the SB/CM \u2013 DSCNB account\u201d. 15.3.2.3 Bank account(s) held for the purpose of settlement would be named as 'Name of Stock Broker - Settlement Account'. 15.3.2.4 Stock brokers are required to maintain demat accounts only under the following 6 categories:"
+  },
+  {
+    "obligation_id": "sb-demat-account-tagging-01",
+    "title": "Tag Demat Accounts Appropriately",
+    "summary": "Stock brokers must tag all demat accounts appropriately.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Maintaining demat accounts",
+    "required_action": "Tagging of demat accounts appropriately",
+    "evidence": "Records of tagged demat accounts",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.3.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "All demat accounts maintained by stock brokers should be appropriately tagged."
+  },
+  {
+    "obligation_id": "sb-no-untagged-credit-01",
+    "title": "No Credit in Untagged Demat Accounts After July 01, 2022",
+    "summary": "Stock brokers must not credit securities to untagged demat accounts after July 01, 2022.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Credit of securities in demat accounts",
+    "required_action": "No credit of securities in untagged demat accounts from July 01, 2022 onwards",
+    "evidence": "Records of credited transactions and account tagging status",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.3.4.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Credit of securities shall not be allowed in any demat account left untagged from July 01, 2022 onwards. Credits on account of corporate actions shall be permitted."
+  },
+  {
+    "obligation_id": "sb-no-untagged-debit-01",
+    "title": "No Debit in Untagged Demat Accounts After August 01, 2022",
+    "summary": "Stock brokers must not debit securities from untagged demat accounts after August 01, 2022.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Debit of securities in demat accounts",
+    "required_action": "No debit of securities in untagged demat accounts from August 01, 2022 onwards",
+    "evidence": "Records of debited transactions and account tagging status",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.3.4.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Debit of securities shall also not be allowed in any demat account left untagged from August 01, 2022."
+  },
+  {
+    "obligation_id": "sb-tagging-permission-01",
+    "title": "Obtain Permission to Tag Demat Accounts After August 01, 2022",
+    "summary": "Stock brokers must obtain permission from Stock Exchanges to tag demat accounts after August 01, 2022.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Tagging of demat accounts after August 01, 2022",
+    "required_action": "Obtaining permission from Stock Exchanges to tag demat accounts",
+    "evidence": "Permission letters or approvals from Stock Exchanges",
+    "frequency": "event_driven",
+    "deadline": null,
+    "source_clause": "15.3.4.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Broker shall obtain permission from Stock Exchanges to allow tagging of such demat accounts from August 01, 2022 onwards. Stock Exchange shall grant such approval within two working days after imposing penalty as per their internal policy."
+  },
+  {
+    "obligation_id": "sb-report-bank-accounts-01",
+    "title": "Report Existing and New Bank Accounts to Stock Exchanges",
+    "summary": "Stock brokers must report existing and new bank accounts to Stock Exchanges.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Maintaining bank accounts",
+    "required_action": "Reporting of existing and new bank accounts to Stock Exchanges",
+    "evidence": "Reports submitted to Stock Exchanges",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.4.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-DPIEA/P/CIR/2022/83, dated June 20, 2022 (referenced in the circular)",
+    "verbatim_text": "The stock brokers shall inform the Stock Exchanges of existing and new bank account(s) in the following format:"
+  },
+  {
+    "obligation_id": "sb-report-demat-accounts-01",
+    "title": "Report Existing and New Demat Accounts to Stock Exchanges",
+    "summary": "Stock brokers must report existing and new demat accounts to Stock Exchanges.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Maintaining demat accounts",
+    "required_action": "Reporting of existing and new demat accounts to Stock Exchanges",
+    "evidence": "Reports submitted to Stock Exchanges",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.4.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-DPIEA/P/CIR/2022/83, dated June 20, 2022 (referenced in the circular)",
+    "verbatim_text": "The stock brokers shall inform the Stock Exchanges of existing and new demat account(s) in the following format:"
+  },
+  {
+    "obligation_id": "sb-name-account-according-to-nomenclature-01",
+    "title": "Name Bank and Demat Accounts According to Nomenclature",
+    "summary": "Stock brokers must name their bank and demat accounts according to the specified nomenclature.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Opening of new bank or demat accounts",
+    "required_action": "Naming of bank and demat accounts as per the given nomenclature",
+    "evidence": "Account opening documents with correct names",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "15.4.3.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-DPIEA/P/CIR/2022/83, dated June 20, 2022 (referenced in the circular)",
+    "verbatim_text": "All new bank and demat accounts opened by the stock brokers shall be named as per the above given nomenclature and the details shall be communicated to the Stock Exchanges within one week of the opening of the account."
+  },
+  {
+    "obligation_id": "sb-communicate-account-closure-01",
+    "title": "Communicate Closure of Reported Bank and Demat Accounts Within One Week",
+    "summary": "Stock brokers must communicate the closure of reported bank and demat accounts within one week.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Closure of reported bank or demat accounts",
+    "required_action": "Communicating the closure of reported bank and demat accounts to Stock Exchanges within one week",
+    "evidence": "Communication records with Stock Exchanges",
+    "frequency": "one_time",
+    "deadline": null,
+    "source_clause": "15.4.3.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-DPIEA/P/CIR/2022/83, dated June 20, 2022 (referenced in the circular)",
+    "verbatim_text": "In case of closure of any of the reported bank and demat accounts, the same shall be communicated to the Stock Exchanges within one week of its closure."
+  },
+  {
+    "obligation_id": "sb-15.4.3.3",
+    "title": "Modification of Demat Account Nomenclature",
+    "summary": "Stock brokers shall not modify the nomenclature for a demat account once it has been assigned.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Nomenclature assignment by stock broker",
+    "required_action": "Do not modify the nomenclature of a demat account after its initial assignment.",
+    "evidence": "Records of demat accounts and their assigned nomenclatures.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "15.4.3.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Depositories shall ensure that once the nomenclature for a particular demat account has been assigned by the stock broker, then the same shall not be modified."
+  },
+  {
+    "obligation_id": "sb-15.4.3.4",
+    "title": "Penalties for Non-Compliance with Demat Account Reporting",
+    "summary": "Stock brokers who fail to comply or report as required will face penal action.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Non-compliance/non-reporting by stock broker",
+    "required_action": "Comply and report as required, otherwise face penal action.",
+    "evidence": "Records of compliance and reporting activities.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "15.4.3.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Any non-compliance/non-reporting in this regard by the stock broker shall attract penal action as per the provisions of Stock Exchanges."
+  },
+  {
+    "obligation_id": "sb-15.4.3.5",
+    "title": "Stock Brokers' Demat Account Details Reporting to Stock Exchanges",
+    "summary": "Depositories must provide stock broker-wise details of demat accounts opened by a stock broker.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Opening of demat accounts by stock brokers",
+    "required_action": "Provide detailed reports to the Stock Exchanges regarding demat accounts opened by stock brokers.",
+    "evidence": "Reports submitted to Stock Exchanges.",
+    "frequency": "not_specified",
+    "deadline": null,
+    "source_clause": "15.4.3.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Based on the list of stock brokers (including PANs) provided by the respective Stock Exchanges, Depositories shall also provide stock broker-wise details of all the demat accounts opened by a stock broker to the concerned Stock Exchanges to facilitate reconciliation with the data submitted by the stock broker."
+  },
+  {
+    "obligation_id": "sb-15.4.4.1",
+    "title": "Prohibition on Using Client Funds for Proprietary Purposes",
+    "summary": "Stock brokers shall not use client funds and securities for proprietary purposes.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Use of client funds or securities by stock broker",
+    "required_action": "Do not use client funds or securities for any proprietary purposes, including settlement of proprietary obligations.",
+    "evidence": "Records of fund and security usage.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.4.4.1",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Broker shall not use client funds and securities for proprietary purposes including settlement of proprietary obligations."
+  },
+  {
+    "obligation_id": "sb-15.4.4.2",
+    "title": "Permitted Transfers Between Client Accounts",
+    "summary": "Transfers between certain accounts are permitted, but others require specific conditions.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Transfer of funds or securities by stock broker",
+    "required_action": "Only transfer funds as specified and maintain daily reconciliation statements for legitimate purposes.",
+    "evidence": "Daily reconciliation statements, records of transfers.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.4.4.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Transfer of funds between 'Name of Stock Broker - Client Account' and 'Name of Stock Broker - Settlement Account' and client's own bank accounts is permitted. Transfer of funds from 'Name of Stock Broker - Client Account' to 'Name of Stock Broker - Proprietary Account' is permitted only for legitimate purposes, such as, recovery of brokerage, statutory dues, funds shortfall of debit balance clients which has been met by the stock broker, etc. For such transfer of funds, stock broker shall maintain daily reconciliation statement clearly indicating the amount of funds transferred."
+  },
+  {
+    "obligation_id": "sb-15.4.4.3",
+    "title": "Monitoring Compliance with Fund Transfer Requirements",
+    "summary": "Stock Exchanges must monitor compliance and review by internal auditors.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Compliance monitoring by Stock Exchanges",
+    "required_action": "Monitor compliance with fund transfer requirements during inspections, and review by internal auditors.",
+    "evidence": "Inspection reports, audit reviews.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.4.4.3",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "The Stock Exchanges shall monitor compliance with the above requirements, during inspections and the same shall be reviewed by the internal auditor of the broker during the half yearly internal audits."
+  },
+  {
+    "obligation_id": "sb-15.4.4.4",
+    "title": "Restriction on Granting Further Exposure to Clients with Debit Balances",
+    "summary": "Stock brokers must not grant further exposure when clients have debit balances beyond the fifth trading day.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Debit balance in client accounts exceeding five trading days",
+    "required_action": "Do not provide additional exposure to clients with ongoing debit balances, except under specific conditions.",
+    "evidence": "Client account records, internal policies.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.4.4.4",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Brokers shall not grant further exposure to the clients when debit balances arise out of client's failure to pay the required amount and such debit balances continues beyond the fifth trading day, as reckoned from date of pay-in, except, in accordance with the margin trading facility provided vide SEBI circular CIR/MRD/DP/54/2017 dated June 13, 2017 or as may be issued from time to time."
+  },
+  {
+    "obligation_id": "sb-15.5",
+    "title": "Monitoring of Clients' Funds by Stock Exchanges",
+    "summary": "Stock Exchanges must implement mechanisms for monitoring clients' funds.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Clients' funds lying with stock brokers",
+    "required_action": "Implement and maintain a mechanism for generating alerts on misuse of clients' funds by stock brokers.",
+    "evidence": "Mechanism documentation, alert logs.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.5",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock Exchanges shall put in place a mechanism for monitoring clients\u2019 funds lying with the stock broker to generate alerts on any misuse of clients\u2019 funds by stock brokers, as per the guidelines stipulated in para 15.5.2 below."
+  },
+  {
+    "obligation_id": "sb-15.5.2",
+    "title": "G Principle for Monitoring Clients' Funds",
+    "summary": "Stock Exchanges must ensure that total available funds are always equal to or greater than clients' ledger balance.",
+    "applies_to": [
+      "stock_broker"
+    ],
+    "trigger": "Clients' funds monitoring by Stock Exchanges",
+    "required_action": "Ensure the G Principle is followed, where total available funds should be equal to or greater than clients' ledger balance.",
+    "evidence": "Monitoring records, reports.",
+    "frequency": "ongoing",
+    "deadline": null,
+    "source_clause": "15.5.2",
+    "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, dated 17-Jun-2025",
+    "verbatim_text": "Stock exchanges shall put in place a mechanism for monitoring of clients\u2019 funds (\u2018G\u2019 principle) lying with the stock brokers on the principle enumerated below: G Principle: The total available funds i.e. cash and cash equivalent with the stock broker and with the clearing corporation/clearing member should always be equal to or greater than clients\u2019 funds as per the ledger balance."
+  }
+]
