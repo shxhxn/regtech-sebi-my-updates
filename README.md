@@ -125,3 +125,10 @@ act on. Logged and hash-chained in `output/audit_log.json` (event index 3,
 6. `python diff_engine.py` to generate the 2024 → 2025 change-impact report
 7. `python build_audit_log.py` to log everything to the hash chain
 8. `streamlit run dashboard.py`
+
+## Setup
+
+- Dashboard / deployment: `pip install -r requirements.txt`
+- Full local pipeline: `pip install -r requirements-pipeline.txt`
+
+Extraction runs entirely on a local Ollama model (qwen2.5:7b) — no API keys, no external calls.

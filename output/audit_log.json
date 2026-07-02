@@ -1,56 +1,63 @@
 [
   {
     "index": 0,
-    "timestamp": "2026-06-30T04:44:05.672056+00:00",
+    "timestamp": "2026-07-02T06:52:16.041130+00:00",
     "event_type": "extraction_2025",
     "details": {
-      "obligation_count": 198,
-      "grounded": 192,
-      "flagged_for_review": 1,
+      "obligation_count": 269,
+      "grounded": 251,
+      "flagged_for_review": 0,
       "source_circular": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94"
     },
     "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
-    "hash": "086fa6cf390a5ef8d3617e287f3971142cca5d3524aed0b43124fc6881219521"
+    "hash": "fc77fd2a6b61018903ca02f17e35c724a2c652c312e4e4845f7a3d9bda69aaab"
   },
   {
     "index": 1,
-    "timestamp": "2026-06-30T05:43:02.509219+00:00",
-    "event_type": "operations_register_built",
+    "timestamp": "2026-07-01T19:57:08.777396+00:00",
+    "event_type": "extraction_2024",
     "details": {
-      "register_rows": 198
+      "obligation_count": 234,
+      "source_circular": "SEBI/HO/MIRSD-PoD-1/P/CIR/2024/50"
     },
-    "prev_hash": "086fa6cf390a5ef8d3617e287f3971142cca5d3524aed0b43124fc6881219521",
-    "hash": "a9ca4d5e9c94f71ea04313ad50e9c1f5a787dce7fbfa9d993d436e2ab1cade9b"
+    "prev_hash": "fc77fd2a6b61018903ca02f17e35c724a2c652c312e4e4845f7a3d9bda69aaab",
+    "hash": "2dc31c2c6bd12ca9ba004825fc980a44acddd396ab4ba50f702b698b943034e4"
   },
   {
     "index": 2,
-    "timestamp": "2026-06-30T05:43:02.511201+00:00",
-    "event_type": "executable_rules_built",
+    "timestamp": "2026-07-02T06:52:24.729181+00:00",
+    "event_type": "diff_2024_2025",
     "details": {
-      "rule_count": 198
+      "total_2024": 234,
+      "total_2025": 269,
+      "added": 112,
+      "removed": 77,
+      "modified": 118,
+      "reworded": 39,
+      "unchanged": 0,
+      "modified_via_semantic_match": 105
     },
-    "prev_hash": "a9ca4d5e9c94f71ea04313ad50e9c1f5a787dce7fbfa9d993d436e2ab1cade9b",
-    "hash": "2b45918cf40707401a7008338add3ed47da5e944a6cf8037244d4d4b518bac37"
+    "prev_hash": "2dc31c2c6bd12ca9ba004825fc980a44acddd396ab4ba50f702b698b943034e4",
+    "hash": "e33086b1f94e59d4fd54bc1bd9efeb831c45293dabe0f71b50d35baf8e262b20"
   },
   {
     "index": 3,
-    "timestamp": "2026-06-30T05:59:56.736029+00:00",
-    "event_type": "sebi_monitor_change_detected",
+    "timestamp": "2026-07-02T06:52:16.004484+00:00",
+    "event_type": "operations_register_built",
     "details": {
-      "changes": [
-        {
-          "category": "Investment Advisers",
-          "new_date": "Feb 06, 2026",
-          "new_url": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-investment-advisers_99569.html"
-        },
-        {
-          "category": "Stock Brokers",
-          "new_date": "Jun 17, 2025",
-          "new_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-stock-brokers_94623.html"
-        }
-      ]
+      "register_rows": 269
     },
-    "prev_hash": "2b45918cf40707401a7008338add3ed47da5e944a6cf8037244d4d4b518bac37",
-    "hash": "88de04c706e035c21ee505475576ddd4ac551132ddbacd8416559ab38bf5aa0e"
+    "prev_hash": "e33086b1f94e59d4fd54bc1bd9efeb831c45293dabe0f71b50d35baf8e262b20",
+    "hash": "b6cf4578d735ded4e1ed2041326cd35b98f5d3ed997ceda2cb139a90f49efe89"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-07-02T06:52:16.006912+00:00",
+    "event_type": "executable_rules_built",
+    "details": {
+      "rule_count": 269
+    },
+    "prev_hash": "b6cf4578d735ded4e1ed2041326cd35b98f5d3ed997ceda2cb139a90f49efe89",
+    "hash": "907250d65a77f7bc31d52465bef45f6449a3791f76cd5c710bd95bccd79c1432"
   }
 ]

@@ -87,7 +87,7 @@ def main():
             print(f"  Was      : {prev_date}")
             print(f"  Now      : {row['date']}  -- {row['title']}")
             url = row['url'] if row['url'].startswith('http') else f"https://www.sebi.gov.in{row['url']}"
-print(f"  URL      : {url}")
+            print(f"  URL      : {url}")
             print(f"  ACTION   : download this circular and run extraction to update the obligation graph")
 
         try:

@@ -1,0 +1,21 @@
+{
+  "total_obligations": 269,
+  "high_or_critical_risk": 12,
+  "with_explicit_deadline": 1,
+  "verifiably_traceable_pct": 100.0,
+  "risk_breakdown": {
+    "Critical": 12,
+    "High": 0,
+    "Medium": 230,
+    "Low": 27
+  },
+  "department_breakdown": {
+    "Compliance/Audit": 127,
+    "General Compliance": 47,
+    "Legal": 35,
+    "Finance": 32,
+    "Investor Relations": 12,
+    "Technology/InfoSec": 11,
+    "Client Onboarding": 5
+  }
+}

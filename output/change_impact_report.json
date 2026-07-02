@@ -29,7 +29,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Technology/InfoSec"
     },
     {
       "obligation_id": "ia-additional-terms-01",
@@ -50,7 +53,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 78.5,
-      "confidence_band": "Medium"
+      "confidence_band": "Medium",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-advertisement-retention-01",
@@ -71,7 +77,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-advertisement-suspension-compliance-01",
@@ -92,7 +101,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Critical",
+      "risk_points": 3,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-agreement-declaration-01",
@@ -113,7 +125,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-audit-report-adverse-findings-01",
@@ -134,7 +149,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 92.5,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-audit-report-adverse-findings-publishing-01",
@@ -155,7 +173,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-audit-report-publishing-01",
@@ -176,7 +197,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-audit-report-publishing-02",
@@ -197,7 +221,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-brand-name-transparency-01",
@@ -218,7 +245,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 93.4,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-call-recording-01",
@@ -239,7 +269,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-certificate-of-compliance-01",
@@ -260,7 +293,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 98.4,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-change-control-02",
@@ -281,7 +317,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 96.3,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-change-control-04",
@@ -302,7 +341,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-change-control-approval-01",
@@ -323,7 +365,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-client-consent-01",
@@ -344,7 +389,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-client-contact-details-update-01",
@@ -365,7 +413,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-client-interest-first-01",
@@ -386,7 +437,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 89.9,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-complaint-redressal-email",
@@ -407,7 +461,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-complaint-redressal-iaasb",
@@ -428,7 +485,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-complaint-redressal-physical",
@@ -449,7 +509,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-complaint-redressal-sebi",
@@ -470,7 +533,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-complaint-redressal-smartodr",
@@ -491,7 +557,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Investor Relations"
     },
     {
       "obligation_id": "ia-compliance-officer-01",
@@ -512,7 +581,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-compliance-officer-02",
@@ -533,7 +605,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-compliance-officer-03",
@@ -554,7 +629,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 97.9,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-compliance-officer-liability-01",
@@ -575,7 +653,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 92.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Critical",
+      "risk_points": 3,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-compliance-undertaking-01",
@@ -596,7 +677,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 96.1,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-confidentiality-of-client-information",
@@ -617,7 +701,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.7,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-conflict-of-interest-02",
@@ -638,7 +725,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Critical",
+      "risk_points": 3,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-data-access-02",
@@ -659,7 +749,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Technology/InfoSec"
     },
     {
       "obligation_id": "ia-data-sharing-01",
@@ -680,7 +773,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-deposit-maintenance-01",
@@ -701,7 +797,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-deposit-maintenance-02",
@@ -722,7 +821,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-deposit-maintenance-03",
@@ -743,7 +845,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 82.7,
-      "confidence_band": "Medium"
+      "confidence_band": "Medium",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-deposit-maintenance-04",
@@ -764,7 +869,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-disaster-recovery-02",
@@ -785,7 +893,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-disclaimer-01",
@@ -806,7 +917,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Investor Relations"
     },
     {
       "obligation_id": "ia-disclose-complex-high-risk-products",
@@ -827,7 +941,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-disclose-material-facts",
@@ -848,7 +965,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Investor Relations"
     },
     {
       "obligation_id": "ia-disclose-service-timelines",
@@ -869,7 +989,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.5,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-disclosure-02",
@@ -890,7 +1013,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-disclosure-03",
@@ -911,7 +1037,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-disclosure-04",
@@ -932,7 +1061,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-disclosure-artificial-intelligence-use",
@@ -953,7 +1085,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-dont-assured-return-promise-01",
@@ -974,7 +1109,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-due-diligence-01",
@@ -995,7 +1133,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-due-diligence-care-01",
@@ -1016,7 +1157,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-employee-qualification-01",
@@ -1037,7 +1181,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-fair-treatment-01",
@@ -1058,7 +1205,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 85.3,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-fee-charging-02",
@@ -1079,7 +1229,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.8,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-fee-charging-04",
@@ -1100,7 +1253,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 96.5,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-fee-charging-05",
@@ -1121,7 +1277,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-fee-charging-06",
@@ -1142,7 +1301,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-fees-charging-02",
@@ -1163,7 +1325,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-fees-charging-03",
@@ -1184,7 +1349,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-fees-charging-05",
@@ -1205,7 +1373,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-fit-and-proper-01",
@@ -1226,7 +1397,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-grievance-resolution-01",
@@ -1247,7 +1421,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 98.2,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Investor Relations"
     },
     {
       "obligation_id": "ia-guidance-01",
@@ -1268,7 +1445,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-information-barriers-01",
@@ -1289,7 +1469,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 90.4,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-investment-advice-scope",
@@ -1310,7 +1493,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.4,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-investment-advice-scope-01",
@@ -1331,7 +1517,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-investment-advisory-services-only-01",
@@ -1352,7 +1541,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-liability-statement-01",
@@ -1373,7 +1565,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-loss-redressal-01",
@@ -1394,7 +1589,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 97.4,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Critical",
+      "risk_points": 3,
+      "department": "Investor Relations"
     },
     {
       "obligation_id": "ia-no-action-01",
@@ -1415,7 +1613,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.3,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-no-binding-clause-01",
@@ -1436,7 +1637,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-no-disclosure-mnip-01",
@@ -1457,7 +1661,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 86.1,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-no-games-01",
@@ -1478,7 +1685,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-no-login-credentials-request-01",
@@ -1499,7 +1709,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-no-rumors-01",
@@ -1520,7 +1733,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 92.1,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-no-sebi-logo-01",
@@ -1541,7 +1757,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 82.7,
-      "confidence_band": "Medium"
+      "confidence_band": "Medium",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-notice-and-dissemination-01",
@@ -1562,7 +1781,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 96.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-onboarding-02",
@@ -1583,7 +1805,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Client Onboarding"
     },
     {
       "obligation_id": "ia-partnership-01",
@@ -1604,7 +1829,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-partnership-02",
@@ -1625,7 +1853,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-payment-methods-01",
@@ -1646,7 +1877,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-person-in-charge-01",
@@ -1667,7 +1901,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-qualification-02",
@@ -1688,7 +1925,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 92.5,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-qualification-certification-01",
@@ -1709,7 +1949,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-receiving-fees-banking-channel-01",
@@ -1730,7 +1973,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 96.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-records-01",
@@ -1751,7 +1997,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "partial",
       "confidence": 86.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-redressal-authorities-01",
@@ -1772,7 +2021,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.2,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Investor Relations"
     },
     {
       "obligation_id": "ia-refund-policy-01",
@@ -1793,7 +2045,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-registration-02",
@@ -1814,7 +2069,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-registration-03",
@@ -1835,7 +2093,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-registration-04",
@@ -1856,7 +2117,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-registration-exclusion-01",
@@ -1877,7 +2141,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-registration-explanation-01",
@@ -1898,7 +2165,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-registration-requirement-01",
@@ -1919,7 +2189,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-report-suspicious-01",
@@ -1940,7 +2213,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-responsibility-01",
@@ -1961,7 +2237,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Technology/InfoSec"
     },
     {
       "obligation_id": "ia-right-to-exit-01",
@@ -1982,7 +2261,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-right-to-feedback-01",
@@ -2003,7 +2285,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Finance"
     },
     {
       "obligation_id": "ia-sebi-purview-01",
@@ -2024,7 +2309,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "General Compliance"
     },
     {
       "obligation_id": "ia-seg-03",
@@ -2045,7 +2333,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 96.4,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-seg-05",
@@ -2066,7 +2357,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-seg-06",
@@ -2087,7 +2381,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-seg-07",
@@ -2108,7 +2405,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-seg-08",
@@ -2129,7 +2429,10 @@
       "grounding_method": "exact_despaced",
       "grounding_band": "grounded",
       "confidence": 98.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-seg-09",
@@ -2150,7 +2453,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.2,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-segregation-01",
@@ -2171,7 +2477,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Low",
+      "risk_points": 0,
+      "department": "Legal"
     },
     {
       "obligation_id": "ia-service-discrimination-01",
@@ -2192,7 +2501,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-share-financial-info-01",
@@ -2213,7 +2525,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-shareholding-transfer-immediate-relatives-01",
@@ -2234,7 +2549,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 99.6,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Critical",
+      "risk_points": 3,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-termination-02",
@@ -2255,7 +2573,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Critical",
+      "risk_points": 3,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-transaction-vigilance-01",
@@ -2276,7 +2597,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 100.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-treat-clients-honestly-and-integrity",
@@ -2297,7 +2621,10 @@
       "grounding_method": "fuzzy",
       "grounding_band": "grounded",
       "confidence": 98.8,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-unverified-news-control-01",
@@ -2318,7 +2645,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-website-confirmation-01",
@@ -2339,7 +2669,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 94.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     },
     {
       "obligation_id": "ia-website-maintenance-01",
@@ -2360,7 +2693,10 @@
       "grounding_method": "exact",
       "grounding_band": "grounded",
       "confidence": 90.0,
-      "confidence_band": "High"
+      "confidence_band": "High",
+      "risk_band": "Medium",
+      "risk_points": 1,
+      "department": "Compliance/Audit"
     }
   ],
   "removed": [
@@ -3972,25 +4308,6 @@
   ],
   "modified": [
     {
-      "obligation_id": "ia-contingency-plan-01",
-      "title": "Establish and Maintain Contingency Plans",
-      "match_type": "exact_id",
-      "changes": {
-        "required_action": {
-          "before": "Develop and maintain specific contingency plans for each outsourcing arrangement.",
-          "after": "Establish and maintain specific contingency plans for each outsourcing arrangement, develop a plan for disaster recovery, and periodically test backup facilities."
-        },
-        "evidence": {
-          "before": "Contingency plan documentation, test results, and records of regular reviews.",
-          "after": "Documentation of the established contingency plans, testing records, and reports."
-        },
-        "verbatim_text": {
-          "before": "6. The intermediary and its third parties shall establish and maintain contingency plans, including a plan for disaster recovery and periodic testing of backup facilities.",
-          "after": "6. The intermediary and its third parties shall establish and maintain contingency plans, including a plan for disaster recovery and periodic testing of backup facilities.\n6.1. Specific contingency plans shall be separately developed for each outsourcing arrangement, as is done in individual business lines."
-        }
-      }
-    },
-    {
       "obligation_id": "ia-registration-01",
       "title": "Apply for In-Principle Registration as Non-Individual Investment Advisor",
       "match_type": "exact_id",
@@ -4022,114 +4339,6 @@
       }
     },
     {
-      "obligation_id": "ia-integrity-01",
-      "title": "Maintain High Standards of Integrity",
-      "match_type": "exact_id",
-      "changes": {
-        "summary": {
-          "before": "Investment Advisers (IAs) must maintain high standards of integrity in their business conduct.",
-          "after": "Intermediaries must maintain high standards of integrity in the conduct of their business."
-        },
-        "required_action": {
-          "before": "Adhere to high standards of integrity",
-          "after": "Maintain high standards of integrity at all times."
-        },
-        "evidence": {
-          "before": "Internal policies and procedures, compliance records",
-          "after": "Internal audit reports, compliance records."
-        },
-        "verbatim_text": {
-          "before": "iii. ensure fair treatment of their clients and not discriminate amongst them;",
-          "after": "Intermediaries and their associated persons shall, ii. at all times maintain high standards of integrity in the conduct of their business;"
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-complaint-disclosure-01",
-      "title": "Disclose Complaint Data Monthly",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Disclose Complaint Status on Website",
-          "after": "Disclose Complaint Data Monthly"
-        },
-        "summary": {
-          "before": "Publish the status of complaints on its website.",
-          "after": "Investment Advisers must disclose data on complaints received and redressed by them monthly."
-        },
-        "required_action": {
-          "before": "Disclose the status of complaints in its website.",
-          "after": "Publish complaint data on the website/mobile application or other means as specified."
-        },
-        "evidence": {
-          "before": "Website content showing disclosed complaint statuses.",
-          "after": "Monthly report showing disclosed complaint data."
-        },
-        "frequency": {
-          "before": "ongoing",
-          "after": "monthly"
-        },
-        "verbatim_text": {
-          "before": "To disclose the status of complaints in its website.",
-          "after": "All the Investment Advisers shall continue to disclose on their respective websites and mobile applications (if any), the data on complaints received against them or against issues dealt by them and redressal thereof, latest by 7th of succeeding month, as per the format enclosed at Annexure C to this circular."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-outsource-09",
-      "title": "Preservation of Documents and Data",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Exercise Due Care in Selecting Third Parties",
-          "after": "Preservation of Documents and Data"
-        },
-        "summary": {
-          "before": "Exercise due care, skill, and diligence in selecting third parties to ensure their ability and capacity.",
-          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for the preservation of documents and data by third parties."
-        },
-        "required_action": {
-          "before": "Exercise due care, skill, and diligence in the selection of third parties.",
-          "after": "Include in the outsourcing contract provisions for the preservation of documents and data by third parties."
-        },
-        "evidence": {
-          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
-          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
-        },
-        "verbatim_text": {
-          "before": "It is important that the intermediary exercises due care, skill, and diligence in the selection of the third party to ensure that the third party has the ability and capacity to undertake the provision of the service effectively.",
-          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-outsource-10",
-      "title": "Dispute Resolution Mechanisms",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Due Diligence Assessment Criteria",
-          "after": "Dispute Resolution Mechanisms"
-        },
-        "summary": {
-          "before": "Assess third parties based on their resources, compatibility with requirements, market feedback, concentration risk, and foreign environment.",
-          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for resolving disputes arising from implementation of the outsourcing contract."
-        },
-        "required_action": {
-          "before": "Conduct due diligence assessment of third parties using specified criteria.",
-          "after": "Include in the outsourcing contract mechanisms to resolve disputes arising from implementation of the outsourcing contract."
-        },
-        "evidence": {
-          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
-          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
-        },
-        "verbatim_text": {
-          "before": "The due diligence undertaken by an intermediary shall include assessment of: (a) third party\u2019s resources and capabilities, including financial soundness, to perform the outsourcing work within the timelines fixed; (b) compatibility of the practices and systems of the third party with the intermediary's requirements and objectives; (c) market feedback of the prospective third party's business reputation and track record of their services rendered in the past; (d) level of concentration of the outsourced arrangements with a single third party; and (e) the environment of the foreign country where the third party is located.",
-          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
-        }
-      }
-    },
-    {
       "obligation_id": "ia-outsourcing-principles-01",
       "title": "Principles for Outsourcing Activities",
       "match_type": "exact_id",
@@ -4157,172 +4366,145 @@
       }
     },
     {
-      "obligation_id": "ia-advertisement-01",
-      "title": "Include all forms of communications in advertisement",
+      "obligation_id": "ia-redressal-01",
+      "title": "Approach Authorities for Redressal of Doubts/Grievances",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Include Disclaimer in Advertisement",
-          "after": "Include all forms of communications in advertisement"
+          "before": "Redress Investor Grievances Through SCORES Platform",
+          "after": "Approach Authorities for Redressal of Doubts/Grievances"
         },
         "summary": {
-          "before": "Investment Advisers must include a disclaimer stating that the securities quoted are for illustration only and not recommendatory.",
-          "after": "Investment Advisers (IAs) must include all forms of communication that may influence investment decisions."
+          "before": "Investment Advisers (IAs) must ensure that investors can lodge grievances through the SEBI Complaints Redressal System (SCORES) platform.",
+          "after": "Investment Advisers must approach the appropriate authorities for redressal of their doubts or grievances."
         },
         "required_action": {
-          "before": "Include the disclaimer 'The securities quoted are for illustration only and are not recommendatory.'",
-          "after": "Ensure the communication includes all relevant details and complies with SEBI regulations."
+          "before": "Lodge investor grievances through SCORES platform or ODR Platform.",
+          "after": "Approach the appropriate authorities to resolve issues."
         },
         "evidence": {
-          "before": "Website content or advertisement copy containing the disclaimer.",
-          "after": "Records of communications sent, including content and date."
+          "before": "Records of grievances lodged and responses received from SEBI.",
+          "after": "Correspondence with regulatory bodies and resolution records."
         },
         "frequency": {
-          "before": "one_time",
-          "after": "ongoing"
+          "before": "not_specified",
+          "after": "event_driven"
         },
         "verbatim_text": {
-          "before": "vii. In case any specific security/ securities are displayed in the advertisement as examples, disclaimer that 'The securities quoted are for illustration only and are not recommendatory' should be mentioned.",
-          "after": "Advertisement shall include all forms of communications, issued by or on behalf of IA, that may influence investment decisions of any investor or prospective investor."
+          "before": "IAs are also advised to refer to the following circulars on the redressal of investor grievances through the SEBI Complaints Redressal System (SCORES) platform and Online Dispute Resolution (ODR) Platform.",
+          "after": "Approach the appropriate authorities for redressal of your doubts / grievances."
         }
       }
     },
     {
-      "obligation_id": "ia-outsource-04",
-      "title": "Liability for Unsatisfactory Performance",
+      "obligation_id": "ia-investor-charter-01",
+      "title": "Display Investor Charter to Clients",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Full Liability for Outsourced Activities",
-          "after": "Liability for Unsatisfactory Performance"
+          "before": "Publish Investor Charter and Disclose Investor Complaints",
+          "after": "Display Investor Charter to Clients"
         },
         "summary": {
-          "before": "Be fully liable and accountable for activities outsourced to third parties as if they were provided in-house.",
-          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for liability of the third party in case of unsatisfactory performance."
+          "before": "Investment Advisers must publish an investor charter on their websites/mobile applications, disclosing details of services provided to investors.",
+          "after": "Investment Advisers must disclose the investor charter on their websites and mobile applications, make it available in offices, provide a copy during client onboarding, and communicate via email/letters."
         },
         "required_action": {
-          "before": "Be fully liable and accountable for the activities outsourced.",
-          "after": "Include in the outsourcing contract provisions for the liability of the third party to the intermediary for unsatisfactory performance or other breach of the contract."
+          "before": "Publish and maintain the investor charter on their website/mobile application.",
+          "after": "Disclose the investor charter through various means as specified."
+        },
+        "evidence": {
+          "before": "Screenshots or URLs of published investor charters.",
+          "after": "Website screenshots, office records, client onboarding documents, emails/letters sent to clients."
+        },
+        "verbatim_text": {
+          "before": "All registered IAs are advised to bring [the investor charter] on their websites/mobile applications.",
+          "after": "All the Investment Advisers shall continue to disclose on their respective websites and mobile applications (if any), the data on complaints received against them or against issues dealt by them and redressal thereof, latest by 7th of succeeding month, as per the format enclosed at Annexure C to this circular."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-qualification-01",
+      "title": "Comply with Enhanced Qualification and Experience Requirement",
+      "match_type": "exact_id",
+      "changes": {
+        "summary": {
+          "before": "IA must comply with the applicable enhanced qualification and experience requirement within a period of three years, extended to September 30, 2025.",
+          "after": "Individual investment advisers or principal officers of non-individual investment advisers must meet the enhanced qualification and experience requirements."
+        },
+        "required_action": {
+          "before": "Obtain the required qualification and experience within the specified period",
+          "after": "Comply with the enhanced qualification and experience requirement within a period of five years i.e. up to September 30, 2025."
+        },
+        "evidence": {
+          "before": "Certification from recognized bodies, relevant work experience documentation",
+          "after": "Documentation proving compliance with the required qualifications and experience."
+        },
+        "frequency": {
+          "before": "not_specified",
+          "after": "one_time"
+        },
+        "deadline": {
+          "before": "2025-09-30",
+          "after": null
+        },
+        "verbatim_text": {
+          "before": "Regulation 7(1) of IA Regulations, was amended vide SEBI (Investment Advisers) (Amendment) Regulations, 2020 to specify enhanced qualification and experience requirement for individual investment adviser or a principal officer of a non-individual investment adviser and persons associated with investment advice. First proviso to the amended Regulation 7(1) specified that the individual investment advisers registered under these regulations or principal officer of a non-individual investment adviser registered under these regulations and persons associated with investment advice shall comply with the applicable enhanced qualification and experience requirement within a period of three years. The three-year period referred herein ended on September 30, 2023. Based on the representations received from various stakeholders and in view of the emerging landscape of the domain of investment advice, the first proviso to regulation 7(1) of SEBI (Investment Advisers) Regulations, 2013 has been further amended with effect from September 30, 2023, vide the SEBI (Investment Advisers) (Amendment) Regulations, 2023 dated October 09, 2023. Accordingly, the timeline to comply with the enhanced qualification and experience requirements under regulation 7(1) has been extended to September 30, 2025.",
+          "after": "\"(a) Vide SEBI (Investment Advisers) (Amendment) Regulations, 2020, enhanced qualification and experience requirement were introduced under Regulation 7 of the IA Regulations for individual investment adviser or a principal officer of a non-individual investment adviser and persons associated with investment advice. Existing Individual investment advisers or principal officer of a non-individual investment adviser and persons associated with investment advice as on September 30, 2020 were required to comply with the enhanced qualification and experience requirement within a period of five years i.e. up to September 30, 2025 (initial time period of three years was subsequently extended for another two years).\""
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-supervision-01",
+      "title": "Not Impair Supervision/Inspection",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Supervise Investment Advisers",
+          "after": "Not Impair Supervision/Inspection"
+        },
+        "summary": {
+          "before": "Supervise IAs both on-site and off-site.",
+          "after": "Investment Advisers shall ensure that outsourcing arrangements do not impair the ability of SEBI/SRO or auditors to exercise regulatory responsibilities."
+        },
+        "required_action": {
+          "before": "Supervise IAs including both on-site and off-site activities.",
+          "after": "Ensure supervision/inspection is not impaired"
+        },
+        "evidence": {
+          "before": "Periodical reports, records of supervision activities.",
+          "after": "Documentation showing compliance with supervisory requirements"
+        },
+        "verbatim_text": {
+          "before": "The subsidiary shall put in place systems/process for grievance redressal, administrative action against IAs, governing IAs, maintaining data, sharing of information with SEBI etc.",
+          "after": "Outsourcing arrangements shall not impair the ability of SEBI/SRO or auditors to exercise its regulatory responsibilities such as supervision/inspection of the intermediary."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-outsource-08",
+      "title": "IT Security and Contingency Plans",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Due Diligence in Selecting Third Parties",
+          "after": "IT Security and Contingency Plans"
+        },
+        "summary": {
+          "before": "Conduct appropriate due diligence in selecting third parties and monitoring their performance.",
+          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for IT security, contingency plans, insurance cover, business continuity, disaster recovery plans, force majeure clauses, etc."
+        },
+        "required_action": {
+          "before": "Conduct appropriate due diligence in selecting third parties and monitor their performance.",
+          "after": "Include in the outsourcing contract provisions for IT security and contingency plans, insurance cover, business continuity, disaster recovery plans, force majeure clauses, etc."
         },
         "evidence": {
           "before": "Documentation of due diligence, risk assessments, and compliance checks.",
           "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
         },
         "verbatim_text": {
-          "before": "The intermediary shall be fully liable and accountable for the activities that are being outsourced to the same extent as if the service were provided in-house.",
-          "after": "provides for the liability of the third party to the intermediary for unsatisfactory performance/other breach of the contract;"
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-outsource-01",
-      "title": "Governing Outsourcing Arrangements by Written Contract",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Maintain Regularly Updated Records",
-          "after": "Governing Outsourcing Arrangements by Written Contract"
-        },
-        "summary": {
-          "before": "Regularly update and maintain records that may form part of the corporate governance review by management.",
-          "after": "Investment Advisers must have a written contract for outsourcing arrangements that clearly defines the rights, responsibilities and expectations of all parties involved."
-        },
-        "required_action": {
-          "before": "Maintain regularly updated records.",
-          "after": "Enter into a legally binding written contract with third-party service providers."
-        },
-        "evidence": {
-          "before": "Records maintained as per the circular.",
-          "after": "Copies of the outsourcing contracts."
-        },
-        "verbatim_text": {
-          "before": "Such records shall be regularly updated and may also form part of the corporate governance review by the management of the intermediary.",
-          "after": "Outsourcing arrangements shall be governed by a clearly defined and legally binding written contract between the intermediary and each of the third parties, the nature and detail of which shall be appropriate to the materiality of the outsourced activity in relation to the ongoing business of the intermediary. Care shall be taken to ensure that the outsourcing contract: (a) clearly defines what activities are going to be outsourced, including appropriate service and performance levels; (b) provides for mutual rights, obligations and responsibilities of the intermediary and the third party, including indemnity by the parties; (c) provides for the liability of the third party to the intermediary for unsatisfactory performance/other breach of the contract; (d) provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-grievance-redressal-01",
-      "title": "Resolve client grievances within specified timelines",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Grievance Redressal",
-          "after": "Resolve client grievances within specified timelines"
-        },
-        "summary": {
-          "before": "Handle grievances from clients and IAs.",
-          "after": "The Investment Adviser must resolve client grievances within the timelines specified by SEBI circulars."
-        },
-        "required_action": {
-          "before": "Redress grievances of clients and IAs.",
-          "after": "Resolve client grievances within the timelines specified under SEBI circulars."
-        },
-        "evidence": {
-          "before": "Records of grievance redressal, client feedback.",
-          "after": "Records of resolved grievances and corresponding resolution times."
-        },
-        "verbatim_text": {
-          "before": "The subsidiary of a stock exchange shall have following responsibilities: ii. Grievance redressal of clients and IAs",
-          "after": "Investment Adviser shall be responsible to resolve the grievances within the timelines specified under SEBI circulars."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-outsource-02",
-      "title": "Clear Definition of Outsourced Activities",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Regular Reviews by Auditors",
-          "after": "Clear Definition of Outsourced Activities"
-        },
-        "summary": {
-          "before": "Conduct regular reviews by internal or external auditors on outsourcing policies, risk management system, and regulatory requirements.",
-          "after": "Investment Advisers must clearly define what activities are being outsourced, including the service and performance levels."
-        },
-        "required_action": {
-          "before": "Conduct regular reviews by internal or external auditors.",
-          "after": "Define in writing the specific activities to be outsourced along with appropriate service and performance levels."
-        },
-        "evidence": {
-          "before": "Audit reports and review records.",
-          "after": "Written documentation of the defined outsourcing activities."
-        },
-        "frequency": {
-          "before": "not_specified",
-          "after": "ongoing"
-        },
-        "verbatim_text": {
-          "before": "Regular reviews by internal or external auditors of the outsourcing policies, risk management system and requirements of the regulator shall be mandated by the Board wherever felt necessary.",
-          "after": "clearly defines what activities are going to be outsourced, including appropriate service and performance levels;"
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-audit-01",
-      "title": "Annual Audit of Compliance with IA Regulations",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Conduct Annual Audit",
-          "after": "Annual Audit of Compliance with IA Regulations"
-        },
-        "summary": {
-          "before": "Perform an annual audit.",
-          "after": "Conduct an annual audit in compliance with the IA regulations and submit a report along with any adverse findings within one month from the date of the audit report, but not later than October 31st of each year."
-        },
-        "required_action": {
-          "before": "Conduct an annual audit.",
-          "after": "Conduct an annual audit and submit a report with adverse findings if any, along with action taken thereof."
-        },
-        "evidence": {
-          "before": "Audit report and findings.",
-          "after": "Audit report and action taken report submitted to SEBI within the deadline."
-        },
-        "verbatim_text": {
-          "before": "To conduct audit annually.",
-          "after": "In terms of regulation 19(3) of the IA Regulations, IA is required to conduct annual audit in respect of compliance with the IA regulations and circulars issued thereunder from a member of Institute of Chartered Accountants of India or Institute of Company Secretaries of India within six months from the end of each financial year. Submit a report of the same and adverse findings of the audit, if any, along with action taken thereof duly approved by the individual IA/management of the non-individual IA within a period of one month from the date of the audit report but not later than October 31st of each year for the previous financial year."
+          "before": "The intermediary shall conduct appropriate due diligence in selecting the third party and in monitoring of its performance.",
+          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
         }
       }
     },
@@ -4354,56 +4536,56 @@
       }
     },
     {
-      "obligation_id": "ia-outsource-05",
-      "title": "Continuous Monitoring and Assessment",
+      "obligation_id": "ia-conflict-of-interest-01",
+      "title": "Adhere to Conflict of Interest Guidelines",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Protect Investor Rights",
-          "after": "Continuous Monitoring and Assessment"
+          "before": "Avoiding or Managing Conflict of Interest",
+          "after": "Adhere to Conflict of Interest Guidelines"
         },
         "summary": {
-          "before": "Ensure outsourcing arrangements do not affect investors' rights and be liable for any loss incurred by them.",
-          "after": "Investment Advisers must continuously monitor and assess the third-party service providers to ensure compliance with legal and regulatory obligations."
+          "before": "Investment Advisers (IAs) must avoid or manage conflicts of interest and ensure fair treatment of clients.",
+          "after": "Intermediaries and their associated persons must adhere to guidelines for avoiding or dealing with conflict of interest."
         },
         "required_action": {
-          "before": "Ensure that outsourcing does not affect investor rights and be liable for losses.",
-          "after": "Ensure continuous monitoring and assessment of the third party so that any necessary corrective measures can be taken up immediately, enabling the intermediary to retain an appropriate level of control over the outsourcing."
+          "before": "Developing policies, procedures, and codes to identify and deal with conflicts of interest; maintaining high standards of integrity; ensuring fair treatment of clients",
+          "after": "Adhere to these guidelines for avoiding or dealing with or managing conflict of interest, and educate associated persons."
         },
         "evidence": {
-          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
-          "after": "Documentation of regular monitoring and assessment processes."
+          "before": "Policies, procedures, internal code of conduct, communication records",
+          "after": "Documentation showing adherence to the guidelines and training records for associated persons."
         },
         "verbatim_text": {
-          "before": "Outsourcing arrangements shall not affect the rights of an investor or client against the intermediary in any manner. The intermediary shall be liable to the investors for the loss incurred by them due to the failure of the third party and also be responsible for redressal of the grievances received from investors arising out of activities rendered by the third party.",
-          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
+          "before": "Intermediaries and their associated persons shall, i. lay down, with active involvement of senior management, policies and internal procedures to identify and avoid or to deal or manage actual or potential conflict of interest, develop an internal code of conduct governing operations and formulate standards of appropriate conduct in the performance of their activities, and ensure to communicate such policies, procedures and code to all concerned; ii. at all times maintain high standards of integrity in the conduct of their business; iii. ensure fair treatment of their clients and not discriminate amongst them;",
+          "after": "Intermediaries shall adhere to these guidelines for avoiding or dealing with or managing conflict of interest. They shall be responsible for educating their associated persons for compliance of these guidelines."
         }
       }
     },
     {
-      "obligation_id": "ia-enlistment-01",
-      "title": "Enlistment of RAs/IAs with RAASB/IAASB",
+      "obligation_id": "ia-grievance-redressal-01",
+      "title": "Resolve client grievances within specified timelines",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Enlist RAs/IAs with RAASB/IAASB",
-          "after": "Enlistment of RAs/IAs with RAASB/IAASB"
+          "before": "Grievance Redressal",
+          "after": "Resolve client grievances within specified timelines"
         },
         "summary": {
-          "before": "Investment Advisers (IAs) must enlist themselves or their existing RAs/IAs with the Recognised Asset Management Advisors Supervisory Board (RAASB)/Investment Advisory Supervisory Board (IAASB).",
-          "after": "Register as an RA or IA with the relevant association."
+          "before": "Handle grievances from clients and IAs.",
+          "after": "The Investment Adviser must resolve client grievances within the timelines specified by SEBI circulars."
         },
         "required_action": {
-          "before": "Submit applications for registration as RA or IA and comply with the amended regulations.",
-          "after": "Submit application and comply with RA/IA Regulations."
+          "before": "Redress grievances of clients and IAs.",
+          "after": "Resolve client grievances within the timelines specified under SEBI circulars."
         },
         "evidence": {
-          "before": "Registration certificate from SEBI or RAASB/IAASB, and any other relevant documentation.",
-          "after": "Enlistment certificate from RAASB/IAASB."
+          "before": "Records of grievance redressal, client feedback.",
+          "after": "Records of resolved grievances and corresponding resolution times."
         },
         "verbatim_text": {
-          "before": "4.2. Further, in order to provide ease of doing business and to ensure smooth operationalization of RAASB and IAASB framework and to prevent disruption for existing RAs and IAs registered with SEBI, the following has been provided for: (i) Existing RAs registered with SEBI shall be deemed to be enlisted with RAASB. Existing IAs registered with SEBI who are also members of BASL28 shall be deemed to be enlisted with the IAASB recognised under this framework. (ii) Applications for registration as RA received and under process with SEBI up to the effective date of operationalization of RAASB framework shall continue to be processed by SEBI. Such RAs shall be deemed to be enlisted with RAASB once registration is granted by SEBI. (iii) Applications for registration as IA pending with SEBI/BASL at the time of operationalization of IAASB framework shall continue to be processed by SEBI/BASL. Once registration is granted by SEBI, such IAs shall be deemed to be enlisted with the IAASB recognised under this framework.",
-          "after": "4.1. Amendments have been made to RA/IA Regulations to provide for \u2018enlistment\u2019 of RAs/IAs with RAASB/IAASB in place of the earlier provision of \u2018membership\u2019 of RAs/IAs with RAASB/IAASB. Under the amended regulations, an applicant seeking registration as RA./IA shall be required to \u2018enlist\u2019 with RAASB/IAASB.\n4.2. Further, in order to provide ease of doing business and to ensure smooth operationalization of RAASB and IAASB framework and to prevent disruption for existing RAs and IAs registered with SEBI, the following has been provided for:"
+          "before": "The subsidiary of a stock exchange shall have following responsibilities: ii. Grievance redressal of clients and IAs",
+          "after": "Investment Adviser shall be responsible to resolve the grievances within the timelines specified under SEBI circulars."
         }
       }
     },
@@ -4439,156 +4621,241 @@
       }
     },
     {
-      "obligation_id": "ia-code-of-conduct-01",
-      "title": "Code of Conduct Compliance",
+      "obligation_id": "ia-kyc-01",
+      "title": "Maintain KYC Records",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Implement a proper internal code of conduct and controls",
-          "after": "Code of Conduct Compliance"
+          "before": "Compliance with KYC Norms",
+          "after": "Maintain KYC Records"
         },
         "summary": {
-          "before": "Investment Advisers (IAs) must establish an appropriate internal code of conduct and control mechanisms.",
-          "after": "Investment Advisers must abide by the Code of Conduct as specified in the Third Schedule of SEBI regulations."
+          "before": "Investment Advisers (IAs) must comply with the Know Your Client (KYC) norms for the securities market.",
+          "after": "Investment Advisers must maintain records of clients' KYC details."
         },
         "required_action": {
-          "before": "Put in place a proper internal code of conduct and controls",
-          "after": "Abide by the Code of Conduct."
+          "before": "Refer to specified circulars for KYC norms.",
+          "after": "Sharing and maintaining KYC records"
         },
         "evidence": {
-          "before": "Documentation of the established code of conduct and control mechanisms",
-          "after": "Records of adherence to the Code of Conduct."
+          "before": "Documentation showing adherence to the KYC norms as per the referenced circulars.",
+          "after": "KYC documents and records"
+        },
+        "verbatim_text": {
+          "before": "IAs are advised to refer to the following master circular no. SEBI/HO/MIRSD/SECFATF/P/CIR/2023/169 dated October 12, 2023 on \u2018Know Your Client (KYC) norms for securities market\u2019 available on SEBI website at https://www.sebi.gov.in/legal/master-circulars/oct-2023/master-circular-on-know-your-client-kyc-norms-for-the-securities-market_77945.html",
+          "after": "To enter into an agreement with the client providing all details including fee details, aspects of Conflict of interest disclosure and maintaining confidentiality of information."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-outsource-policy-01",
+      "title": "Establish Outsourcing Policy",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Comprehensive Policy for Outsourcing Activities",
+          "after": "Establish Outsourcing Policy"
+        },
+        "summary": {
+          "before": "Investment Advisers must have a comprehensive policy in place to guide the assessment of whether and how activities can be appropriately outsourced.",
+          "after": "Develop a policy for outsourcing activities that includes risk assessment and evaluation of risks."
+        },
+        "required_action": {
+          "before": "Develop and implement an outsourcing policy",
+          "after": "Develop an outsourcing policy based on risk concentrations, limits on the overall level of outsourced activities, and other relevant factors."
+        },
+        "evidence": {
+          "before": "Documentation of the outsourcing policy",
+          "after": "Policy document outlining the criteria for outsourcing and risk management practices."
+        },
+        "frequency": {
+          "before": "ongoing",
+          "after": "not_specified"
+        },
+        "verbatim_text": {
+          "before": "1. An intermediary seeking to outsource activities shall have in place a comprehensive policy to guide the assessment of whether and how those activities can be appropriately outsourced.",
+          "after": "For example, an activity shall not be outsourced if it would impair the supervisory authority\u2019s right to assess, or its ability to supervise the business of the intermediary. The policy shall be based on an evaluation of risk concentrations, limits on the acceptable overall level of outsourced activities, risks arising from outsourcing multiple activities to the same entity, etc."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-annual-audit-01",
+      "title": "Conduct Annual Audit for Compliance with IA Regulations and Circulars",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Conduct Annual Audit and Submit Report",
+          "after": "Conduct Annual Audit for Compliance with IA Regulations and Circulars"
+        },
+        "summary": {
+          "before": "IA must conduct an annual audit of compliance with IA regulations and submit a report along with any adverse findings.",
+          "after": "IAs must conduct an annual audit to ensure compliance with the Investment Advisers (IA) Regulations, 2013, and SEBI circulars issued thereunder."
+        },
+        "required_action": {
+          "before": "Conduct an annual audit by a member of Institute of Chartered Accountants of India or Institute of Company Secretaries of India and submit a report.",
+          "after": "Conduct an annual audit to ensure compliance with the IA Regulations, 2013, and SEBI circulars issued thereunder. Submit a compliance audit report within one month from the date of the audit report."
+        },
+        "evidence": {
+          "before": "Audit report, adverse findings (if any), and action taken thereon.",
+          "after": "Annual compliance audit report and certificate of compliance."
+        },
+        "verbatim_text": {
+          "before": "In terms of regulation 19(3) of the IA Regulations, IA is required to conduct annual audit in respect of compliance with the IA regulations and circulars issued thereunder from a member of Institute of Chartered Accountants of India or Institute of Company Secretaries of India within six months from the end of each financial year. Submit a report of the same and adverse findings of the audit, if any, along with action taken thereof duly approved by the individual IA/management of the non-individual IA within a period of one month from the date of the audit report but not later than October 31st of each year for the previous financial year.",
+          "after": "As per regulation 19(3) of the IA Regulations, IA shall conduct annual audit in respect of compliance with SEBI (Investment Advisers) Regulations, 2013 and circulars issued thereunder. Annual compliance audit report shall specify each of the provisions of the IA Regulations and the circulars and guidelines issued thereunder upon which compliance is reported."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-records-maintenance-01",
+      "title": "Maintain records of interactions with all clients",
+      "match_type": "exact_id",
+      "changes": {
+        "summary": {
+          "before": "Investment Advisers (IAs) must maintain records of interactions with all clients, including prospective clients.",
+          "after": "IA must maintain records of all client interactions, including prospective clients."
+        },
+        "required_action": {
+          "before": "Maintain records of interactions with all clients, including prospective clients.",
+          "after": "Maintain records of all client interactions"
+        },
+        "evidence": {
+          "before": "Client interaction logs, client communication records.",
+          "after": "Client interaction records"
+        },
+        "verbatim_text": {
+          "before": "a. IA shall maintain records of interactions, with all clients including prospective clients (prior to onboarding), where any conversation related to advice has taken place inter alia, in the form of:",
+          "after": "IA shall maintain records with respect to his activities as an IA. In this regard, it is clarified that: a) IA shall maintain records of interactions, with all clients including prospective clients (prior to onboarding), where any conversation related to advice has taken place inter alia, in the form of: i. Physical record written & signed by client, ii. Telephone recording, iii. Email from registered email id, iv. Record of SMS messages, v. Any other legally verifiable record."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-enlistment-01",
+      "title": "Enlistment of RAs/IAs with RAASB/IAASB",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Enlist RAs/IAs with RAASB/IAASB",
+          "after": "Enlistment of RAs/IAs with RAASB/IAASB"
+        },
+        "summary": {
+          "before": "Investment Advisers (IAs) must enlist themselves or their existing RAs/IAs with the Recognised Asset Management Advisors Supervisory Board (RAASB)/Investment Advisory Supervisory Board (IAASB).",
+          "after": "Register as an RA or IA with the relevant association."
+        },
+        "required_action": {
+          "before": "Submit applications for registration as RA or IA and comply with the amended regulations.",
+          "after": "Submit application and comply with RA/IA Regulations."
+        },
+        "evidence": {
+          "before": "Registration certificate from SEBI or RAASB/IAASB, and any other relevant documentation.",
+          "after": "Enlistment certificate from RAASB/IAASB."
+        },
+        "verbatim_text": {
+          "before": "4.2. Further, in order to provide ease of doing business and to ensure smooth operationalization of RAASB and IAASB framework and to prevent disruption for existing RAs and IAs registered with SEBI, the following has been provided for: (i) Existing RAs registered with SEBI shall be deemed to be enlisted with RAASB. Existing IAs registered with SEBI who are also members of BASL28 shall be deemed to be enlisted with the IAASB recognised under this framework. (ii) Applications for registration as RA received and under process with SEBI up to the effective date of operationalization of RAASB framework shall continue to be processed by SEBI. Such RAs shall be deemed to be enlisted with RAASB once registration is granted by SEBI. (iii) Applications for registration as IA pending with SEBI/BASL at the time of operationalization of IAASB framework shall continue to be processed by SEBI/BASL. Once registration is granted by SEBI, such IAs shall be deemed to be enlisted with the IAASB recognised under this framework.",
+          "after": "4.1. Amendments have been made to RA/IA Regulations to provide for \u2018enlistment\u2019 of RAs/IAs with RAASB/IAASB in place of the earlier provision of \u2018membership\u2019 of RAs/IAs with RAASB/IAASB. Under the amended regulations, an applicant seeking registration as RA./IA shall be required to \u2018enlist\u2019 with RAASB/IAASB.\n4.2. Further, in order to provide ease of doing business and to ensure smooth operationalization of RAASB and IAASB framework and to prevent disruption for existing RAs and IAs registered with SEBI, the following has been provided for:"
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-outsource-09",
+      "title": "Preservation of Documents and Data",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Exercise Due Care in Selecting Third Parties",
+          "after": "Preservation of Documents and Data"
+        },
+        "summary": {
+          "before": "Exercise due care, skill, and diligence in selecting third parties to ensure their ability and capacity.",
+          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for the preservation of documents and data by third parties."
+        },
+        "required_action": {
+          "before": "Exercise due care, skill, and diligence in the selection of third parties.",
+          "after": "Include in the outsourcing contract provisions for the preservation of documents and data by third parties."
+        },
+        "evidence": {
+          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
+          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
+        },
+        "verbatim_text": {
+          "before": "It is important that the intermediary exercises due care, skill, and diligence in the selection of the third party to ensure that the third party has the ability and capacity to undertake the provision of the service effectively.",
+          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-contingency-plan-01",
+      "title": "Establish and Maintain Contingency Plans",
+      "match_type": "exact_id",
+      "changes": {
+        "required_action": {
+          "before": "Develop and maintain specific contingency plans for each outsourcing arrangement.",
+          "after": "Establish and maintain specific contingency plans for each outsourcing arrangement, develop a plan for disaster recovery, and periodically test backup facilities."
+        },
+        "evidence": {
+          "before": "Contingency plan documentation, test results, and records of regular reviews.",
+          "after": "Documentation of the established contingency plans, testing records, and reports."
+        },
+        "verbatim_text": {
+          "before": "6. The intermediary and its third parties shall establish and maintain contingency plans, including a plan for disaster recovery and periodic testing of backup facilities.",
+          "after": "6. The intermediary and its third parties shall establish and maintain contingency plans, including a plan for disaster recovery and periodic testing of backup facilities.\n6.1. Specific contingency plans shall be separately developed for each outsourcing arrangement, as is done in individual business lines."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-amendments-01",
+      "title": "Provide details on implications of amendments and termination",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Amend Agreement by Mutual Written Consent",
+          "after": "Provide details on implications of amendments and termination"
+        },
+        "summary": {
+          "before": "Investment Advisers must amend the agreement only through mutual written consent of the parties.",
+          "after": "Investment Adviser must provide detailed implications of amendments, terminations, and assignments."
+        },
+        "required_action": {
+          "before": "Amend the agreement by mutual written consent of the parties.",
+          "after": "Provide details on set off of fees, refund of fees, completion/termination of investment-in-progress, transition support obligations, etc."
+        },
+        "evidence": {
+          "before": "Signed amendment document.",
+          "after": "Written document outlining the implications provided to the client"
         },
         "frequency": {
           "before": "not_specified",
-          "after": "ongoing"
+          "after": "one_time"
         },
         "verbatim_text": {
-          "before": "Proper internal code of conduct and controls should be put in place.",
-          "after": "Undertaking to abide by the Code of Conduct as specified in the Third Schedule of the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013."
+          "before": "8. Amendments \u2013 The agreement may be amended by mutual written consent of the parties.",
+          "after": "The implications of Amendment, Termination and assignment, such as set off of fees received by the Investment Adviser, refund of fees, completion/termination of investment-in-progress, transition support obligations of the Investment Adviser, etc. shall also be provided in detail."
         }
       }
     },
     {
-      "obligation_id": "ia-agreement-01",
-      "title": "Incorporate Terms and Conditions in Investment Advisory Agreement",
+      "obligation_id": "ia-fees-receipt-01",
+      "title": "Accept Fees via Specific Methods Only",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Investment Advisory Agreement with Clients",
-          "after": "Incorporate Terms and Conditions in Investment Advisory Agreement"
+          "before": "Receive Fees Through Banking Channel Only",
+          "after": "Accept Fees via Specific Methods Only"
         },
         "summary": {
-          "before": "IA must enter into an investment advisory agreement with clients that includes specific terms and conditions.",
-          "after": "Ensure that specific terms and conditions are incorporated in the Investment Advisory Agreement."
+          "before": "Investment Advisers must receive advisory fees only through banking channels and not in the form of cash deposits.",
+          "after": "Investment Advisers (IAs) must accept fees only through account payee crossed cheques, demand drafts, or direct credit into their bank accounts via NEFT/RTGS/IMPS/UPI. They are prohibited from accepting cash deposits."
         },
         "required_action": {
-          "before": "Enter into an investment advisory agreement with each client, ensuring it covers the mandatory terms provided in Annexure A. Additional terms can be included without diluting the IA Regulations.",
-          "after": "Incorporate specified terms and conditions in the agreement."
+          "before": "Receive fees only through banking channels",
+          "after": "Only accept fees through account payee crossed cheques, demand drafts, or direct credit into their bank accounts via NEFT/RTGS/IMPS/UPI. Do not accept cash deposits."
         },
         "evidence": {
-          "before": "Signed copy of the investment advisory agreement.",
-          "after": "Copies of signed agreements showing incorporation of required terms and conditions."
+          "before": "Bank statements, transaction records",
+          "after": "Bank statements and records of accepted payments."
         },
         "verbatim_text": {
-          "before": "\"(ii) (a) Regulation 19(1)(d) of the IA Regulations provides that IA shall enter into an investment advisory agreement with its clients. The said agreement shall mandatorily cover the terms and conditions provided in Annexure A. (b) IA can include additional terms and conditions in the agreement without diluting the provisions of the IA Regulations and amendments thereto as well as circulars issued thereunder. (c) IA shall ensure that neither any investment advice is rendered nor any fee is charged until the client has signed the aforesaid agreement and provided copy of signed agreement to the client.\"",
-          "after": "Investment Adviser shall ensure that the following terms and conditions are incorporated in the Investment Advisory Agreement:"
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-dispute-resolution-01",
-      "title": "Set up mechanisms for dispute resolution including arbitration",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Dispute Resolution Mechanism and Arbitration",
-          "after": "Set up mechanisms for dispute resolution including arbitration"
-        },
-        "summary": {
-          "before": "Investment Advisers must have provisions for dispute resolution, including arbitration.",
-          "after": "The Investment Adviser must establish adequate provisions for protecting acts done in good faith and setting up a mechanism for resolving disputes, which may include arbitration."
-        },
-        "required_action": {
-          "before": "Incorporate adequate provisions for dispute resolution and arbitration.",
-          "after": "Establish mechanisms to protect acts done in good faith and set up a dispute resolution mechanism including arbitration as per SEBI regulations."
-        },
-        "evidence": {
-          "before": "Documentation of incorporated provisions.",
-          "after": "Documentation of established dispute resolution procedures, including any agreements or policies related to arbitration."
-        },
-        "verbatim_text": {
-          "before": "Settlement of disputes and provision for arbitration: Adequate provisions to cover protection of acts done in good faith as well as for dispute resolution mechanism including arbitration that may be specified under the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013.",
-          "after": "Adequate provisions to cover protection of acts done in good faith as well as for dispute resolution mechanism including arbitration that may be specified under the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-news-forwarding-01",
-      "title": "Forwarding Market Related News After Approval",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Forward market-related news only after approval",
-          "after": "Forwarding Market Related News After Approval"
-        },
-        "summary": {
-          "before": "IAs must ensure that their employees forward market-related information only after it has been reviewed.",
-          "after": "Investment Advisers must forward any market-related news only after it has been seen and approved by the Compliance Officer."
-        },
-        "required_action": {
-          "before": "Forward the news only after approval by Compliance Officer",
-          "after": "Forward news only after approval from Compliance Officer."
-        },
-        "evidence": {
-          "before": "Approval logs and forwarding records",
-          "after": "Approval logs and records of forwarded news."
-        },
-        "verbatim_text": {
-          "before": "Employees should be directed that any market related news received by them either in their official mail/personal mail/blog or in any other manner, should be forwarded only after the same has been seen and approved by the IA\u2019s Compliance Officer. If an employee fails to do so, he/she shall be deemed to have violated the various provisions contained in SEBI Act/Rules/Regulations etc. and shall be liable for action. The Compliance Officer shall also be held liable for breach of duty in this regard.",
-          "after": "Employees should be directed that any market related news received by them either in their official mail/personal mail/blog or in any other manner, should be forwarded only after the same has been seen and approved by the IA\u2019s Compliance Officer."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-seg-advisory-dist-01",
-      "title": "Client Level Segregation of Advisory and Distribution Activities",
-      "match_type": "exact_id",
-      "changes": {
-        "evidence": {
-          "before": "Documentation of the adopted compliance and monitoring process, annual certificate from auditor/statutory auditor.",
-          "after": "Documentation of the adopted compliance and monitoring process, including records of onboarding new clients and handling existing clients."
-        },
-        "verbatim_text": {
-          "before": "Existing clients, who wish to take advisory services, will not be eligible for availing distribution services within the group/family of IA. Similarly, existing clients who wish to take distribution services will not be eligible for availing advisory services within the group/family of IA.",
-          "after": "To ensure client level segregation at IA\u2019s group/family level, as per Regulation 22(5) of the IA Regulations, following compliance and monitoring process shall be adopted: (a) Existing clients, who wish to take advisory services, will not be eligible for availing distribution services within the group/family of IA. Similarly, existing clients who wish to take distribution services will not be eligible for availing advisory services within the group/family of IA. (b) A new client will be eligible to avail either advisory or distribution services within the group/family of IA. However, the option to avail either advisory services or distribution services shall be made available to such client at the time of on boarding. (c) Client under these guidelines shall include individual client or non-individual client. (d) The client shall have discretion to continue holding assets prior to the applicability of this segregation under the existing advisory/distribution arrangement. However, the client shall not be forced to liquidate/switch such existing holdings."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-no-power-of-attorney-01",
-      "title": "Decline right to seek Power of Attorney",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "No Right to Seek Power of Attorney",
-          "after": "Decline right to seek Power of Attorney"
-        },
-        "summary": {
-          "before": "Investment Advisers must not seek power of attorney or authorizations from clients for implementing investment advice.",
-          "after": "Investment Adviser must clearly declare that it shall not seek a Power of Attorney."
-        },
-        "required_action": {
-          "before": "Do not seek any power of attorney or authorizations from clients.",
-          "after": "Decline right to seek Power of Attorney"
-        },
-        "evidence": {
-          "before": "Client records and documentation showing no seeking of power of attorney or authorizations.",
-          "after": "Written declaration or policy document"
-        },
-        "verbatim_text": {
-          "before": "The Investment Adviser to clearly declare that it shall not seek any power of attorney or authorizations from its clients for implementation of investment advice.",
-          "after": "The Investment Adviser to clearly declare that it shall not seek Power of Attorney:"
+          "before": "It is observed that the IAs are receiving advisory fee in the form of cash deposit in their bank accounts or through payment gatewa",
+          "after": "To bring transparency in dealing with the clients, IAs shall accept fees strictly by account payee crossed cheques / demand draft or by way of direct credit into their bank account through NEFT/ RTGS/IMPS/UPI. It is clarified that, IAs shall not accept cash deposits."
         }
       }
     },
@@ -4620,29 +4887,342 @@
       }
     },
     {
-      "obligation_id": "ia-kyc-01",
-      "title": "Maintain KYC Records",
+      "obligation_id": "ia-fiu-reporting-01",
+      "title": "Reporting Suspicious Transactions/Reports to FIU",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Compliance with KYC Norms",
-          "after": "Maintain KYC Records"
-        },
-        "summary": {
-          "before": "Investment Advisers (IAs) must comply with the Know Your Client (KYC) norms for the securities market.",
-          "after": "Investment Advisers must maintain records of clients' KYC details."
+          "before": "Reporting Suspicious Transactions to FIU",
+          "after": "Reporting Suspicious Transactions/Reports to FIU"
         },
         "required_action": {
-          "before": "Refer to specified circulars for KYC norms.",
-          "after": "Sharing and maintaining KYC records"
+          "before": "Reporting such transactions/reports to FIU or relevant authority",
+          "after": "Report suspicious transactions/reports to FIU or competent authority."
         },
         "evidence": {
-          "before": "Documentation showing adherence to the KYC norms as per the referenced circulars.",
-          "after": "KYC documents and records"
+          "before": "Records of reports submitted to FIU",
+          "after": "Reporting records and documentation."
+        },
+        "frequency": {
+          "before": "ongoing",
+          "after": "event_driven"
         },
         "verbatim_text": {
-          "before": "IAs are advised to refer to the following master circular no. SEBI/HO/MIRSD/SECFATF/P/CIR/2023/169 dated October 12, 2023 on \u2018Know Your Client (KYC) norms for securities market\u2019 available on SEBI website at https://www.sebi.gov.in/legal/master-circulars/oct-2023/master-circular-on-know-your-client-kyc-norms-for-the-securities-market_77945.html",
-          "after": "To enter into an agreement with the client providing all details including fee details, aspects of Conflict of interest disclosure and maintaining confidentiality of information."
+          "before": "The intermediaries shall be responsible for reporting of any suspicious transactions / reports to FIU or any other competent authority in respect of activities carried out by the third parties.",
+          "after": "Reporting to Financial Intelligence Unit (FIU) - The intermediaries shall be responsible for reporting of any suspicious transactions / reports to FIU or any other competent authority in respect of activities carried out by the third parties."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-agreement-01",
+      "title": "Incorporate Terms and Conditions in Investment Advisory Agreement",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Investment Advisory Agreement with Clients",
+          "after": "Incorporate Terms and Conditions in Investment Advisory Agreement"
+        },
+        "summary": {
+          "before": "IA must enter into an investment advisory agreement with clients that includes specific terms and conditions.",
+          "after": "Ensure that specific terms and conditions are incorporated in the Investment Advisory Agreement."
+        },
+        "required_action": {
+          "before": "Enter into an investment advisory agreement with each client, ensuring it covers the mandatory terms provided in Annexure A. Additional terms can be included without diluting the IA Regulations.",
+          "after": "Incorporate specified terms and conditions in the agreement."
+        },
+        "evidence": {
+          "before": "Signed copy of the investment advisory agreement.",
+          "after": "Copies of signed agreements showing incorporation of required terms and conditions."
+        },
+        "verbatim_text": {
+          "before": "\"(ii) (a) Regulation 19(1)(d) of the IA Regulations provides that IA shall enter into an investment advisory agreement with its clients. The said agreement shall mandatorily cover the terms and conditions provided in Annexure A. (b) IA can include additional terms and conditions in the agreement without diluting the provisions of the IA Regulations and amendments thereto as well as circulars issued thereunder. (c) IA shall ensure that neither any investment advice is rendered nor any fee is charged until the client has signed the aforesaid agreement and provided copy of signed agreement to the client.\"",
+          "after": "Investment Adviser shall ensure that the following terms and conditions are incorporated in the Investment Advisory Agreement:"
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-advertisement-02",
+      "title": "Specify applicable forms of communication in advertisement code",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Include Client Disclaimer",
+          "after": "Specify applicable forms of communication in advertisement code"
+        },
+        "summary": {
+          "before": "Investment Advisers must include a disclaimer stating that SEBI registration, membership of BASL, and NISM certification do not guarantee performance or provide any assurance of returns to investors.",
+          "after": "IAs must specify the types of communications covered by the advertisement code."
+        },
+        "required_action": {
+          "before": "Include the disclaimer 'Registration granted by SEBI, membership of BASL and certification from NISM in no way guarantee performance of the IA or provide any assurance of returns to investors.'",
+          "after": "Ensure all specified forms of communication are included in advertisements."
+        },
+        "evidence": {
+          "before": "Website content or advertisement copy containing the disclaimer.",
+          "after": "Records of communications sent, including content and date."
+        },
+        "verbatim_text": {
+          "before": "viii. Advertisements and communications/correspondences with clients shall include the disclaimer that 'Registration granted by SEBI, membership of BASL and certification from NISM in no way guarantee performance of the IA or provide any assurance of returns to investors.'",
+          "after": "The forms of communications, to which the advertisement code shall be applicable, shall include pamphlets, circulars, brochures, notices, research reports or any other literature, document, information or material published, or designed for use in any publication or displays (such as newspaper, magazine, sign boards/hoardings at any location), in any electronic, wired or wireless communication (such as electronic mail, text messaging, messaging platforms, social media platforms, radio, telephone, or in any other form over the internet) or over any other audio-visual form of communication (such as television, tape recording, video tape recordings, motion pictures) or in any other manner whatsoever."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-advertisement-01",
+      "title": "Include all forms of communications in advertisement",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Include Disclaimer in Advertisement",
+          "after": "Include all forms of communications in advertisement"
+        },
+        "summary": {
+          "before": "Investment Advisers must include a disclaimer stating that the securities quoted are for illustration only and not recommendatory.",
+          "after": "Investment Advisers (IAs) must include all forms of communication that may influence investment decisions."
+        },
+        "required_action": {
+          "before": "Include the disclaimer 'The securities quoted are for illustration only and are not recommendatory.'",
+          "after": "Ensure the communication includes all relevant details and complies with SEBI regulations."
+        },
+        "evidence": {
+          "before": "Website content or advertisement copy containing the disclaimer.",
+          "after": "Records of communications sent, including content and date."
+        },
+        "frequency": {
+          "before": "one_time",
+          "after": "ongoing"
+        },
+        "verbatim_text": {
+          "before": "vii. In case any specific security/ securities are displayed in the advertisement as examples, disclaimer that 'The securities quoted are for illustration only and are not recommendatory' should be mentioned.",
+          "after": "Advertisement shall include all forms of communications, issued by or on behalf of IA, that may influence investment decisions of any investor or prospective investor."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-outsource-01",
+      "title": "Governing Outsourcing Arrangements by Written Contract",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Maintain Regularly Updated Records",
+          "after": "Governing Outsourcing Arrangements by Written Contract"
+        },
+        "summary": {
+          "before": "Regularly update and maintain records that may form part of the corporate governance review by management.",
+          "after": "Investment Advisers must have a written contract for outsourcing arrangements that clearly defines the rights, responsibilities and expectations of all parties involved."
+        },
+        "required_action": {
+          "before": "Maintain regularly updated records.",
+          "after": "Enter into a legally binding written contract with third-party service providers."
+        },
+        "evidence": {
+          "before": "Records maintained as per the circular.",
+          "after": "Copies of the outsourcing contracts."
+        },
+        "verbatim_text": {
+          "before": "Such records shall be regularly updated and may also form part of the corporate governance review by the management of the intermediary.",
+          "after": "Outsourcing arrangements shall be governed by a clearly defined and legally binding written contract between the intermediary and each of the third parties, the nature and detail of which shall be appropriate to the materiality of the outsourced activity in relation to the ongoing business of the intermediary. Care shall be taken to ensure that the outsourcing contract: (a) clearly defines what activities are going to be outsourced, including appropriate service and performance levels; (b) provides for mutual rights, obligations and responsibilities of the intermediary and the third party, including indemnity by the parties; (c) provides for the liability of the third party to the intermediary for unsatisfactory performance/other breach of the contract; (d) provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-audit-01",
+      "title": "Annual Audit of Compliance with IA Regulations",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Conduct Annual Audit",
+          "after": "Annual Audit of Compliance with IA Regulations"
+        },
+        "summary": {
+          "before": "Perform an annual audit.",
+          "after": "Conduct an annual audit in compliance with the IA regulations and submit a report along with any adverse findings within one month from the date of the audit report, but not later than October 31st of each year."
+        },
+        "required_action": {
+          "before": "Conduct an annual audit.",
+          "after": "Conduct an annual audit and submit a report with adverse findings if any, along with action taken thereof."
+        },
+        "evidence": {
+          "before": "Audit report and findings.",
+          "after": "Audit report and action taken report submitted to SEBI within the deadline."
+        },
+        "verbatim_text": {
+          "before": "To conduct audit annually.",
+          "after": "In terms of regulation 19(3) of the IA Regulations, IA is required to conduct annual audit in respect of compliance with the IA regulations and circulars issued thereunder from a member of Institute of Chartered Accountants of India or Institute of Company Secretaries of India within six months from the end of each financial year. Submit a report of the same and adverse findings of the audit, if any, along with action taken thereof duly approved by the individual IA/management of the non-individual IA within a period of one month from the date of the audit report but not later than October 31st of each year for the previous financial year."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-termination-01",
+      "title": "Provide termination notice for voluntary agreement termination",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Handle Termination Scenarios",
+          "after": "Provide termination notice for voluntary agreement termination"
+        },
+        "summary": {
+          "before": "Investment Advisers must handle termination scenarios as per specified conditions.",
+          "after": "Investment Adviser must provide a 30 days prior written notice to the client in case of voluntary termination."
+        },
+        "required_action": {
+          "before": "Handle termination scenarios as per specified conditions, including providing notice and options for clients.",
+          "after": "Provide a 30 days prior written notice to the client"
+        },
+        "evidence": {
+          "before": "Termination document or notice.",
+          "after": "Written notice provided to the client"
+        },
+        "verbatim_text": {
+          "before": "9. Termination \u2013 This Agreement may be terminated under the following circumstances, namely-\na) Voluntary/ mandatory termination by the Investment Adviser.\nb) Voluntary/ mandatory termination by the client.\nc) Suspension/ Cancellation of registration of Investment Adviser by SEBI.\nd) Any other action taken by other regulatory body/ Government authority. In case of a voluntary termination of the agreement, the client would be required to give a 30 days prior written notice while the Investment Adviser would be required to give a 30 days prior written notice. In case of suspension of the certificate of registration of the IA, the client may be provided with the option to terminate the agreement.",
+          "after": "In case of a voluntary termination of the agreement, the client would be required to give a 30 days prior written notice while the Investment Adviser would be required to give a 30 days prior written notice."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-complaint-disclosure-01",
+      "title": "Disclose Complaint Data Monthly",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Disclose Complaint Status on Website",
+          "after": "Disclose Complaint Data Monthly"
+        },
+        "summary": {
+          "before": "Publish the status of complaints on its website.",
+          "after": "Investment Advisers must disclose data on complaints received and redressed by them monthly."
+        },
+        "required_action": {
+          "before": "Disclose the status of complaints in its website.",
+          "after": "Publish complaint data on the website/mobile application or other means as specified."
+        },
+        "evidence": {
+          "before": "Website content showing disclosed complaint statuses.",
+          "after": "Monthly report showing disclosed complaint data."
+        },
+        "frequency": {
+          "before": "ongoing",
+          "after": "monthly"
+        },
+        "verbatim_text": {
+          "before": "To disclose the status of complaints in its website.",
+          "after": "All the Investment Advisers shall continue to disclose on their respective websites and mobile applications (if any), the data on complaints received against them or against issues dealt by them and redressal thereof, latest by 7th of succeeding month, as per the format enclosed at Annexure C to this circular."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-code-of-conduct-01",
+      "title": "Code of Conduct Compliance",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Implement a proper internal code of conduct and controls",
+          "after": "Code of Conduct Compliance"
+        },
+        "summary": {
+          "before": "Investment Advisers (IAs) must establish an appropriate internal code of conduct and control mechanisms.",
+          "after": "Investment Advisers must abide by the Code of Conduct as specified in the Third Schedule of SEBI regulations."
+        },
+        "required_action": {
+          "before": "Put in place a proper internal code of conduct and controls",
+          "after": "Abide by the Code of Conduct."
+        },
+        "evidence": {
+          "before": "Documentation of the established code of conduct and control mechanisms",
+          "after": "Records of adherence to the Code of Conduct."
+        },
+        "frequency": {
+          "before": "not_specified",
+          "after": "ongoing"
+        },
+        "verbatim_text": {
+          "before": "Proper internal code of conduct and controls should be put in place.",
+          "after": "Undertaking to abide by the Code of Conduct as specified in the Third Schedule of the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-outsource-02",
+      "title": "Clear Definition of Outsourced Activities",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Regular Reviews by Auditors",
+          "after": "Clear Definition of Outsourced Activities"
+        },
+        "summary": {
+          "before": "Conduct regular reviews by internal or external auditors on outsourcing policies, risk management system, and regulatory requirements.",
+          "after": "Investment Advisers must clearly define what activities are being outsourced, including the service and performance levels."
+        },
+        "required_action": {
+          "before": "Conduct regular reviews by internal or external auditors.",
+          "after": "Define in writing the specific activities to be outsourced along with appropriate service and performance levels."
+        },
+        "evidence": {
+          "before": "Audit reports and review records.",
+          "after": "Written documentation of the defined outsourcing activities."
+        },
+        "frequency": {
+          "before": "not_specified",
+          "after": "ongoing"
+        },
+        "verbatim_text": {
+          "before": "Regular reviews by internal or external auditors of the outsourcing policies, risk management system and requirements of the regulator shall be mandated by the Board wherever felt necessary.",
+          "after": "clearly defines what activities are going to be outsourced, including appropriate service and performance levels;"
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-outsource-10",
+      "title": "Dispute Resolution Mechanisms",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Due Diligence Assessment Criteria",
+          "after": "Dispute Resolution Mechanisms"
+        },
+        "summary": {
+          "before": "Assess third parties based on their resources, compatibility with requirements, market feedback, concentration risk, and foreign environment.",
+          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for resolving disputes arising from implementation of the outsourcing contract."
+        },
+        "required_action": {
+          "before": "Conduct due diligence assessment of third parties using specified criteria.",
+          "after": "Include in the outsourcing contract mechanisms to resolve disputes arising from implementation of the outsourcing contract."
+        },
+        "evidence": {
+          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
+          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
+        },
+        "verbatim_text": {
+          "before": "The due diligence undertaken by an intermediary shall include assessment of: (a) third party\u2019s resources and capabilities, including financial soundness, to perform the outsourcing work within the timelines fixed; (b) compatibility of the practices and systems of the third party with the intermediary's requirements and objectives; (c) market feedback of the prospective third party's business reputation and track record of their services rendered in the past; (d) level of concentration of the outsourced arrangements with a single third party; and (e) the environment of the foreign country where the third party is located.",
+          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-dispute-resolution-01",
+      "title": "Set up mechanisms for dispute resolution including arbitration",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Dispute Resolution Mechanism and Arbitration",
+          "after": "Set up mechanisms for dispute resolution including arbitration"
+        },
+        "summary": {
+          "before": "Investment Advisers must have provisions for dispute resolution, including arbitration.",
+          "after": "The Investment Adviser must establish adequate provisions for protecting acts done in good faith and setting up a mechanism for resolving disputes, which may include arbitration."
+        },
+        "required_action": {
+          "before": "Incorporate adequate provisions for dispute resolution and arbitration.",
+          "after": "Establish mechanisms to protect acts done in good faith and set up a dispute resolution mechanism including arbitration as per SEBI regulations."
+        },
+        "evidence": {
+          "before": "Documentation of incorporated provisions.",
+          "after": "Documentation of established dispute resolution procedures, including any agreements or policies related to arbitration."
+        },
+        "verbatim_text": {
+          "before": "Settlement of disputes and provision for arbitration: Adequate provisions to cover protection of acts done in good faith as well as for dispute resolution mechanism including arbitration that may be specified under the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013.",
+          "after": "Adequate provisions to cover protection of acts done in good faith as well as for dispute resolution mechanism including arbitration that may be specified under the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013."
         }
       }
     },
@@ -4682,280 +5262,71 @@
       }
     },
     {
-      "obligation_id": "ia-termination-01",
-      "title": "Provide termination notice for voluntary agreement termination",
+      "obligation_id": "ia-related-parties-01",
+      "title": "Declare independent relationship with related parties",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Handle Termination Scenarios",
-          "after": "Provide termination notice for voluntary agreement termination"
+          "before": "Declare Independence from Related Parties",
+          "after": "Declare independent relationship with related parties"
         },
         "summary": {
-          "before": "Investment Advisers must handle termination scenarios as per specified conditions.",
-          "after": "Investment Adviser must provide a 30 days prior written notice to the client in case of voluntary termination."
+          "before": "Investment Advisers must declare independence and disclose conflicts with related parties.",
+          "after": "Investment Adviser must declare that it is carrying on its activities independently and disclose any conflicts of interest."
         },
         "required_action": {
-          "before": "Handle termination scenarios as per specified conditions, including providing notice and options for clients.",
-          "after": "Provide a 30 days prior written notice to the client"
+          "before": "Declare that the activities are carried out independently at an arms-length basis, and disclose any conflicts of interest.",
+          "after": "Declare independence from related parties and disclose any conflicts of interest"
         },
         "evidence": {
-          "before": "Termination document or notice.",
-          "after": "Written notice provided to the client"
+          "before": "Declaration document or conflict disclosure statement.",
+          "after": "Written declaration or disclosure document"
         },
         "verbatim_text": {
-          "before": "9. Termination \u2013 This Agreement may be terminated under the following circumstances, namely-\na) Voluntary/ mandatory termination by the Investment Adviser.\nb) Voluntary/ mandatory termination by the client.\nc) Suspension/ Cancellation of registration of Investment Adviser by SEBI.\nd) Any other action taken by other regulatory body/ Government authority. In case of a voluntary termination of the agreement, the client would be required to give a 30 days prior written notice while the Investment Adviser would be required to give a 30 days prior written notice. In case of suspension of the certificate of registration of the IA, the client may be provided with the option to terminate the agreement.",
-          "after": "In case of a voluntary termination of the agreement, the client would be required to give a 30 days prior written notice while the Investment Adviser would be required to give a 30 days prior written notice."
+          "before": "11. Relationship with related parties: The Investment Adviser to clearly declare that it is carrying on its activities independently, at an arms-length basis with its related parties. Disclosures of conflicts to be made.",
+          "after": "The Investment Adviser to clearly declare that it is carrying on its activities independently, at an arms-length basis with its related parties. Disclosures of conflicts to be made."
         }
       }
     },
     {
-      "obligation_id": "ia-qualification-01",
-      "title": "Comply with Enhanced Qualification and Experience Requirement",
-      "match_type": "exact_id",
-      "changes": {
-        "summary": {
-          "before": "IA must comply with the applicable enhanced qualification and experience requirement within a period of three years, extended to September 30, 2025.",
-          "after": "Individual investment advisers or principal officers of non-individual investment advisers must meet the enhanced qualification and experience requirements."
-        },
-        "required_action": {
-          "before": "Obtain the required qualification and experience within the specified period",
-          "after": "Comply with the enhanced qualification and experience requirement within a period of five years i.e. up to September 30, 2025."
-        },
-        "evidence": {
-          "before": "Certification from recognized bodies, relevant work experience documentation",
-          "after": "Documentation proving compliance with the required qualifications and experience."
-        },
-        "frequency": {
-          "before": "not_specified",
-          "after": "one_time"
-        },
-        "deadline": {
-          "before": "2025-09-30",
-          "after": null
-        },
-        "verbatim_text": {
-          "before": "Regulation 7(1) of IA Regulations, was amended vide SEBI (Investment Advisers) (Amendment) Regulations, 2020 to specify enhanced qualification and experience requirement for individual investment adviser or a principal officer of a non-individual investment adviser and persons associated with investment advice. First proviso to the amended Regulation 7(1) specified that the individual investment advisers registered under these regulations or principal officer of a non-individual investment adviser registered under these regulations and persons associated with investment advice shall comply with the applicable enhanced qualification and experience requirement within a period of three years. The three-year period referred herein ended on September 30, 2023. Based on the representations received from various stakeholders and in view of the emerging landscape of the domain of investment advice, the first proviso to regulation 7(1) of SEBI (Investment Advisers) Regulations, 2013 has been further amended with effect from September 30, 2023, vide the SEBI (Investment Advisers) (Amendment) Regulations, 2023 dated October 09, 2023. Accordingly, the timeline to comply with the enhanced qualification and experience requirements under regulation 7(1) has been extended to September 30, 2025.",
-          "after": "\"(a) Vide SEBI (Investment Advisers) (Amendment) Regulations, 2020, enhanced qualification and experience requirement were introduced under Regulation 7 of the IA Regulations for individual investment adviser or a principal officer of a non-individual investment adviser and persons associated with investment advice. Existing Individual investment advisers or principal officer of a non-individual investment adviser and persons associated with investment advice as on September 30, 2020 were required to comply with the enhanced qualification and experience requirement within a period of five years i.e. up to September 30, 2025 (initial time period of three years was subsequently extended for another two years).\""
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-conflict-of-interest-01",
-      "title": "Adhere to Conflict of Interest Guidelines",
+      "obligation_id": "ia-outsource-07",
+      "title": "Confidentiality Clauses",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Avoiding or Managing Conflict of Interest",
-          "after": "Adhere to Conflict of Interest Guidelines"
+          "before": "Regulatory Supervision Not Impaired",
+          "after": "Confidentiality Clauses"
         },
         "summary": {
-          "before": "Investment Advisers (IAs) must avoid or manage conflicts of interest and ensure fair treatment of clients.",
-          "after": "Intermediaries and their associated persons must adhere to guidelines for avoiding or dealing with conflict of interest."
+          "before": "Ensure outsourcing arrangements do not impair SEBI/SRO's regulatory responsibilities.",
+          "after": "Investment Advisers must ensure that the outsourcing contract includes unambiguous confidentiality clauses."
         },
         "required_action": {
-          "before": "Developing policies, procedures, and codes to identify and deal with conflicts of interest; maintaining high standards of integrity; ensuring fair treatment of clients",
-          "after": "Adhere to these guidelines for avoiding or dealing with or managing conflict of interest, and educate associated persons."
-        },
-        "evidence": {
-          "before": "Policies, procedures, internal code of conduct, communication records",
-          "after": "Documentation showing adherence to the guidelines and training records for associated persons."
-        },
-        "verbatim_text": {
-          "before": "Intermediaries and their associated persons shall, i. lay down, with active involvement of senior management, policies and internal procedures to identify and avoid or to deal or manage actual or potential conflict of interest, develop an internal code of conduct governing operations and formulate standards of appropriate conduct in the performance of their activities, and ensure to communicate such policies, procedures and code to all concerned; ii. at all times maintain high standards of integrity in the conduct of their business; iii. ensure fair treatment of their clients and not discriminate amongst them;",
-          "after": "Intermediaries shall adhere to these guidelines for avoiding or dealing with or managing conflict of interest. They shall be responsible for educating their associated persons for compliance of these guidelines."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-advertisement-02",
-      "title": "Specify applicable forms of communication in advertisement code",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Include Client Disclaimer",
-          "after": "Specify applicable forms of communication in advertisement code"
-        },
-        "summary": {
-          "before": "Investment Advisers must include a disclaimer stating that SEBI registration, membership of BASL, and NISM certification do not guarantee performance or provide any assurance of returns to investors.",
-          "after": "IAs must specify the types of communications covered by the advertisement code."
-        },
-        "required_action": {
-          "before": "Include the disclaimer 'Registration granted by SEBI, membership of BASL and certification from NISM in no way guarantee performance of the IA or provide any assurance of returns to investors.'",
-          "after": "Ensure all specified forms of communication are included in advertisements."
-        },
-        "evidence": {
-          "before": "Website content or advertisement copy containing the disclaimer.",
-          "after": "Records of communications sent, including content and date."
-        },
-        "verbatim_text": {
-          "before": "viii. Advertisements and communications/correspondences with clients shall include the disclaimer that 'Registration granted by SEBI, membership of BASL and certification from NISM in no way guarantee performance of the IA or provide any assurance of returns to investors.'",
-          "after": "The forms of communications, to which the advertisement code shall be applicable, shall include pamphlets, circulars, brochures, notices, research reports or any other literature, document, information or material published, or designed for use in any publication or displays (such as newspaper, magazine, sign boards/hoardings at any location), in any electronic, wired or wireless communication (such as electronic mail, text messaging, messaging platforms, social media platforms, radio, telephone, or in any other form over the internet) or over any other audio-visual form of communication (such as television, tape recording, video tape recordings, motion pictures) or in any other manner whatsoever."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-outsource-08",
-      "title": "IT Security and Contingency Plans",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Due Diligence in Selecting Third Parties",
-          "after": "IT Security and Contingency Plans"
-        },
-        "summary": {
-          "before": "Conduct appropriate due diligence in selecting third parties and monitoring their performance.",
-          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for IT security, contingency plans, insurance cover, business continuity, disaster recovery plans, force majeure clauses, etc."
-        },
-        "required_action": {
-          "before": "Conduct appropriate due diligence in selecting third parties and monitor their performance.",
-          "after": "Include in the outsourcing contract provisions for IT security and contingency plans, insurance cover, business continuity, disaster recovery plans, force majeure clauses, etc."
+          "before": "Ensure that outsourcing does not impair the ability of SEBI/SRO or auditors to exercise their regulatory responsibilities.",
+          "after": "Include in the outsourcing contract unambiguous confidentiality clauses to protect proprietary and customer data during and after the tenure of the contract."
         },
         "evidence": {
           "before": "Documentation of due diligence, risk assessments, and compliance checks.",
           "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
         },
         "verbatim_text": {
-          "before": "The intermediary shall conduct appropriate due diligence in selecting the third party and in monitoring of its performance.",
-          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
+          "before": "Outsourcing arrangements shall not impair the ability of SEBI/SRO or auditors to exercise its regulatory responsibilities such as supervision/inspection of the intermediary.",
+          "after": "includes, where necessary, conditions of sub-contracting by the third-party, i.e. the contract shall enable intermediary to maintain a similar control over the risks when a third party outsources to further third parties as in the original direct outsourcing;"
         }
       }
     },
     {
-      "obligation_id": "ia-annual-audit-01",
-      "title": "Conduct Annual Audit for Compliance with IA Regulations and Circulars",
+      "obligation_id": "ia-seg-advisory-dist-01",
+      "title": "Client Level Segregation of Advisory and Distribution Activities",
       "match_type": "exact_id",
       "changes": {
-        "title": {
-          "before": "Conduct Annual Audit and Submit Report",
-          "after": "Conduct Annual Audit for Compliance with IA Regulations and Circulars"
-        },
-        "summary": {
-          "before": "IA must conduct an annual audit of compliance with IA regulations and submit a report along with any adverse findings.",
-          "after": "IAs must conduct an annual audit to ensure compliance with the Investment Advisers (IA) Regulations, 2013, and SEBI circulars issued thereunder."
-        },
-        "required_action": {
-          "before": "Conduct an annual audit by a member of Institute of Chartered Accountants of India or Institute of Company Secretaries of India and submit a report.",
-          "after": "Conduct an annual audit to ensure compliance with the IA Regulations, 2013, and SEBI circulars issued thereunder. Submit a compliance audit report within one month from the date of the audit report."
-        },
         "evidence": {
-          "before": "Audit report, adverse findings (if any), and action taken thereon.",
-          "after": "Annual compliance audit report and certificate of compliance."
+          "before": "Documentation of the adopted compliance and monitoring process, annual certificate from auditor/statutory auditor.",
+          "after": "Documentation of the adopted compliance and monitoring process, including records of onboarding new clients and handling existing clients."
         },
         "verbatim_text": {
-          "before": "In terms of regulation 19(3) of the IA Regulations, IA is required to conduct annual audit in respect of compliance with the IA regulations and circulars issued thereunder from a member of Institute of Chartered Accountants of India or Institute of Company Secretaries of India within six months from the end of each financial year. Submit a report of the same and adverse findings of the audit, if any, along with action taken thereof duly approved by the individual IA/management of the non-individual IA within a period of one month from the date of the audit report but not later than October 31st of each year for the previous financial year.",
-          "after": "As per regulation 19(3) of the IA Regulations, IA shall conduct annual audit in respect of compliance with SEBI (Investment Advisers) Regulations, 2013 and circulars issued thereunder. Annual compliance audit report shall specify each of the provisions of the IA Regulations and the circulars and guidelines issued thereunder upon which compliance is reported."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-amendments-01",
-      "title": "Provide details on implications of amendments and termination",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Amend Agreement by Mutual Written Consent",
-          "after": "Provide details on implications of amendments and termination"
-        },
-        "summary": {
-          "before": "Investment Advisers must amend the agreement only through mutual written consent of the parties.",
-          "after": "Investment Adviser must provide detailed implications of amendments, terminations, and assignments."
-        },
-        "required_action": {
-          "before": "Amend the agreement by mutual written consent of the parties.",
-          "after": "Provide details on set off of fees, refund of fees, completion/termination of investment-in-progress, transition support obligations, etc."
-        },
-        "evidence": {
-          "before": "Signed amendment document.",
-          "after": "Written document outlining the implications provided to the client"
-        },
-        "frequency": {
-          "before": "not_specified",
-          "after": "one_time"
-        },
-        "verbatim_text": {
-          "before": "8. Amendments \u2013 The agreement may be amended by mutual written consent of the parties.",
-          "after": "The implications of Amendment, Termination and assignment, such as set off of fees received by the Investment Adviser, refund of fees, completion/termination of investment-in-progress, transition support obligations of the Investment Adviser, etc. shall also be provided in detail."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-outsource-06",
-      "title": "Sub-contracting Provisions",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Access to Outsourced Facilities/Premises/Data",
-          "after": "Sub-contracting Provisions"
-        },
-        "summary": {
-          "before": "Intermediary and SEBI/SRO or authorized persons have the right to access facilities, premises, and data involved in outsourced activities.",
-          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for sub-contracting by third parties."
-        },
-        "required_action": {
-          "before": "Ensure that intermediaries and SEBI/SRO or authorized persons can access relevant facilities, premises, and data.",
-          "after": "Include in the outsourcing contract provisions addressing sub-contracting by the third party, ensuring that the intermediary maintains a similar level of control over risks."
-        },
-        "evidence": {
-          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
-          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
-        },
-        "verbatim_text": {
-          "before": "The facilities / premises / data that are involved in carrying out the outsourced activity by the service provider shall be deemed to be those of the registered intermediary. The intermediary itself and Regulator or the persons authorized by it shall have the right to access the same at any point of time.",
-          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-fiu-reporting-01",
-      "title": "Reporting Suspicious Transactions/Reports to FIU",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Reporting Suspicious Transactions to FIU",
-          "after": "Reporting Suspicious Transactions/Reports to FIU"
-        },
-        "required_action": {
-          "before": "Reporting such transactions/reports to FIU or relevant authority",
-          "after": "Report suspicious transactions/reports to FIU or competent authority."
-        },
-        "evidence": {
-          "before": "Records of reports submitted to FIU",
-          "after": "Reporting records and documentation."
-        },
-        "frequency": {
-          "before": "ongoing",
-          "after": "event_driven"
-        },
-        "verbatim_text": {
-          "before": "The intermediaries shall be responsible for reporting of any suspicious transactions / reports to FIU or any other competent authority in respect of activities carried out by the third parties.",
-          "after": "Reporting to Financial Intelligence Unit (FIU) - The intermediaries shall be responsible for reporting of any suspicious transactions / reports to FIU or any other competent authority in respect of activities carried out by the third parties."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-investor-charter-01",
-      "title": "Display Investor Charter to Clients",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Publish Investor Charter and Disclose Investor Complaints",
-          "after": "Display Investor Charter to Clients"
-        },
-        "summary": {
-          "before": "Investment Advisers must publish an investor charter on their websites/mobile applications, disclosing details of services provided to investors.",
-          "after": "Investment Advisers must disclose the investor charter on their websites and mobile applications, make it available in offices, provide a copy during client onboarding, and communicate via email/letters."
-        },
-        "required_action": {
-          "before": "Publish and maintain the investor charter on their website/mobile application.",
-          "after": "Disclose the investor charter through various means as specified."
-        },
-        "evidence": {
-          "before": "Screenshots or URLs of published investor charters.",
-          "after": "Website screenshots, office records, client onboarding documents, emails/letters sent to clients."
-        },
-        "verbatim_text": {
-          "before": "All registered IAs are advised to bring [the investor charter] on their websites/mobile applications.",
-          "after": "All the Investment Advisers shall continue to disclose on their respective websites and mobile applications (if any), the data on complaints received against them or against issues dealt by them and redressal thereof, latest by 7th of succeeding month, as per the format enclosed at Annexure C to this circular."
+          "before": "Existing clients, who wish to take advisory services, will not be eligible for availing distribution services within the group/family of IA. Similarly, existing clients who wish to take distribution services will not be eligible for availing advisory services within the group/family of IA.",
+          "after": "To ensure client level segregation at IA\u2019s group/family level, as per Regulation 22(5) of the IA Regulations, following compliance and monitoring process shall be adopted: (a) Existing clients, who wish to take advisory services, will not be eligible for availing distribution services within the group/family of IA. Similarly, existing clients who wish to take distribution services will not be eligible for availing advisory services within the group/family of IA. (b) A new client will be eligible to avail either advisory or distribution services within the group/family of IA. However, the option to avail either advisory services or distribution services shall be made available to such client at the time of on boarding. (c) Client under these guidelines shall include individual client or non-individual client. (d) The client shall have discretion to continue holding assets prior to the applicability of this segregation under the existing advisory/distribution arrangement. However, the client shall not be forced to liquidate/switch such existing holdings."
         }
       }
     },
@@ -4987,141 +5358,137 @@
       }
     },
     {
-      "obligation_id": "ia-redressal-01",
-      "title": "Approach Authorities for Redressal of Doubts/Grievances",
+      "obligation_id": "ia-news-forwarding-01",
+      "title": "Forwarding Market Related News After Approval",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Redress Investor Grievances Through SCORES Platform",
-          "after": "Approach Authorities for Redressal of Doubts/Grievances"
+          "before": "Forward market-related news only after approval",
+          "after": "Forwarding Market Related News After Approval"
         },
         "summary": {
-          "before": "Investment Advisers (IAs) must ensure that investors can lodge grievances through the SEBI Complaints Redressal System (SCORES) platform.",
-          "after": "Investment Advisers must approach the appropriate authorities for redressal of their doubts or grievances."
+          "before": "IAs must ensure that their employees forward market-related information only after it has been reviewed.",
+          "after": "Investment Advisers must forward any market-related news only after it has been seen and approved by the Compliance Officer."
         },
         "required_action": {
-          "before": "Lodge investor grievances through SCORES platform or ODR Platform.",
-          "after": "Approach the appropriate authorities to resolve issues."
+          "before": "Forward the news only after approval by Compliance Officer",
+          "after": "Forward news only after approval from Compliance Officer."
         },
         "evidence": {
-          "before": "Records of grievances lodged and responses received from SEBI.",
-          "after": "Correspondence with regulatory bodies and resolution records."
-        },
-        "frequency": {
-          "before": "not_specified",
-          "after": "event_driven"
+          "before": "Approval logs and forwarding records",
+          "after": "Approval logs and records of forwarded news."
         },
         "verbatim_text": {
-          "before": "IAs are also advised to refer to the following circulars on the redressal of investor grievances through the SEBI Complaints Redressal System (SCORES) platform and Online Dispute Resolution (ODR) Platform.",
-          "after": "Approach the appropriate authorities for redressal of your doubts / grievances."
+          "before": "Employees should be directed that any market related news received by them either in their official mail/personal mail/blog or in any other manner, should be forwarded only after the same has been seen and approved by the IA\u2019s Compliance Officer. If an employee fails to do so, he/she shall be deemed to have violated the various provisions contained in SEBI Act/Rules/Regulations etc. and shall be liable for action. The Compliance Officer shall also be held liable for breach of duty in this regard.",
+          "after": "Employees should be directed that any market related news received by them either in their official mail/personal mail/blog or in any other manner, should be forwarded only after the same has been seen and approved by the IA\u2019s Compliance Officer."
         }
       }
     },
     {
-      "obligation_id": "ia-related-parties-01",
-      "title": "Declare independent relationship with related parties",
+      "obligation_id": "ia-outsource-06",
+      "title": "Sub-contracting Provisions",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Declare Independence from Related Parties",
-          "after": "Declare independent relationship with related parties"
+          "before": "Access to Outsourced Facilities/Premises/Data",
+          "after": "Sub-contracting Provisions"
         },
         "summary": {
-          "before": "Investment Advisers must declare independence and disclose conflicts with related parties.",
-          "after": "Investment Adviser must declare that it is carrying on its activities independently and disclose any conflicts of interest."
+          "before": "Intermediary and SEBI/SRO or authorized persons have the right to access facilities, premises, and data involved in outsourced activities.",
+          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for sub-contracting by third parties."
         },
         "required_action": {
-          "before": "Declare that the activities are carried out independently at an arms-length basis, and disclose any conflicts of interest.",
-          "after": "Declare independence from related parties and disclose any conflicts of interest"
+          "before": "Ensure that intermediaries and SEBI/SRO or authorized persons can access relevant facilities, premises, and data.",
+          "after": "Include in the outsourcing contract provisions addressing sub-contracting by the third party, ensuring that the intermediary maintains a similar level of control over risks."
         },
         "evidence": {
-          "before": "Declaration document or conflict disclosure statement.",
-          "after": "Written declaration or disclosure document"
+          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
+          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
         },
         "verbatim_text": {
-          "before": "11. Relationship with related parties: The Investment Adviser to clearly declare that it is carrying on its activities independently, at an arms-length basis with its related parties. Disclosures of conflicts to be made.",
-          "after": "The Investment Adviser to clearly declare that it is carrying on its activities independently, at an arms-length basis with its related parties. Disclosures of conflicts to be made."
+          "before": "The facilities / premises / data that are involved in carrying out the outsourced activity by the service provider shall be deemed to be those of the registered intermediary. The intermediary itself and Regulator or the persons authorized by it shall have the right to access the same at any point of time.",
+          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
         }
       }
     },
     {
-      "obligation_id": "ia-supervision-01",
-      "title": "Not Impair Supervision/Inspection",
+      "obligation_id": "ia-outsource-05",
+      "title": "Continuous Monitoring and Assessment",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Supervise Investment Advisers",
-          "after": "Not Impair Supervision/Inspection"
+          "before": "Protect Investor Rights",
+          "after": "Continuous Monitoring and Assessment"
         },
         "summary": {
-          "before": "Supervise IAs both on-site and off-site.",
-          "after": "Investment Advisers shall ensure that outsourcing arrangements do not impair the ability of SEBI/SRO or auditors to exercise regulatory responsibilities."
+          "before": "Ensure outsourcing arrangements do not affect investors' rights and be liable for any loss incurred by them.",
+          "after": "Investment Advisers must continuously monitor and assess the third-party service providers to ensure compliance with legal and regulatory obligations."
         },
         "required_action": {
-          "before": "Supervise IAs including both on-site and off-site activities.",
-          "after": "Ensure supervision/inspection is not impaired"
+          "before": "Ensure that outsourcing does not affect investor rights and be liable for losses.",
+          "after": "Ensure continuous monitoring and assessment of the third party so that any necessary corrective measures can be taken up immediately, enabling the intermediary to retain an appropriate level of control over the outsourcing."
         },
         "evidence": {
-          "before": "Periodical reports, records of supervision activities.",
-          "after": "Documentation showing compliance with supervisory requirements"
+          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
+          "after": "Documentation of regular monitoring and assessment processes."
         },
         "verbatim_text": {
-          "before": "The subsidiary shall put in place systems/process for grievance redressal, administrative action against IAs, governing IAs, maintaining data, sharing of information with SEBI etc.",
-          "after": "Outsourcing arrangements shall not impair the ability of SEBI/SRO or auditors to exercise its regulatory responsibilities such as supervision/inspection of the intermediary."
+          "before": "Outsourcing arrangements shall not affect the rights of an investor or client against the intermediary in any manner. The intermediary shall be liable to the investors for the loss incurred by them due to the failure of the third party and also be responsible for redressal of the grievances received from investors arising out of activities rendered by the third party.",
+          "after": "provides for the continuous monitoring and assessment by the intermediary of the third party so that any necessary corrective measures can be taken up immediately, i.e., the contract shall enable the intermediary to retain an appropriate level of control over the outsourcing and the right to intervene with appropriate measures to meet legal and regulatory obligations;"
         }
       }
     },
     {
-      "obligation_id": "ia-outsource-policy-01",
-      "title": "Establish Outsourcing Policy",
+      "obligation_id": "ia-no-power-of-attorney-01",
+      "title": "Decline right to seek Power of Attorney",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Comprehensive Policy for Outsourcing Activities",
-          "after": "Establish Outsourcing Policy"
+          "before": "No Right to Seek Power of Attorney",
+          "after": "Decline right to seek Power of Attorney"
         },
         "summary": {
-          "before": "Investment Advisers must have a comprehensive policy in place to guide the assessment of whether and how activities can be appropriately outsourced.",
-          "after": "Develop a policy for outsourcing activities that includes risk assessment and evaluation of risks."
+          "before": "Investment Advisers must not seek power of attorney or authorizations from clients for implementing investment advice.",
+          "after": "Investment Adviser must clearly declare that it shall not seek a Power of Attorney."
         },
         "required_action": {
-          "before": "Develop and implement an outsourcing policy",
-          "after": "Develop an outsourcing policy based on risk concentrations, limits on the overall level of outsourced activities, and other relevant factors."
+          "before": "Do not seek any power of attorney or authorizations from clients.",
+          "after": "Decline right to seek Power of Attorney"
         },
         "evidence": {
-          "before": "Documentation of the outsourcing policy",
-          "after": "Policy document outlining the criteria for outsourcing and risk management practices."
-        },
-        "frequency": {
-          "before": "ongoing",
-          "after": "not_specified"
+          "before": "Client records and documentation showing no seeking of power of attorney or authorizations.",
+          "after": "Written declaration or policy document"
         },
         "verbatim_text": {
-          "before": "1. An intermediary seeking to outsource activities shall have in place a comprehensive policy to guide the assessment of whether and how those activities can be appropriately outsourced.",
-          "after": "For example, an activity shall not be outsourced if it would impair the supervisory authority\u2019s right to assess, or its ability to supervise the business of the intermediary. The policy shall be based on an evaluation of risk concentrations, limits on the acceptable overall level of outsourced activities, risks arising from outsourcing multiple activities to the same entity, etc."
+          "before": "The Investment Adviser to clearly declare that it shall not seek any power of attorney or authorizations from its clients for implementation of investment advice.",
+          "after": "The Investment Adviser to clearly declare that it shall not seek Power of Attorney:"
         }
       }
     },
     {
-      "obligation_id": "ia-records-maintenance-01",
-      "title": "Maintain records of interactions with all clients",
+      "obligation_id": "ia-outsource-04",
+      "title": "Liability for Unsatisfactory Performance",
       "match_type": "exact_id",
       "changes": {
+        "title": {
+          "before": "Full Liability for Outsourced Activities",
+          "after": "Liability for Unsatisfactory Performance"
+        },
         "summary": {
-          "before": "Investment Advisers (IAs) must maintain records of interactions with all clients, including prospective clients.",
-          "after": "IA must maintain records of all client interactions, including prospective clients."
+          "before": "Be fully liable and accountable for activities outsourced to third parties as if they were provided in-house.",
+          "after": "Investment Advisers must ensure that the outsourcing contract includes provisions for liability of the third party in case of unsatisfactory performance."
         },
         "required_action": {
-          "before": "Maintain records of interactions with all clients, including prospective clients.",
-          "after": "Maintain records of all client interactions"
+          "before": "Be fully liable and accountable for the activities outsourced.",
+          "after": "Include in the outsourcing contract provisions for the liability of the third party to the intermediary for unsatisfactory performance or other breach of the contract."
         },
         "evidence": {
-          "before": "Client interaction logs, client communication records.",
-          "after": "Client interaction records"
+          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
+          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
         },
         "verbatim_text": {
-          "before": "a. IA shall maintain records of interactions, with all clients including prospective clients (prior to onboarding), where any conversation related to advice has taken place inter alia, in the form of:",
-          "after": "IA shall maintain records with respect to his activities as an IA. In this regard, it is clarified that: a) IA shall maintain records of interactions, with all clients including prospective clients (prior to onboarding), where any conversation related to advice has taken place inter alia, in the form of: i. Physical record written & signed by client, ii. Telephone recording, iii. Email from registered email id, iv. Record of SMS messages, v. Any other legally verifiable record."
+          "before": "The intermediary shall be fully liable and accountable for the activities that are being outsourced to the same extent as if the service were provided in-house.",
+          "after": "provides for the liability of the third party to the intermediary for unsatisfactory performance/other breach of the contract;"
         }
       }
     },
@@ -5149,56 +5516,25 @@
       }
     },
     {
-      "obligation_id": "ia-fees-receipt-01",
-      "title": "Accept Fees via Specific Methods Only",
+      "obligation_id": "ia-integrity-01",
+      "title": "Maintain High Standards of Integrity",
       "match_type": "exact_id",
       "changes": {
-        "title": {
-          "before": "Receive Fees Through Banking Channel Only",
-          "after": "Accept Fees via Specific Methods Only"
-        },
         "summary": {
-          "before": "Investment Advisers must receive advisory fees only through banking channels and not in the form of cash deposits.",
-          "after": "Investment Advisers (IAs) must accept fees only through account payee crossed cheques, demand drafts, or direct credit into their bank accounts via NEFT/RTGS/IMPS/UPI. They are prohibited from accepting cash deposits."
+          "before": "Investment Advisers (IAs) must maintain high standards of integrity in their business conduct.",
+          "after": "Intermediaries must maintain high standards of integrity in the conduct of their business."
         },
         "required_action": {
-          "before": "Receive fees only through banking channels",
-          "after": "Only accept fees through account payee crossed cheques, demand drafts, or direct credit into their bank accounts via NEFT/RTGS/IMPS/UPI. Do not accept cash deposits."
+          "before": "Adhere to high standards of integrity",
+          "after": "Maintain high standards of integrity at all times."
         },
         "evidence": {
-          "before": "Bank statements, transaction records",
-          "after": "Bank statements and records of accepted payments."
+          "before": "Internal policies and procedures, compliance records",
+          "after": "Internal audit reports, compliance records."
         },
         "verbatim_text": {
-          "before": "It is observed that the IAs are receiving advisory fee in the form of cash deposit in their bank accounts or through payment gatewa",
-          "after": "To bring transparency in dealing with the clients, IAs shall accept fees strictly by account payee crossed cheques / demand draft or by way of direct credit into their bank account through NEFT/ RTGS/IMPS/UPI. It is clarified that, IAs shall not accept cash deposits."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-outsource-07",
-      "title": "Confidentiality Clauses",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Regulatory Supervision Not Impaired",
-          "after": "Confidentiality Clauses"
-        },
-        "summary": {
-          "before": "Ensure outsourcing arrangements do not impair SEBI/SRO's regulatory responsibilities.",
-          "after": "Investment Advisers must ensure that the outsourcing contract includes unambiguous confidentiality clauses."
-        },
-        "required_action": {
-          "before": "Ensure that outsourcing does not impair the ability of SEBI/SRO or auditors to exercise their regulatory responsibilities.",
-          "after": "Include in the outsourcing contract unambiguous confidentiality clauses to protect proprietary and customer data during and after the tenure of the contract."
-        },
-        "evidence": {
-          "before": "Documentation of due diligence, risk assessments, and compliance checks.",
-          "after": "Copies of the outsourcing contracts with relevant clauses highlighted."
-        },
-        "verbatim_text": {
-          "before": "Outsourcing arrangements shall not impair the ability of SEBI/SRO or auditors to exercise its regulatory responsibilities such as supervision/inspection of the intermediary.",
-          "after": "includes, where necessary, conditions of sub-contracting by the third-party, i.e. the contract shall enable intermediary to maintain a similar control over the risks when a third party outsources to further third parties as in the original direct outsourcing;"
+          "before": "iii. ensure fair treatment of their clients and not discriminate amongst them;",
+          "after": "Intermediaries and their associated persons shall, ii. at all times maintain high standards of integrity in the conduct of their business;"
         }
       }
     },
@@ -7545,25 +7881,78 @@
   ],
   "reworded": [
     {
-      "obligation_id": "ia-kyc-compliance-01",
-      "title": "Compliance with KYC Requirements",
+      "obligation_id": "ia-client-consents-01",
+      "title": "Ensure all consents before undertaking actions related to securities or investment product advised by IA",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Comply with KYC requirements",
-          "after": "Compliance with KYC Requirements"
+          "before": "Obtain Client Consents Before Actions",
+          "after": "Ensure all consents before undertaking actions related to securities or investment product advised by IA"
         },
         "summary": {
-          "before": "IAs must comply with the provisions related to Know Your Client (KYC) as per SEBI regulations.",
-          "after": "Investment Advisers must comply with the provisions of SEBI KYC (Know Your Client) Registration Agency Regulations, 2011 and Guidelines issued thereunder from time to time."
+          "before": "Investment Advisers must obtain all consents and permissions from clients before undertaking any actions related to securities or investment products.",
+          "after": "Investment Adviser must obtain all necessary consents and permissions from the client prior to taking any action."
         },
         "required_action": {
-          "before": "Comply with KYC requirements from time to time",
-          "after": "Comply with SEBI KYC regulations and guidelines."
+          "before": "Obtain all consents and permissions from clients before undertaking any actions related to securities or investment products.",
+          "after": "Obtain all necessary consents and permissions from the client"
         },
         "evidence": {
-          "before": "Documentation of compliance with KYC provisions",
-          "after": "KYC compliance records and documentation."
+          "before": "Client records and documentation showing consent obtained for each action taken.",
+          "after": "Client consent documents"
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-central-record-keeping-01",
+      "title": "Centralized Record Keeping",
+      "match_type": "exact_id",
+      "changes": {
+        "title": {
+          "before": "Centralize record keeping for outsourced activities",
+          "after": "Centralized Record Keeping"
+        },
+        "summary": {
+          "before": "Maintain central records of all outsourced activities.",
+          "after": "Preserve records related to outsourced activities centrally for easy access and review."
+        },
+        "required_action": {
+          "before": "Preserve records centrally so that they are readily accessible for review by the Board or senior management.",
+          "after": "Maintain central records of all outsourced activities that are readily accessible for review by the Board or senior management."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-complaints-status-01",
+      "title": "Display Complaints Status on Website",
+      "match_type": "exact_id",
+      "changes": {
+        "required_action": {
+          "before": "Display the status of complaints received from clients on the homepage (without scrolling) of their website or mobile app, using a font size of 12 or above and making it available monthly within 7 days after the end of the previous month.",
+          "after": "Display the status of complaints received from clients on the homepage (without scrolling) of their website/mobile app. The information should be displayed properly using font size 12 or above and made available monthly."
+        },
+        "evidence": {
+          "before": "Website screenshots showing the displayed complaint status in compliance with Annexure B7 format.",
+          "after": "Website screenshots showing the display of complaint statuses."
+        }
+      }
+    },
+    {
+      "obligation_id": "ia-vigilance-01",
+      "title": "Be Vigilant in Transactions",
+      "match_type": "exact_id",
+      "changes": {
+        "summary": {
+          "before": "Investment Advisers must be vigilant during transactions.",
+          "after": "Investment Advisers must be vigilant in their transactions."
+        },
+        "required_action": {
+          "before": "Maintain vigilance and awareness",
+          "after": "Maintain vigilance during all transactions."
+        },
+        "evidence": {
+          "before": "No specific evidence required, but records of adherence to this requirement may be requested by SEBI",
+          "after": "Internal records of transaction monitoring and review."
         }
       }
     },
@@ -7606,78 +7995,25 @@
       }
     },
     {
-      "obligation_id": "ia-central-record-keeping-01",
-      "title": "Centralized Record Keeping",
+      "obligation_id": "ia-kyc-compliance-01",
+      "title": "Compliance with KYC Requirements",
       "match_type": "exact_id",
       "changes": {
         "title": {
-          "before": "Centralize record keeping for outsourced activities",
-          "after": "Centralized Record Keeping"
+          "before": "Comply with KYC requirements",
+          "after": "Compliance with KYC Requirements"
         },
         "summary": {
-          "before": "Maintain central records of all outsourced activities.",
-          "after": "Preserve records related to outsourced activities centrally for easy access and review."
+          "before": "IAs must comply with the provisions related to Know Your Client (KYC) as per SEBI regulations.",
+          "after": "Investment Advisers must comply with the provisions of SEBI KYC (Know Your Client) Registration Agency Regulations, 2011 and Guidelines issued thereunder from time to time."
         },
         "required_action": {
-          "before": "Preserve records centrally so that they are readily accessible for review by the Board or senior management.",
-          "after": "Maintain central records of all outsourced activities that are readily accessible for review by the Board or senior management."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-vigilance-01",
-      "title": "Be Vigilant in Transactions",
-      "match_type": "exact_id",
-      "changes": {
-        "summary": {
-          "before": "Investment Advisers must be vigilant during transactions.",
-          "after": "Investment Advisers must be vigilant in their transactions."
-        },
-        "required_action": {
-          "before": "Maintain vigilance and awareness",
-          "after": "Maintain vigilance during all transactions."
+          "before": "Comply with KYC requirements from time to time",
+          "after": "Comply with SEBI KYC regulations and guidelines."
         },
         "evidence": {
-          "before": "No specific evidence required, but records of adherence to this requirement may be requested by SEBI",
-          "after": "Internal records of transaction monitoring and review."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-complaints-status-01",
-      "title": "Display Complaints Status on Website",
-      "match_type": "exact_id",
-      "changes": {
-        "required_action": {
-          "before": "Display the status of complaints received from clients on the homepage (without scrolling) of their website or mobile app, using a font size of 12 or above and making it available monthly within 7 days after the end of the previous month.",
-          "after": "Display the status of complaints received from clients on the homepage (without scrolling) of their website/mobile app. The information should be displayed properly using font size 12 or above and made available monthly."
-        },
-        "evidence": {
-          "before": "Website screenshots showing the displayed complaint status in compliance with Annexure B7 format.",
-          "after": "Website screenshots showing the display of complaint statuses."
-        }
-      }
-    },
-    {
-      "obligation_id": "ia-client-consents-01",
-      "title": "Ensure all consents before undertaking actions related to securities or investment product advised by IA",
-      "match_type": "exact_id",
-      "changes": {
-        "title": {
-          "before": "Obtain Client Consents Before Actions",
-          "after": "Ensure all consents before undertaking actions related to securities or investment product advised by IA"
-        },
-        "summary": {
-          "before": "Investment Advisers must obtain all consents and permissions from clients before undertaking any actions related to securities or investment products.",
-          "after": "Investment Adviser must obtain all necessary consents and permissions from the client prior to taking any action."
-        },
-        "required_action": {
-          "before": "Obtain all consents and permissions from clients before undertaking any actions related to securities or investment products.",
-          "after": "Obtain all necessary consents and permissions from the client"
-        },
-        "evidence": {
-          "before": "Client records and documentation showing consent obtained for each action taken.",
-          "after": "Client consent documents"
+          "before": "Documentation of compliance with KYC provisions",
+          "after": "KYC compliance records and documentation."
         }
       }
     },
