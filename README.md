@@ -65,13 +65,17 @@ Built and tested on real, public SEBI documents:
 - SEBI/HO/MIRSD-PoD-1/P/CIR/2024/50 (Investment Advisers, May 21 2024)
 - SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/94 (Investment Advisers, Jun 27 2025)
 
+A partial validation run (81 obligations) also completed against the SEBI
+Stock Broker master circular (SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90, Jun 17
+2025), confirming the pipeline extracts cleanly on a different intermediary
+category with no schema or prompt-structure change.
+
 The live SEBI monitor's first run against SEBI's actual site immediately
 flagged that a newer Investment Adviser circular (Feb 6, 2026) exists beyond
 the one this project's extraction pipeline is built on (Jun 27, 2025) --
 proof the monitor checks the live internet, not a canned snapshot, and
 correctly surfaces exactly the kind of staleness a compliance team needs to
-act on. Logged and hash-chained in `output/audit_log.json` (event index 3,
-2026-06-30T05:59:56 UTC).
+act on.
 
 ## Tech stack
 - LLM: qwen2.5:7b, self-hosted via Ollama -- local inference, no API key, no
@@ -106,6 +110,7 @@ act on. Logged and hash-chained in `output/audit_log.json` (event index 3,
     ├── dump_section.py          helper to select a section for gold labeling
     ├── diff_engine.py           change-impact engine (exact + semantic match)
     ├── operations.py            compliance register, executable rules, calendar
+    ├── enrich.py                risk scoring + department mapping (canonical)
     ├── sebi_monitor.py          live SEBI circular change monitor
     ├── build_audit_log.py       builds the audit log from pipeline outputs
     ├── dashboard.py             Streamlit dashboard
