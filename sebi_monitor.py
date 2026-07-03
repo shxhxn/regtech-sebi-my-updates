@@ -57,14 +57,17 @@ def save_known_state(state):
     OUTPUT.mkdir(exist_ok=True)
     json.dump(state, open(STATE_PATH, "w"), indent=2)
 
-def main():
-    print(f"Checking SEBI's master circulars listing for: {', '.join(TRACKED_CATEGORIES)}")
-    try:
-        html = fetch_listing_html()
-    except Exception as e:
-        print(f"ERROR fetching SEBI listing page: {e}")
-        return
-
+def check_for_new_circulars():
+    """Fetches SEBI's live listing and compares each tracked category's latest
+    circular against output/known_circulars.json. Returns (alerts, latest):
+    alerts is the list of (category, prev, new) tuples for categories whose
+    latest circular differs from what we last saw; latest is every tracked
+    category's current row, needed by callers (e.g. main() below) that also
+    want to refresh last_checked timestamps for unchanged categories without
+    re-fetching. Does not persist any state itself -- callers decide when to
+    save, so a second caller (like run_auto_pipeline.py) can re-check without
+    accidentally marking a not-yet-processed circular as "known"."""
+    html = fetch_listing_html()
     rows = parse_circulars(html, TRACKED_CATEGORIES)
     latest = latest_per_category(rows)
     known = load_known_state()
@@ -74,6 +77,15 @@ def main():
         prev = known.get(cat)
         if prev is None or prev.get("url") != row["url"]:
             alerts.append((cat, prev, row))
+    return alerts, latest
+
+def main():
+    print(f"Checking SEBI's master circulars listing for: {', '.join(TRACKED_CATEGORIES)}")
+    try:
+        alerts, latest = check_for_new_circulars()
+    except Exception as e:
+        print(f"ERROR fetching SEBI listing page: {e}")
+        return
 
     if not alerts:
         print("No changes detected -- all tracked circulars match the last known version.")
@@ -98,6 +110,7 @@ def main():
         except ImportError:
             pass
 
+    known = load_known_state()
     for cat, row in latest.items():
         known[cat] = {"date": row["date"], "title": row["title"], "url": row["url"],
                        "last_checked": datetime.now(timezone.utc).isoformat()}

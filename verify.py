@@ -43,6 +43,25 @@ def ground_score(verbatim, source_norm, source_alnum):
 def band_for(s):
     return "grounded" if s >= 90 else ("partial" if s >= 75 else "flagged")
 
+# ---------- source excerpt: where in the raw PDF text was this matched? ----------
+EXCERPT_CONTEXT_CHARS = 100
+
+def extract_excerpt(verbatim, source):
+    """Best-effort ~100-chars-either-side excerpt of where verbatim_text was
+    matched in the raw (untouched, non-normalized) source PDF text, for
+    on-screen provenance display. Runs its own alignment against the raw
+    source rather than reusing ground_score's normalized/despaced matching,
+    so the returned character positions are always valid slice indices into
+    `source`. Purely additive -- never reads or writes grounding_score/
+    grounding_band/confidence."""
+    v = (verbatim or "").strip()
+    if not v or not source:
+        return ""
+    alignment = fuzz.partial_ratio_alignment(v, source)
+    start = max(0, alignment.dest_start - EXCERPT_CONTEXT_CHARS)
+    end = min(len(source), alignment.dest_end + EXCERPT_CONTEXT_CHARS)
+    return " ".join(source[start:end].split())
+
 # ---------- completeness + clause quality ----------
 def completeness(ob):
     fields = ["required_action", "evidence", "trigger", "source_clause", "verbatim_text"]
@@ -99,6 +118,7 @@ def verify_file(obligations_path, pdf_path, out_path, label):
         ob["grounding_band"] = gband
         ob["confidence"] = conf
         ob["confidence_band"] = cband
+        ob["source_excerpt"] = extract_excerpt(ob.get("verbatim_text", ""), source)
         grounded += gband == "grounded"; partial += gband == "partial"; flagged += gband == "flagged"
         hi += cband == "High"; mid += cband == "Medium"; lo += cband == "Low"
 
