@@ -1,4 +1,5 @@
 import streamlit as st
+import sys
 import json
 import html
 import base64
@@ -850,7 +851,7 @@ def render_overview():
         if alerts_found:
             if ollama_reachable():
                 if st.button("Run full pipeline now", key="ov_run_pipeline"):
-                    subprocess.Popen(["python3", "run_auto_pipeline.py"], cwd=str(ROOT))
+                    subprocess.Popen([sys.executable, "run_auto_pipeline.py"], cwd=str(ROOT))
                     st.success("Pipeline launched in the background. Use \"Refresh status\" below to check progress.")
             else:
                 st.info("Local extraction not available here -- run `python3 run_auto_pipeline.py` from your terminal.")
