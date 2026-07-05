@@ -98,5 +98,26 @@
     },
     "prev_hash": "3c718b40fd9aca02c95c38a20103002f9aaeb9d4f7469975b1d2ae265ad48157",
     "hash": "4d1296960ecebf585565d6f22c8dafedc19c78ed4ee50ccf0d9e9aeadb8cda3f"
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-07-05T17:34:04.733044+00:00",
+    "event_type": "sebi_monitor_change_detected",
+    "details": {
+      "changes": [
+        {
+          "category": "Investment Advisers",
+          "new_date": "Feb 06, 2026",
+          "new_url": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-investment-advisers_99569.html"
+        },
+        {
+          "category": "Stock Brokers",
+          "new_date": "Jun 17, 2025",
+          "new_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-stock-brokers_94623.html"
+        }
+      ]
+    },
+    "prev_hash": "4d1296960ecebf585565d6f22c8dafedc19c78ed4ee50ccf0d9e9aeadb8cda3f",
+    "hash": "0e54c4f18bf8c874af61a24c7b8cdb2baf1b1fe0b1073e0d8489e48b2e444804"
   }
 ]
