@@ -1,7 +1,11 @@
 .env
 .env.save
 venv/
+.venv/
 __pycache__/
+*.py[cod]
+.DS_Store
+tempCodeRunnerFile.py
 data/raw/
 output/progress.json
 output/progress_2024.json
