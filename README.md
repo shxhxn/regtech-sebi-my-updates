@@ -140,6 +140,6 @@ Extraction runs entirely on a local Ollama model (qwen2.5:7b) — no API keys, n
 
 ## Project walkthrough
 
-The [LinkedIn carousel](linkedin-post/SEBI-REGTECH-LinkedIn-Carousel.pdf) walks through the dashboard using actual screenshots and saved demo outputs. The [post caption](linkedin-post/caption.txt), [posting guide](linkedin-post/POSTING-GUIDE.md), and [numbered slide images](linkedin-post/images/) accompany it.
+The [nine LinkedIn post images](linkedin-post/images/) walk through the dashboard using actual website screenshots and saved demo outputs. Each image shows a feature with a short explanation. The [post caption](linkedin-post/caption.txt) and [posting guide with verified 100+ reaction references](linkedin-post/POSTING-GUIDE.md) accompany them.
 
 Built with collaborator [Zayed Jawaid](https://www.linkedin.com/in/zayed-jawaid-250985379/) for a SEBI hackathon. The walkthrough presents a prototype for human compliance review, with full automatic processing currently focused on Investment Advisers.

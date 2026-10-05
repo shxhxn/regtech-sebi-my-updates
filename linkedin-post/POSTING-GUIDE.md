@@ -1,56 +1,54 @@
-# SEBI-REGTECH LinkedIn post
+# SEBI-REGTECH: image post
 
-Upload `SEBI-REGTECH-LinkedIn-Carousel.pdf` as a **document post** for the swipe experience. Use the document title **SEBI-REGTECH: A walkthrough of the compliance dashboard**. Paste `caption.txt` into the post. Replace the plain-text name Zayed Jawaid with a LinkedIn @mention selected from the mention picker. Use [Zayed Jawaid's profile](https://www.linkedin.com/in/zayed-jawaid-250985379/) to confirm the correct person.
+Upload the nine PNG files in `images/` as photos, in numerical order from `slide-1.png` to `slide-9.png`. All are 1600 pixels wide: eight are square, and image 7 is a 1600 × 960 Automation close-up to fit the actual panel without empty space. Paste `caption.txt` as the post text. The new ZIP contains the nine images only.
 
-The caption includes the [project repository](https://github.com/shxhxn/regtech-sebi-my-updates).
+Tag **Zayed Jawaid** by selecting his name from LinkedIn's @mention picker. Confirm the person using [his profile](https://www.linkedin.com/in/zayed-jawaid-250985379/). A typed name or pasted profile link does not create an @mention.
 
-The `images` folder contains the numbered slides if you prefer a photo post. Upload them in numerical order. The PDF is the recommended format for this particular walkthrough, because it preserves the page order and portrait layout. The local `screenshots` folder preserves real captures from the running app and is excluded from Git along with temporary build files and the duplicate ZIP archive.
+Use these five hashtags, already included in the caption: **#RegTech #FinTech #Compliance #Python #BuildInPublic**.
 
-## Exact slide order and website evidence
+Mention the hackathon origin once and credit Zayed. Omit the competition result: this post explains the product and the collaboration. It makes no prize, endorsement or approval claim.
 
-| Slide | Heading | Actual website image | Point the reader should understand |
-| --- | --- | --- | --- |
-| 1 | SEBI circulars become clear compliance tasks | Overview header and KPI strip, with a close view of priority obligations | The prototype helps Investment Adviser compliance teams review and track extracted obligations. |
-| 2 | Each obligation has an action and evidence | All Obligations search for “annual audit”, with one record expanded | A team can find a task, see expected evidence and inspect its source. |
-| 3 | Source checks make review visible | Trust & Verification match counts and a matched source excerpt | The saved demo has 277 grounded quotations, 14 partial matches and 8 review flags. |
-| 4 | Duties organised by when they recur | What's Due with Recurring selected and the monthly complaint disclosure expanded | Recurrence and trigger categories help organise work. Exact dates require additional handling. |
-| 5 | A register for tracking progress | My Register's firm selector and an expanded obligation's saved status | A team can change and save review status. Demo completion percentages are user-entered. |
-| 6 | Circular changes shown before and after | What Changed's expanded PAN obligation, focused on before/after source text | Related obligations can be compared across versions for human review. |
-| 7 | New circulars enter the update workflow | Overview's Automation panel and recorded pipeline status | The monitor and local processing pipeline connect source discovery to refreshed outputs. |
-| 8 | Structured rules for downstream systems | Pipeline Operations' sample rule | The output contains trigger, action, evidence and breach-review fields. |
-| 9 | Pipeline history with integrity checks | Trust & Audit's hash-chain entries | The verifier detects modifications that break the retained hash chain. |
+## Exact image sequence
 
-## Presentation decisions
+Every image leads with a fresh capture of the running website, followed by one headline and a short explanation. The website gets a large frame rather than being a small illustration beside oversized text. Most captures retain the page navigation; Automation uses a closer view of its actual panel. There are no invented interfaces or text-only slides.
 
-- One feature and one reader benefit per slide.
-- Actual browser screenshots, with focus crops. No generated website interfaces, decorative illustrations or fabricated results.
-- Large headings, a restrained navy/blue palette and portrait pages. Dense screenshot text is supporting evidence; the large slide text explains the feature without requiring the reader to decode the interface.
-- Name the intended user early: Investment Adviser compliance teams. Avoid claiming the full workflow supports every regulated firm.
-- Credit Zayed and mention the hackathon once in the caption. The competition outcome does not need to be part of a product walkthrough. Do not claim selection, prizes, SEBI approval or endorsement.
-- Keep the caption detailed and the slides concise. Use the five hashtags at the end of the caption. Tag Zayed through his actual LinkedIn profile. Do not tag unrelated accounts simply to seek reach.
+| Image | Actual website view | Explanation headline |
+|---|---|---|
+| 1 | Overview, dataset metrics and priority obligations | From SEBI circulars to compliance tasks. |
+| 2 | All Obligations, “annual audit” search and expanded auditor-certificate record | Find the task. Read the source. |
+| 3 | Trust & Verification, source-match counts and review queue | Check what the AI extracted. |
+| 4 | What's Due, recurring duties and expanded monthly complaint disclosure | See when an obligation applies. |
+| 5 | My Register, firm filter and expanded status control | Track progress in one register. |
+| 6 | What Changed, expanded PAN obligation with before/after fields | Review changes before taking action. |
+| 7 | Overview's Automation panel and recorded pipeline state | Bring new circulars into the workflow. |
+| 8 | Pipeline Operations, processing stages and sample rule | Turn extracted duties into structured rules. |
+| 9 | Audit Trail, integrity status and linked events | Keep a record of the processing history. |
 
-## What the project analysis established
+## Verified 100+ reaction references
 
-The README describes the original 2024/2025 demo. The current saved output is a later Investment Adviser dataset from the February 2026 master circular. It contains 299 obligations, with 291 in the grounded or partial bands and 8 flagged. `291 / 299 = 97.3%` is a quotation-match measure. It is not a measured legal interpretation accuracy score, extraction recall, or proof that all obligations were captured.
+These four public LinkedIn software posts exceeded 100 **total reactions** when checked on 5 October 2026. These are not Like-only totals or impression counts. Each main post's reaction control was corroborated against its public structured data. Comment reactions were excluded.
 
-The saved change report compares the 269-obligation archived 2025 extraction with the 299-obligation 2026 extraction. It reports 101 added, 138 modified, 71 removed and 60 reworded entries. The interface still hard-codes the years 2024 and 2025. The carousel focuses on the actual before/after record and avoids repeating those obsolete labels or presenting detected changes as confirmed legal changes.
+| Post | Reactions | Format inspected | Observation applied here |
+|---|---:|---|---|
+| [Kelly Vaughn: idea to working app](https://www.linkedin.com/posts/kellyvaughn_how-in-the-world-did-i-go-from-idea-to-functional-activity-7338230098539556866-19Dm) | 108 | Static image | Three large phone mockups show the app. Here: let the website dominate the visual. |
+| [Jackie Henning: book recommendation app](https://www.linkedin.com/posts/jacquelinehenning_this-app-isnt-flashy-but-i-built-it-and-activity-7357046055445647361-vw3e) | 116 | Video thumbnail | A large browser window shows a specific interaction. Here: show a search, expanded obligation or status control. |
+| [Linear: UI redesign](https://www.linkedin.com/posts/linearapp_we-redefined-the-foundational-layers-of-linear-activity-7179202393891311617-SNdO) | 310 | Static article visual | One large page fills a restrained frame. This is an article visual, not an application screenshot. Here: keep the frame simple. |
+| [Linear: Product Intelligence](https://www.linkedin.com/posts/linearapp_introducing-product-intelligence-ai-assisted-activity-7361778355756486658-_3e0) | 427 | Video thumbnail and launch copy | Copy names specific jobs the feature handles. Here: connect each screen to a compliance task. |
 
-The Overview ingestion card selects the last downloaded circular, which is a Stock Broker download, beside metrics from the Investment Adviser dataset. The carousel's Overview crops exclude that misleading combination. No application source or saved compliance data was changed to produce the slides.
+The video examples inform visible product presentation and copy, not an assumption that images perform like video. These observations are editorial inferences. They do not isolate why the posts earned reactions; audiences, distribution, topic and timing differ. Clearer images cannot guarantee 100 likes for another account.
 
-“Gaps” come from missing extracted evidence descriptions and absent deadline fields on triggered records. They are not an audit of a firm's uploaded documents. My Register currently changes statuses; it does not provide an evidence-upload or owner-assignment workflow. Rule objects are generated for downstream use; this is not automatic real-world enforcement. The monitor reads SEBI listings, and the full processing path is wired for Investment Advisers. Stock Broker processing in that automatic path is download-only. The audit verifier checks retained hashes; the project does not establish independently anchored or immutable storage.
+The previously referenced Wecan compliance post had 22 reactions when checked and was excluded from this comparison. A student research-assistant project checked alongside these had 46 and was also excluded. Search-result numbers were not treated as reaction counts.
 
-## Research and engagement
+## Accuracy of the product description
 
-I reviewed public product posts rather than treating generic carousel advice as proof of performance:
+The saved demo has 299 Investment Adviser obligations from the February 2026 master circular: 277 grounded quotations, 14 partial matches and 8 flags. The displayed 97.3% is `(277 + 14) / 299`, measuring quotation traceability rather than legal interpretation accuracy or extraction completeness.
 
-1. [Linear: Product Intelligence launch](https://www.linkedin.com/posts/linearapp_introducing-product-intelligence-ai-assisted-activity-7361778355756486658-_3e0). Names concrete jobs the feature handles and identifies its preview status. Adaptation here: explain the actual user task on each slide and state prototype scope.
-2. [Linear: UI redesign](https://www.linkedin.com/posts/linearapp_we-redefined-the-foundational-layers-of-linear-activity-7179202393891311617-SNdO). Presents the application and offers implementation context. Adaptation here: show actual screens and place technical detail after the product explanation.
-3. [Wecan: Compliance Copilot demo](https://www.linkedin.com/posts/wecangroup_ai-is-starting-to-significantly-simplify-activity-7441717881471533056-_fAB). Walks through concrete compliance workflows using a product demonstration. Adaptation here: arrange the carousel as a workflow a compliance team can follow.
+Status percentages reflect the saved demo register, not independently verified firm compliance. “Gaps” flag missing extracted evidence descriptions or missing deadline fields on triggered records; there is no uploaded-evidence audit. My Register changes and saves statuses. Calendar dates are not inferred from unstated deadlines.
 
-These public pages did not provide reliable comparable impression and reaction data. They cannot establish what caused higher likes or predict 100 likes for this account. Their presentation patterns informed the design; they are not evidence of an engagement formula.
+Change detection compares extracted datasets: additions, removals and modifications are review candidates. Structured rule objects are output for integration, not real-world enforcement. Complete automatic processing currently covers Investment Advisers; the broker update path is download-only. Audit checks verify the retained hash chain, without independent storage anchoring.
 
-[LinkedIn's document upload guidance](https://www.linkedin.com/help/linkedin/answer/a519831) supports PDF uploads, recommends PDF for quality, and explains adding a document title and post description. It currently lists a 100 MB / 300-page limit, well above this carousel.
+Before capture, stale year labels were replaced with previous/current version labels, the Overview source card was matched to the active dataset's firm category, and its percentage was labelled “Recorded progress”. Change labels now describe extraction comparisons. These are actual application changes, not overlays on screenshots. Saved obligations and statuses were unchanged.
 
-For this post, my editorial recommendation is to lead with the firm's problem, show working screens, credit the collaborator and ask one question that invites relevant feedback. Publish when you can respond to comments, answer specific questions with product evidence, and invite Zayed to add his own account of the collaboration if he wants to. There is no supported basis here for a guaranteed posting time, mandatory first-comment link trick or fixed reaction count.
+## Posting
 
-If you want to assess performance afterwards, compare impressions, reactions, comments and profile visits with your prior project post at the same elapsed time. Raw likes alone cannot explain whether the presentation or the size of the reached audience changed.
+Lead with the caption's problem statement. Credit Zayed with an actual mention and retain the repository link. Respond to relevant questions with project details. The closing question asks about a specific workflow rather than requesting likes. Compare impressions, reactions and meaningful comments with the earlier post at the same elapsed time after publication.

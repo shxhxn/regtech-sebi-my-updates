@@ -294,7 +294,7 @@ PIPELINE_STAGES = [
     ("Grounding Verification", "rapidfuzz vs source PDF"),
     ("Risk/Department Enrichment", "keyword rules"),
     ("Rule Engine + Compliance Register", "operations.py"),
-    ("Diff Engine", "2024 vs 2025"),
+    ("Diff Engine", "Across versions"),
     ("Audit Log", "hash chain"),
     ("Dashboard", "this app"),
 ]
@@ -692,7 +692,7 @@ def render_overview():
         '<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:8px;">'
         + stat_card(n, "Total obligations")
         + stat_card(urgent if has_risk else "-", "Critical / High risk", value_color="#b91c1c" if has_risk and urgent else None)
-        + stat_card(f"{pct}%", "Compliance score")
+        + stat_card(f"{pct}%", "Recorded progress")
         + stat_card(len(gap_ids), "Gaps flagged", value_color="#b45309" if gap_ids else None)
         + stat_card(f"{traceable_pct}%" if traceable_pct is not None else "-", "Source-traceable")
         + '</div>'
@@ -720,7 +720,13 @@ def render_overview():
     col_l, col_r = st.columns([1.5, 1])
     with col_l:
         manifest = load_manifest()
-        latest_circular = max(manifest.values(), key=lambda v: v.get("processed_at", "")) if manifest else None
+        # Match the ingestion card to the active obligation dataset, rather
+        # than a later download-only circular for another firm category.
+        category_keys = {"Investment Advisers": "investment_adviser", "Stock Brokers": "stock_broker", "Research Analysts": "research_analyst"}
+        active_firms = {firm for o in obligations for firm in (o.get("applies_to") or [])}
+        matching_circulars = [entry for entry in manifest.values()
+                              if category_keys.get(entry.get("category")) in active_firms]
+        latest_circular = max(matching_circulars, key=lambda v: v.get("processed_at", "")) if matching_circulars else None
         run_info = last_automation_run()
 
         if latest_circular:
@@ -749,7 +755,7 @@ def render_overview():
         )
         st.markdown(
             '<div class="stat-card">'
-            '<h5 style="margin-top:0;">Recent Circular Ingestion</h5>'
+            '<h5 style="margin-top:0;">Source Circular for This Dataset</h5>'
             + header_line
             + (f'<div style="margin-top:10px;">{strip_html}</div>' if strip_html else '')
             + run_text + mini + '</div>',
@@ -956,7 +962,7 @@ def render_due():
 
 
 def render_changed():
-    st.markdown("#### What Changed - 2024 to 2025")
+    st.markdown("#### What Changed")
     st.markdown('<p class="meta">What changed in the new circular, and exactly what it now requires you to do.</p>', unsafe_allow_html=True)
 
     narrative = load_json("change_narrative.json")
@@ -972,7 +978,7 @@ def render_changed():
     has_reworded = "reworded" in s
     n_cols = 7 if has_reworded and "modified_via_semantic_match" in s else (6 if has_reworded else 5)
     cols = st.columns(n_cols)
-    cols[0].metric("2024", s["total_2024"]); cols[1].metric("2025", s["total_2025"])
+    cols[0].metric("Previous version", s["total_2024"]); cols[1].metric("Current version", s["total_2025"])
     cols[2].metric("New", s["added"]); cols[3].metric("Modified", s["modified"]); cols[4].metric("Removed", s["removed"])
     next_col = 5
     if has_reworded:
@@ -983,7 +989,7 @@ def render_changed():
     st.write("")
 
     if r["added"]:
-        st.markdown(f'<h5><span class="pill pill-new">New</span>&nbsp;&nbsp;{s["added"]} obligation(s) added in 2025</h5>', unsafe_allow_html=True)
+        st.markdown(f'<h5><span class="pill pill-new">New</span>&nbsp;&nbsp;{s["added"]} obligation(s) newly extracted</h5>', unsafe_allow_html=True)
         for o in r["added"]:
             title = o.get("title") or (o.get("required_action") or "")[:60]
             with st.expander(title):
@@ -1002,7 +1008,7 @@ def render_changed():
 
     if r["modified"]:
         st.write("")
-        st.markdown(f'<h5><span class="pill pill-mod">Modified</span>&nbsp;&nbsp;{s["modified"]} obligation(s) genuinely changed</h5>', unsafe_allow_html=True)
+        st.markdown(f'<h5><span class="pill pill-mod">Modified</span>&nbsp;&nbsp;{s["modified"]} change candidate(s) for review</h5>', unsafe_allow_html=True)
         st.markdown('<p class="meta">The source clause text itself, or its frequency/deadline, changed -- this needs a look.</p>', unsafe_allow_html=True)
         for o in r["modified"]:
             label = o.get('title','')
@@ -1036,11 +1042,11 @@ def render_changed():
 
     if r["removed"]:
         st.write("")
-        st.markdown(f'<h5><span class="pill pill-rem">Removed</span>&nbsp;&nbsp;{s["removed"]} no longer present</h5>', unsafe_allow_html=True)
+        st.markdown(f'<h5><span class="pill pill-rem">Removed</span>&nbsp;&nbsp;{s["removed"]} not matched in the current extraction</h5>', unsafe_allow_html=True)
         for o in r["removed"]:
             with st.expander(f"{o.get('title','')}"):
                 st.markdown(f'<p class="mono">{esc(o["obligation_id"])}</p>', unsafe_allow_html=True)
-                st.markdown(f"No longer required: **{o.get('required_action','-')}**")
+                st.markdown(f"Previously extracted action: **{o.get('required_action','-')}**")
                 if o.get("source_clause"):
                     st.markdown(f'Was: <span class="clause">{esc(o.get("source_clause"))}</span>', unsafe_allow_html=True)
 
@@ -1159,7 +1165,7 @@ def render_register():
 
 def render_all():
     st.markdown("#### All Obligations")
-    st.markdown('<p class="meta">The complete 2025 obligation graph -- browse, search, and filter by any dimension. For your day-to-day view, use My Register.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="meta">Browse, search, and filter the current obligation dataset. For your day-to-day view, use My Register.</p>', unsafe_allow_html=True)
     obligations, verified = _obligations, _verified
     if obligations is None:
         st.info("No obligations yet. Run extract_full.py, then refresh.")

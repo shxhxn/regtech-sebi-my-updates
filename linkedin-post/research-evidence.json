@@ -1,0 +1,45 @@
+{
+  "method": "Main post public reaction control corroborated by structured data; total reactions, not Like-only counts.",
+  "posts": [
+    {
+      "reference": "kelly-app",
+      "url": "https://www.linkedin.com/posts/kellyvaughn_how-in-the-world-did-i-go-from-idea-to-functional-activity-7338230098539556866-19Dm",
+      "checked_on": "2026-10-05",
+      "total_reactions": 108,
+      "rendered_control_label": "108 Reactions",
+      "structured_data_count": 108,
+      "published_at": "2025-06-10T15:46:33.181Z",
+      "schema_type": "SocialMediaPosting"
+    },
+    {
+      "reference": "jackie-app",
+      "url": "https://www.linkedin.com/posts/jacquelinehenning_this-app-isnt-flashy-but-i-built-it-and-activity-7357046055445647361-vw3e",
+      "checked_on": "2026-10-05",
+      "total_reactions": 116,
+      "rendered_control_label": "116 Reactions",
+      "structured_data_count": 116,
+      "published_at": "2025-08-01T13:54:26.884Z",
+      "schema_type": "VideoObject"
+    },
+    {
+      "reference": "linear-redesign",
+      "url": "https://www.linkedin.com/posts/linearapp_we-redefined-the-foundational-layers-of-linear-activity-7179202393891311617-SNdO",
+      "checked_on": "2026-10-05",
+      "total_reactions": 310,
+      "rendered_control_label": "310 Reactions",
+      "structured_data_count": 310,
+      "published_at": "2024-03-28T19:47:13.805Z",
+      "schema_type": "SocialMediaPosting"
+    },
+    {
+      "reference": "linear-intelligence",
+      "url": "https://www.linkedin.com/posts/linearapp_introducing-product-intelligence-ai-assisted-activity-7361778355756486658-_3e0",
+      "checked_on": "2026-10-05",
+      "total_reactions": 427,
+      "rendered_control_label": "427 Reactions",
+      "structured_data_count": 427,
+      "published_at": "2025-08-14T15:18:55.214Z",
+      "schema_type": "VideoObject"
+    }
+  ]
+}

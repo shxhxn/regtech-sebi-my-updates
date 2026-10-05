@@ -4,7 +4,7 @@ Zayed Jawaid and I built SEBI-REGTECH, a regulatory compliance prototype that tu
 
 The goal: give a team a clearer view of what it needs to do, what evidence it needs, and what needs attention when the source changes.
 
-Swipe through the actual website:
+Explore the nine actual website screenshots:
 
 1. Overview
 A snapshot of extracted obligations, risk labels, recorded progress and review gaps. The screenshots use saved demo data, not a firm's compliance results.
