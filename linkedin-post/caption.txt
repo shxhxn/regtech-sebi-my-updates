@@ -1,0 +1,44 @@
+A SEBI circular changes. What should a firm's compliance team do next?
+
+Zayed Jawaid and I built SEBI-REGTECH, a regulatory compliance prototype that turns SEBI circulars into structured obligations teams can search, review and track. We originally built it for a SEBI hackathon.
+
+The goal: give a team a clearer view of what it needs to do, what evidence it needs, and what needs attention when the source changes.
+
+Swipe through the actual website:
+
+1. Overview
+A snapshot of extracted obligations, risk labels, recorded progress and review gaps. The screenshots use saved demo data, not a firm's compliance results.
+
+2. All Obligations
+Search and filter by frequency, risk and department. Each record includes a required action, expected evidence, source clause and quoted text.
+
+3. Trust & Verification
+Deterministic Python checks match extracted quotations against the source PDF. The saved run contains 299 obligations: 277 grounded, 14 partial matches and 8 flagged for review. The 97.3% figure measures source traceability, not extraction accuracy or completeness.
+
+4. What's Due
+Organises recurring, event-driven, ongoing and one-time obligations. It shows stated time limits when extracted, rather than inventing calendar dates.
+
+5. My Register
+Filter by firm type, update an obligation's status and save progress. Review flags highlight missing evidence descriptions or missing deadline fields for triggered obligations.
+
+6. What Changed
+Compares extracted obligations across circular versions and shows before/after text. Local semantic matching helps recognise related obligations even when their IDs or wording differ. Change candidates still need human review.
+
+7. Automation
+Checks SEBI's public listings. With local Ollama running, the update pipeline can download and process a new Investment Adviser circular, verify it and refresh the outputs.
+
+8. Pipeline Operations
+Shows the processing stages and generates structured rule objects with triggers, evidence requirements and breach-review actions for a future enforcement integration.
+
+9. Audit Trail
+Records pipeline events in a SHA-256 hash chain and checks the chain for modifications.
+
+Built with Python, Streamlit, Pydantic, pdfplumber, RapidFuzz, sentence-transformers and Qwen2.5 via Ollama. Extraction runs locally.
+
+The current end-to-end workflow focuses on Investment Advisers. It is a prototype supporting human compliance review.
+
+If you work in compliance, which would help most in your daily workflow: source-linked obligations, change comparison or progress tracking?
+
+Code: https://github.com/shxhxn/regtech-sebi-my-updates
+
+#RegTech #FinTech #Compliance #Python #BuildInPublic

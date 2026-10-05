@@ -14,3 +14,6 @@ output/failed_chunks_2024.json
 output/demo_extraction.json
 output/known_circulars.json
 output/archive_*/
+linkedin-post/.build/
+linkedin-post/screenshots/
+linkedin-post/*.zip

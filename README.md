@@ -137,3 +137,9 @@ act on.
 - Full local pipeline: `pip install -r requirements-pipeline.txt`
 
 Extraction runs entirely on a local Ollama model (qwen2.5:7b) — no API keys, no external calls.
+
+## Project walkthrough
+
+The [LinkedIn carousel](linkedin-post/SEBI-REGTECH-LinkedIn-Carousel.pdf) walks through the dashboard using actual screenshots and saved demo outputs. The [post caption](linkedin-post/caption.txt), [posting guide](linkedin-post/POSTING-GUIDE.md), and [numbered slide images](linkedin-post/images/) accompany it.
+
+Built with collaborator [Zayed Jawaid](https://www.linkedin.com/in/zayed-jawaid-250985379/) for a SEBI hackathon. The walkthrough presents a prototype for human compliance review, with full automatic processing currently focused on Investment Advisers.
