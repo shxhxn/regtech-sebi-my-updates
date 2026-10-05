@@ -1,6 +1,26 @@
-# SEBI-REGTECH: image post
+# SEBI-REGTECH: recommended document carousel
 
-Upload the nine PNG files in `images/` as photos, in numerical order from `slide-1.png` to `slide-9.png`. All are 1600 pixels wide: eight are square, and image 7 is a 1600 × 960 Automation close-up to fit the actual panel without empty space. Paste `caption.txt` as the post text. The new ZIP contains the nine images only.
+For this nine-screen product walkthrough, my recommendation is one LinkedIn document carousel. The PDF is `output/pdf/SEBI-REGTECH-LinkedIn-Carousel.pdf` in the repository. It embeds the nine approved PNGs in numerical order; the original PNGs remain unchanged. The wide Automation image is fitted on the same square page size as the other eight, with a matching background. There is no redesigned cover or added closing slide.
+
+This is a presentation recommendation: the project benefits from a fixed page-by-page sequence. It is not evidence that a PDF will get more likes than an image gallery. Socialinsider's current business-page benchmark says multi-image posts lead on raw likes; its Q2 2026 engagement rates are 6.90% for multi-image and 6.60% for native documents. Those results do not predict this personal account's performance. [Benchmark and methodology](https://www.socialinsider.io/social-media-benchmarks/linkedin).
+
+## Exact upload steps
+
+1. Start one post on LinkedIn.
+2. Select More, then Add a document (label may vary between mobile and desktop).
+3. Choose `SEBI-REGTECH-LinkedIn-Carousel.pdf`.
+4. Set the document title to **SEBI-REGTECH: From circulars to compliance tasks**.
+5. Paste the updated `linkedin-post/caption.txt` into the post description.
+6. Select Zayed's actual @mention, check the preview shows all nine pages in order, and publish when you are available to respond.
+
+[LinkedIn's document-upload instructions](https://www.linkedin.com/help/linkedin/answer/a519831) recommend PDF, require consistent page sizes, and list a 100 MB / 300-page limit. This carousel is nine pages and well below that size limit.
+
+If you choose a photo post instead, upload all nine PNGs together in one post, in numerical order. All are 1600 pixels wide; image 7 is a wide panel close-up. Do not publish nine separate posts to explain this single project. The existing image-only ZIP remains available.
+
+## Updated caption
+
+The caption now includes a concrete annual-audit example, a swipe instruction and a specific closing question. It still explains all nine features, credits Zayed, states the prototype scope and includes the repository link and five hashtags. No extra generic motivational paragraph is needed. Add a live demo URL only if you have a working public deployment; none was verified for this post. Mention a specific contribution by Zayed only if you can state it accurately. Do not invent client results, time savings, accuracy or adoption metrics.
+
 
 Tag **Zayed Jawaid** by selecting his name from LinkedIn's @mention picker. Confirm the person using [his profile](https://www.linkedin.com/in/zayed-jawaid-250985379/). A typed name or pasted profile link does not create an @mention.
 

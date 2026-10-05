@@ -2,9 +2,11 @@ A SEBI circular changes. What should a firm's compliance team do next?
 
 Zayed Jawaid and I built SEBI-REGTECH, a regulatory compliance prototype that turns SEBI circulars into structured obligations teams can search, review and track. We originally built it for a SEBI hackathon.
 
-The goal: give a team a clearer view of what it needs to do, what evidence it needs, and what needs attention when the source changes.
+The goal: help a team find required actions, expected evidence and changes that need attention.
 
-Explore the nine actual website screenshots:
+For example: search 'annual audit', open the auditor-certificate obligation, and inspect its action, evidence and quoted source in one record.
+
+Swipe through the nine actual website screens:
 
 1. Overview
 A snapshot of extracted obligations, risk labels, recorded progress and review gaps. The screenshots use saved demo data, not a firm's compliance results.
@@ -37,7 +39,7 @@ Built with Python, Streamlit, Pydantic, pdfplumber, RapidFuzz, sentence-transfor
 
 The current end-to-end workflow focuses on Investment Advisers. It is a prototype supporting human compliance review.
 
-If you work in compliance, which would help most in your daily workflow: source-linked obligations, change comparison or progress tracking?
+Which would you explore first: source verification, change comparison or the compliance register?
 
 Code: https://github.com/shxhxn/regtech-sebi-my-updates
 
