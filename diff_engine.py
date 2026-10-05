@@ -16,6 +16,7 @@ TEXT_SIMILARITY_THRESHOLD = 92  # rapidfuzz ratio (0-100); below this = genuinel
 def _normalize(t):
     return " ".join((t or "").lower().split())
 
+
 def load_obligations(path) -> dict:
     with open(path) as f:
         data = json.load(f)
